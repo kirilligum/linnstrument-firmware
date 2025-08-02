@@ -1,0 +1,571 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+LinnStrument Tips & Tricks
+
+   Here are some features that aren't printed on the panel or aren't so
+   obvious. Many of these features are hidden settings, usually accessed
+   by holding one of the Per-Split or Global Settings buttons. To find
+   more of these settings, search the tabs of the Panel Settings page for
+   "hidden".
+
+   ‍
+
+   Sleep mode
+
+   To put LinnStrument into Sleep mode--in which all lights turn off and
+   power consumption is reduced to a minimum--press both PER-SPLIT
+   SETTINGS and GLOBAL SETTINGS at the same time. Pressing any note pad
+   will turn the lights back on and restore normal operation. You can
+   learn about Sleep mode on the Panel Settings page, Global Settings tab,
+   then search for "Sleep". There you'll learn that you can set it up to
+   automatically sleep after a defined number of minutes of inactivity, or
+   start playing an animation--either an in-store display or a Christmas
+   animation of snow falling on trees.
+
+   ‍
+
+   ‍Light all the same pitches in red
+
+   Before software version 2.10 software, pressing a note pad would result
+   in all note pads of the same pitch on other rows turning red. This was
+   helpful to guide you to the right notes for two-handed play. However,
+   as more people developed two-hand play skills, this feature tended to
+   turn too many notes red, obscuring the normal scale note lights. So in
+   version 2.10, we changed the default setting to light only the pressed
+   note pad.
+
+   If you wish to return to the previous behavior of lighting all notes of
+   the same pitch on other rows:
+
+   In Per-Split Settings, Color column, hold the "Played" note pad. The
+   screen should show "CELL" in large letters. Slide your finger a little
+   to the right to change it to "SAME".
+
+   ‍
+
+   Display animated lights emanating from your touch
+
+   In version 2.10 software we added the "light animations" feature, in
+   which a variety of animated light patterns emanate from the pressed
+   note pad, modulated by finger pressure. To learn how to enable this
+   feature, see the Panel Settings page, Per-Split Settings tab, then
+   search for "Light Animations".
+
+   ‍
+
+   Display scrolling "Applause" (or 15 other messages) across your
+   LinnStrument's playing surface
+
+   If you're playing standing up in front of an audience, you can display
+   "APPLAUSE" or 15 other scrolling Audience Messages across
+   LinnStrument's surface. This is explained in the Panel Settings page,
+   Global Settings tab, then search for "audience messages". Note that all
+   16 messages can be edited to display whatever you like.
+
+   ‍
+
+   Playing standing up? Protect your USB jack
+
+   Unfortunately the venerable USB jack was originally designed for
+   stationary computer peripherals like printers and modems, not the
+   rigors of performing on stage. Though LinnStrument uses the most rugged
+   USB jack we could find, a hard cable pull could damage it, requiring
+   repair. To protect against such damage, use a trick similar to what
+   guitarists have used for years: tie the USB cable around the nearest
+   guitar strap pin as a strain relief. Then any hard pulls will pull at
+   the strap pin and not at the USB jack.
+
+   ‍
+
+   Split keyboard vertically instead of horizontally
+
+   LinnStrument's Split mode permits two side-by-side splits. However,
+   there's a workaround to permit front/back splits, using upper rows for
+   one split and lower rows for the other. To do this:
+
+   1) In Per-Split Settings, set MIDI Mode to Channel Per Row. This will
+   cause each row to send its touches on a separate MIDI channel.
+
+   2) In your DAW, set one track to receive only on the channels (rows)
+   you desire for your front split, and another track set to receive only
+   on the channels (rows) you desire for the rear split. If your DAW
+   doesn't permit tracks to accept only a range of MIDI channels, then
+   create 8 tracks, each receiving on one of the 8 channels (rows) that
+   LinnStrument is sending, then set the upper split's tracks to one sound
+   and the lower split's tracks to the other.
+
+   ‍
+
+   Tune LinnStrument's rows like the middle 8 strings of a Chapman Stick
+
+   1) In the Panel Settings page, Global Settings tab, search for
+   "independent row tunings" to learn how to tune LinnStrument's rows like
+   the middle 8 strings of a Chapman Stick.
+
+   2) If you want a different sound for the upper and lower strings,
+   follow the instructions in the above tip "Split keyboard vertically
+   instead of horizontally".
+
+   ‍
+
+   Arpeggiator Latch Mode
+
+   When using the Arpeggiator, it is sometimes handy to add more notes to
+   an arpeggiated chord than you have fingers to hold the notes.
+   LinnStrument's Arpeggiator Latch allows arpeggiated notes to stay on
+   after you remove your finger, thereby permitting larger, more complex
+   chords to be created for Arpeggiation. You can assign Switch 1, Switch
+   2 or either Foot Switch to the Arpeggiator Latch function. For example,
+   to assign Switch 1:
+
+   1) In Global Settings > Select Switch column, select Switch 1.
+
+   2) In Global Settings > Assign Switch column, hold Tap Tempo. You see
+   "TAP" in large letters. Slide your finger to the right to display "LAT"
+   (latch).
+
+   3) Returning to performance mode, turn on both Switch 2 (Arpeggiator
+   on) and Switch 1 (Arpeggiator Latch on).  Now press note pads one at a
+   time. Notice that all pressed notes continue to arpeggiate after you
+   release them.
+
+   4) Turn off Switch 1 (Latch) to return to normal Arpeggiator operation.
+
+   ‍
+
+   Polyphonic Y-axis control over a single MIDI channel
+
+   Y-axis control is normally sent using Control Change message 74. Given
+   that Control Change messages must apply to all notes on a single
+   channel, this limits Y-axis control to be monophonic when using a
+   single MIDI channel. However, there is a workaround: sending Y-axis
+   movements using Polyphonic Pressure messages, then assigning them in
+   your synth to control the parameter of your choice. Here's how to set
+   LinnStrument to send Y-axis using Polyphonic Pressure messages:
+
+   In Per-Split Settings, Timbre/Y column, hold "CC74". You will see "74"
+   in large letters, indicating the Control Change number that Y-axis
+   messages are currently sending on. Slide your to the right until you
+   see "POPR" for "POlyphonic PRessure".
+
+   ‍
+
+   Pitch Bend Reset on Release mode
+
+   When using MPE mode in some synths (including those in Logic), you may
+   notice an occasional fast pitch sweep at the start of a note. This is
+   because the last time that voice was used, you released the note after
+   a pitch slide. Then when you played the new note, LinnStrument zeroed
+   the pitch bend amount at the start of the new note, then the synth
+   reset the voice's pitch from the previous bend to zero, but it smoothed
+   the pitch change, resulting in a fast pitch sweep. If you're using a
+   sound with a fast release, a simple workaround is to enable
+   LinnStrument's Reset On Release mode, in which any pitch bends are
+   reset (zeroed) when you release the note instead of when you play each
+   new note. Of course this won't work if you're using a long-release
+   sound because the pitch of sustained, pitch-bent notes will snap snap
+   to original pitch when you release the note. Here's now to enable Reset
+   On Release mode:
+
+   In Per-Split Settings, Pitch/X column, turn on the 5th note pad from
+   the top.
+
+   This is explained in more detail in the Panel Settings page, Per-Split
+   Settings tab.
+
+   ‍
+
+   Use Switch 1 and Switch 2 as Octave Up/Down switches
+
+   Some players would prefer a faster way to switch between octaves,
+   especially on the 4-octave LinnStrument 128. The solution is to assign
+   Switch 1 to Octave Up and Switch 2 to Octave Down. Here's now:
+
+   1) In Global Settings, Select Switch column, select Switch 1.
+
+   2) In Global Settings, Assign Switch columns, select Octave Up.
+
+   3) Repeat the above two steps to assign Switch 2 to Octave Down.
+
+   ‍
+
+   Slow down the MIDI data rate over USB to reduce synth overload
+
+   When using USB to send MIDI, LinnStrument's high volume of MIDI data
+   can overwhelm some slower synths or older computers, resulting in stuck
+   notes or other errors. Here's how to slow down LinnStrument MIDI data
+   rate over USB:
+
+   In Global Settings, Power/MIDI column, hold USB. You'll see a large
+   "235". This is the delay in microseconds (1/1,000,000 second) between
+   MIDI messages. Slide your finger to change it. As a point of reference,
+   a value of 300 slows it down to the speed of the MIDI jacks, and a
+   value of 600 slows it down to half the speed of the MIDI jacks. You can
+   learn more in the Panel Settings page, Global Settings tab, then search
+   for "USB MIDI Data Reduction".
+
+   ‍
+
+   ‍Legato Switch
+
+   Either of the two panel switches or two foot switches may be assigned
+   to Legato mode. If on, any single notes or chords are sustained after
+   release until the next note or chord is played. To do this:
+
+   1) In Global Settings > Select Switch column, select the switch to
+   assign (Switch 1, Switch 2, Left Foot or Right Foot).
+
+   2) In Global Settings > Assign Switch columns, hold TAP TEMPO to view
+   its hidden settings. Slide your finger left or right to select LEG
+
+   .
+
+   Frets on/off switch
+
+   Either of the two panel switches or two foot switches may be assigned
+   to enable/disable pitch slides. This is the same as turning on or off
+   the Per-Split Settings > Pitch/X > ON setting, but if assigned to a
+   foot switch it can be turned on or off during play. While on, pitch
+   slides are continuous like a violin. While off, pitch slides are
+   stepped in semitones like a guitar.
+
+   1) In Global Settings > Select Switch column, select the switch to
+   assign (Switch 1, Switch 2, Left Foot or Right Foot).
+
+   2) In Global Settings > Assign Switch columns, hold TAP TEMPO to view
+   its hidden settings. Slide your finger left or right to select PCH.
+
+   ‍
+
+   Control Change Switches
+
+   The CC Faders feature (Per-Split Settings > Special column) permits a
+   keyboard split to be used as 8 horizontal Control Change faders.
+   However, if you reduce the width of the split to only one column, each
+   row acts as a Control Change switch, with presses alternating between
+   sending a value of 127 (light on) or zero (light off).
+
+   ‍
+
+   Left Hand Mode
+
+   If you're someone who plays left-handed guitar and would like to play
+   LinnStrument in the same left-handed way, turn on LinnStrument's Left
+   Hand Mode. Then pitch will increase from right to leftinstead of left
+   to right:
+
+   In Global Settings > column 1, turn on the 4th note pad from bottom.
+
+   ‍
+
+   Mirrored Pitch Direction
+
+   Some LinnStrument players have expressed an interest in setting the
+   pitch direction so that it increases outward from center in both the
+   left and right directions. This permits the chord and scale fingerings
+   to be mirror images of each other. Here's how to do it:
+
+   1) In Global Settings > column 1, press the 4th note pad from bottom
+   (Left Hand mode) to turn it on. Then hold it to see its hidden setting.
+     Slide your finger left/right until "REVL" (Reverse Left) appears.
+
+   2) Turn on the Split button.
+
+   Now the pitch of the left split will increase from right to left and
+   the pitch of the right split will increase from left to right.
+
+   ‍
+
+   ‍Play LinnStrument in vertical orientation
+
+   Some LinnStrument players prefer to play LinnStrument in a vertical
+   orientation, but using the default Fourths String Layout tuning. For
+   example, [60]Jesse Washmon plays his LinnStrument 128 this way and
+   calls it "IsoGrand Tuning".
+
+   To do this, it requires that the rows (used as columns) consist of
+   consecutive pitch intervals of 5 semitones, which LinnStrument cannot
+   do. Jesse Washmon has created a solution to do this on the LinnStrument
+   128:
+
+   1) In Per-Split Settings, set LinnStrument's MIDI Mode to Channel Per
+   Row. And in the Pitch/X column, turn off the ON button.
+
+   2) Use the Mac/Windows app [61]Bome MIDI Translator or the iPad app
+   [62]MidiFlow, Then download [63]this file, which contains presets for
+   both apps that translate the output pitches of each of LinnStrument's
+   rows from consecutive semitones to consecutive intervals of 5
+   semitones, and also light the lights to show the default 4ths string
+   tuning in the vertical orientation.
+
+   There are also other solutions described on the LinnStrument KVR Forum
+   in [64]this thread and [65]this thread.
+
+   Note that LinnStrument's sensing system does not permit sliding a touch
+   from one row to another. Given that rows will be used as columns, this
+   means that horizontal pad-to-pad pitch slides will not be possible,
+   though you could assign Y-axis (used as X-axis) to modulation pitch in
+   order to perform vibrato within a pad.
+
+   ‍
+
+   ‍Harpejji Tuning
+
+   If you aren't aware of the Harpejji, it is a very creative stringed
+   instrument used by Stevie Wonder and others. It consists of vertical
+   strings tuned in whole tone intervals from left to right. Here's how to
+   set up LinnStrument so that when rotated 90 degrees, the pads will have
+   the same tuning as the lower 8 strings of the 16-string Hapejji;
+
+   To orient LinnStrument so that the 8 control buttons are nearest to
+   you:
+
+   1) In Global Settings > Row Offset columns, hold "+OCTAVE" to view its
+   hidden setting. Slide your finger left/right to select "-2" (Row Offset
+   of -2 semitones).
+
+   2) Turn on the "Octave/Transpose" button. In the Lights row, select the
+   3rd pad to the right of center, so that 3 green lights appear to the
+   right of the light blue light..
+
+   Or to orient LinnStrument the 8 control buttons are furthest from you:
+
+   1) In Global Settings > Row Offset columns, hold "+OCTAVE" to view its
+   hidden setting. Slide your finger left/right to select "2" (Row Offset
+   of 2 semitones).
+
+   2) In Global Settings > Column 1, turn on the 4th pad from the front
+   (Left Handed mode).
+
+   3) Turn on the "Octave/Transpose" button. In the Octave row, select one
+   pad to the right of center (+1 octave). In the Lights row, select the
+   6th pad to the left of center, so that 6 green lights appear to the
+   left of the light blue light.
+
+   ‍
+
+   Set Octave/Transpose for both splits at once
+
+   If you're using the split keyboard and need to occasionally switch
+   octaves or transposition for both splits at the same time, here's how
+   to do it:
+
+   1) Turn on the Octave/Transpose button.
+
+   2) In the upper right corner, press LEFT SPLIT and RIGHT SPLIT at the
+   same time. (Both lights will turn on.)
+
+   Now, any changes to the Octave, Transpose Pitch or Transpose Lights
+   rows will affect both splits.
+
+   ‍
+
+   Use Low Row as Mod Wheel
+
+   You probably know that the Low Row can be used as a Mod Wheel:
+
+   In Per-Split Settings > Low Row columns, select "X=CC1".
+
+   By default this acts as a momentary Mod Wheel, snapping back to zero
+   when the Low Row is released. However, it can be changed to remain
+   where you last touched it, just like a mechanical Mod Wheel. Here's
+   how:
+
+   In Per-Split Settings > Low Row columns, select "X=CC1". Then hold
+   "X=CC1" to view hidden settings. Slide your finger to the right to
+   select "FDR" (fader).
+
+   Now when you use the Low Row, LinnStrument will send Mod Wheel messages
+   proportional to where you touch.
+
+   ‍
+
+   Emulating MIDI keyboard Aftertouch
+
+   The preset sounds of most synths are usually optimized for standard
+   MIDI keyboards. In some cases, they are set up so that Aftertouch
+   (pressing a key hard) adds a modulation effect. This works well on a
+   standard MIDI keyboard because the Aftertouch (pressure) messages are
+   sent only after the key is pressed about 90% of its maximum pressure.
+   However, LinnStrument's pressure messages are sent starting at the
+   lightest touch.
+
+   For such preset sounds, you can turn on LinnStrument's Aftertouch mode,
+   in which the pressure (aftertouch) messages are sent only after you
+   have pressed a note pad with more than about 90% of maximum force.
+   Here's how to turn it on:
+
+   In Global Settings > Pressure Sensitivity column, turn on AFTERTOUCH.
+
+   ‍
+
+   Inverting Y-axis Range
+
+   By default, moving your finger rearward on a note pad will cause the
+   value of the sent Y-axis messages to increase. However, sometimes it is
+   useful to have the values decrease as you move your finger rearward.
+   Here's how to do it:
+
+   In Per-Split Settings > Timbre/Y column, hold "ON" to view hidden
+   settings. You'll see "L 0", which is the value sent when you finger is
+   fully toward the front. Slide your finger to the right to change it to
+   "L127". Now slide your finger down within a single column to see "H
+   127", which is the value sent when your finger is fully toward the
+   rear. Slide your finger left to change this to "H 0".
+
+   Now moving your finger toward the front of a note pad will send a
+   Y-axis value of 127, and moving it toward the rear of a note pad will
+   send a value of 0.
+
+   ‍
+
+   Inverting Row Pitch Order
+
+   ‍Would you like to change the pitch order of the rows so that the pitch
+   is lowest on the upper row and highest on the lower row? Here's how:
+
+   In Global Settings > Row Offset columns, select +OCTAVE. Then hold
+   +OCTAVE to view its hidden settings. Slide your finger to the left to
+   select a negative offset from -1 to -16 or "-GUITAR".
+
+   ‍
+
+     * [66]About us
+     * [67]Contact US
+     * [68]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://youtu.be/MDTikW1BFt8?t=200
+  61. https://www.bome.com/products/miditranslator
+  62. https://apps.apple.com/us/app/midiflow/id879915554
+  63. https://www.dropbox.com/scl/fi/i4bvttz6zu451r6c383dq/IsoGrand-tuning.rar?rlkey=ef42zkaa6697xevz7fj6h17lx&dl=1
+  64. https://www.kvraudio.com/forum/viewtopic.php?p=8008855#p8008855
+  65. https://www.kvraudio.com/forum/viewtopic.php?t=561285
+  66. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  67. https://www.rogerlinndesign.com/about/about-contact
+  68. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  70. https://www.rogerlinndesign.com/
+  71. https://www.rogerlinndesign.com/
+  72. https://www.facebook.com/RogerLinnDesign
+  73. https://www.youtube.com/user/rogerlinndesign
+  74. https://twitter.com/roger_linn
+  75. https://www.instagram.com/roger.linn/

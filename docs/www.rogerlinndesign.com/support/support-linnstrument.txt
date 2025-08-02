@@ -1,0 +1,251 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+LinnStrument Support
+
+   Welcome to the LinnStrument Support page for both LinnStrument and
+   LinnStrument 128.
+
+   If you have an operation question or you think your LinnStrument may
+   have a problem, please first visit some of the links on this page,
+   especially the Getting Started, FAQs, Panel Settings, Hooking It Up,
+   and Recommended Sounds pages.
+
+   If you don't find your answer there, I personally answer all emails and
+   calls to the email and phonen number shown on the Contact page (linked
+   from the bottom of this page).
+
+   Important: When you email me for support, please include the following:
+
+   1) Your name and the LinnStrument's serial number. This will tell me
+   the age of the unit and any support history.
+
+   2) What country you're located in. This is helpful in the event that I
+   may need to send you a repair part.
+
+   3) A clearly-written and short question or description of the problem.
+   A short video demonstrating the problem is very helpful because it
+   shows many things that you may not have considered to be relevant in
+   your text description.
+
+   If there is a hardware problem in your LinnStrument, there is never a
+   need to send it away for repair. LinnStrument is designed so that all
+   problems can be fixed by sending you a replacement part that you can
+   install yourself--with only a screwdriver-- by following a video.
+   However, the vast majority of problems require only a setting change.
+
+   Note: I always reply to emails promptly. If you didn't get a reply,
+   check your junk email folder or send your email again.
+
+   ‍
+
+How to trace down a problem to its cause
+
+   ‍Often it may seem that your LinnStrument has a problem, but the actual
+   cause of the problem is an incorrect MIDI setting or a problem in your
+   synth or DAW or something else. Here are some tips for tracing down the
+   cause of a problem, which are also helpful in allowing me to reproduce
+   the problem you're experiencing:
+
+   1) Simplify, simplify, simplify
+
+   Example A) If the problem occurs when using a specific synth, try it
+   with a different synth. If the problem only occurs with one synth, it's
+   in that synth.
+
+   Example B) If the problem occurs only with LinnStrument but not with
+   other MIDI keyboards, then learn what your other keyboard is sending
+   and set LinnStrument to send the same messages.
+
+   Example C) If LinnStrument works with your synth in One Channel mode
+   but not in MPE (Channel Per Note) mode, then learn if your synth is
+   MPE-compatible and how to correct set it for MPE use.
+
+   Example D) If your setup is complex with multiple synths, MIDI routing
+   devices and effects, but the problem sound is coming from one specific
+   synth, then remove everything except LinnStrument and that synth. If
+   that solves the problem, put back one device at a time until the
+   problem reappears, then you'll know that that device is likely causing
+   the problem.
+
+   Example E) If the problem is related to hearing unwanted changes in
+   pitch, Y-axis or pressure response in your synth, try turning off the
+   sending of these messages in Per-Split Settings. If the problem
+   persists, it isn't in LinnStrument.
+
+   Example F) If you think you've found a software bug, try to find a
+   series of steps that I can perform at my location that will cause the
+   bug to reliably happen for me.
+
+   2) Intermittent problems are usually not intermittent.
+
+   If the problem occurs only sometimes and not others, try to learn what
+   you're doing differently when it occurs. Are your settings exactly the
+   same? Are you playing in exactly the same way?
+
+   3) Use a MIDI monitoring app
+
+   ‍Remember that LinnStrument doesn't output sound but rather MIDI, and
+   that I (Roger) know very few of the hundreds of synths on the market.
+   So rather that telling me that your synth doesn't sound right and you
+   think the problem is in LinnStrument, it's better if you can state that
+   LinnStrument is not sending the MIDI messages that you think it should.
+   A MIDI monitor app will show you exactly which MIDI messages
+   LinnStrument is sending. For Mac, there is the free "MIDI Monitor" app
+   from [60]snoize.com. For Windows, there is the free
+   "[61]MIDI OX" application.
+
+   4) Check to insure that your LinnStrument is running the latest
+   software
+
+   Your problem may be due to running an earlier software version that is
+   corrected in the current version. Also, the online documentation is
+   always matched to the latest software release, which may prevent you
+   from accessing a feature that is described on the Panel Setting page.
+   To check your software version or update, click the "Updating Software"
+   link on this page.
+
+   ‍
+
+   Or if the above diagnostic approach is too difficult for you, just do
+   your best and I'll try to read between the lines and figure out what's
+   causing the problem from your video.
+
+   Thank you for owning a LinnStrument.
+
+   - Roger
+
+     * [62]About us
+     * [63]Contact US
+     * [64]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.snoize.com/
+  61. http://www.midiox.com/
+  62. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  63. https://www.rogerlinndesign.com/about/about-contact
+  64. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  66. https://www.rogerlinndesign.com/
+  67. https://www.rogerlinndesign.com/
+  68. https://www.facebook.com/RogerLinnDesign
+  69. https://www.youtube.com/user/rogerlinndesign
+  70. https://twitter.com/roger_linn
+  71. https://www.instagram.com/roger.linn/

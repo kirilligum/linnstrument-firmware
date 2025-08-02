@@ -1,0 +1,249 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn III Tips & Tricks
+
+   ‍
+
+   Adjust the Swing Timing of Drumbeats or Filter Sequences
+
+   Did you know that you can change any 1/16 note drumbeat from straight
+   time to swing or halfway in-between? To do this, use the Timebase
+   setting, located in the Drums row, 4th column. There are 5 options, but
+   here are the ones to use:
+
+   16n (Straight 1/16 notes)
+
+   16H (Halfway between straight 1/16 notes and swing timing, a loose
+   swing feel)
+
+   16S (Swing timing)
+
+   For example, try beat 89 with each of these 3 settings and listen to
+   the difference a little swing makes. Also, any filter, arpeggiator or
+   tremolo sequence that plays at the same time will use this selected
+   swing setting. This is how we programmed preset 142, a Tremolo Sequence
+   that imposes a Reggae rhythm on your guitar sound. See page 56 of the
+   Users Manual for details.
+
+   ‍
+
+   Try Different Filter Types
+
+   Most of AdrenaLinn III's filter presets (73-85, 100-111, 125-139, and
+   160-167) use either the Lowpass or Bandpass filter types, but the
+   Hipass and Notch filter types--while less commonly used--have their own
+   interesting characters. If you're looking for a new sound, select one
+   of the filter presets, then change the filter type:
+
+   1) Select the Filter Type parameter. (Select row 2, column 3, then
+   select Details mode by briefly tapping both arrow keys simultaneously.)
+
+   2) Turn knob 3 to select one of the 5 filter types:
+
+   LP2 (Oberheim-style lowpass filter)
+
+   LP4 (Moog-style lowpass filter),
+
+   bnP (bandpass filter, like wah pedal),
+
+   not (notch filter, which blocks a narrow range of middle frequencies)
+   or
+
+   HiP (hipass filter, which only passes higher frequencies).
+
+   See page 21 of the Users Manual for details. Also, you'll discover
+   tremendous tone variation by tweaking the Frequency, Resonance, Depth
+   and FX-Dry settings, all described on pages 16-19 of the manual.
+
+   ‍
+
+   The Post Treble setting
+
+   The Post Treble setting is an often-overlooked but very useful setting,
+   located in row 4, column 4, Details layer of the front panel. It's a
+   lowpass filter that appears directly after the amp models in the signal
+   path, and can be very useful when you want to reduce high frequencies
+   of distortion sounds in a way that's more useful that an ordinary
+   treble control. See page 34 of the Users Manual for details.
+
+   ‍
+
+   Beat-Synced Time-Slice and Reassembly
+
+   This is a truly weird effect that produce solos you'll either love or
+   hate. It's demonstrated in preset 184, "Mangled Notes", and works by
+   combining Square-Wave Tremolo with Beat-Synced Delay. In this effect,
+   Square-Wave Tremolo is used to slice away every second 1/16 note, and
+   delay is used to fill the resulting holes with the 1/16 note slice
+   immediately preceding each hole. Here are a few interesting variations
+   of preset 184:
+
+   1) Set SPEED to "8t" and DELAY TIME to "8n"
+
+   2) Set SPEED to "4n" and DELAY TIME to "8n"
+
+   3) Set SPEED to "16n" and DELAY TIME to "16d"
+
+   4) Set SPEED to "4n", DELAY TIME to "8d" & DELAY REPEATS to "65"
+   (better with chords)
+
+   Restore an individual preset or drumbeat to factory status
+
+   You probably know to restore all of the AdrenaLinn III's presets and
+   drumbeats to factory status: hold both foot switches while connecting
+   power. But did you know that you can also restore only one preset or
+   drumbeat to factory status? To restore an individual preset, select the
+   preset, hold the UP ARROW key for at least 1/2 second, turn the PRESET
+   knob to the right until it shows "FAC", then briefly press UP ARROW
+   again. To restore an individual drumbeat, select the drumbeat, hold the
+   DOWN ARROW key for at least 1/2 second, turn the DRUMBEAT knob to the
+   right until it shows "FAC", then briefly press DOWN ARROW again.
+
+   ‍
+
+   Transpose Arpeggiator Sequences with a MIDI keyboard
+
+   AdrenaLinn III's Arpeggiator Sequences--used by John Mayer in his hit
+   "Bigger Than My Body"--are a wonderful tool for inspiring new ideas.
+   However, they loop the same 2-bar note sequence regardless of what
+   chords you play. To transpose these sequences in real time, simply
+   connect a MIDI keyboard (or MIDI bass pedals). Press any key lower than
+   the "E" below middle C to transpose down, or any key above it to
+   transpose up.
+
+   ‍
+
+   Timing of START foot switch
+
+   * Are you finding it difficult to start the drumbeat on time with the
+   START footswitch? That's because the beat starts when you release the
+   foot switch. Click here to learn how to make it actuate on the
+   downstroke
+
+   ‍
+
+   What to play on guitar when using AdrenaLinn's beat-synced effects
+
+   * When using AdrenaLinn III's Filter Sequences, start by playing
+   sustained chords. Don't try to solo over it or play rhythmically
+   because this will fight the rhythm of the sequencer. Instead, simply
+   lets chords sustain and hear how the sequencer plays with the guitar
+   sound. If you're playing a clear sequence sound (no amp distortion),
+   try arpeggiating the chord in time to the drumbeat.
+
+   ‍
+
+   What to play on guitar when using AdrenaLinn's Arpeggiator Sequences
+
+   * When using AdrenaLinn III's Arpeggio Sequences, remember that the
+   notes in these sequences don't change depending on what you play. Also,
+   all the factory presets containing Arpeggio Sequences are set by
+   default to the key of E. So when using these presets, start by
+   sustaining an E chord (E Minor for E minor sequences, and E major--or
+   root+5 only--for others). Like the filter sequences, at first just
+   sustain a chord and let the sequence provide the rhythm. Then slowly
+   experiement with what you play to find out what works for you. And to
+   transpose the sequence, simply change the value of the Frequency/Key
+   parameter.
+
+   ‍
+
+   Dotted 1/8 note delay
+
+   * When using the beat-synced delay, the Dotted 1/8 Note setting ("8d")
+   is a great value to start with because the resulting "3 against 2"
+   rhythm fits nicely in all the holes between subsequent notes.
+
+   ‍
+
+     * [39]About us
+     * [40]Contact US
+     * [41]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  40. https://www.rogerlinndesign.com/about/about-contact
+  41. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  43. https://www.rogerlinndesign.com/
+  44. https://www.rogerlinndesign.com/
+  45. https://www.facebook.com/RogerLinnDesign
+  46. https://www.youtube.com/user/rogerlinndesign
+  47. https://twitter.com/roger_linn
+  48. https://www.instagram.com/roger.linn/

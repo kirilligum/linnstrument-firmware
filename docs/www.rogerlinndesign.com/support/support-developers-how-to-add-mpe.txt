@@ -1,0 +1,219 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Developers: how to add MPE compatibility
+
+   If you are a developer of MIDI sound generators and would like to add
+   MPE (MIDI Polyphonic Expression) capability, this page will give you
+   some help. MPE is pretty straightforward and is very similar to the old
+   MIDI Mode 4 (Omni off, Mono). It is summarized on the page "What is
+   MPE?" (click at left) and the official MPE specification can be
+   downloaded from the MIDI Association web site [60]here.
+
+   In brief overview, implementing MPE in your synth involves the
+   following:
+
+   1) routing each incoming Member channel (called "per-note channel" in
+   LinnStrument) to its own voice, listening only for the five per-note
+   messages (Note On, Note Off, Pitch Bend, CC74 and Channel Pressure),
+
+   2) routing the Master Channel (1 for Lower Zone or 16 for Upper Zone)
+   messages to all voices in that zone.
+
+   3) adding UI elements for users to select the Master channel (1 or 16),
+   Member Channels (2 - x for lower zone, or 15 - x for upper zone), and
+   MPE pitch bend range of +/- 48.
+
+   4) creating MPE presets. See below.
+
+   Note: It best to permit the MPE Pitch Bend Range to be set globally
+   (not individually for each sound preset) so if the controller has a
+   different bend range than the default +/-48, the user doesn't have to
+   change it for each sound.
+
+   Creating new expressive sounds
+
+   With your MPE implementation, it is important to also create expressive
+   preset sounds. I use the term expressive sounds to mean sounds that
+   respond to continuous X, Y and Z finger moments in addition to a
+   conventional MIDI keybaord's velocity and release velocity.
+
+   It is common for a synth maker to add MPE capability but no expressive
+   preset sounds, or to create "MPE sounds" that are merely standard
+   keyboard sounds with quick and minor tweaks that add some pressure and
+   Y-axis control that MPE instrument players don't find useful.
+
+   Here are some tips to help create quality MPE sounds, specifically for
+   correct use for finger pressure and Y-axis finger movement.
+
+   1) Pressure
+   In a conventional MIDI piano keyboard, pressure (aftertouch) is sent
+   only after the key is fully pressed and the note is sounding, and
+   therefore is not useful for controlling the overall volume of each note
+   from silence to full, but rather for adding an extra effect to a note
+   that is already sounding. In an MPE controller, pressure (aftertouch)
+   messages are sent continuously from the lightest to heaviest touch, and
+   can therefore be used to continuously control the overall volume of
+   each note from silence to full level, analogous to wind pressure on a
+   wind instrument or bow pressure on a bowed string instrument. For this
+   reason, it is good to create some MPE sounds that use pressure to
+   continuously control note volume from silence to full.
+
+   2)  Y-axis
+   MPE controllers add Y-axis (front/back) control. Often people initially
+   make the mistake of thinking that Y-axis should be used in the same way
+   as Mod Wheel, adding LFO modulation. This is not a good idea because
+   one of the main purposes of expressive controllers is to replace the
+   venerable and unnatural LFO with performed gestures like vibrato
+   (left/right finger movement) or tremolo (repeated varying pressure).
+   Instead, a better use of Y-axis is to provide a continuous change in
+   timbre, analogous to picking a guitar or bowing a violin at different
+   string positions between the bridge and neck, or varying embouchure on
+   a wind instrument. A good example of this in subtractive synthesis is
+   to assign Y-axis to vary the pulse width of a pulse oscillator, thereby
+   providing a continuous change in the fundamental harmonic content of
+   the waveform in such a way that all tones produced are useful. In this
+   way, timbral variation becomes a performance gesture.
+
+   For some examples of good expressive sounds, see the Surge XT page
+   (link at left)n and watch the video of me (Roger) demonstrating some of
+   the expressive sounds in its "LinnStrument MPE" library.
+
+   If you have any questions, you're welcome to [61]contact me.
+
+   - Roger
+
+     * [62]About us
+     * [63]Contact US
+     * [64]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.midi.org/articles-old/midi-polyphonic-expression-mpe
+  61. mailto:support@rogerlinndesign.com
+  62. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  63. https://www.rogerlinndesign.com/about/about-contact
+  64. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  66. https://www.rogerlinndesign.com/
+  67. https://www.rogerlinndesign.com/
+  68. https://www.facebook.com/RogerLinnDesign
+  69. https://www.youtube.com/user/rogerlinndesign
+  70. https://twitter.com/roger_linn
+  71. https://www.instagram.com/roger.linn/

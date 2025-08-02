@@ -1,0 +1,845 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+LinnStrument Artist Interviews
+
+   Here's a new page containing interviews with some of the talented
+   artists who play LinnStrument. Please scroll down to see one of the
+   interviews below:
+   ‍
+   April 1, 2024: Max Bajzek
+   September 1, 2023: Fontaine Burnett
+   August 1, 2023: Jesse Washmon
+   July 1, 2023: Jeremy Cubert
+   June 1, 2023: Jordan Rudess
+   ‍
+
+Max Bajzek
+
+   April 1, 2024
+   Max Bajzek (aka “thoughtForm”) is my favorite expressive soloist on
+   LinnStrument, using LinnStrument’s three dimensions of continuous touch
+   expression with high skill, sensitivity and subtlety.
+   Here's his segment in “The LinnStrumentalists Volume 2”:
+   ‍[19]https://youtu.be/7TTp7GKltHQ?t=86
+   ‍
+   And here’s his segment is “The LinnStrumentalists Volume 3”:
+   [20]https://youtu.be/MDTikW1BFt8?t=162
+   ‍
+   Max is also tech-savvy, having created the sounds in both of the above
+   videos, as well as many of the best sounds in the “LinnStrument MPE”
+   library in LinnStrument’s official synth, Surge XT.
+   He's also created some very good tutorials about making MPE sounds on
+   Surge XT. You can find some of them on my "LinnStrument Tech Tutorials"
+   YouTube playlist. Here’s his YouTube channel, containing video of both
+   his performances and tutorials:
+   [21]https://www.youtube.com/@thoughtFormMax
+   ‍
+   And here’s Max’s website:
+   [22]https://www.thoughtformmusic.com/
+   ‍
+   I’m honored that Max has chosen LinnStrument as his instrument.
+   ‍
+
+   ‍Q: I’ve mentioned above your skill at solo performance expression.
+   What do you think led you to this focus?
+   ‍
+   A: After my last band ended, it was clear I would be going solo for a
+   while at least, and I needed something visually interesting I could be
+   doing on stage while my computer spat out prerecorded electronic stuff.
+   My keyboard is very heavy and I was pretty sure I never wanted to take
+   it anywhere again, and I’m not really good enough at guitar to be
+   interesting for a full set. The LinnStrument looked to me, from the
+   beginning, like a lead instrument. All that expression is sort of, not
+   really but sort of, wasted in the accompaniment. So I decided from the
+   start that I was going to wear the instrument like a guitar so I could
+   move around and the audience could see what I was doing. And I was
+   going to shred.
+   Lately more and more I’ve found the prerecorded electronic stuff to be
+   unnecessary, and my sets have gotten progressively more
+   LinnStrument-heavy to LinnStrument-only. I do think I’ll bring back the
+   pre-recorded stuff at some point, though, because it’s really fun to
+   create. I enjoyed doing sets with LinnStrument, laptop, and eurorack,
+   though In the future I hope to use a more lightweight eurorack
+   alternative.
+
+   ‍Q: What are some examples of music or musicians that you value, and
+   have influenced you?
+   ‍
+   A: For my LinnStrument work, any instrumental soloist working in a
+   non-western style is going to have a huge impact on me. There are many,
+   many of these people, and I often don’t even know their names because
+   they show up as nameless samples in chill beats, but some of them are
+   Claude Chalhoub, Gevorg Dabagian, Ram Narayan, Ustad Asif Ali Khan.
+   I also have a new favorite youtuber, Farya Faraji , who seems to have
+   made it his mission to teach me everything I don’t know about all this
+   music that I love. I appreciate that.
+   But my biggest single influence there is probably Steve Tibbetts. He’s
+   a Minnesota guitarist who creates the most incredible soundscapes with
+   his percussionist, Marc Anderson. Their work is both profoundly calm
+   and shockingly intense, sometimes simultaneously.
+   More generally, some of my favorites are Trent Reznor, Stravinsky,
+   Fates Warning, John Barry, Ennio Morricone, Tangerine Dream, Tool,
+   Hildegard von Bingen, and Slash.
+   Most recently I’m starting to be a big fan of Joe Hisaishi as I work on
+   a LinnStrument arrangement of one of his Studio Ghibli pieces.
+   ‍
+
+   ‍Q: Your video above, “Hovern Enkan” is beautiful, and I believe is a
+   traditional Armenian song. What drew you to the music of this part of
+   the world, and what do you value about it?
+   ‍
+   A: That’s just a really beautiful song. My first exposure to it was in
+   Peter Gabriel’s “Passion” where it was played by Vache Hovsepyan and
+   Antranik Askarian. In general I am a big fan of the lonely solo voice.
+   I don’t know if there’s anything about this particular part of the
+   world, so much as I’m drawn to any music that isn’t derived from the
+   western European tradition, which elevates harmony to such a degree
+   that a lot of individual expression is often sacrificed. I like the
+   western European music too, but I crave the things it leaves behind.
+   It’s also a very idiosyncratic artifact of a very particular culture;
+   it’s very high-tech, in a way, and it loses something that is more
+   primordial and universal.
+   One thing I’d like to do with the LinnStrument is take western harmony,
+   particularly 20th century harmony, and spread it out horizontally to be
+   played in a less western melodic style. There are elements of that in
+   my work but to really pull it off I’m going to need to become less
+   dependent on the LEDs.
+
+   ‍Q: You tune your LinnStrument in row intervals of musical fifths (7
+   semitones), like a violin or cello. Why? How would you describe the
+   advantages of this?
+   ‍
+   A: The initial decision to use fifths was rather arbitrary, “let’s be
+   cool and different.” Also there was a Bach piece I thought I might
+   learn (which turned out to be way too ambitious at the time, but I have
+   since recorded) that was written for violin, so it was much easier to
+   play using fifths. I figured I would at least sometimes go back to
+   using fourths, which I was already familiar with from playing my Warr
+   Guitar, but it turned out every time I did I was dissatisfied with the
+   results.
+   They’re not necessarily advantages, but here are some things I like
+   about the fifths tuning.
+   Using one or two notes in the left hand and two or three in the right
+   allows very fluid scale shapes with four notes per row. The fourths
+   tuning I think is better suited to one-handed play, or a more piano
+   style where each hand is doing its own thing rather than playing one
+   integrated line.
+   Not only am I weird in using fifths, but I also mostly play
+   multi-monophonically with channel per row. That means I can’t play
+   simultaneous notes on the same row, and that puts my thirds rather far
+   away from each other. I actually like this quite a bit, because it
+   forces me to build my chords out of fifths and sixths, which are
+   harmonically equivalent to thirds but they cover a wider space and they
+   feel bigger and more open to me.
+   There are disadvantages too. If i were playing a bassline with the left
+   hand and melody in the right, there’s much more stretching involved.
+   And if I’m playing chords built of fifths, i need to be extra careful
+   not to make the dreaded four corners shape.
+   I should also say, fifths is what I like for improvisation. If I’m
+   learning a part, I can use whichever tuning makes the most sense for
+   that part. There’s very little difficulty in crossing over.
+   ‍
+
+   ‍Q: What advice do you have for LinnStrumentalists who wish to develop
+   some of the skills you demonstrate in your videos?
+   A: Play with monophonic sounds. Don’t lose too much volume to pressure
+   modulation. Focus on single lines, play slowly, get a feel for the
+   phrase and which notes should be accented by a bend, timbre shift, or
+   vibrato. Practice your vibrato, practice your slides so you can stick
+   the landing. Turn pitch quantization off while practicing to develop
+   your ear and your accuracy. Once you have enough confidence, try
+   leaving it off, because subtle variations will add depth and humanity
+   to your performance. Practice with a wide variation in your Y-axis
+   timbre; this way you’ll be able to hear where your fingers are landing
+   and this will help you learn accuracy in that dimension. Work to make
+   sure each note is delivered to the best of your ability. Play
+   melodically with two hands, one hand moving to a new position while the
+   other is playing. Use a metronome to keep yourself from rushing through
+   things that demand attention.
+   [Note from Roger: I suggest playing some of the beautiful sounds Max
+   has created for LinnStrument's official synth Surge XT. In Surge XT's
+   "LinnStrument MPE" folder, "Winds" subfolder, play the sounds that show
+   "thoughtForm" as author. My favorite is "Duduk". These sounds response
+   beautifully to the type of subtle, 3D touch expression that Max uses,
+   and have an attractive acoustic quality.]
+   ‍
+
+   Q: If you don’t mind my asking, what do you do for a living, and how
+   does this work affect your music?
+   I do freelance programming. I think it does have an influence on my
+   music, mostly in setting up sounds and programming synthesizers.
+   There’s sort of a programmer’s brain which is handy to have in thinking
+   about things as discrete but interdependent objects, building logical
+   systems, and sometimes when I need a tool that isn’t available I can
+   just write it. It also helps me to see that everything is information,
+   and usually interchangeable, so a lot of my musical ideas easily become
+   visual ideas and vice versa. Wiring a modular synth is almost exactly
+   the same as building a node tree in Blender.
+   There are also similarities with composition. For me writing music is
+   largely a process of creating problems and then solving them, which can
+   be a lot of fun. Unfortunately in programming no one seems to
+   appreciate one’s talent for creating problems.
+
+   ‍Q: Your music has an attractive sense of calm and peace, as does your
+   personal demeanor. How do you achieve this is in a modern world often
+   filled with noise and distraction? For example, do you meditate?
+   A: Haha, I’m glad I come across that way. It often looks very different
+   from the inside.
+   ‍
+   I do meditate but it’s a spiritual practice not really meant to induce
+   calm. It can actually be fairly intense so it is not a daily or monthly
+   or sometimes even annual practice. But maybe it helps me keep things in
+   perspective.
+   Playing the LinnStrument is a very meditative practice for me. The
+   connection to the sound is so immediate, it’s easy to become lost in
+   it. It’s very effective at shutting down the chattering part of the
+   mind—the one that’s always complaining—and letting another mode of
+   consciousness come to the surface which is quite calm and peaceful,
+   accepting and delighted to let these sounds pass through it. I do hope
+   some of that feeling is communicated to the listener.
+   ‍
+
+   Q: In a time when many electronic musicians focus on beats, sequences
+   and loops, what future do you see for expressive touch control of
+   synthesis as in LinnStrument? Do you think it will be a small part of
+   musical performance, or eventually grow into the musical mainstream?
+   A: I think it will grow. Synthesizers are obviously here to stay, and
+   MPE is the best way to control them, so I think there’s a degree of
+   inevitability to it. But it’s slow because these are real instruments
+   and it takes time to develop skill. With the LinnStrument in
+   particular, it’s so easy to play. And by that I don’t just mean to tell
+   people you should get one for your kid (you should) but also, you have
+   fifteen notes to work with, each note is as expressive as a solo
+   violin, you can fit three or four octaves under each hand, and it can
+   make any sound you want. Imagine what a Bach could do with this thing!
+   I think even the best of us are only scratching the surface of its
+   potential at this point.  When performers start approaching mastery is
+   when it will start to be mainstream.
+   One thing I think we will see—and my inbox is eagerly awaiting job
+   offers—is small-budget films being scored by a single MPE player rather
+   than stock loops or other suboptimal alternatives. Synths with
+   expression allow us to create soundscapes on par with big hollywood
+   productions.
+   While I say it’s easy to play, it’s not necessarily easy to set up, and
+   I think people can be discouraged if they load up a sound that isn’t
+   really suited to the way their hands want to play. I know I had more
+   than a few moments of “why are my drowning cats so quiet?” in the
+   beginning. That’s why I’m doing the Surge tutorials. I think some basic
+   knowledge in how to shape your own sound will go a long way towards
+   opening up how much fun it is to practice your LinnStrument.
+   I do want to say one more thing about sound. I think it makes a lot of
+   sense to use acoustic instruments as inspiration, as a common language,
+   and as guides when making sound. But no one is going to pay you to
+   sound like a violin when they could as easily pay a violinist. So I’m
+   hoping, with more players getting comfortable making their own sounds,
+   that we will start to see some innovation and the emergence of sounds
+   that are impossible to make with another instrument, and that will go a
+   long way towards securing MPE a place in the mainstream.
+   I recorded a [23]short promo a few years ago for Pittsburgh Modular’s
+   Votage Research Lab. I just did some of my normal phrygian dominant
+   noodling, and this is maybe the one time I did not program my own
+   sound, because I had very little idea how to use the Lab and I had the
+   experts in the room with me, so I just made some suggestions and let
+   them wire it up. I think the sound is absolutely sick and could not
+   exist without being played controlled by the Linnstrument or something
+   similar.
+   ‍
+   ‍
+
+Fontaine Burnett
+
+   September 1, 2023
+   Fontaine Burnett is one of my favorite LinnStrument players, using
+   LinnStrument for two-handed piano-style play. I enjoy his beautiful
+   chord voicings, his composition, and the sensitivity of his playing. He
+   appears in two of the “LinnStrumentalists” compilation videos:
+   ‍
+   “[24]The LinnStrumentalists 2”
+   “[25]The LinnStrumentalists 3”
+   He has also created two tutorial videos about his LinnStrument playing
+   technique:
+   ‍
+   “[26]Fontaine’s Fingerfood Episode 1”
+   “[27]Fontaine’s Fingerfood Episode 2 - the Eight-Fingered Hand”
+   Fontaine is an American ex-pat living near Hamburg, Germany, and is a
+   multi-instrumentalist who also plays bass, guitar, keyboards, lapsteel,
+   ukulele, percussion, harmonica and sings. [28]Here’s his YouTube
+   channel.
+   Q: Hi Fontaine. I enjoy your LinnStrument videos, especially your
+   beautiful chord voicings and the sensitivity of your playing. In your
+   video “For McCoy”, you open with a graphic “On the Grid”, and I also
+   notice that your studio contains some other grid instruments. Had you
+   been drawn to the grid format before LinnStrument and if so, why?
+   A: Thank you for the kind words Roger…that sure means a lot to me! Yes,
+   I had originally come to the grid as a compact replacement for
+   keyboards.  A few years back I had gotten involved in a couple of
+   electronic music projects and also had been doing a lot of DJing. I
+   wanted to integrate sample loops and play other sounds in my sets
+   without having to carry a large keyboard rig along with all the other
+   stuff I had to lug around. My first grid was the Novation Launchpad. At
+   first, I mainly used it to launch clips, fingerdrum and play the
+   occasional melody line. Eventually, I started soloing with it and added
+   chords. The grid in the fourths layout immediately made sense to me
+   because of my history as a bassist, and around 2019 the grid really
+   started to become an important part of both my live and studio rigs, so
+   I added the Akai Force and Polyend/Dreadbox Medusa to my setup. I had
+   become aware of the Linnstrument but wasn‘t one-hundred percent sure if
+   it would be for me. Well, now I am sure. It is by far the best grid
+   instrument available on the market. So in the beginning of 2020 I took
+   delivery of my first LinnStrument. Then the pandemic hit and I had a
+   lot of time to get familiar with it. Becoming a grid player (and more
+   specifically a LinnStrumentalist) has had a major impact on my musical
+   life the last couple of years. I really feel somehow connected to the
+   future of music making. I hope to see more and more musicians adopting
+   the grid…especially young people. Maybe one day we‘ll see kids getting
+   on school busses with LinnStruments in their backpacks.  I think a
+   LinnStrument is an excellent choice of instrument for beginning
+   musicians as well as professionals. I would also love to somehow get
+   involved in helping develop future generations of grid instruments.
+   Q: In your video “The eight fingered hand”, you discuss using both
+   hands to play or arpeggiate more complex chords, acting more as a
+   single many-fingered hand than two separate hands. I found this useful
+   in my playing, and find it similar to how some jazz pianists play,
+   blurring the line between accompaniment and melody. Can you say more
+   about this?
+   A: Sure! One thing I really love about the Linnstrument is how it
+   brings together so many worlds…the keyboard world, the stringed
+   instrument world, the percussion world, the worlds of brass and
+   woodwinds.  When most musicians think about two handed playing, they
+   generally default to the idea of the classic pianistic way of playing.
+   That is, the left hand and right hand have fairly defined roles. Left
+   hand does the low notes/chords and the right hand does melody/solos.
+   Physically speaking this makes a lot of sense if you are focusing on
+   the Linnstrument‘s keyboard heritage. But once you begin to get
+   familiar with the stringed instrument logic of the layout, you aren‘t
+   constricted by the left/right paradigm. You can take advantage of the
+   notes made available by playing vertically across the surface of the
+   Linnstrument. Both hands share the task of voicing the chords and
+   playing the bass and melodies. As you said, the line between assigned
+   roles blurs. In my mind, it is a more „guitar“ oriented way of
+   approaching the grid. Keeping the hands closer together increases
+   accuracy in your playing and makes it easier to visually keep track of
+   what you are playing.  That being said, there are moments where the
+   traditional left/right way is musically more useful. I‘d encourage
+   players to get familiar with both approaches and choose whichever one
+   is most appropriate for the music and the moment.
+   Q: In your video “Fontaine’s Fingerfood Episode 1”, you state that
+   LinnStrument’s string/grid pitch arrangement makes “the inherent
+   geometry of music” easier to see. Can you say more?
+   A: Certainly! Guitarists are sure to be familiar with the concept of
+   movable chord shapes.  Closed position chords that can be transposed up
+   and down the neck of the guitar without changing the shape of your
+   hand. You learn the shape of the voicing in one key and simply move it
+   to where you need it. The isomorphic layout of the Linn facilitates
+   this even more as the intervals between rows or „strings“ are
+   consistent. It‘s this consistency that reveals to us the patterns and
+   geometry of music. Connecting lines of intervals create simple shapes.
+   Using the eight-fingered hand we can add these simple shapes together
+   to create more complex shapes and thus more complex harmonies and
+   melodic material. These relationships remain consistent throughout the
+   surface of the LinnStrument. An isomorphic layout is by definition „key
+   agnostic“ whereas the piano keyboard (and to a certain extent the
+   guitar) are biased toward certain keys. The inherent geometry of the
+   western musical system is somewhat obscured on a traditional keyboard
+   due to the fact that these shapes are always changing as we modulate
+   from tonal center to tonal center. The grid layout alleviates this
+   problem and allows us to see this geometry more clearly.
+   Q: Are you ever tempted to use LinnStrument’s touch expression for
+   other types of sounds, for example bending a note’s pitch or using
+   pressure to control loudness? If not, that’s OK— your playing is
+   wonderfully expressive as it is.
+   A: Not only am I tempted…I actually do use the touch expression quite
+   extensively. For those who have watched my videos, it might seem that I
+   only use the LinnStrument for the merits of its layout, but in day to
+   day use as a composition and performance tool, I take advantage of its
+   incredible MPE implementation as well. Whether it‘s for animating
+   woodwind and string sounds with continuous control or adding vibrato
+   with pitch bend or modulating synth parameters with pressure, I use it
+   quite a lot. I mean, why own a LinnStrument if you don‘t want to make
+   use of these capabilities? :)  Some of the videos that I have planned
+   for the near future will definitely show more of me using the MPE
+   stuff. That being said, no amount of bending, wiggling or sliding make
+   for expressive playing alone. Subtleties in timing, phrasing, dynamics,
+   emotional connection and (of course) good taste, all play a huge role
+   in ultimately being expressive on any instrument.
+   Q: What advice do you have for LinnStrumentalists who wish to develop
+   some of the skills you demonstrate in your videos?
+   A: Well, first would be to dive a bit into the history of the
+   instruments that preceded the LinnStrument. The Linn wasn‘t born in a
+   vacuum. It‘s a culmination of many centuries of musical instrument
+   evolution and its corresponding playing techniques. There are a tons of
+   skills that can be gleaned from the world of piano, guitar, percussion
+   and more.
+   Second would be to train your hand/ear coordination. Connect what you
+   hear to what you play. Learn to sing with your hands. I‘ve got a video
+   about this coming soon…stay tuned!
+   The third thing would be to embrace simplicity. All complex things are
+   really just networks of simple things. I recently had an experience
+   while I was checking out some Bill Evans transcriptions. His lush and
+   complex sounding chords and melodies were just so amazingly
+   beautiful…breathtaking. Upon checking the transcriptions I was slightly
+   shocked to see that most of the time he was using simple three and four
+   note chord voicings. He was able to create the illusion that there was
+   far more going on than there was just by implying these lush harmonies
+   without actually playing them. That says a lot about how music is
+   perceived and what we can do to excite the imagination of the
+   listener…aural symbolism for abstract ideas and emotions. Both the mind
+   and heart respond very strongly to simple input…so keep it simple. This
+   should be one of the primary goals for he or she who wishes to master
+   music; the ability to elicit with simple tools, strong images in the
+   mind and strong emotions in the heart.
+   ‍
+
+Jesse Washmon
+
+   August 1, 2023
+   Jesse Washmon of Denton, Texas is a highly proficient player of
+   LinnStrument and guitar, and has created many skilled LinnStrument
+   performance videos of classical music. It is particularly interesting
+   that Jesse chooses to play LinnStrument in a vertical orientation,
+   rotating it 90 degrees while using the standard Fourths String Layout
+   in this orientation.
+   Here are Jesse’s segments from two of my “LinnStrumentalists”
+   compilations:
+   ‍
+   * “[29]The LinnStrumentalists 3”, position 3:20 (“Elegie Op. 3 No. 1”
+   by S. Rachmaninoff)
+   * "[30]The LinnStrumentalists 2", position 2:16 (“Un Sospiro” by Franz
+   Liszt)
+   [31]Here is Jesse's YouTube channel, where you can see the full
+   versions of the above segments, as well as many other videos. And
+   [32]here is Jesse's site.
+   If anyone would like to try playing LinnStrument in the vertical
+   orientation, Jesse has provided information on how to do this on the
+   LinnStrument "[33]Tips & Tricks" page, under the tip “Play LinnStrument
+   in vertical orientation”.
+   ‍
+   ‍
+   Q: Jesse, thank you for doing this interview. I’d like to talk about
+   your use of Linnstrument in the vertical orientation. Why do you prefer
+   this, and what do you see as the advantages?
+   A: Hi Roger, my pleasure! The Linnstrument has become a part of me and
+   my soul, and I have you to thank for that! It is a wonderful instrument
+   that is the closest thing (I feel) to recreating a piano effect from a
+   pad instrument on the market.
+   In regards to the vertical orientation , this was a result of my
+   experimentation in grid layouts and the efficiency of scale movement in
+   the upwards direction. Ergonomically, on the guitar, we have
+   significant dexterity when our hand and fingers remain in a stable
+   position, while our wrist moves. I have always found vertical movement
+   on the guitar, (movement from the low e to the high e or vise-versa) to
+   work well with scales, arpeggios, intervallic movements, etc. With
+   vertical movement, one’s hand does not have to change position and the
+   fingers stay in a fixed position (mostly). I like to compare fingers to
+   keys on piano or a woodwind instrument, in that the more they can hover
+   over where they need to be, the better.
+   That being said, there is a great deal to say about horizontal guitar
+   playing. Beautiful glissandos can be achieved - melodic inflections
+   that mimic the nature of the human voice. Very efficient playing of
+   sequences of close groupings of notes (i.e. 123, 234, 345, 456, etc.),
+   which mostly can be done just as quickly as when done vertically
+   depending on the sequence. My rule of thumb as far as this goes - if
+   you have an additional hand movement necessary before your next finger
+   is over the note you need to be at, you are not doing the most
+   efficient fingering (unless you have no other choice). I’m sure there
+   are exceptions to this general rule, but for the most part, it’s pretty
+   true. I have not used the Linstrument in its horizontal orientation,
+   though the power of its expressiveness in glissandos is very formidable
+   and it stands as a pioneer in regards to electronic expressive
+   capabilities in many ways.
+   The aspect of pitch range vs distance is important as well, this I feel
+   the vertical format to be better suited for. With fourth intervals
+   across grids, one is able to span the course of an octave in merely
+   three rows. This, of course allows for an (almost) identical tuning of
+   the Linnstrument to that of the grand piano (save for just a few
+   notes). The nature of the bass section in the lower half of the
+   Linnstrument and the treble section allows for the hand space to be
+   split accordingly. Hand space can also be split vertically (i.e. left
+   and right side). The latter is a problematic issue with the vertical
+   tuning format, in that hand spacing in this regard is limited. A
+   slightly larger grid, perhaps 12x16 would accommodate for this. Nothing
+   is perfect.
+   Q: Given that your videos are of piano-style two-handed play, how would
+   you compare Linnstrument's Fourths String Layout to the conventional
+   piano and guitar pitch arrangements?
+   A: It's sort of a mash-up of both. I’ve thought about it a fair amount.
+   Like anything, there are advantages and disadvantages. To preface, I
+   want to state that I am far more proficient at guitar than I am at
+   piano, but I do play some piano.
+   With the grid layout, you basically get the congruence of the guitar
+   (they are both grids, but one shifted a half-step up in one area of the
+   grid) with the addition of a left hand. That’s a lot. When I was first
+   experimenting with grid systems, I was contemplating playing an
+   arrangement of Claire de Lune on guitar, but was dissatisfied with the
+   transcription issue related to the guitar. The vertical grid format I
+   developed solved that. I could have all the notes now! I could do this
+   all without dealing with the asymmetry of the piano. Because of the
+   natural symmetry of grid-based systems and my experience with the
+   guitar, learning this new format was incredibly intuitive.
+   ‍
+   Oh yeah, one more thing. One consideration in Linnstrument playing is
+   the option of different shapes for the same melodic or harmonic figure,
+   which does not occur with piano. It is a guitar problem that I am used
+   to, but is not an issue that piano literature addresses, which does add
+   a layer of trial and error and guess work that would not be there if
+   learned on the piano.
+   ‍
+   Q: Have you ever experimented with fourths tuning on guitar?
+   A: I have not. Though I’ve always been curious about it. I have a 5
+   string bass and have gotten a taste of it, though the scale length is
+   different. I have always been interested in the development of
+   instruments and instrumental pedagogy in regards to the structure of
+   the instrument itself. How our technique is dependent on the designs,
+   customs, and information we have available.
+   When I think about this subject of a fourths layout on a guitar, I am
+   always reminded of Allen Holdsworth’s workshop at UNT that I attended
+   when I was in my undergrad. Someone asked him the same questions and he
+   responded with “That (the major third interval) is for campfires and
+   cowboy chords. If it were up to me I would cut the bugger off”. That
+   really enlightened me in the sense that I had never really questioned
+   this predefined structure about the guitar. It also gives rise to a
+   myriad of questions about the mastery of the instrument. For instance,
+   we have a vast number of techniques that are dependent on the guitar's
+   original tuning (ex. the chord solo styles of bop-era guitarists such
+   as Joe Pass and Jim Hall, particularly on the first four strings). It’s
+   sort of a chicken vs the egg thing that is also dependent on the nature
+   and nurture of the chicken. A ten-year old Joe Pass was probably not
+   experimenting with “perfected” fourths tuning systems. By the same
+   token, the “imperfection” of the guitar’s traditional layout may have
+   even be better suited to his needs (certainly the case for the full
+   bars with high-reaching melody notes that Pass would make extensive use
+   of).
+   I suppose the problem (if you call it that) is there is not much of a
+   chance of these concepts reaching musical minds early in their
+   development. Which is pretty true of most instruments (ire. different
+   tuning systems on the piano). Though, there are plenty of musical dudes
+   who will certainly figure it out later in their lives. :)
+   Q: In learning the compositions for your videos, what challenges did
+   you encounter in choosing the fingerings that you used? Any specific
+   examples?
+   A: Many. Some that I don’t want to remember. Some that I am very proud
+   of. One that stood out in particular was in one of the final sections
+   of Un Sospiro where the melody is placed above the broken chordal
+   arpeggios in the right hand. I had to conceive of a fingering for the
+   arpeggio that ended on the thumb so it could propel the hand forward to
+   reach the next chord without taking too long and jeopardizing the
+   overall rhythm and playability. I actually showed this exact example to
+   some music friends of mine. I remember playing it for them and then
+   describing the process of trial and error that it took to find the
+   fingering. I first had to learn the section of music well enough to
+   hear the phrase and have a strong visual conception of it, estimating
+   the fingering. By nature of hitting the same notes and shapes enough,
+   eventually you gain the dexterity to start making decisions involving
+   physical movements and can begin experimentation with different
+   fingerings. This process, I feel, becomes a force of will due to the
+   amount of focus involved. Everything has to come together and you have
+   to try swinging as many ways as you can before you hit the ball.
+   ‍
+   In addition, there are also passages that simply cannot be played as
+   quickly on pad devices (or at least ones with narrow vertical
+   orientations) as can be played on piano. One example of this is the
+   cadenza passage in Un Sospiro that uses 2nd intervals and is played at
+   incredibly fast tempos. I’ve concluded that this would be possible on a
+   12x16 or 16x16 grid, where both hands have ample space. This is another
+   advantage of the grid format - the allowance of contiguous notes in
+   different parts of the keyboard, which would solve some of hand spacing
+   issues of the piano, I feel.
+   Q: You’re quite an accomplished jazz guitarist, yet your Linnstrument
+   videos have all been of classical music? Why? Do you find jazz
+   improvisation to be more difficult on Linnstrument?
+   A: I never really approached the Linnstrument with jazz in mind. I
+   suppose I’ve gotten over the tendency to feel like I need to know
+   everything about each instrument I play. I try to think of music as
+   these spheres that you enter, and each sphere has its own little
+   attractive gateways. Guitar, for me, was being at these late night jams
+   at parties my parents would take me to and being mesmerized by sort of
+   everything at once. Or trips to a jazz club in Fort Worth, a speak-easy
+   in the basement of a building in downtown Sundance Square.
+   I suppose in an objective sense, it follows logically to use what I
+   know harmonically and translate that to the Linnstrument. It didn’t
+   really make sense for me in a musical direction. I found myself diving
+   into piano-literature and getting an opportunity to explore a world
+   that I knew of, but never anticipated immersing myself further into.
+   The multi-media, artistic aspects of it followed suit due to the amount
+   of time I was at home (COVID) and it became a foray as well into the
+   realm of sound design.
+   Thinking back on it, I felt much of the same sort of mesmerization that
+   I had felt in high school when I would see some of the best jazz
+   musicians in Denton play. That sort of drunkenness and love is key, I
+   feel. If you have that, you’ll do whatever it takes. The objective part
+   really isn’t it, even though we like to fool ourselves that it is.
+   Q: I see on your site that you offer lessons on guitar, cello and
+   piano. Have you considered offering Linnstrument lessons via video?
+   A: I have had a few people ask and one serious inquiry. I currently
+   don’t. It’s a battle gauging how much goes into the organization of it
+   on my end and the level or seriousness of the student.
+   Q: Any additional thoughts you’d like to add that may be of interest to
+   other Linnstrument players?
+   A: Comfort and dexterity take time (for me at least). I believe this to
+   be intrinsic to our emotions that dictate confidence and fear. Acting
+   out of love, I find to be most use in accomplishing anything musically.
+   In music, we can find hints and direction in others, but ultimately we
+   have to go on the dive alone and hope we find some cool caves.
+
+Jeremy Cubert
+
+   July 1, 2023
+   ‍
+   Jeremy is a very talented musician and one of my favorite LinnStrument
+   players, as well as one of the early LinnStrument owners. I admire him
+   for his beautiful solo improvisation skills, not only on LinnStrument
+   but also on piano, guitar, Chapman Stick, and Zendrum.
+   ‍
+   Here are some videos of Jeremy playing LinnStrument:
+   ‍
+   1) “[34]Jeremy Cubert Plays LinnStrument” (2016)
+   2) “The LinnStruments” (2018): locations [35]0:15, [36]2:30, [37]7:08,
+   [38]11:14.
+   3) “The LinnStrumentalsists 2” (2021): locations [39]4:54, [40]3:39,
+   [41]4.54.
+   4) “The LinnStrumentalists 3” (2023), location [42]4:22.
+   And [43]here is Jeremy’s web site. [44]
+   ‍
+   Q: Hi Jeremy. I’ve had the pleasure of knowing you since 2015 when you
+   obtained your LinnStrument, and was immediately impressed by your solo
+   improvisation skills. Given that you already played piano and guitar,
+   what drew you to LinnStrument?
+   ‍
+   A: I saw your LinnStrument demonstration at MoogFest 2013 and
+   immediately saw how LinnStrument solved two problems I had using
+   monophonic lead synthesizers.
+   ‍
+   First, LinnStrument combines all the expression features of a keyboard
+   synthesizer into one finger - modulation, pitch bend, velocity, and
+   aftertouch. Instead of needing two hands to play a lead synth, you
+   could use one hand while the other plays piano/organ/polysynth.
+   Second, as a Chapman Stick player, I spent years learning the fourths
+   tuning on the melody side of the Chapman Stick. While there was an
+   option to add MIDI to the Stick, I wished there was an easier option.
+   It appeared to me the technique would be immediately transferable to
+   the world of MIDI and synths and it was!
+   ‍
+   Q: I was also impressed with how quickly you adapted your skills to
+   LinnStrument’s pitch arrangement and pads. How was that process of
+   adaptation for you?
+   A: My background as a Chapman Stick player was directly transferable to
+   LinnStrument due to the fourths tuning on the melody side of the
+   Chapman Stick. However, even the differences between LinnStrument and
+   Stick expanded the playing options. For example, you cannot play more
+   than one pitch on a single string of a guitar/Stick/Bass. However, you
+   can on the LinnStrument. This feature opened up new chord shapes and
+   double-stop features for lead playing.
+   For live playing, I sometimes play Stick and LinnStrument at the same
+   time (bass part on the Stick and melody on the LinnStrument).
+   Q: I like how you use LinnStrument to play convincing wind,
+   bowed-string, and guitar parts. What have you learned about using
+   LinnStrument’s expressive control to achieve convincing performance
+   gestures on these instruments?
+   ‍
+   A: The expressive capabilities of LinnStrument opened up new worlds for
+   me. I finally felt comfortable enough playing wind and bowed instrument
+   parts for my solo recordings because of the nuanced expressive
+   capability of LinnStrument combined with, for example, the Audio
+   Modeling plugins for strings and saxophone. I do not claim that these
+   techniques can replace a real string or wind player, but they allow me
+   to approach a similar kind of expressive play I would not be able to
+   achieve on a standard keyboard. I have been asked to add virtual string
+   quartets and solo string parts to various recordings.
+   For sampled guitar libraries (like the Orange Tree Sample and Impact
+   Soundworks libraries), playing the fourth tuning and using guitar-like
+   pitch bend techniques has given me much better results for acoustic and
+   electric guitars and electric and upright bass virtual instruments.
+   Harmonics and mutes can be achieved by setting velocity or pressure
+   levels or using a pad outside the range of the instrument to trigger an
+   articulation. Although I play guitar, my tapping/LinnStrument technique
+   is better and I often achieve better results using LinnStrument than
+   attempting the same lead part on a real guitar.
+   ‍
+   Q: Another part of your playing that I like is your unique ability to
+   create overdubbed recordings in which you play all parts, but the
+   finished recording sounds like a live ensemble in which the players are
+   playing live together, responding in real time to what the others are
+   playing. How do you achieve this?
+   ‍
+   A: I pick one instrument to be the foundation of a piece - usually
+   piano, drums (played on a Zendrum), or Chapman Stick. I have a melody
+   or theme in mind and improvise a track to a click in my DAW. I add the
+   drums next and use the visual cues on the foundational track I recorded
+   to help me hit accents, starts, and stops in time. Then I add a bass
+   track followed by melody tracks. I use LinnStrument for all the melody
+   tracks - everything other than piano and organ.
+   I have been working on two-handed playing more and more on the
+   LinnStrument and I have started to incorporate that more into my
+   recordings.
+   ‍
+   Q: Your day gig is as an intellectual property attorney specializing in
+   life sciences, which would seem to require an analytical and scientific
+   mind. But in your playing I see more of a free-form, creative and
+   experimental mind. Do  you see these two worlds as being similar,
+   different, complimentary? And how does one affect the other?
+   ‍
+   A: I think they are complimentary. The skills I develop from the
+   musical, creative, free-form side of the brain help me be more creative
+   in solving legal problems. The analytical, scientific skills from my
+   day job help me solve the inevitable technical issues one has using
+   computers for electronic music.
+   ‍
+   Q: Have you used LinnStrument in live performances? Have you had to
+   overcome any challenges using LinnStrument live?
+   ‍
+   A: I played LinnStrument live at MoogFest a few years after seeing your
+   demonstration! It was relatively straightforward using LinnStrument
+   connected through a USB cable through an Apple Connection Kit to an
+   iPad - using a long cable allowed me to move around a bit. I used
+   AniMoog on the iPad as my sound source and it was well-received.
+   I now have LinnStrument connected through an iConnectivity interface to
+   a Haken Continuumini on the upper level of my keyboard stand - the
+   LinnStrument stacks neatly on the narrow ContinuuMini. This not only
+   gives me access to all the great expressive sounds on the Continuumini
+   but I can use both the LinnStrument and ContinuuMini surfaces to play
+   depending on what the song calls for and both can be played at the same
+   time.
+
+Jordan Rudess
+
+   June 1, 2023
+   ‍
+   Jordan Rudess (of Dream Theater fame) is one of my (Roger's) favorite
+   musicians. I recently attended a piano concert of his in San Francisco
+   and both I and the audience were enthralled by his unique and
+   extraordinary talents.
+   He also created an iPad app called [45]GeoShred, which like
+   LinnStrument has its pitches arranged in rows of chromatics offset by
+   musical fourth intervals, which I call the Fourths String Layout.
+   ([46]Here's a video of him playing LinnStrument, using his GeoSWAM
+   sounds for GeoShred.) In this interview, I ask him about his choice of
+   this pitch arrangement and why he likes it.
+   Q: Hi Jordan— thanks for doing this interview, in which I’d like to
+   focus on the 4ths String Pitch Layout, my name for the pitch
+   arrangement used in both my LinnStrument and your GeoShred app. What do
+   you see as the advantages for soloing?
+   ‍A: Soloing on an instrument based on fourths makes a lot of sense once
+   a player gets used to it. Being able to access an extended range of
+   notes in a small amount of physical space is a powerful tool! Uniform
+   finger patterns can really open up so many cool musical ideas and
+   shapes! For anyone with Relative pitch, a fourth layout is ideal
+   because transposition and general navigation of the instrument become a
+   much easier task.
+   ‍Q: What do you see as the advantages for chord fingering?
+   ‍A: Let me start by saying that as a player I use my Geoshred
+   instrument mostly for melody and solos. That said- those who would
+   approach an instrument based on fourths for chordal play can find many
+   very positive aspects to that approach.Consistent shapes are a big one.
+   Once you learn any chord shapes, they remain consistent anywhere on the
+   playing surface. Compared to a keyboard it’s a whole lot easier to
+   navigate and find voicings. On a piano almost every chord (even if it
+   is the same chord type) is a different shape!      I also think that
+   because the fourths layout offers an extended range, the playing
+   surface can open up the possibility of discovering new ideas and fresh
+   harmonic interest.
+   ‍Q: You’re clearly an excellent pianist. How would you contrast the
+   piano layout and the 4ths layout?
+   ‍A: I grew up playing the piano from a very young age. It’s absolutely
+   my first language and therefore very natural for me. The main
+   difference is in the fact that playing the same types of chords and
+   scales in different keys all have different fingering and this could be
+   quite cumbersome- especially for someone who is just learning the
+   instrument. I would think that the 4ths layout would be easier to
+   absorb and get used to for most people!
+   ‍Q: What about two-handed piano-style play, playing accompaniment and
+   solo at the same time? I notice that you do this spectacularly well on
+   piano, but you generally use GeoShred for soloing. Do you think the
+   4ths layout is inherently more difficult than the piano for such
+   two-handed play?
+   ‍A: The invention of GeoShred initially happened because I wanted to
+   find a way to be able to go between a fretless type of modality and a
+   diatonic one. I had Steve Vai and Jeff Beck in mind, and I was mostly
+   thinking about soloing! I think it’s probably more about what you spend
+   time practicing than one being more difficult than the other, I also
+   think that each instrument layout naturally lends itself to different
+   approaches and musical styles. There will definitely be things that are
+   easier to play on something like the Linnstrument and Geoshred than
+   piano and of course techniques on piano might be very difficult the
+   other way around!
+   ‍Q: Do you think that in 50 years, the 4ths layout will be in common
+   use in instruments at that time? Or do you think the piano pitch layout
+   will still dominate?
+   ‍A: I believe that both layouts will remain vital to music making. They
+   are both such a big part of so many musicians lives that I believe we
+   will be using these for a long time to come.
+
+     * [47]About us
+     * [48]Contact US
+     * [49]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://youtu.be/7TTp7GKltHQ?t=86
+  20. https://youtu.be/MDTikW1BFt8?t=162
+  21. https://www.youtube.com/@thoughtFormMax
+  22. https://www.thoughtformmusic.com/
+  23. https://www.youtube.com/watch?v=L4-dr3al_g8
+  24. https://youtu.be/7TTp7GKltHQ?si=2NCUNVYUhFqa0rWB&t=40
+  25. https://youtu.be/MDTikW1BFt8?si=hNeaPUPfEy_alSZr&t=77
+  26. https://youtu.be/GrNNKje9siA?si=eNSMASCcbXiGLdpi
+  27. https://youtu.be/uX-rXyFM80s?si=U8nR3dlrM5w3gByK
+  28. https://www.youtube.com/@FontaineBurnett
+  29. https://youtu.be/MDTikW1BFt8?t=200
+  30. https://youtu.be/7TTp7GKltHQ?t=136
+  31. https://www.youtube.com/@JesseWashmon
+  32. http://jessewashmon.com/
+  33. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  34. https://youtu.be/flKMz9UmqAw
+  35. https://youtu.be/ypHCxq93Jsk?t=16
+  36. https://youtu.be/ypHCxq93Jsk?t=151
+  37. https://youtu.be/ypHCxq93Jsk?t=429
+  38. https://youtu.be/ypHCxq93Jsk?t=675
+  39. https://youtu.be/7TTp7GKltHQ?t=295
+  40. https://youtu.be/7TTp7GKltHQ?t=220
+  41. https://youtu.be/7TTp7GKltHQ?t=295
+  42. https://youtu.be/MDTikW1BFt8?t=263
+  43. https://jeremycubert.com/home
+  44. https://jeremycubert.com/home
+  45. https://apps.apple.com/us/app/geoshred/id1064769019?platform=ipad
+  46. https://youtu.be/MDTikW1BFt8?t=37
+  47. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  48. https://www.rogerlinndesign.com/about/about-contact
+  49. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  51. https://www.rogerlinndesign.com/
+  52. http://jessewashmon.com/
+  53. https://www.rogerlinndesign.com/
+  54. https://www.facebook.com/RogerLinnDesign
+  55. https://www.youtube.com/user/rogerlinndesign
+  56. https://twitter.com/roger_linn
+  57. https://www.instagram.com/roger.linn/

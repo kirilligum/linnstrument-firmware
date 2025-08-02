@@ -1,0 +1,1220 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Frequently Asked Questions
+
+   Pre-salesGeneralProblems
+
+Q: What are the limitations of LinnStrument's sensor technology?
+
+   A:
+    1. Velocity accuracy and consistency, while very good on LinnStrument,
+       is inherently less accurate than a high-quality MIDI piano keyboard
+       for two reasons: First, rubber pads lack the physical momentum of a
+       moving key, which helps your finger to move at a consistent rate.
+       Second, pads sense velocity by tracking the pad's pressure envelope
+       until it starts to fall from its peak, which is inherently less
+       accurate than measuring the time for a piano key to move between
+       two electrical contacts. Also, some people may find LinnStrument's
+       velocity accuracy to be less accurate than a high-quality drum pad
+       controller. This is because sensing three signals (X, Y and Z) for
+       200 or 128 pads at high speed with low latency has inherent
+       engineering limitations that don't exist for sensing only 16 to 64
+       drum pads. Generally, LinnStrument players find that giving up some
+       velocity accuracy is worth the benefits of LinnStrument's
+       polyphonic sensing of 3 continuous dimensions for each of 200 or
+       128 note pads on a large playing surface. You can get a general
+       idea of the velocity accuracy by watching some of the many
+       LinnStrument owner videos, especially those of two-handed
+       piano-style play.
+    2. If 3 note pads are pressed that are 3 corners of a rectangle,
+       presses to a note pad that is the 4th corner of that rectangle will
+       be ignored. This is a fundamental electrical limitation of
+       LinnStrument's sensing method and cannot be changed. Without this
+       limitation, a different and far more expensive sensing method would
+       be required for LinnStrument's large playing surface that would
+       have less velocity accuracy, higher latency, and would interpret
+       two close touches as one. This is why no other polyphonic 3D touch
+       surface exists with a large playing surface, low latency and the
+       ability to recognize two close touches as distinct. Fortunately,
+       LinnStrument's Fourths String Note layout provides multiple
+       instances of each pitch, so if you encounter this limitation with a
+       particular chord fingering, there will be alternate fingerings for
+       the same chord.
+    3. No more than 3 note pads are permitted in the same vertical column.
+       Pressing a 4th note pad in the same column will be ignored. This is
+       related to an engineering limitation of LinnStrument's sensing
+       method. Fortunately, LinnStrument's Fourths String Note layout
+       provides multiple instances of each pitch, so if you encounter this
+       limitation with a particular chord fingering, there will be
+       alternate fingerings for the same chord.
+    4. Y-axis (forward-backward) movement is limited to the 17 mm vertical
+       dimension of each note pad. Sliding your finger vertically across
+       rows will result in a new note when the touch enters the adjacent
+       row's note pad. This is because LinnStrument's touch sensor has an
+       internal spacer between rows that prevents tracking touches
+       vertically from one row to another.
+    5. Maximum simultaneous touches: about 50, or 15 in MPE mode, due to
+       the maximum 15 per-note MIDI channels.
+    6. Minimum distance between any 2 touches: 10 mm, but the 2 touches
+       must be in 2 adjacent note pads.
+
+Q: What is the warranty?
+
+   A:
+   * 3 years if you buy direct from my online store.
+   * 3 years if you buy from dealer and register your purchase (from the
+   link at top of this page) within 60 days.
+   * 2 years if you buy from dealer and don’t register your purchase
+   within 60 days.
+
+Q: Where can I try out a LinnStrument?
+
+   A: The only place to buy a LinnStrument in the US is direct from the
+   Roger Linn Design store, which also ships worldwide with free shipping
+   to most countries. Outside the US, you can see our current dealer list
+   by clicking the Store/Dealers menu -> Dealer List.
+
+   The best way to try out a LinnStrument is to buy it and if you don't
+   like it, return it within the refund period, which is 60 days from my
+   online store or 30 days from most stores. (See next FAQ for details.)
+
+   Or, you can email me (Roger) at sales@rogerlinndesign.com and there's a
+   good chance of a LinnStrument owner in your area who would be willing
+   to show you theirs.
+
+   If your local dealer doesn't carry LinnStrument, please tell them that
+   I would welcome an order from them.
+
+Q: What's your return policy?
+
+   A: We understand that LinnStrument isn't in stores everywhere, so our
+   60-day money-back guarantee (if purchased direct from our online store)
+   is our way of letting you try it out at no risk. If you bought direct
+   from our online store, have received the shipment, and after evaluating
+   it you find that LinnStrument doesn't meet your needs, simply contact
+   me (Roger) at sales@rogerlinndesign.com for the correct shipping
+   address and return instructions, and I'll refund the entire product
+   cost within two days of receiving it. Don't send to the address that it
+   was shipped from or it will likely be returned to you.
+
+   Or if you bought from one of our dealers, most dealers have a 30-day
+   return policy. Please contact your dealer for return instructions.
+
+Q: How difficult is it to learn to play?
+
+   A: If you play a stringed instrument, it's surprisingly easy to
+   transfer your skills to LinnStrument's stringed-instrument note layout,
+   which is like an 8-stringed bass guitar with each row consisting of
+   consecutive semitones, and with the rows tuned to fourths intervals.
+   This isomorphic layout is both easier to learn and play than a piano
+   keyboard note arrangement, and is much better suited to expressive
+   performance. [60]Here's why. And [61]here's a page showing the location
+   of popular chords and scales.
+
+Q: Can you help me decide between the larger LinnStrument model and the
+smaller LinnStrument 128 model?
+
+   A: In the default fourths tuning and default transposition,
+   LinnStrument 128 has a pitch range of 51 semitones (F#0 to G#4), a
+   little over 4 octaves; and the large LinnStrument model has a pitch
+   range of 60 semitones (F#0 to F5) or 5 octaves. See [62]here for a
+   picture of the pitch locations on both models.
+
+   The larger model gives you more flexibility for two-handed and
+   split-keyboard play, as well as more space to continue chords or single
+   lines up into higher registers without switching to other rows. A good
+   analogy is the difference between playing a 24-fret and 15-fret guitar.
+   (The large LinnStrument has 25 columns, like 24 frets plus open string.
+   The LinnStrument 128 has 16 columns, like 15 frets plus open string.)
+   On a 15-fret guitar, you'd probably find it more difficult to perform
+   solos because you'd often need to switch to other strings.
+
+   Also, if you're interested in using the Step Sequencer, the sequence
+   view area on LinnStrument 128 shows only 8 steps (columns) of the
+   sequence at a time, compared to 16 steps at a time on the large model.
+   And the printed Sequencer parameters are easier to read and use on the
+   large model because they are printed directly above the columns,
+   whereas on the 128 they are printed to the right of the rows.
+
+   Also, LinnStrument 128 has no power supply input, which very few people
+   ever use on the large model because nearly everyone uses USB power. If
+   using the round MIDI jacks, you can power LinnStrument from a USB power
+   adapter. And if connecting to an iPad and you don't want to power
+   LinnStrument from the iPad, you can use a USB Y-adapter cable to
+   provide USB power from a USB power adapter while connecting to the iPad
+   for data.
+
+   Finally, LinnStrument 128 is more portable and easy to fit into a
+   backpack. And the larger model's folding, padded zippered soft carrying
+   case is thicker than the small model's minimal neoprene sleeve case,
+   which is like a laptop sleeve case. And although the total length of
+   the large LinnStrument in its soft case is two inches more than the
+   normal airline carry-on length limit, I (Roger) have traveled many
+   times with my large LinnStrument and have never been prevented from
+   carrying it on the plane in economy.
+
+   Lastly, it may be helpful to know that the large LinnStrument model is
+   twice as popular as the LinnStrument 128, suggesting that people
+   generally prefer the larger playing surface.
+
+Q: How does LinnStrument compare to Roli Seaboard?
+
+   A: Seaboard is a fine and well-designed instrument. For many, it is a
+   choice between the familiarity of the traditional piano pitch layout,
+   and the advantages for pitch gestures of evenly-spaced semitones as
+   described on the LinnStrument Product page. For an unbiased answer, we
+   suggest you search the web for "LinnStrument vs. Seaboard". You will
+   find a number of helpful postings from owners of both instruments.
+
+Q: How does LinnStrument compare to the 2023 Ableton Push?
+
+   The new [63]2023 Push adds MPE 3D-expressive touch control to its 8 by
+   8 matrix of play pads, and is an excellent design. This is great news
+   for LinnStrument because it will introduce a large group of musicians
+   to expressive touch control who wouldn’t otherwise have considered it.
+
+   The 2023 Push and LinnStrument cater to different types of musicians.
+   The new Push has 64 pads of larger size, arranged in an 8 by 8 matrix,
+   so it’s more focused on Live’s primary market of clip launchers,
+   beatmakers, sequencing/looping, and simple musical play. By comparison,
+   LinnStrument is more focused on being a quality expressive musical
+   instrument with a large playing surface of either 128 or 200 pads.
+
+   LinnStrument's larger number of pads means that you won’t frequently
+   bump into the edges of the playing surface during chord or solo play.
+   And the smaller pads— the same spacing as human fingers— permit
+   fingering of more complex chords in one hand, as well as easier and
+   faster play of solo lines.
+
+   One analogy is a comparison to guitar. In both the new Push and
+   LinnStrument, the primary tuning is rows of chromatics tuned in
+   fourths, like a stringed instrument. So an 8x8 matrix is like 8 strings
+   of 7 frets each plus open string. Just as guitarists would find it
+   limiting to play a guitar with only 7 frets, many players of the new
+   Push will find more complex musical parts difficult to play on an 8 x 8
+   pad matrix. And for those wishing to split the keyboard into two zones
+   with two different sounds, 8 columns is impractically small.
+
+   This difference is illustrated in the videos of each product. The new
+   Push’s videos focus on playing simple solo lines and Push’s traditional
+   strength of arranging clips, whereas LinnStrument’s videos focus on
+   skilled play of chords and solo lines, including two-handed play.
+
+   For some people considering the new Push primarily for skilled chord
+   and solo play, they may consider LinnStrument 128’s 128 pads at $1099
+   to be more attractive than the 64 pads of the controller version of
+   Push at $999.
+
+   I (Roger) thank Ableton for legitimatizing the entire product category
+   of expressive MPE controllers, thereby raising the tide for all boats
+   in the category.
+
+Q: I live outside of the U.S. If I place an order on your online store, will
+I be required to play my country's VAT and duty?
+
+   A: Yes. When you order from our online store, you are charged only the
+   product cost and shipping cost. Before delivering the package, the
+   shipper will collect your country's VAT and duty. To learn your
+   country's VAT and duty, click [64]here and enter "9207.10.00" for the
+   "HS Code". Also, if LinnStrument does not meet your expectations and
+   you choose to return it within 60 days for a refund, you will be
+   responsible for applying to your country's tax service for VAT/duty
+   reimbursement, as well as the shipping cost to return it to the U.S.
+   For these reasons, it is usually better to buy from a dealer in your
+   country, or if you're in the EU's Schengen Zone to buy from Thomann.
+
+Q: How difficult is it to get it up and running?
+
+   A: Just connect to your computer via USB and play any software
+   instrument on your computer. LinnStrument sends standard MIDI messages,
+   just like with any other MIDI controller keyboard. You can learn more
+   on our Getting Started page, accessed from the LinnStrument Support
+   page.
+
+Q: If I have a problem with my LinnStrument that requires repair, how do you
+handle it?
+
+   A: Contact me (Roger) at support@rogerlinndesign.com so I can
+   understand what's wrong. If it does need repair, every problem in
+   LinnStrument can be solved by sending you a part that you can replace
+   yourself in 10 to 30 minutes by following a video, using only a
+   screwdriver. Please don't send it back to us or to the dealer unless I
+   ask you to because the dealer usually doesn't know what to do and will
+   likely take a long time to fix it and return it to you. If you don't
+   speak English, then it's still best to contact me because I can contact
+   the dealer for help in translating. Most importantly, don't worry-- I
+   want to help you.
+
+Q: Why isn't a power supply included with LinnStrument (large model)?
+Q: Why is there a power supply input on LinnStrument but not on LinnStrument
+128?
+
+   A: A power supply is not included with LinnStrument because
+   LinnStrument is nearly always USB bus-powered, even from any Lightning
+   iPad or iPhone, and when using the MIDI jacks any USB power adaptor can
+   be used. For those rare cases where a power supply might be preferred,
+   [65]the power supply item on our online store contains a link to buy a
+   compatible supply. Or any power supply can be used that has a standard
+   5.5mm outside diameter / 2.1mm inside diameter round connector, 7.5 to
+   15 volts DC center-positive or center-negative, or AC 9 to 15 volts,
+   with least 300 milliamperes of supply current. In fact, so few people
+   use LinnStrument's power input that we didn't include it on
+   LinnStrument 128.
+
+Q: Why isn't a printed manual included with LinnStrument?
+
+   A: LinnStrument's manual and all other support documentation are online
+   and no printed manual is included. Why?
+   1) Printed manuals can't have video, animations or hypertext, and
+   printed FAQs should more accurately be called "Questions that were
+   frequently asked when this manual was published a few years ago".
+   2) Printed manuals always go out of date because they represent a
+   single point in time. For this reason, printed manuals are often a
+   cause of support inquiries. Instead, LinnStrument's online manual is
+   always up to date, reflecting the correct information for the latest
+   software update.
+   3) LinnStrument owners generally prefer the online manual because they
+   are accustomed to reading on tablets, phones or computers.
+   4) If you want to print any part of LinnStrument's online manual,
+   simply print it from your browser.
+
+Q: Does LinnStrument require a software editor or software drivers?
+
+   A: No and no. Computer driver software is not needed because
+   LinnStrument's MIDI-over-USB is fully USB Class Complaint, using the
+   standard Mac, Windows and Linux drivers. A computer editing application
+   is not needed because all settings can be accessed on the front panel,
+   and are printed on the panel for ease-of-use. However, a license for
+   Bitwig Studio 8-Track music software is included with each
+   LinnStrument.
+
+Q: Why is it so expensive?
+
+   A: It's actually not expensive for what it does. Often people think
+   that because it resembles a simple button-matrix controller like a clip
+   launcher or drum pad controller, it should cost the same as one. But
+   it's far more than a button matrix controller, sensing three continuous
+   dimensions of very light touch, plus velocity and release velocity, all
+   polyphonically and with low latency, on a large playing surface, with a
+   translucent sensing technology that permits scale lighting. That is a
+   very difficult engineering challenge that makes it expensive to
+   manufacture, but which is necessary in order to make LinnStrument the
+   highly sensitive and fine musical instrument that it is.
+
+   It's possible that LinnStrument will be less expensive in years to come
+   as its popularity increases and more people buy it. This is because if
+   more people buy something, the cost for each one decreases. Or another
+   manufacturer might license LinnStrument's patented sensing technology
+   and produce a lower-cost but similar instrument. So you might be able
+   to save money by waiting a few years. It depends on how important
+   LinnStrument's expressive touch control is to your music-making
+   process, or if playing music with on/off switches, knobs and sliders is
+   good enough for you.
+
+Q: Roger, you're 69 (as of 2025). What if you retire? Will I be able to get
+parts? Will LinnStrument become unavailable?
+
+   A: That's a legitimate question. First, I'm not the type of person to
+   retire because I enjoy what I do too much, and I have enough time to
+   enjoy other life pursuits. Second, I keep my expenses low and don't
+   take investment, so there's no chance of an investor pulling his
+   funding or demanding compromises, as happens sometimes to funded
+   companies.
+
+   If I do semi-retire someday, I'd make sure that some company continues
+   to make LinnStruments and LinnStrument replacement parts. If needed,
+   I'll open-source the hardware, just as I open-sourced the software. The
+   most important thing to me is that people are able to continue to get
+   LinnStruments and replacement parts forever.
+
+   ‍
+
+Q: LinnStrument's rows always contain consecutive semitones (chromatic
+scales). Is it possible to set LinnStrument so that the rows contain
+consecutive notes of a specific scale, for example only major scale notes
+while skipping over the accidentals?
+
+   A: It is fundamental to LinnStrument’s design that each of the eight
+   rows always contain only chromatic scales. While it is true that some
+   controllers (like our Tempest drum machine) permit you to set
+   consecutive pads to play only scale notes (for example, only major
+   scale notes, skipping accidentals), this is really only useful for
+   controllers with few pads like drum pad controllers or Ableton Push.
+   However, LinnStrument has 200 or 128 note pads so it is not necessary
+   to delete any notes of the chromatic scale. The problem with removing
+   the notes outside of the scale is that you can't play them, so you are
+   limited to very simple music. There are other problems with
+   non-chromatic scales:
+
+   1) you must always change the scales to play in different musical modes
+   so you never get a chance to develop any playing skills because the
+   notes are always moving.
+
+   2) Pitch slides will no longer be consistent, with larger jumps between
+   note pads that are a whole tone apart than between those that are a
+   semitone apart.
+
+   3) Vibratos on a pad with a semitone interval on one side and a whole
+   tone interval on the other will be asymmetrical, bending twice as much
+   on the whole tone side than on the semitone side.
+
+   Instead of preventing you from playing accidentals, LinnStrument
+   borrows an idea similar to the piano keyboard's black and white keys:
+   it provides access to all the notes but highlights the naturals. So if
+   you don't want to play the accidentals (sharps and flats), simply play
+   the lit notes and don't play the unlit notes. By default, LinnStrument
+   lights the natural notes (C, D, E, F, G, A and B, with all “C” notes in
+   light blue and the rest in green, but you can change it to highlight
+   any scale and in any of 10 colors (red, green, blue, cyan, magenta,
+   yellow, white, orange, lime or pink). This is done in Global Settings /
+   Note Lights.
+
+   If you feel it is important to remove all accidentals and have
+   LinnStrument's rows consist of only consecutive scale notes,
+   LinnStrumentalist Rick Burnett has created a [66]Mac application and
+   Max/MSP patch that does that, though pitch slides will no longer work
+   correctly.
+
+Q: Can LinnStrument's consecutive note pads be set to play non-standard
+tunings / non-equal temperament tunings / microtonal tunings / xx-TET
+tunings?
+
+   A: LinnStrument is a MIDI controller, sending standard MIDI messages.
+   MIDI defines note numbers as consecutive semitones. To achieve any
+   non-standard scales, you would simply define the frequency of each MIDI
+   note number however you wish in your external sound generator.
+
+   As an alternative, you can use MIDI scale translation software such as
+   [67]CSE or [68]Universal Tuning Editor between LinnStrument and your
+   sound generator.
+
+   Also, LinnStrument owner Ben Fuhrman has created a [69]free patch for
+   Cycling 74's Max that sets each of LinnStrument's rows to play an
+   octave of any EDO from 2 to 24, with each row an octave higher than the
+   one below it. If you don't have Max, Max patches can run on the free
+   demo version of Max.
+
+   Here are a few other helpful things:
+    1. LinnStrument’s Row Offset setting (the note number interval between
+       rows) can be set to any value between -16 and 16 (by holding the
+       Row Offset > Octave pad). It also permits each row to be
+       independently tuned to any pitch you like. It also has an option
+       called No Overlap. If No Overlap is selected, the starting note
+       number for each row is one higher than the ending note number of
+       the next lower row. For example, if both Row Offset = No Overlap
+       and Split = on, you can set one split’s width to 24 columns,
+       thereby giving you EDO 24 with each row being one octave higher
+       than the one below it.
+       ‍
+    2. The Note Lights settings normally are used to set the lights for
+       each note in the 12 EDO scale, which isn't very useful for other
+       EDO settings. However, LinnStrument has the ability to paint any
+       light pattern you wish, by setting each note pad to any of 10
+       colors or off. To learn about this, see the Panel Settings page,
+       Global Settings tab, Note Lights On/Off heading, Scale Select
+       subheading.
+
+Q: Which DAWs or synths are MPE-compatible (work with LinnStrument's Channel
+Per Note and Channel Per Row MIDI modes)?
+
+   A: There's a list on our "Recommended Sounds" page, accessed from the
+   LinnStrument Support page.
+
+Q: Are [70]MPE-compatible synths necessary for use with LinnStrument?
+
+   A: No. By default, LinnStrument uses it's One Channel MIDI mode,
+   thereby making it compatible with every MIDI synth in existence. MPE
+   (Channel Per Note mode) is only needed if you need to play polyphonic
+   pitch bends or polyphonic Y-axis, which are fairly rare in most types
+   of music. And note you can get polyphonic pressure with one-channel
+   synths because of MIDI's Polyphonic Pressure (aftertouch) messages.
+   Also, LinnStrument's [71]smart MIDI One Channel mode transparently
+   works around MIDI's limitations for polyphonic expression over a single
+   MIDI channel.
+
+   So if you don't have an MPE synth, you may never notice any limitations
+   when playing LinnStrument in One Channel mode. In fact, most
+   LinnStrument owners use standard one-channel synths, and [72]one of our
+   main demo videos for LinnStrument doesn't use any MPE sounds at all.
+   And note that all of[73] Audio Modeling's superb wind and bowed-string
+   software instruments are monophonic and therefore can't take any
+   advantage of MPE (MIDI polyphonic expression).
+
+Q: Can LinnStrument be used as a step sequencer?
+
+   A: Yes, it has a built-in step sequencer. You can learn about it on the
+   [74]Panel Settings page, "Sequencer" tab.
+
+Q: Can you add this feature: __________?
+
+   A: LinnStrument has a very full feature set, which you can see in the
+   Panel Settings page, accessed from the LinnStrument Support page.
+
+   However, the flexible nature of LinnStrument inspires many different
+   people to want to make it into many different instruments. Geert
+   (LinnStrument programmer) and I (Roger) realized early on that:
+
+   1) We don’t have the resources to make a LinnStrument that meets
+   everyone’s individual desires,
+   2) we didn’t want to make it so complex that it scares away non-techy
+   musicians, and
+   3) we wanted to keep it compact without adding space for an
+   alphanumeric display and various editing knobs, switches and sliders.
+
+   So we intentionally chose parameters that focused on its core purpose
+   as an expressive musical performance instrument and printed them on the
+   panel, and other than the sequencer settings, I only printed parameters
+   in the first 16 columns in order to maintain compatibility with
+   LinnStrument 128. And for all of the many different features that
+   individual users desire, we:
+
+   1) released the software as open-source, permitting everything to be
+   customized,
+   2) put in lots of remote MIDI commads so that external computer
+   applications can control nearly everything, and
+   3) created a User Firmware Mode that allows LinnStrument to act as a
+   smart terminal for external computer applications.
+
+   Given that the upper and lower printed panel parameters through column
+   16 are all used, any new features must be fairly simple and carefully
+   considered to be important to many users for LinnStrument's core
+   purpose as an expressive musical performance instrument.
+
+Q: Why didn't you use a softer, thicker touch surface as on the Continuum or
+Seaboard?
+
+   A: I (Roger) tried a variety of materials and thicknesses. Here is why
+   I finally decided on LinnStrument's 2mm thick, slightly soft 40
+   durometer silicone rubber surface:
+
+   1) Adding more thickness spreads out the force of your touch onto the
+   sensor below it, reducing the sensitivity to light touches.
+
+   2) Foam rubber as used in the Continuum or Seaboard surfaces cannot be
+   translucent and therefore can't be used for LinnStrument, which
+   requires that the LED light shine through.
+
+   3) While soft surfaces provide useful force feedback for pressure-based
+   sounds, a harder surface is often more desirable for fast rhythmic
+   play. For example, imagine playing rhythmic clavinet part on a sponge.
+
+Q: Why isn't Open Sound Control implemented?
+
+   A: The main reason is lack of customer interest. You certainly can
+   convert the MIDI output to OSC by using a converter utility on your
+   computer. The problem with OSC is that the creators intentionally
+   didn't include any standard messages like MIDI's Note On, Note Off,
+   Pitch Bend, etc., so plug-and-play operation is difficult. The peak of
+   OSC's popularity was in the early iPhone days, when it was the only way
+   to get musical control out of an iPhone. But since Apple implemented
+   MIDI control in iOS, the popularity of OSC has diminished. Note also
+   that because LinnStrument's software is open-source, anyone can write
+   an OSC implementation.
+
+Q: Why don't you make a version of LinnStrument optimized for guitar-style
+play?
+
+   A: Because LinnStrument can be tuned like a guitar, it would seem easy
+   to make a version with a thinner neck optimized for guitar-style play.
+   But much more is required for guitar-style play: a picking surface that
+   feels natural, the ability to bend rows (strings) laterally, the
+   ability to play bar chords and other string-focused fingering
+   techniques, reducing the side margins around the neck to zero, changing
+   the chassis to a something closer to a sculpted neck, and much more.
+   Plus, Y-axis control wouldn't work on the very thin rows required for a
+   guitar-like neck. And even if I (Roger) did all that work, the history
+   of guitar controllers would suggest that it wouldn't be well-received
+   because guitarists--a notoriously conservative lot--would judge if
+   first on whether it can do everything a guitar can do, and only then
+   explore its added possibilities.
+
+   Instead, I choose for LinnStrument to be an entirely new instrument,
+   standing on its own merits and unchained from the biases of players of
+   existing acoustic instruments. My view is that the guitar represents
+   the best instrument-design technology that was available a few
+   centuries ago, but that is no longer the case.
+
+Q: LinnStrument is not sending MIDI. What's wrong?
+
+   A: Try the following:
+    1. Are you using a USB hub? If so, remove it and connect directly to
+       the computer.
+    2. Is "Global Settings > Actions column > Update OS" on? If so, no
+       MIDI data will be sent and "LinnStrument Serial" will appear in
+       your computer's list of connected devices. (see #6 below.)
+    3. If you're using USB, make sure that 'Global Settings > MIDI I/O
+       column is set to "USB".
+    4. Does it work using the MIDI OUT jack? To use this, in Global
+       Settings > MIDI I/O column, select MIDI JACKS.
+    5. If you're new to LinnStrument, it's possible that you may have
+       accidentally set some settings such that no MIDI is sent. To
+       restore all settings to factory status, perform a Reset: Turn on
+       Global Settings, then in column 16 (Actions), press Notes Off (the
+       lowest button) and Update OS (third button from the bottom) at the
+       same time. You should see "Reset" in large letters.
+    6. If connecting by USB to a computer, does LinnStrument show up in
+       your computer's system information?
+       If on mac, click Apple menu > About This Mac, then click System
+       Report. In the System Report window, click Hardware > USB at left.
+       You should see "LinnStrument MIDI".
+       If on Windows, open Device Manager. You should see "LinnStrument
+       MIDI" in the list of "Sound, Video and Game Controllers".
+    7. To verify that MIDI messages are arriving at your computer when
+       LinnStrument's surface is played:
+       If on mac, [75]download and install a mac utility called MIDI
+       Monitor. Be sure "LinnStrument MIDI" appears in the Sources section
+       and is checked, then play LinnStrument's surface. You should see
+       the received MIDI messages in the display area.
+       If on Windows, [76]download and install a Windows utility called
+       "MIDI OX". Open it and from the Options menu, select MIDI Devices.
+       This will display a new window where you will should the
+       "LinnStrument MIDI" in the MIDI Inputs panel. Click on it to select
+       it and then click on OK. Then play your LinnStrument and you should
+       see MIDI messages in the main area of the MIDI OX windows.
+    8. If you're using a Mac and have an earlier USB-MIDI Korg driver in
+       your system, it has a bug that prevents LinnStrument from appearing
+       as a MIDI device on your Mac. The solution is to uninstall the
+       current Korg USB-MIDI driver, which you can do by clicking
+       [77]here. (Or delete the driver from 'Macintosh
+       HD>Library>Audio>MIDI Drivers'.) Then reboot your computer and see
+       if that fixes it. If so, then install the latest Korg USB-MIDI
+       driver and verify that LinnStrument still works.
+    9. If you have a MIDI keyboard (either USB output or DIN MIDI output),
+       try connecting it. If it also doesn't work, this suggests something
+       else in your system isn't working or set up properly. For example,
+       you may not have the correct MIDI channel selected in your synth or
+       DAW.
+   10. Reboot your computer.
+   11. Look inside LinnStrument's USB jack. You should see a black plastic
+       rectangular block in the center. If you instead see 4 (or less)
+       gold pins, the USB jack was damaged by a hard cable pull. If so,
+       read the FAQ below "My USB jack appears to be physically damaged.
+       For example, if I look closely into the jack, I see some bent pins.
+       Or it has come loose inside the chassis. What can I do?"
+
+Q: LinnStrument will not accept an OS Update from the LinnStrument Updater
+app. What's wrong?
+
+   A: Try the following:
+    1. Are you using a USB hub? If so, remove it and connect directly to
+       the computer. (USB hubs often don't provide sufficient power.)
+    2. Is LinnStrument sending MIDI over USB? (See FAQ above.)
+    3. Is [Global Settings > Actions column > Update OS] turned on?
+    4. Is LinnStrument showing up in your computer's system information?
+       If on mac, click Apple menu > About This Mac, then click  System
+       Report. In the System Report window, click Hardware > USB at left.
+       You should see "LinnStrument Serial" if [Global Settings > Update
+       OS] is on, or "LinnStrument MIDI" if it is off. (After changing
+       state of Update OS, type Command+R to refresh the window.)
+       If on Windows 10, open Device Manager. Under the "Port (COM & LPT)"
+       category, you should see "USB Serial Device (COM#)".
+    5. Try rebooting your computer.
+    6. Try using a different computer. If you're on Windows, do you have a
+       friend with a mac who would let you try the update from it?
+    7. Look inside LinnStrument's USB jack. You should see a black plastic
+       rectangular block in the center. If you instead see 4 (or less)
+       gold pins, the USB jack was damaged by a hard cable pull. If so,
+       [78]contact me (Roger) to discuss your repair options.
+
+Q: When I slide my finger left or right to bend the pitch, the ending note
+pad of the slide has a different pitch than if I lift my finger and play the
+same destination note pad. What's wrong?
+
+   A: This means that LinnStrument's Bend Range (in Per-Split Settings) is
+   different than the Pitch Bend Range in your synth. They must always be
+   set to the same value or you'll get this problem.
+
+   If you're new to MPE (MIDI Polyphonic Expression), read section 4 of
+   the Getting Started page, or the first section of the Recommended
+   Sounds page. This will help you understand the correct Bend Range
+   setting and other settings when using MPE synths and conventional
+   one-channel synths.
+
+Q: The white playing surface is loose, sometimes lifting slightly. How do I
+fix this?
+
+   A: If you've just received your new LinnStrument from a hot delivery
+   truck, or if the temperature around your LinnStrument is unusually
+   high, its silicone playing surface may expand slightly and become
+   loose, causing it to lift slightly from the flat surface below it.
+
+   This occurs because LinnStrument's large, thin playing surface is made
+   from soft silicone rubber, which expands slightly under heat. To
+   mitigate this expansion, the playing surface is fabricated to be
+   slightly smaller than the correct size, then it is stretched slightly
+   during installation to its correct size. However, under enough heat it
+   can expand enough to result in become loose. It is impossible to
+   prevent such expansion without gluing it down to the touch sensor below
+   it, which I (Roger) feel is unnecessary because the problem is rare and
+   because such gluing would prevent independent replacement of the
+   playing surface and touch sensor.
+
+   The fix is simple: put your LinnStrument in the refrigerator for 20
+   minutes (really!), and the touch surface will shrink back to normal
+   size. Then avoid placing LinnStrument in direct hot sun or near a
+   heater or other source of heat.
+
+   If this doesn't work, you can loosen the top panel screws then
+   re-stretch the playing surface while tightening the screws. To see how
+   to do this, click the "Installing Replacement Parts" link on this page
+   and follow the instructions for "Replacing the top panel or white
+   playing surface", but merely remove and reattach the top panel while
+   stretching the surface.
+
+Q: There is no Y-axis (forward/backward) response in one column or two
+neighboring columns, or one or more note pads in a column doesn't respond.
+Help!
+
+   A: This usually indicates that a panel screw is slightly loose, perhaps
+   due to insufficient tightening after replacing the top panel. This is
+   because the screws also press the sensor’s contacts against the mating
+   contacts on the circuit board. So if too loose, they may not make
+   contact, so Y-axis won’t work on the nearby column. To tighten the
+   panel screws correctly, click the "Installing replacement parts" link
+   at left, then read the section "If a column doesn't produce Y-axis
+   response".
+
+Q: When I connect power, all pads are red (or green or blue), or I see "FWUP"
+in large letters. Help!
+
+   A: If all pads are red when you power on, then the Per-Split Settings
+   buttons is stuck in the pressed state, probably as aresult of high
+   temperatures during shipping or in your environment, causing the
+   silicone playing surface to expand around the 2 nearby screws, thereby
+   forcing this button to stick in the ON state and when powered on, enter
+   LinnStrument's Manufacturing Test Mode. Or if all lights turn green or
+   blue at power-on, this is due to the Preset or Volume buttons also
+   being stuck in the pressed state.
+
+   The solution is to loosen both of these screws nearest the Per-Split
+   Settings button by 1/4 turn and reconnect power. If you see the normal
+   scale lights, you've solved the problem. If not, try another 1/4 turn.
+
+   Or if you see "FWUP" in large letters when you connect power, then one
+   of the 2 panel screws nearest to the GLOBAL SETTINGS button is too
+   tight, forcing this button to stick in the ON state, causing
+   LinnStrument to enter a special FirmWare UPdate mode that is only used
+   during software development. The solution is to loosen both of these
+   screws by 1/4 turn and reconnect power. If you see the normal scale
+   lights, you've solved the problem. If not, try another 1/4 turn.
+
+   You can find more information about correctly tightening the panel
+   screws by clicking the "Installing Replacement Parts" link at left and
+   watching these video chapters:
+
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+
+Q: Sometimes when I play multiple pads, a note will stick on after release.
+This can happen anywhere on the playing surface. Wassup?
+
+   A: The problem may be that your computer or sound generator being
+   overloaded by the large volume of continuous MIDI messages generated by
+   LinnStrument for its expression data. A standard MIDI keyboard sends
+   only two continuous streams-- Pitch Bend (only when the bend wheel is
+   moved) and Channel Pressure (only when turned on and only when keys are
+   pressed hard). By comparison, in LinnStrument's Channel Per Note (MPE)
+   mode, it sends 3 continuous streams (X, Y and Z) for each touch. For
+   example, 10 touches produces 30 continuous and simultaneous MIDI
+   streams. While relatively new computers, DAWs and software synths
+   handle this fine, older computers or software and some hardware sound
+   generators may not.
+
+   Here are a few solutions to try:
+    1. Use the MIDI OUT jack instead of USB, because LinnStrument sends
+       USB MIDI data at 3.7 times the rate of the MIDI OUT Jack. Note that
+       you must set 'Global Settings > MIDI I/O' to MIDI JACKS to do this.
+    2. If using USB output, try reducing the density of sent MIDI
+       messages. Go to [79]the Panel Settings page, Global Settings tab,
+       and search for "USB MIDI Data Reduction".
+    3. If you're using a USB hub, try connecting directly to the
+       computer's USB port because the hub may be limiting the volume of
+       MIDI data. Also, try all of the computer's USB ports because some
+       ports may be given higher priority than others.
+    4. Change 'Per-Split Settings > Loudness/Z' from Poly Pressure to
+       Channel Pressure. This will send only one continuous stream for
+       pressure regardless of how many notes are held.
+    5. If the sound you're using doesn't use Y-axis data, turn it off. Set
+       'Per-Split Settings > Timbre/Y > On' to Off.
+    6. If the sound you're using doesn't use pressure data, turn it off.
+       Set 'Per-Split Settings > Loudness/Z > On' to Off.
+    7. If the sound you're using doesn't use pitch bend data, turn it off.
+       Set 'Per-Split Settings > Pitch/X > On' to Off.
+
+Q: Sometimes when I press hard on one specific note pad on the playing
+surface and release it, the note (and the pad's light) stays on after
+release. Further, pressing one of the adjacent pads around it will often turn
+this stuck note (and the pad's light) off. What's wrong?
+
+   If your LinnStrument recently experienced unusually high humidity or
+   heat, such as transport in a hot and humid shipping truck or being
+   placed near a heater in a humid environment, or your location is
+   experiencing much rain or humidity coupled with temperature changes,
+   airborne humidity can condense into moisture inside LinnStrument's
+   highly sensitive touch sensor as temperature cools. Then if a specific
+   note pad is subsequently played repeatedly, this moisture can result in
+   that note pad sticking in the ON state after release. If so, remove the
+   LinnStrument from any unusual source of heat or humidity, and avoid the
+   problem pad or at least play it lightly, for two weeks. Depending on
+   ambient humidity, the problem should disappear by then as the moisture
+   evaporates. If the problem doesn't correct itself, [80]contact me
+   (Roger) and I can suggest other solutions, including (if under
+   warranty) free exchange of the touch sensor sheet (which senses
+   LinnStrument's entire playing surface) with a new or refurbished sensor
+   of the same design year that meets current specifications. Note that
+   LinnStrument has two 25-gram packets of silica desiccant attached to
+   the inside of the chassis bottom to help absorb any such moisture, but
+   it is difficult to protect LinnStrument's highly-sensitive touch sensor
+   from unusually high levels of humidity and heat.
+
+Q: If I hold 3 note pads that are 3 corners of a rectangle, presses to the
+note pad that is the 4th corner of that rectangle are ignored. What's wrong?
+Q: I can't play more than 3 notes in one column. What's wrong?
+
+   A: I'm sorry to report that these are both fundamental electrical
+   limitations of LinnStrument's touch sensing technology. They are stated
+   on this FAQ page under the Pre-Sales Tab, FAQ "What are the limitations
+   of LinnStrument's sensor technology?". Fortunately, LinnStrument's
+   string-like note layout provides multiple locations for each pitch, so
+   if either of these problems occurs when playing a speicific chord
+   fingering, there is always an alternate fingering that doesn't have
+   this problem.
+
+Q: If I hold 3 note pads that are 3 corners of a rectangle, sometimes the pad
+at the 4th corner will light without pressing, or pressing the 4th pad will
+sometimes cause an adjacent pad to play. What's wrong?
+
+   A: This suggests that your sensor calibration is not accurate, perhaps
+   because the sensor properties have changed slightly due to temperature
+   or humidity. Try calibrating your LinnStrument as described on the
+   [81]Panel Settings page, Global Settings tab, Actions section,
+   Calibrate subsection.
+
+   If this doesn't fix the problem, [82]contact me (Roger) and I'll figure
+   out what's wrong.
+
+Q: My LinnStrument doesn't sit level on a table, but rather rocks on two
+opposite corners. How do I fix this?
+
+   A: LinnStrument's thin sheet metal chassis can be slightly misaligned
+   during shipping or movement. The solution is simple: place your
+   LinnStrument on a flat surface then press down on the two elevated
+   corners. This won't hurt it.
+
+Q: My USB jack appears to be physically damaged. For example, if I look
+closely into the jack, I see some bent pins. Or it has come loose inside the
+chassis. What can I do?
+
+   A: Unfortunately the industry-standard USB jack (USB-B) in LinnStrument
+   was originally designed for stationary computer peripherals like
+   printers or modems, and not for musicians. If you pull hard sideways on
+   a USB cable, it can damage LinnStrument's USB jack, especially if
+   playing LinnStrument in the standing position. Such damage due to a
+   cable pull is unfortunately not covered under your warranty. If your
+   USB jack is damaged, you have three options:
+
+   1) You can have a local electronics repair shop replace the USB jack.
+   This is only possible if you have a LinnStrument 128, or a LinnStrument
+   200 with serial number 700 or higher. (LinnStrument 200 units with
+   serial LNL00699 or lower use a surface-mount USB jack that requires
+   option #2 below.) I (Roger) am happy to coordinate with your repair
+   shop. Don't try this repair yourself unless you are skilled in
+   desoldering multi-pin jacks like the USB jack. The difficulty is in
+   unsoldering all [83]6 pins enough to remove the old jack, which is
+   tricky and if done incorrectly, could damage the traces under the USB
+   jack, requiring replacement of the entire main circuit board, which
+   costs $460 for the large model or $300 for the LinnStrument 128. The
+   USB jack is a TE Connectivity AMP 292304-1, which you can buy [84]here.
+   Or any USB jack with the same industry-standard pin location will work,
+   but the recommended jack is stronger. Or I (Roger) can sell you one of
+   the same USB jacks for my minimum parts charge of $20 + shipping.
+   To do the repair, click the "Installing Replacement Parts" link at
+   left/top and follow the instructions for "Replacing a broken USB jack".
+
+   2) I (Roger) can send you a new circuit board that you can install
+   yourself.
+   You can install the new board yourself in about 30 minutes by following
+   a video, using only a screwdriver. (To see the installation
+   instructions, click "Installing replacement parts" at left/top and read
+   the section "Replacing either the Main (larger) or LED (smaller)
+   circuit board".) Then you will return your circuit board with the
+   damaged USB jack within 30 days. The cost for all LinnStrument 128
+   units, or for LinnStrument 200 units with serial LNL00700 or higher is
+   $100 plus shipping both ways. The cost for LinnStrument 200 units with
+   serial LNL0699 or lower is $200 plus shipping both ways.
+
+   3) We'll do the repair.
+   You can send your LinnStrument 200 or 128 to us and we'll do the repair
+   then send it back fixed. The cost for all LinnStrument 128 units, or
+   for LinnStrument 200 units with serial LNL00700 or higher is $100 plus
+   shipping both ways. The cost for LinnStrument 200 units with serial
+   LNL0699 or lower is $200 plus shipping both ways.
+
+   Even with a broken USB jack, you can probably still play your
+   LinnStrument. If you have the large LinnStrument model, you can use the
+   round MIDI jacks and a power supply. Or if you have LinnStrument 128
+   (without the power jack) and the USB jack is working for power but not
+   data, you can use the USB jack for power and the round MIDI jacks for
+   data.
+
+   In future, damage to the USB jack can be avoided by tying the USB cable
+   around the nearest guitar strap button as a strain relief, as shown at
+   the bottom of the [85]Hooking It Up page. This is a trick that
+   guitarists commonly use to avoid similar damage from pulled guitar
+   cables.
+
+Q: Occasionally all the note pad lights flash unexpectedly. What's wrong?
+
+   A: This indicates that you are powering LinnStrument from an inadequate
+   power source, perhaps an iPad with a non-Apple Lightning adapter or a
+   USB hub that doesn't supply LinnStrument's required 300 mA minimum
+   current. See the Hooking It Up page for more information.
+
+Q: Help! My LinnStrument is dead. No lights are on and it doesn't send any
+MIDI. How can I fix it?
+
+   A: First, verify that LinnStrument is receiving adequate power. Connect
+   your USB cable directly to your computer's USB port or to a USB power
+   adapter. Many of the low-cost, off-brand USB hubs often don't supply
+   LinnStrument's minimum 300 mA of current.
+
+   Second, verify that LinnStrument's USB jack hasn't been damaged by an
+   accidental sideways hard cable pull. Look inside LinnStrument's USB
+   jack. You should see a black plastic rectangular block in the center.
+   If you instead see 4 (or less) gold pins, the USB jack was damaged by a
+   hard cable pull and isn't delivering power. If so, [86]contact me
+   (Roger) to discuss your repair options.
+
+   If the USB jack is OK and unit isn't functioning, then it's likely that
+   you have been powering LinnStrument from an inadequate power source,
+   perhaps an iPad with a non-Apple Lightning adapter or a USB hub that
+   doesn't supply LinnStrument's required 300 mA minimum current. You may
+   have seen its note pad lights flash unexpectedly, an early indication
+   of poor power. In this case, the power has dipped below the required
+   minimum many times during internal writes to flash memory, and
+   eventually LinnStrument was unable to recover. Or you may have tried to
+   update the software while supplying poor power.
+
+   The solution is simple: connect LinnStrument directly to your
+   computer's USB port and update it to the current OS version, using the
+   "Updating Software" link at left/above. It will still accept an OS
+   update in this state and should return the LinnStrument to full
+   function. Once you have completed the OS update, you'll also need to
+   Calibrate your LinnStrument. To learn how to do this, open the Panel
+   Settings page, Global Settings tab, then scroll down near the bottom of
+   the page to the "Actions" section.
+
+   To avoid this problem in future, it is important to provide
+   LinnStrument with adequate power. Click the "Hooking It Up" link at
+   left/above to learn how to insure you are providing adequate power.
+
+Q: There is a very quiet acoustic noise coming from LinnStrument's playing
+surface when I press any note pads. Is this normal?
+
+   A: I’m sorry to say that faint acoustic noise is normal and also cannot
+   be changed. It as a common artifact of high speed electronics,
+   sometimes called “coil whine” or “singing capacitors” and is usually
+   made quieter by enclosing the electronics in a metal chassis or other
+   acoustic damping materials. However, this cannot be done in
+   LinnStrument because the high-speed sensing electronics must be located
+   directly below the playing surface in order to minimize noise signals,
+   and the playing surface cannot be covered with a metal cage or acoustic
+   damping materials because that's where you play. Fortunately, the noise
+   is so quiet that it is easily masked by the sound of the played
+   synthesizer.
+
+Q: I've lost some of my screws. Where can I get replacements?
+
+   A: Yes. They are all avaiable at McMaster.com:
+   1) [87]Top panel screws
+   2) [88]Guitar strap button screws
+   3) [89]Wood side screws
+   4) [90]Wood side washers
+
+Q: Up to half the pads on one end of a single row aren't responding, or only
+respond to touches in a portion of the pad. What's wrong?
+
+   This indicates that one of two connectors to LinnStrument's internal
+   touch sensor sheet has some minor corrosion inside it. The solution is
+   to partially disassemble your LinnStrument and clean the connectors by
+   removing the touch sensor sheet from its 2 connectors, then replacing
+   it back into the same 2 connectors. To do this, click the link on this
+   page for "Installing Replacement Parts" and read the section "Replacing
+   the touch sensor sheet". Follow these instructions except instead of
+   replacing the touch sensor sheet, simply remove then reinstall the same
+   touch sensor sheet. Also, there's no need to do step 7 (calibrating the
+   touch sensor) unless you did a calibration while the problem existed,
+   in which case you should do step 7.
+
+   Note: If the above doesn't solve the problem, don't remove and replace
+   the touch sensor a second time. The reason is that the tiny tail
+   connectors of the touch sensor aren't designed to be removed and
+   replaced many times. If the problem isn't solved, contact me (Roger) at
+   the email shown in the Contact link at the bottom of this page.
+
+   Or...
+
+   if you need a quick temporary fix, you can do an "enhanced reset",
+   which is the same as the Reset command in Global Settings, Actions
+   column, but also resets your sensor calibration data to an average of
+   all sensors, which should temporarily restore the problem pads to
+   working status. Here is how to do the "Enhanced Reset":
+
+   While holding both the GLOBAL SETTINGS and SWITCH 2 buttons, connect
+   USB power. ‍
+
+   This should appear to solve the problem, but your LinnStrument won't be
+   fully accurate until a new sensor calibration (in Global Settings,
+   Actions column) is performed, which isn't possible without the above
+   connector cleaning. Without full accuracy, you will likely experience
+   problems with some notes within a chord not playing, playing wrongly,
+   or nearby pads triggering falsely.
+
+Q: There's something loose that slides around inside my LinnStrument when
+I move it. What's wrong?
+
+   I’m sorry about problem. There are 2 bags of silica desiccant
+   duct-taped to the inside of the chassis to absorb moisture.
+   Unfortunately, for some units of the production batch that included
+   your LinnStrument, the assembler at my factory didn’t adequately press
+   the pieces of duct tape to secure the desiccant bags, so they are
+   sliding around inside the unit. I (Roger) did a quality inspection
+   including a shake test, and my manufacturer did a pre-ship shake test,
+   but apparently for your unit, the poorly-secured tapes came loose
+   during shipping.
+   The solution is fairly simple: disassemble the unit, secure the loose
+   tapes to the desiccant bags, then reassemble it. It should take about
+   30 minutes and requires only a screwdriver. To do this, click the
+   "Installing replacement parts" link at left and read the section
+   "Replacing either the Main (larger) or LED (smaller) circuit board”. In
+   chapter 4 of the video ("Replace one of the two circuit boards"),
+   remove the circuit board and sensor assembly from the chassis to see
+   the unsecured desiccant pages and strips of duct tape inside your
+   chassis. Press hard to secure the bags with the tapes in the positions
+   shown in the photo below. Then continue the instructions to reassemble
+   the LinnStrument.
+
+   Or if you prefer, email me (Roger) at the support address and I'm happy
+   to arrange a day and time for me to step you through the process in a
+   video call.
+
+Q: The lights seem to be flickering. Can this be reduced?
+Q: When I make a video of LinnStrument, the lights flicker. How can I solve
+this?
+
+   LinnStrument has 208 RGB LEDs (equal to 624 individual LEDs) and
+   LinnStrument 128 has 136 RGB LEDs (equal to 408 individual LEDs). This
+   large number of LEDs requires higher power than USB can reliably
+   provide. In order to draw low enough current for USB power,
+   LinnStrument uses high-efficiency RGB LEDs but turns on only one column
+   at a time. In LinnStrument, the lights are turned on for only 1/26 of
+   the time (1/52 in Low Power mode). And for LinnStrument 128, the lights
+   are on only 1/17 of the time (1/34 in Low Power mode). Due to
+   persistence of vision, your eyes see this as continuous light. There
+   are only two levels of brightness: Normal Power and Low Power (dimmed
+   LEDs) modes.
+
+   For some people, this method causes a noticeable light flicker.
+   Unfortunately, because this lighting method is controlled by hardware,
+   it cannot be changed by a software update. A workaround to is to
+   increase the ambient light in your room. This will cause your pupils to
+   contract, effectively dimming the LEDs and making the flicker less
+   noticeable. Also, you'll see less flicker with the single-LED colors
+   red, green and blue. All other colors are derived from mixing these
+   three colors and are more likely for you to perceive flicker.
+
+   Also, videos of LinnStrument can result in noticeable light flickering
+   or pulsing on playback. This is caused by the camera's shutter being
+   open for only a short portion of each video frame, so it can miss the
+   short time that the lights are on. The solution is to increase the
+   Shutter Speed on your video camera to stay open for longer, ideally for
+   the entire frame. This will insure that the camera captures the brief
+   period that the lights are on. For example, when shooting video at 30
+   frames per second, set your shutter speed to as close as possible to
+   the 1/30 second, the full duration of each frame. If your camera
+   doesn't have a Shutter Speed adjustment (as many mobile phone cameras
+   don't), then reduce the light in the room. This will cause the camera
+   to automatically increase the shutter speed in order to capture more
+   light.
+
+Q: The playing surface has become dirty. How do I clean it?
+
+   If LinnStrument's touch surface gets dirty, it's easy to clean.
+
+   For removing small amounts of dust between the pads, a small hand-held
+   vacuum cleaner works well. Or for deeper cleaning between the pads, use
+   a toothbrush with a little soapy water on it, but be careful not to let
+   water seep into the edges under the metal plate.
+
+   For the most thorough cleaning, remove the top panel and the silicone
+   playing surface, then wash it with soapy water, dry it, replace it and
+   reassemble your LinnStrument. To learn how to do this, click the
+   "Installing Replacement Parts" link at left (or above on mobile) and
+   read the section "Replacing the top panel or white playing surface".
+   Follow the instructions for replacing the playing surface, but merely
+   remove, clean and replace the playing surface.
+
+     * [91]About us
+     * [92]Contact US
+     * [93]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  61. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  62. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e694a584b96301ca40a5960_linnstrument-note-layout.svg
+  63. https://www.ableton.com/en/push/
+  64. https://www.simplyduty.com/import-calculator/
+  65. https://www.rogerlinndesignstore.com/Pow-9V-International-p/pow_9v_int.htm
+  66. http://erogenous-tones.com/linnstrument-user-scale-mode/
+  67. http://hpi.zentral.zone/cse
+  68. https://hpi.zentral.zone/ute
+  69. http://benfuhrman.com/linnstrument-edo-mode/
+  70. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  71. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  72. https://www.youtube.com/watch?time_continue=3&v=flKMz9UmqAw
+  73. http://www.audiomodeling.com/
+  74. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  75. https://www.snoize.com/MIDIMonitor/
+  76. http://www.midiox.com/
+  77. https://www.korg.com/us/support/download/driver/1/285/3856/
+  78. mailto:support@rogerlinndesign.com
+  79. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  80. mailto:support@rogerlinndesign.com
+  81. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  82. mailto:support@rogerlinndesign.com
+  83. https://www.dropbox.com/s/zvanay60nj113d9/USB jack 6 pins.jpeg?dl=0
+  84. https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/292304-1/773785?s=N4IgTCBcDaICoFMAEBjA9gOwwlAXAlgG764CeSYAnGAMwAMALALQCMIAugL5A
+  85. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  86. mailto:support@rogerlinndesign.com
+  87. https://www.mcmaster.com/91698A306/
+  88. https://www.mcmaster.com/90258A221/
+  89. https://www.mcmaster.com/95836A339/
+  90. https://www.mcmaster.com/98269A430/
+  91. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  92. https://www.rogerlinndesign.com/about/about-contact
+  93. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  95. https://www.rogerlinndesign.com/
+  96. https://www.rogerlinndesign.com/
+  97. https://www.facebook.com/RogerLinnDesign
+  98. https://www.youtube.com/user/rogerlinndesign
+  99. https://twitter.com/roger_linn
+ 100. https://www.instagram.com/roger.linn/

@@ -1,0 +1,247 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Free Bitwig Studio 8-Track License for all LinnStrument Owners
+
+   Bitwig Studio 8-Track is a very powerful DAW, similar in look and feel
+   to Ableton Live.
+
+   A free license for Bitwig Studio 8-Track is included with every
+   LinnStrument. If you bought direct from my site, it was included in my
+   shipping notification email. If you bought from a dealer or used,
+   register your purchase (under the LinnStrument menu) to get your
+   license.
+
+   Your 8-Track license lasts forever, and if a new version of Bitwig is
+   released, your license entitles you to upgrade to a newer version of
+   8-Track for one year from first activation of your license. If you need
+   to move 8-Track to another computer after the one-year expiration, the
+   original installer for your version can be downloaded from your Bitwig
+   account page. Also, your 8-Track license entitles you to a discount
+   when upgrading to the full Essentials, Producer or Studio versions of
+   Bitwig.
+
+   Once you get your license, go to [60]BItwig's site to download and
+   install the installer, which is the same for all Bitwig Studio
+   versions.
+
+   You will be asked for your Bitwig Studio 8-Track license code, which
+   will be automatically recognized as an 8-Track license and enable
+   Bitwig Studio 8-Track version. If you don't see this prompt, click FILE
+   menu > Show Dashboard, then in the new window that appears, click the
+   License Info button to enter your license code.
+
+   Then do the following:
+
+   ‍
+
+   1) Connect LinnStrument to your computer via USB, then start Bitwig.
+
+   Whenever you start Bitwig while LinnStrument is connected, or connect
+   LinnStrument while Bitwig is running, Bitwig will automatically set
+   LinnStrument's Per-Split Settings for MPE use:
+
+   MIDI Mode = Channel Per Note
+   Bend Range = 48
+   Timbre/Y = CC74
+   Loudness/Z = Channel Pressure
+
+   Alternately, you can turn off this automatic changing of LinnStrument's
+   settings from Bitwig. To do this, open Bitwig's Settings > Controllers
+   screen and turn off "Send Initialization Settings", and set the Pitch
+   Bend Range for LinnStrument to "48", which is the MPE standard and the
+   default value for MPE play in LinnStrument version 2.2.2 software.
+   Finally, in LinnStrument's Per-Split Settings screen, MIDI Mode column,
+   HOLD "ChPerNt". It will turn blue, indicating that it has set the
+   above-listed settings as shown.
+
+   ‍2) Load an MPE sound. To load an MPE sound from one of Bitwig's
+   internal instruments, follow the 3 steps shown in the picture below.
+
+   Note: when using one of Bitwig's internal synths, open the synth's
+   Device Inspector panel and deselect "Steal Same Key". This will permit
+   independent play of two or more LinnStrument pads of the same pitch.
+   ...or...
+   To load a third-party MPE plug-in synth, load your desired MPE synth
+   onto an instrument track, then in the "Device Inspector" at left, turn
+   on the "MPE" button and set "PB Range" to be equal to your synth's
+   Pitch Bend Range:
+
+   For both internal Bitwig synths or 3rd party synths, it's important to
+   select "Same" in the Instrument track's inspector, which will insure
+   that the track plays back using the same channels as sent from
+   LinnStrument. This insures that a) 2 pads of the same pitch will retain
+   full independence, and b) when using Channel Per Row mode, notes will
+   play back on the same rows as performed:
+
+How Bitwig handles Pitch Bend data
+
+   Here's more information about why Bitwig has separate Pitch Bend Range
+   settings for the Controller (LinnStrument) and each plug-in synth:
+   a) Internally, Bitwig stores pitch bend data as real musical pitches,
+   not simply as arbitrary Pitch Bend amounts as all other DAWs do. This
+   provides the big advantage of permitting you to edit each note's pitch
+   bend value in real musical pitches, which is much more musically
+   useful. To accomplish this, it must know LinnStrument's Bend Range.
+   b) Some MPE synths use a different Bend Range than LinnStrument's
+   default 24. By having different Bend Range settings for LinnStrunent
+   and each pllug-in MPE synth, you don't need to change LinnStrument's
+   Bend Range to match each MPE synth's specific Bend Range.
+   So, incoming Pitch Bend data is converted to real pitches (using the
+   Controller's PItch Bend Range setting) and stored in the sequence as
+   real pitches. Then on playback, the real pitches are converted back to
+   Pitch Bend data (using the plug-in's PB Range setting) for use by the
+   plug-in synth. Brilliant!
+
+Using Bitwig's Polysynth with LinnStrument
+
+   This information was provided by LinnStrument user Material Object:
+   1. With the Linnstrument already connected to your computer, create an
+   instance of the POLYSYNTH instrument that comes with Bitwig
+   2. Ensure that the Linnstrument is controlling the instance of
+   POLYSYNTH as it should be by default
+   3. Click the top PLUS button, immediately to the right of the orange
+   ‘power’ icon of the Polysynth to open the Modulators Menu
+   4. Add the ‘Expressions’ Modulators
+   5. Add / Edit the specific modulations you want by clicking on one of
+   the 4 Green labels VEL / TIMB / REL / PRES and then adjusting a
+   parameter on the Polysynth. More information on these modulators can be
+   found in this video:
+   [61]https://www.youtube.com/watch?v=WbJKjwwEIGk
+
+     * [62]About us
+     * [63]Contact US
+     * [64]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.bitwig.com/download/
+  61. https://www.youtube.com/watch?v=WbJKjwwEIGk
+  62. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  63. https://www.rogerlinndesign.com/about/about-contact
+  64. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  66. https://www.rogerlinndesign.com/
+  67. https://www.dropbox.com/sh/1jhl3k8s1iuy8xr/AADsWjjrpAnE9sT9eKH0nDtua?dl=0
+  68. https://www.dropbox.com/sh/1jhl3k8s1iuy8xr/AADsWjjrpAnE9sT9eKH0nDtua?dl=0
+  69. https://www.rogerlinndesign.com/
+  70. https://www.facebook.com/RogerLinnDesign
+  71. https://www.youtube.com/user/rogerlinndesign
+  72. https://twitter.com/roger_linn
+  73. https://www.instagram.com/roger.linn/

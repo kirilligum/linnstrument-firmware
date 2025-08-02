@@ -1,0 +1,622 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn I, II, & III Repair Needs
+
+Read This First
+
+   If you think your unit needs repair, in nearly all cases we can send
+   you a user-replaceable part or board that will allow you to fix it
+   yourself. The first thing to do is read the Possible Repair Problems
+   and Solutions section below to see if it's a simple fix. Then contact
+   us at support@rogerlinndesign.com with 1) your serial number and 2) a
+   clear description of the exact problem, and we'll help you figure out
+   whether it's in warranty and if not, what's the fastest and cheapest
+   way to fix it.
+
+   If any of the problems listed below require parts, you can either buy
+   them from us (minimum parts charge $20) or in many cases (as described
+   below) buy them much cheaper from www.digikey.com. After looking below,
+   if you need further help, answers or need to order parts, contact us at
+   [39]support@rogerlinndesign.com.
+
+   For the cases where it would be cheaper to have your circuit board
+   repaired that replaced, our only authorized service center is
+   www.vstservice.com in Los Angeles.
+
+   ‍
+
+Repair Links
+
+   [40]Board Change / General Disassembly Instructions
+
+   [41]Chip Change Instructions
+
+   [42]Schematic (units with Phones jack)
+
+   [43]Schematic (units without Phones jack)
+
+   ‍
+
+Possible Repair Problems and Solutions
+
+   As reliable as AdrenaLinn I, II and III are, some problems have
+   occurred. Here are some of the problems we've seen along with suggested
+   solutions.
+
+   ‍
+
+   ‍If the unit doesn’t function, but shows “dSP” a few seconds after
+   powering on:
+
+   In most cases, this means that the smaller of the two plug-in chips on
+   the circuit board has failed and needs to be replaced. Why? The “dSP”
+   error occurs as a result of repeated static electrical shocks arriving
+   at the input, or ground voltage differences between AdrenaLinn’s output
+   and what it is connected to, occurring repeatedly over years. Each
+   occurrence can possibly corrupt a byte of the small chip’s memory,
+   which is a flash memory holding the drum sounds, presets and drumbeats,
+   and the program that the internal Digital Signal Processing computer
+   runs, the latter cussing the “dSP” error. The fault is in my (Roger's)
+   design not adequately protecting against the unusual electrical
+   problems that occur more often for pedals due to use with old amps,
+   poor nightclub electrical wiring, and connecting multiple devices with
+   multiple power sources. Here's what to do to fix it:
+
+   If you have AdrenaLinn III running version 3.0.3 software, [44]replace
+   only the small v303 chip.
+
+   If you have AdrenaLinn III running version 3.0.2 software or earlier
+   (or you don't know), [45]replace both chips with new v303 chips.
+
+   If you have AdrenaLinn II, [46]replace both chips with current version
+   2.1.2 chips.
+
+   If you have AdrenaLinn I, [47]replace both chips with current version
+   1.5/1.6 chips.
+
+   The [48]chip replacement procedure is simple and you can do it
+   yourself. If you have an AdrenaLinn III and are still under
+   [49]warranty, [50]contact me (Roger) and I'll send you replacement
+   chips for free.
+
+   It's also possible in an older unit that the pins on the smaller of the
+   two plug-in chips aren't making good contact with the socket, and often
+   placing a small 1/16 inch spacer under the chip causes it to make
+   better contact. To do this, use our [51]Chip Change Instructions as a
+   guide. Start by removing the smaller chip. (Instead of the chip removal
+   tool shown in the instructions, you can use a pushpin or the unfolded
+   end of a paper clip.) For the needed spacer, a cutout from the
+   cardboard back of a pad of paper works well. Place the spacer into the
+   bottom of the socket, then reinsert the chip into the socket on top of
+   the spacer. Connect power and try it out to see if this fixed it.
+
+   ‍
+
+   If the panel lights appear to work correctly, the outputs produce some
+   sound, and turning any knob or pressing any button produces a change in
+   the lights, but you think something is wrong
+
+   There's a good chance that nothing's wrong but you may have
+   accidentally changed a setting and don't know how to change it back. If
+   you don't mind losing any presets or drumbeats you've created, try
+   initializing your unit to factory-new status: while holding both foot
+   switches, connect power, then continue to hold both for about three
+   seconds until the display shows 'ini', then release.
+
+   ‍
+
+   ‍‍If your unit is working OK but you think a specific features isn't
+   working correctly
+
+   Your unit may be running an early software version that contained some
+   bugs. Check the Support page for your model (AdrenaLinn, AdrenaLinn II
+   or AdrenaLinn III) and click the Software Versions button to learn if
+   you have the latest version and how to update.
+
+   ‍
+
+   ‍‍If the panel lights appear random when power is connected
+
+   This usually means that the internal computers are not starting
+   correctly. In an older unit, this may be due to the 2 internal plug-in
+   chips not making good contact with their sockets. To clean the sockets,
+   use our [52]Chip Change Instructions to disassemble your AdrenaLinn,
+   then simply remove and reinsert the 2 plug-in chips. (Instead of the
+   chip removal tool shown in the instructions, you can use a pushpin or
+   the unfolded end of a paper clip.) Removing and reinserting the chips
+   will clean the pins on the chip and socket and may fix the problem.
+   Also, sometimes the smaller of the two plug-in chips isn't making good
+   contact with the socket, and placing a small 1/16 inch spacer (for
+   example, a piece of thin cardboard) under the chip may cause it to make
+   better contact.
+
+   If the above doesn't work, it is possible that one or both of the 2
+   plug-in chips has failed. You can order a new set of chips for your
+   AdrenaLinn model from our online store.
+
+   If neither of the above fixes the problem, this usually indicates a
+   fault in the circuit board. It is more expensive to repair the circuit
+   board than to purchase a new circuit board from us, which costs $200
+   and replaces all internal electronics except the 2 plug-in chips. In
+   that case, [53]contact us about obtaining a new circuit board.
+
+   ‍
+
+   ‍‍If the unit sometimes stops outputting all sound, fixed only by power
+   off and on:
+
+   This seems to be due to early AdrenaLinn units being more sensitive to
+   high static electricity shocks than we'd prefer. At this time the only
+   solution is to--during periods of high static electricity--insultate
+   the two foot switches with tape and use audio cables with insulated
+   jacks instead of metal ones. Sorry we don't yet have a better answer.
+
+   ‍
+
+   ‍‍If one of the rotary encoders doesn't function, or only increments or
+   only decrements :
+
+   Turning any rotary encoder should cause the 3-digit display to change
+   (in most operation modes). To test, press MAIN, then turn the encoder
+   in both directions. It should decrement the display value when turned
+   left and increment it when turned right. If it only increments in both
+   directions or only decrements in both directions, or does nothing, the
+   rotary encoder is faulty and needs replacement. Please contact us to
+   arrange for repair at your nearest service center.
+
+   Or if you are familiar with soldering electronics and would like to
+   replace it yourself, you can either buy the part from us ($20 minimum
+   parts charge) or buy the same part (a Bourns PEC12R-4217F-N0024) for
+   around $1 from www.digikey.com. To replace it, you'll need a soldering
+   iron, Desoldering Pump (usually around $10), long-nose pliers and
+   diagonal cutters. Here are the steps:
+
+   1) Using the diagonal cutters, cut the 5 pins that hold the faulty
+   encoder to the board and discard it. (Don't try to unsolder the
+   encoder's 5 pins at once; you won't be able to keep them all hot at the
+   same time.)
+
+   2) Remove each of the 5 cut pins from the board one at a time by
+   heating it and using long-nose pliers to gently pull it out. (Don't
+   pull hard as you may damage a circuit board trace, making the entire
+   board useless.)
+
+   3) Using the desoldering pump, suck all solder out of the 5 holes.
+
+   4) Place the new encoder into the 5 holes and, pressing it flush to the
+   board, solder all 5 pins.
+
+   ‍
+
+   ‍If any audio jack is loose or starts/stops working when wiggled:
+
+   This is usually caused by a hard cable pull, and usually happens to the
+   Input jack as a result of a hard pull on guitar cable. To fix it,
+   you'll need to replace the audio jack.  Please contact us to find your
+   nearest service center.
+
+   Or if have a local service center you like or you are familiar with
+   soldering electronics and would like to replace it yourself, you can
+   try it but this is a difficult repair because the jack is secured by 4
+   soldered pins that are close to other small components, so it's easy to
+   damage the board or these other small parts if not done correctly. If
+   you wish to attempt to replace the jack yourself, you can buy a
+   replacement jack from us ($20 minimum parts charge). Please specify
+   whether your unit has a Phones jack or not because different audio
+   jacks are used. To replace the jack, you'll need a soldering iron and
+   Desoldering Pump (usually around $20). Here are the steps:
+
+   1) Using the soldering iron and desoldering tool, remove the solder
+   from the jack's 4 mounting pins. Using low-temp solder is helpful
+   because it stays molten longer and therefore allow you to keep all 4
+   pins molten and more easily remove the jack.
+
+   2) Remove the damaged jack. (If it doesn't come out easy, don't pull
+   the jack hard as you may damage a circuit board trace, making the
+   entire board useless.)
+
+   3) Place the new jack into the 4 mounting holes and, pressing it flush
+   to the board, solder all 4 pins.
+
+   ‍
+
+   ‍If no panel lights turn on and nothing is heard in outputs when power
+   is connected, or if you connected the wrong power supply and think you
+   may have damaged your unit:
+
+   First, if you're not using the included AdrenaLinn power supply, check
+   your supply to see if it meets AdrenaLinn III's power requirements: 9
+   volts DC, at least 500 milliamps, and the round connector at the
+   AdrenaLinn side must fit correctly and the center conductor MUST be
+   positive, not negative like Roland power supplies. (Connecting a
+   center-negative supply like those from Roland will likely damage your
+   AdrenaLinn.)
+
+   Next, test the power supply to see if it's working, putting out
+   approximately 9 volts DC. If you don't have a voltmeter, here's a
+   simple test: touch the end of the round connector to your tongue. If
+   it's working, you should feel a mild shock, just as if you touched a 9
+   volt battery to your tongue.
+
+   If your power supply is working and your AdrenaLinn shows no lights
+   when power is connected, this usually means that you accidentally
+   connected the wrong power supply, which damaged one or more of
+   AdrenaLinn's power components. To verify this, [54]disassemble the unit
+   and remove the circuit board, then check the area near the power
+   connector but on the opposite side of the board. Do any of the small
+   parts appear burnt? [55]Here's a photo of how the board should appear.
+   Usually, one of the following parts will be damaged:
+
+   SD1: [56]Diodes Inc. part# "SMBJ12A-13-F" (zener TVS, unidirl 12 volt
+   600W)
+
+   D23: [57]ONSEMI part# "SS34" (Schottky diode 40V 3A SMC)
+
+   FB12 or FB13: Cal Chip part# "[58]FBH321611T-101Y-S" (ferrite bead 3A
+   100 ohm size 1206)
+
+   If you do see damage, then your AdrenaLinn needs repair. Please
+   [59]contact me (Roger) to arrange for repair at your nearest service
+   center.
+
+   Or if are familiar with soldering electronics (or have a local service
+   center you like) and would like to save some money, you can buy the
+   parts from www.digikey.com using the links above and install them
+   yourself. Or you can either [60]contact me (Roger) to buy the parts for
+   my minimum parts charge of $20 plus shipping.
+
+   ‍
+
+   ‍If the INPUT LEVEL potentiometer feels loose and spins freely:
+
+   Turning the INPUT LEVEL control with an input signal source connected
+   should change its volume at the output. However, if it feels loose and
+   spins for multiple turns, the black shaft has probably broken off,
+   leaving a small plastic piece in the center hole of the pot. Please
+   contact us to arrange for repair at your nearest service center.
+
+   Or, if are familiar with soldering electronics (or have a local service
+   center you like), you can repair it yourself:
+
+   1) Contact us to order a new "Input level pot shaft" (minimum parts
+   charge $20). When you receive it:
+
+   2) Disassemble the unit (using the "general disassembly instructions"
+   above) and remove the circuit board from the chassis. The black plastic
+   shaft will probably fall out of the chassis and you will see the small
+   broken-off black plastic piece stuck in the center hole of the pot.
+
+   3) Notice that the pot has 3 pins-- 2 close to the 3-digit display and
+   a third pin closer to the rear-panel jacks. Unsolder this third pin
+   (which will probably require a desoldering pump) then tilt the pot up
+   on its 2 remaining pins so that it stands perpenticular to the board.
+
+   4) Using a pin or paper clip, push it through the rear of the pot's
+   center hole in order to push the broken-off piece out through the
+   front.
+
+   5) Bend the pot back to its original position and solder the pin back
+   in place.
+
+   6) Push the new "input level pot shaft" into the pot's center hole.
+   Test to insure that it moves only the normal range of the pot.
+
+   7) Reassemble the unit.
+
+   ‍
+
+   ‍If one of the four small black buttons doesn't move freely or doesn't
+   produce a firm click when pressed
+
+   It is likely that the front panel label was attached to the chassis
+   with poor alignment, probably when our AdrenaLinn II or III upgrade kit
+   was installed. To test this, disassemble the unit and remove the
+   circuit board, then press the same button. If it moves freely now, then
+   the fault is the label alignment. To fix it, carefully remove the front
+   panel label and reattach it as described in the AdrenaLinn III Upgrade
+   Kit Installation Instructions.
+
+   ‍
+
+   ‍If one of the four small black buttons moves freely and produces a
+   firm click, but produces no response when pressed
+
+   To test the MAIN, UP ARROW and DOWN ARROW buttons, alternately press
+   MAIN or UP ARROW, then alternately press MAIN and DOWN ARROW. Each
+   press should cause a change in the panel lights. To test the SEQUENCER
+   button, repeatedly press the DOWN ARROW button until the DRUMS row is
+   lit, then repeatedly press SEQUENCER. Each press of SEQUENCER should
+   cause a change in the panel lights. If not, then the button is faulty
+   and needs to be replaced. Please contact us to arrange for repair at
+   your nearest service center.
+
+   Or if are familiar with soldering electronics (or have a local service
+   center you like), please contact us to order the replacement switch
+   (minimum parts charge $20) and do the simple installation yourself.
+
+   ‍
+
+   ‍If you suspect a faulty foot switch:
+
+   Pressing the 2 foot switches should change the status of the lights
+   near each switch. It is possible to set certain parameters so that this
+   does not happen, so if either light doesn’t change, con‍tact us and
+   we’ll tell you how to verify that it's broken or working, and if
+   necessary, how to get it repaired.
+
+   ‍
+
+   If the PHONES output produces loud static noise but the stereo outputs
+   sound OK:
+
+   Before approximately serial number A08250, we had a circuit design
+   error that could cause this problem, though rarely. Please contact us
+   to arrange for repair at your nearest service center.
+
+   Or if are familiar with soldering electronics (or have a local service
+   center you like), disassemble the unit and solder a jumper wire as
+   shown in [61]this photo.
+
+   ‍
+
+AdrenaLinn I, II and III Hardware Differences
+
+   There are 3 AdrenaLinn models: AdrenaLinn, AdrenaLinn II and AdrenaLinn
+   III. The hardware for all models is nearly identical, containing a
+   single circuit board with all components, mounted in a metal chassis
+   with an adhesive front panel label. There are 2 versions of the circuit
+   board:
+
+   1) Serial numbers up to A02199: these units contain a circuit board
+   with no Phones output.
+
+   2) Serial numbers A02200 and above:: these units contain a circuit
+   board that is identical to the original board but with 1) a phones
+   output and phones amp added, and 2) different 1/4" jacks with no panel
+   nuts.
+
+   Because the two circuit boards are identical except for the Phone
+   jack/amp, any hardware repair issues are nearly the same for all three
+   products.
+
+   The different models are:
+
+   ‍
+
+   ‍Serial numbers A00001 to A02199:
+
+   These units were originally released as “AdrenaLinn” (original model)
+   units and have the circuit board without headphone jack and an indigo
+   blue chassis without a headphone jack hole.  Many of these units have
+   been converted to AdrenaLinn II or AdrenaLinn III by with our
+   “AdrenaLinn II (or III) Upgrade Kit”.
+
+   ‍
+
+   ‍Serial numbers A02200 to A05722:
+
+   These units were originally released as “AdrenaLinn” (original model)
+   units and have the circuit board with headphone jack and an indigo blue
+   chassis containing a hole for the headphone jack.  Many of these units
+   have been converted to AdrenaLinn II or AdrenaLinn III by with our
+   “AdrenaLinn II (or III) Upgrade Kit”.
+
+   ‍
+
+   ‍Serial numbers A05723 to approximately A08250:
+
+   These units were originally released as “AdrenaLinn II” and have the
+   circuit board with headphone jack but with a black chassis containing a
+   hole for the headphone jack.  However, many of these units have been
+   converted to AdrenaLinn III by our “AdrenaLinn III Upgrade Kit”.
+
+   ‍
+
+   ‍Serial numbers from approximately A08250 and above:
+
+   These units were originally released as “AdrenaLinn III” and have the
+   circuit board with headphone jack but with a black chassis containing a
+   hole for the headphone jack.
+
+   ‍
+
+AdrenaLinn I, II and III Circuit Description
+
+   This description is not necessary for simple repairs, but provided for
+   those who want to know more about the circuit operation in order to
+   attempt a more complex repair. It references the AdrenaLinn circuit
+   board schematics, which can be download above. Note that AdrenaLinn I,
+   II and III all use one of two circuit boards as described above.
+
+   The AdrenaLinn processes audio entirely digitally. The only analog
+   circuitry is the mono input preamp and stereo output amplifier. Here is
+   a general description of the schematic.
+
+   The instrument signal comes in through the INPUT jack and is amplified
+   by op amp U1 (page 1). The gain of the input op amp is set by
+   potentiometer VR1. Circuit boards with no headphone jack contain
+   high-frequency pre-emphasis in the feedback of U1; boards with
+   headphones do not. The output of U1 goes to the CODEC U2 (page 1), a
+   Crystal CS4224-KS. This CODEC uses 24-bit conversion and runs
+   internally at 40 kHz, set by the 15.36 mHz crystal Y1.
+
+   The digital output of the codec’s A/D converter is passed serially to
+   the DSP processor U8 (page 2), an Analog Devices ADSP-2186 running
+   internally at 77.8 mHz from ½ speed clock supplied by U5, a 38.868 mHz
+   clock generator. All sound processing and sound generation is done in
+   the DSP processor.
+
+   The microcontroller U14 (page 2), a Microchip PIC16F877 in AdrenaLinn
+   or PIC18F452 in AdrenaLinn II and III, performs all functions except
+   sound processing, including scanning of the 4 rotary encoders (ENC1-4
+   on page 3), updating LED displays (page 3), sequencer timing, general
+   system functions, user data saving and loading, MIDI processing (page
+   3), etc. The microcontroller runs at 15.36 mHz, set by the same crystal
+   that clocks the codec. The microcontroller communicates
+   bi-directionally with the DSP processor, primarily sending commands and
+   data about when and how to process the sound. The software for this
+   processor is stored in the chip’s on-board flash memory. Updating this
+   software in all AdrenaLinn models requires changing the chip or
+   updating over MIDI.
+
+   Except for 6 of the discrete LEDs, all other LEDs are driven by the
+   Micrel MM5450BV (U4 on page 3), an LED driver chip with serial input
+   (from the microcontroller) and 37 latched LED driver outputs.
+
+   The flash memory chip in U11, a Solid State Technology SST39VF020-90
+   4C-NH (AdrenaLinn) or SST39VF040-70 (AdrenaLinn II and III), is
+   connected to the DSP and holds all drum samples, factory and user
+   preset and drumbeat data, and the DSP operating software. On power-up,
+   the DSP processor automatically loads the DSP operating system from
+   this flash memory chip into its onboard program RAM.
+
+   The DSP processor sends its stereo output serially to the codec U2
+   (page 1), where it is converted to analog signals and buffered by the
+   op amp U3 (page 1).
+
+   If no plug is inserted into the right output jack, both left and right
+   output signals are mixed in the left output. The sensing of whether the
+   right jack is inserted is performed differently in “no headphone” than
+   “With headphones” circuit boards:
+
+   For “no headphones” circuit boards:
+
+   Mounted on the RIGHT OUTPUT jack are an infrared LED, D24, and infrared
+   sensor, Q1 (both on page 2). If the jack is not inserted, the light
+   from the LED is passed to the receiver, sending a digital ‘low’ signal
+   to the input pin 27 of the DSP, causing the DSP to mix both stereo
+   outputs to mono in the left output. However, if a jack is inserted the
+   infrared light is not received, sending a digital high signal to the
+   DSP pin and causing the DSP to send normal stereo output signals.
+
+   ‍For “with headphones” circuit boards:
+
+   If no plug is inserted in the right output jack, the jack’s tip
+   connects to its ring, mixing the right output signal (buffered by U3C)
+   with the left in U3B.
+
+   The AdrenaLinn receives its power from a wall-mounted unregulated DC
+   power supply of 9 volts DC, though early AdrenaLinn units shipped with
+   a 7.5 volt supply.. Internally, three DC voltages are derived from the
+   external power as shown on page 1 of the schematic:
+
+   +5v: Used for all logic and analog audio, except as follows:
+
+   +3.3v: Used by DSP, CODEC and flash memory chip, and LEDs
+
+   +2.5v: Used by DSP
+
+     * [62]About us
+     * [63]Contact US
+     * [64]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. mailto:support@rogerlinndesign.com
+  40. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/60918c7c68c162e76f1e5348_AdrenaLinn_circuit_board_change_instructions.jpg
+  41. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695ae661781047eb403a3a_adrenalinn_chip_change_instructions.jpg
+  42. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695b55e285ba3d2c6c333b_adrenalinn_i,_ii_or_iii_schematic_(with_headphones).pdf
+  43. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695b546178104655403eda_adrenalinn_i,_ii_or_iii_schematic_(no_headphones).pdf
+  44. http://www.rogerlinndesignstore.com/product-p/adr_v303_sml_chp.htm
+  45. https://www.rogerlinndesignstore.com/ADR-v3-x-p/adr_v303.htm
+  46. http://www.rogerlinndesignstore.com/ADR-v2-x-p/adr_v2_x.htm
+  47. http://www.rogerlinndesignstore.com/ADR-v1-x-p/adr_v1_x.htm
+  48. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695ae661781047eb403a3a_adrenalinn_chip_change_instructions.jpg
+  49. http://www.rogerlinndesign.com/a3-pre-sales-faq.html
+  50. mailto:support@rogerlinndesign.com
+  51. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695ae661781047eb403a3a_adrenalinn_chip_change_instructions.jpg
+  52. http://www.rogerlinndesign.com/assets/adrenalinn_chip_change_instructions.jpg
+  53. mailto:support@rogerlinndesign.com
+  54. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e68435e76612c1f412b2055_adrenalinn_circuit_board_change_instructions.jpg
+  55. https://www.dropbox.com/s/mgvtzndv8iilxwr/adrenalinn_iii_circuit-board_upper_right_corner.jpg?dl=0
+  56. https://www.digikey.com/en/products/detail/diodes-incorporated/SMBJ12A-13-F/816050
+  57. https://www.digikey.com/en/products/detail/onsemi/SS34/2094459
+  58. https://www.digikey.com/en/products/detail/cal-chip-electronics-inc/FBH321611T-101Y-S/14555355
+  59. mailto:support@rogerlinndesign.com
+  60. mailto:support@rogerlinndesign.com
+  61. https://www.dropbox.com/s/eujdsm92w3s5rqr/Phones noise fix.png?dl=0
+  62. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  63. https://www.rogerlinndesign.com/about/about-contact
+  64. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  66. https://www.rogerlinndesign.com/
+  67. https://www.rogerlinndesign.com/
+  68. https://www.facebook.com/RogerLinnDesign
+  69. https://www.youtube.com/user/rogerlinndesign
+  70. https://twitter.com/roger_linn
+  71. https://www.instagram.com/roger.linn/

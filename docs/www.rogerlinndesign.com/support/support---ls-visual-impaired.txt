@@ -1,0 +1,202 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+For Visually Impaired Users
+
+   I (Roger) have created an Excel spreadsheet of LinnStrument's settings
+   intended for visually impaired LinnStrument players.
+   Click [60]here to download the spreadsheet.
+   Here's an overview of how the spreadsheet is set up:
+   The spreadsheet contains five tabs, one each for Per-Split Settings,
+   Preset, Volume, Octave/Transpose and Global Settings buttons, all of
+   which change the functions of the play pads to display or change
+   specific settings. There are no tabs for the Switch 1, Switch 2, and
+   Split buttons because the play pads keep their normal play function
+   regardless of whether these buttons are on or off.
+   The Per-Split Settings tab shows the alternate functions of the play
+   pads when the Per-Split Settings button is pressed. The leftmost
+   spreadsheet column has 2 blank cells at the top, followed by "Row 1"
+   through "Row 8", indicating the row number of the play pads. The second
+   spreadsheet column has 2 blank cells at the top, followed by the 8
+   names of the 8 control buttons on the left side of the playing surface
+   and a brief description of each. The remaining spreadsheet columns have
+   "Column 1" through "Column 25" in the cells of the top row, indicating
+   the number of the pad column. The second pad row contains the
+   functional titles of the each of the "Per-Split Settings" columns, and
+   pad rows 1 through 4 contain the alternate Per-Split Settings functions
+   of these play pads. Note that pressing the top pad in column 15
+   displays/edits the settings for the Left keyboard split (default) in
+   pad columns 1 through 14, and pressing the top pad in column 16
+   displays/edits the settings for the Right keyboard split in pad columns
+   1 through 14.
+   The Preset, Volume and Octave/Transpose tabs are similar to the
+   Per-Split Settings tab. For each of them, the left spreadsheet column
+   contains a blank cell at the top, followed by "Row 1" through "Row 8",
+   indicating the number of the pad row. The second spreadsheet column has
+   one blank cell at the top, followed by the names of the 8 control
+   buttons and a brief description of each. The remaining spreadsheet
+   columns show "Column 1" through "Column 25" at the top cell of the
+   column, indicating the column number of the play pads, and the few pads
+   that have alternate functions in these tabs are described in the
+   relevant cell's text. Note that pressing the top pad in pad column 15
+   displays/edits the settings for the Left keyboard split in pad columns
+   1 through 14, and pressing the top pad in pad column 16 displays/edits
+   the settings for the Right keyboard split in pad columns 1 through 14
+   The Global Settings tab is similar to the Per-Split Settings tab,
+   showing the alternate functions of the play pads when the Global
+   Settings button is pressed. The leftmost column has one blank cell at
+   the top, followed by "Row 1" through "Row 8", indicating the row number
+   of the play pads. The second spreadsheet column has one blank cell at
+   the top, followed by the 8 names of the 8 control buttons on the left
+   side of the playing surface and a brief description of each. The
+   remaining spreadsheet columns have "Column 1" through "Column 25" at
+   the top cell of column, indicating the column number of the play pads.
+   Pad rows 5 through 8 contain the alternate Global Settings functions.
+   There is an added bottom row that contains the functional titles of the
+   each of the "Global Settings" columns, just as these titles are printed
+   below the playing surface on LinnStrument.
+   Note that all tabs contain 25 columns of pads, but the smaller
+   LinnStrument 128 has only 16 columns of pads and therefore uses only
+   the leftmost 16 pad columns shown in the tabs. The above-described
+   settings are in the same locations for both models, except for the Step
+   Sequencer Settings on the right side of the Per-Split Settings screen,
+   which are complex and described only briefly.
+   ‍
+   Thanks to George Bitzer for his kind help with this spreadsheet.
+   - Roger
+   ‍
+   ‍
+
+     * [61]About us
+     * [62]Contact US
+     * [63]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/65f4c763da1062dd28781575_LinnStrument Settings Spreadsheet for the Visually Impaired.xlsx
+  61. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  62. https://www.rogerlinndesign.com/about/about-contact
+  63. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  65. https://www.rogerlinndesign.com/
+  66. https://www.rogerlinndesign.com/
+  67. https://www.facebook.com/RogerLinnDesign
+  68. https://www.youtube.com/user/rogerlinndesign
+  69. https://twitter.com/roger_linn
+  70. https://www.instagram.com/roger.linn/

@@ -1,0 +1,186 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+MPC60 Version 3.10 Software
+
+   [19]3.10 Support Page
+   [20]3.10 Product Page (still available)
+   [21]3.10 Manual
+   [22]Install Sheet
+   [23]FAQs
+   ‍
+
+Version 3.10 Software Upgrade For Akai MPC60 & MPC60 II
+
+‍
+[24]Buy now: $195
+
+   Do you have an Akai MPC60 or MPC60-II with the original version 2.12
+   software? Our version 3.10 software update adds the software
+   improvements of the MPC3000 to the MPC60 or MPC60-II. It comes on 4
+   chips that you can install yourself and adds lots of useful features.
+
+   Sampling No Longer Limited to 5 Seconds
+
+   The 5 second limit for new samples is gone, allowing you to sample
+   individual sounds up to the limits of memory (13 or 26 seconds,
+   depending on whether or not your MPC60 contains memory expansion.) And
+   sequence memory is no longer erased before sampling.
+
+   Stereo Sampling
+
+   Version 3.10 won't put a stereo sampling input on the back of your
+   MPC60, but it does provide a method of creating stereo samples. Simply
+   sample the left and right sides of a stereo sound separately as mono
+   sounds, then a new screen in the software automatically re-syncs and
+   combines them to form the stereo sound.
+
+   MIDI File Save and Load
+
+   Load standard PC-format MIDI file disks or save sequences as MIDI
+   files. Move sequences between your MPC and PC or Mac sequencers.
+
+   Note: this requires that you download our Midi File Save utility, save
+   it to an MPC60 floppy then boot your MPC60 from it.
+
+   Reads All MPC3000 Files Including Stereo Sounds
+
+   Reads all MPC3000 files, including mono or stereo sounds (saved to
+   MPC60 floppies) and directly reads MPC3000 hard disks (MPC-SCSI
+   required). Reads all MPC60 files.
+
+   Sound Compression Doubles Sound Memory
+
+   This features resamples existing sounds in memory from the normal 40
+   kHz to 20 kHz, thereby fitting into half the memory space. This works
+   surprisingly well for most sounds (not so well for cymbals). In an
+   expanded MPC60 (26 seconds) containing all compressed sounds, that's
+   equivalent to 52 seconds of sounds.
+
+   Voice Restart for "Sound Stuttering"
+
+   Sounds may be set to restart when a single pad is played repeatedly,
+   for "sound stuttering" effects. Also, sounds may be set to stop when
+   finger is removed from pad, and any sound may be programmed to stop any
+   other sound (choked cymbal stops ringing cymbal).
+
+   8 Drum Sets in Memory
+
+   Hold up to 8 drum sets in memory at once, each with 64 pad assignments
+   from a common bank of up to 128 sounds. When saved to disk, sounds in
+   drum sets are now saved as individual sound files, eliminating
+   redundant sound data on disk when saving sets that share sounds.
+
+   4 Pad Banks for 64 Pad Assignments
+
+   Doubles the number of sounds immediately playable.
+
+   Hihat Slider Doubles as Realtime Tuning
+
+   The Hihat Decay Slider may now be assigned to any pad and may
+   alternatively affect tuning, decay or attack in real time, with all
+   movements recorded into the sequence.
+
+   Cut and Paste Sample Editing
+
+   Any portion of a sound may be removed and inserted at any point within
+   another sound with single sample accuracy.
+
+   Hard Disk Save and Load
+
+   If you own the Marion Systems MPC-SCSI Hard Disk Interface for the
+   MPC60, hard disk save and load operations are now included and work
+   with the Iomega Zip 100mB or 250 mB drives.
+
+   Step from Note to Note in Step Edit
+
+   In Step Edit, the REWIND [<] and FAST FORWARD [>] keys may now be used
+   to search to the previous or next event within a track, regardless of
+   location. Also, you may now cut and paste events.
+
+   Streamlined MPC3000 Displays
+
+   Screen displays are improved and more intuitive, nearly identical to
+   the MPC3000. For example, 4 letter pad names are replaced in screens by
+   the full sound name.
+
+   New Sequence Edit Features
+
+   Most sequence editing functions now permit selection of specific drums
+   to be edited. The new Shift Timing feature shifts track timing
+   independent of timing correction. And the new Edit Note Number
+   Assignment feature permits, for example, all snare notes in a track to
+   be changed to rimshots or any other sound.
+
+   New Sound and Sequence Files in 3.10 Format
+
+   We've created a few sound and sequence files in the new version 3.10
+   format that you can download here.
+
+   Also Works on ASQ10 Sequencer
+
+   Version 3.10 can also be installed in the Akai ASQ10 Sequencer, adding
+   the above features related to sequencing.
+
+   And More
+
+   Three-level sound stacking or velocity switch per pad. Simplified
+   interfacing with external MIDI gear. MIDI Local Mode. Automatic "best
+   sound start" removes dead space at start of new drum samples. 16 LEVELS
+   provides 16 attack or decay levels.
+
+   Note: Due to low demand for this product, we are no longer printing
+   user manuals so a user manual will not be included. However, you can
+   download the user manual from the link at left.
+
+     * [25]About us
+     * [26]Contact US
+     * [27]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  20. https://www.rogerlinndesign.com/support/support-3-10-overview
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6a62824b8ea67027e11b8f_mpc60_v310_manual.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e7295e2c00fb72aa5cf7fb0_MPC60_v310_installation_instructions.pdf
+  23. https://www.rogerlinndesign.com/support/support-mpc-3-10-faqs
+  24. https://www.rogerlinndesignstore.com/category-s/25.htm
+  25. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  26. https://www.rogerlinndesign.com/about/about-contact
+  27. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  29. https://www.rogerlinndesign.com/
+  30. https://www.rogerlinndesign.com/
+  31. https://www.facebook.com/RogerLinnDesign
+  32. https://www.youtube.com/user/rogerlinndesign
+  33. https://twitter.com/roger_linn
+  34. https://www.instagram.com/roger.linn/

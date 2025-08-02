@@ -1,0 +1,271 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Installing Replacement Parts
+
+   This video demonstrates how to disassemble and reassemble your
+   LinnStrument or LinnStrument 128 in order to install replacement parts.
+   Following the introduction, it consists of 7 chapters:
+   1) [60]00:58 Remove top panel and playing surface
+   2) [61]01:42 Remove the touch sensor sheet
+   3) [62]03:13 Replace one of the two circuit boards
+   4) [63]06:03 Install the touch sensor sheet
+   5) [64]07:15 Install the playing surface and top panel
+   6) [65]12:23 Test the panel screw tightness
+   7) [66]14:55 Calibrate the touch sensor
+   Start by reading the section below the video "Performing specific part
+   replacements or repairs". This will tell you which chapters to watch
+   for specific part installations.
+
+   IFRAME:
+   [67]https://www.youtube.com/embed/t85BU-4M_2k?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+Performing specific part replacements or repairs
+
+   Depending on which part you're replacing, you'll need to watch some or
+   all of the chapters in the video. Click on one of the specific part
+   replacements listed below to learn which chapters to watch for the
+   needed part replacement.
+   ‍
+
+Replacing the top panel or white playing surface
+
+   To replace the top panel and/or while playing surface, watch the
+   following video chapters:
+
+   1) Remove top panel and playing surface
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+
+Replacing the touch sensor sheet
+
+   To replace the touch sensor sheet, watch the following video chapters:
+
+   1) Remove top panel and playing surface
+   2) Remove the touch sensor sheet
+   4) Install the touch sensor sheet
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+   7) Calibrate the touch sensor
+   Also, please change a hidden setting called Touch Sensor Prescale to 75
+   (for LinnStrument) or 90 (for LinnStrument 128). To learn how to access
+   this setting, open the Panel Settings page, Global Settings tab, and
+   search for "prescale".
+
+Replacing either the Main (larger) or LED (smaller) circuit board
+
+   To replace the Main (larger) circuit board, watch all 7 video chapters:
+
+   1) Remove top panel and playing surface
+   2) Remove the touch sensor sheet
+   3) Replace one of the two circuit boards (to change the Main board)
+   4) Install the touch sensor sheet
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+   7) Calibrate the touch sensor (for the the new Main circuit board)
+   Also, please change a hidden setting called Touch Sensor Prescale to 75
+   (for LinnStrument) or 90 (for LinnStrument 128). To learn how to access
+   this setting, open the Panel Settings page, Global Settings tab, and
+   search for "prescale".
+
+   Or to replace the LED (smaller) circuit board, watch all these
+   chapters:
+
+   1) Remove top panel and playing surface
+   3) Replace one of the two circuit boards (to change the LED board)
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+
+Replacing a broken USB jack
+
+   First click the FAQs link at left/top, then click the "Problems" and
+   read this FAQ:
+
+   "My USB jack appears to be physically damaged. For example, if I look
+   closely into the jack, I see some bent pins. Or it has come loose
+   inside the chassis. What can I do?"
+
+   If you choose option #1 ("You can have a local electronics repair shop
+   replace the USB jack") and have a LinnStrument 128, or a LinnStrument
+   200 with serial LNL00700 or higher, watch these video chapters to
+   remove the Main (larger) circuit board, which contains the USB jack:
+
+   1) Remove top panel and playing surface
+   2) Remove the touch sensor sheet (it's safer to remove the delicate
+   sensor sheet before unsolder the USB jack)
+   3) Replace one of the two circuit boards
+
+   With the Main (larger) circuit board removed, follow the instructions
+   in the FAQ to unsolder the damaged USB jack and install the new jack.
+   Then following these video chapters to reassemble your LinnStrument:
+
+   3) Replace one of the two circuit boards
+   4) Install the touch sensor sheet
+   5) Install the playing surface and top panel
+   6) Test the panel screw tightness
+
+If a column doesn't produce Y-axis response
+
+   This usually means that one of the panel screws near the problem column
+   is too loose, perhaps because of insufficient tightening after
+   replacing the top panel. This is because the screws also press the
+   sensor’s contacts against the mating contacts on the circuit board. So
+   if too loose, they may not make contact, so Y-axis won’t work on the
+   nearby column.
+
+   To adjust the screw tightness and verify that the problem is solved,
+   watch this video chapter:
+
+   6) Test the panel screw tightness
+
+   To correctly tighten the screws, here's a good guideline:
+
+   Loosen the screw, then slowly tighten it until you START to feel the
+   increased resistance of the screw reaching the end of its travel, at
+   which point the screw head should be level with the panel. Then tighten
+   the screw by 1/4 turn and no more. Over-tightening will cause the
+   silicone rubber to bulge out near the screw, and over-tightening the
+   screws near the Per-Split Settings and Global Settings buttons will
+   cause them to stick in the Pressed state.
+
+     * [68]About us
+     * [69]Contact US
+     * [70]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://youtu.be/t85BU-4M_2k?si=h6TlYB4UK9utpd_y&t=58
+  61. https://youtu.be/t85BU-4M_2k?si=-0YhNUGQBe_0xckr&t=103
+  62. https://youtu.be/t85BU-4M_2k?si=TN8rke1aSVQIqFUX&t=193
+  63. https://youtu.be/t85BU-4M_2k?si=xsasjJFr2_WV2kJX&t=363
+  64. https://youtu.be/t85BU-4M_2k?si=L97OojfkmOOyTVZi&t=435
+  65. https://youtu.be/t85BU-4M_2k?si=OJGTKlmt8DVJWYYY&t=743
+  66. https://youtu.be/t85BU-4M_2k?si=A5ncvnQjzn2kckua&t=895
+  67. https://www.youtube.com/embed/t85BU-4M_2k?rel=0&controls=1&autoplay=0&mute=0&start=0
+  68. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  69. https://www.rogerlinndesign.com/about/about-contact
+  70. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  72. https://www.rogerlinndesign.com/
+  73. https://www.rogerlinndesign.com/
+  74. https://www.facebook.com/RogerLinnDesign
+  75. https://www.youtube.com/user/rogerlinndesign
+  76. https://twitter.com/roger_linn
+  77. https://www.instagram.com/roger.linn/

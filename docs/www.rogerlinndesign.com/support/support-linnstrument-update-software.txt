@@ -1,0 +1,785 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Update Software
+
+   ‍
+
+How to Check Your Software Version
+
+   Turn on the Global Settings button, then press OS Version (in column
+   16). The version number will appear in the display.
+
+   ‍
+
+How to Update Your LinnStrument Software‍
+
+     * Download the LinnStrument Software Updater using the links below
+       under "LinnStrument Software Version History'. If necessary,
+       double-click on the LinnStrument Firmware folder to uncompress the
+       file.
+     * ‍Mac users only: Download the installer file and double-click it to
+       install the Updater app.
+     * ‍Windows Users only: You will need to manually install the
+       LinnStrument Updater's Driver for Windows:
+       1) ‍Navigate to the LinnStrument Firmware folder you just
+       un-compressed, and open the LinnStrument Driver folder.
+       2) Double-click dpinst-x86.exe (for 32-bit Windows) or
+       dpinst-x64.ex (for 64-bit Windows) to begin installing the
+       LinnStrument Windows Driver for the updater.
+       3) Follow the on-screen instructions for installing the
+       LinnStrument Windows driver.
+       4) Navigate to the LinnStrument Firmware folder.
+     * ‍Disconnect other USB devices from your computer, then use a USB
+       cable of 10 feet or less to connect your LinnStrument directly to
+       your computer, not through a USB hub.
+     * On your LinnStrument, turn on 'Global Settings > Actions column >
+       OS UPDATE'. (Briefly press it to turn the button's light on. Do not
+       hold it.) You're now ready to update your LinnStrument. DON'T
+       DISCONNECT POWER DURING THE UPDATE.
+     * ‍Double-click the LinnStrument Updater app to open it.
+     * In the LinnStrument Updater app, Click 'Update Firmware' then 'Go
+       Ahead'. (If the 'Update Firmware' button is not clickable, recheck
+       the above steps.) Your LinnStrument is now being updated, which
+       will take about 2.5 minutes.
+       (If you're having problems updating, search the [60]LinnStrument
+       FAQ page, "Problems" tab, for "LinnStrument will not accept an OS
+       Update from the LinnStrument Updater app. What's wrong?")
+     * To confirm that the update was successful, check your
+       LinnStrument's version number as explained at the top of this page.
+
+   ‍
+
+LinnStrument Software Version History
+
+   2.3.3 (October 11, 2023, Current version)
+
+Downloads
+
+     * Mac:  [61]linnstrument-firmware-2.3.3-macos.zip
+     * Windows: [62]linnstrument-firmware-2.3.3-windows.zip (The previous
+       Windows 2.3.3 updater will stop working on April 4, 2025. This new
+       version will work after that.)
+
+   Feature
+     * In Per-Split Settings > MIDI Mode, holding ONE CHANNEL now resets
+       all MIDI settings as they are after a Reset command. Similar to
+       holding ChPerNote to quickly change all settings for MPE synths,
+       this is useful for quickly changing all MIDI settings for use with
+       common preset sounds of One Channel synth that are optimized for
+       MIDI piano keyboards:
+       Main channel: 1
+       Bend Range: +/- 2
+       Timbre/Y: CC74
+       Loudness/Z: Poly Pressure
+     * If MIDI Mode is set to ChPerNote and you change either the Bend
+       Range setting or hold ChPerNote to force MPE settings, LinnStrument
+       sends a MIDI RPN 0 “Pitch Bend range” message, which sets the
+       external synth to the same bend range.
+
+Bug fixes
+
+     * When using the Arpeggiator to arpeggiate through a held chord and
+       you lifted one finger of the chord, the arpeggio order would reset
+       to the starting note. Fixed.
+     * When split was on with CC Faders on in one split and Low Row on in
+       the other, sometimes the Low Row lights would turn on on the other
+       split. Fixed.
+     * When receiving a Bend Range configuration message through MIDI,
+       LinnStrument would echo it back to the MIDI out, which was
+       unnecessary. Fixed.
+     * When LinnStrument would receive a MIDI Stop command to stop its
+       Step Sequencer, it would unnecessarily echo it back out to the MIDI
+       out. Fixed.
+     * When enabling Legato with the Arpeggiator in Channel Per Note mode,
+       playing the same chord repetitively would add a new root note each
+       time. Fixed. (This bug existed in interim version 2.3.2 and all
+       earlier versions, and was fixed in version 2.3.3.)
+
+   ‍
+
+   2.3.0 (May 27, 2021)
+
+Downloads
+
+     * Mac:  [63]linnstrument-firmware-2.3.0-macos.zip
+     * Windows: [64]linnstrument-firmware-2.3.0-windows.zip
+
+New Feature
+
+     * Custom Light Patterns
+       You can now create your own custom light patterns for
+       LinnStrument’s note lights, independently setting each note pad to
+       any of 10 colors or off. You can create 3 different custom light
+       patterns, and they remain stored after turning power off.
+       The Scale Select feature (in Global Settings, column 1) is now used
+       to also select or create the custom light patterns. Until now,
+       there were 12 Scale Select memories, named C through B. (These are
+       merely identifiers, using the 12 printed labels printed below the
+       buttons, with no relation to the musical keys C though B.) The
+       first 9 memories (C through G#) work exactly as before and as
+       described in the Panel Settings page. The upper 3 Scale Select
+       memories (A, A# and B) are now changed to hold the 3 new custom
+       light patterns.
+       ‍Note: when you update to version 2.3.0 software, any scales you
+       had previously entered into Scale Select memories A, A# or B will
+       be deleted.
+       Here's how the custom light patterns feature works:
+       ‍
+       ‍To display one of the 3 custom light patterns, enter Global
+       Settings then:
+       1) In column 1 (“View”), press Scale Select.
+       2) In columns 2 through 4, briefly press Scale Select button A, A#
+       or B.  By default, Scale Select “A” contains traditional guitar
+       neck dots. Scale Select “A#” is a C major scale with a different
+       color for each scale note. And Scale Select “B” is blank.
+       3) Press Global Settings to turn it off. Your selected light
+       pattern will appear.
+       To Edit one of the 3 custom light patterns, enter Global Settings
+       then:
+       1) In column 1 (“View”), press Scale Select.
+       2) In columns 2 through 4, HOLD Scale Select memory A, A# or B. You
+       have now entered the light editor screen and the existing contents
+       of the selected memory will appear.
+       3) To set the color of a pad: repeatedly press the blinking Switch
+       1 button until it shows your desired color, rotating through the 10
+       available colors. Then press any note pad to change it to that
+       color.
+       4) To erase any note pad: hold it.
+       5) To erase many note pads: press 2 pads that are 2 corners of a
+       rectangle that includes the pads to be erased.
+       6) To save your changes and exit the editor: press Global Settings
+       to turn it off and return to the normal performance lights.
+       Note: these 3 custom light patterns are not part of the 6 All
+       Settings presets in the Presets screen, so they are unaffected by
+       loading or saving any of the All Settings presets.
+       Note: the custom light patterns always use the entire playing
+       surface, even if Split is on. However if Split is on, playing the
+       note pads will still work the same-- divided into left and right
+       splits.
+       ‍
+       As before, you can still load a light pattern from MIDI by sending
+       MIDI CCs 20, 21 and 22 to LinnStrument, as described in the Panel
+       Settings page, Global Settings tab, Note Lights section, “Setting
+       the note lights remotely via MIDI messages” subsection. As before,
+       any received messages will add to whatever light pattern is
+       displayed. If you wish to save your loaded pattern, load it while
+       the above light editor screen is showing, then exit Global Settings
+       to save it. Also, two more MIDI CC numbers are now accepted by
+       LinnStrument:
+       CC23:  Save loaded light pattern to flash.
+       After sending a new light pattern to LinnStrument, send a CC23
+       message with value 0, 1 or 2 to save it to Scale Select memory A,
+       A# or B, respectively.
+       CC24.: Clear custom light pattern from flash.
+       Send a CC24 message with value 0, 1 or 2 to clear Scale Select
+       pattern A, A# or B, respectively.
+
+   ‍
+
+   2.2.2 (January 1, 2021)
+
+Downloads
+
+     * Mac:  [65]linnstrument-firmware-2.2.2-macos.zip‍
+     * Windows: [66]linnstrument-firmware-2.2.2-windows.zip
+
+Improvements
+
+     * Touch sensitivity of LinnStrument 128 was slightly less than that
+       of the large LinnStrument model. They are now the same.
+     * The range of the Touch Sensor Prescale parameter in Global Settings
+       (which could adjust the output of the touch sensor) has been
+       increased from the former 50-100%, to the new 50- 200%, permitting
+       the option to increase sensitivity to very light touches even more
+       than before.
+       Warning: settings above 100 might cause notes within chords to
+       trigger falsely, decrease velocity accuracy, or produce maximum
+       velocity or pressure values with only medium playing force.
+     * When using the “MPE” shortcut to set all MIDI settings for MPE play
+       (in Per-Split Settings > MIDI mode column, hold ChPerNt), Bend
+       Range was formerly set to 24. It is now set to 48, the standard for
+       MPE synths. Also, our downloadable file of LinnStrument sounds for
+       Apple's Logic and MainStage has been updated for an MPE Bend Range
+       of 48 instead of the former 24.
+     * There was a brief delay after a note pad was physically released
+       before sending the Note Off message. It is now much shorter. Thanks
+       to Connor Golden for implementing this fix.
+
+Bug fixes
+
+     * In the Step Sequencer, muting the sequence of the split that was
+       not selected would mute its sequence but not turn on the Mute
+       button’s light. Fixed.
+     * In the Step Sequencer, if a sequence was set to Drums mode,
+       transposing the sequence would transpose the drum note numbers,
+       which makes no musical sense. Fixed.
+     * In the Step Sequencer, if transposing a sequence down such that the
+       transposed note numbers would go below 0, this would cause an
+       “underflow” error, resulting in high note numbers of 127 and below.
+       (For example, note number 6 transposed down 8 semitones would
+       result in note number 126.) Fixed.
+     * If sending an NRPN message to LinnStrument to set colors, magenta
+       would be selected regardless of the value sent. Fixed. And if
+       sending an NRPN message to to set any of the Per-Split Settings,
+       the Per-Setting Settings indicator lights would change but not the
+       internal value. Fixed.
+
+   ‍
+
+   2.2.1 (October 1, 2018)
+
+Downloads
+
+     * Mac:  [67]linnstrument-firmware-2.2.1-macosx.zip‍
+     * Windows: [68]linnstrument-firmware-2.2.1-windows.zip
+
+   (NOTE to coders: The version 2.2.1 OS update is contained in these
+   Updater apps. However, if a file ending in ".bin" is located in the
+   same directory, the Updater app will assume it is a LinnStrument OS
+   file and load it instead. So it's best to put the Updater app in a
+   directory that contains no other .bin file, of in a separate directory
+   if you're not sure.)
+
+Bug fixes
+
+     * After 2.2.0, the Global Settings LED would no longer blink 1/4
+       notes in sync to received MIDI Clock. Fixed.
+     * When playing the Step Sequencer from internal tempo by pressing the
+       Play (Switch 2) button, the Global Settings LED's tempo blinking
+       was not in correct sync to the playing tempo. Fixed.
+     * In version 2.2.0 a new feature was added, "Permit reading of any
+       panel setting from MIDI NRPN messages", but when reading NRPN 243
+       (the 6 All Settings" memories), only the 4 memories of version
+       2.1.0 could be read. Fixed.
+
+   Note:
+
+   To install any of the previous versions (below) on Mac OS Mojave, you
+   must use the version 2.2.1 Updater app (above) but place the ".bin"
+   file from the Mac download (below) in the same folder as the new
+   Updater app.
+
+   ‍
+
+   2.2.0 (July 25, 2018)
+
+Downloads
+
+     * Mac:  [69]linnstrument-firmware-2.2.0-macosx.dmg
+     * Windows: [70]linnstrument-firmware-2.2.0-windows.zip
+
+New Features
+
+     * Independent Row Tunings
+       The tuning for each row can now be independently set. In Global
+       Settings > Row Offset, hold GUITAR to view the Row Tuning screen.
+       Select one of the 8 rows at left, then edit that’s row’s note
+       number by swiping left or right.
+     * Common MPE messages sent over all channels
+       In Channel Per Note mode, LinnStrument normally sends messages that
+       are common to all touches (like Sustain Pedal or Program Change)
+       over the Main channel. However, many synths implement MPE (Channel
+       Per Note) without such a separate Main channel. For such synths, it
+       is now possible to send these common messages redundantly over all
+       Per Note channels.
+       To do this, in Per-Split Settings set MIDI Mode to Channel Per
+       Note. Then while View (column 2) is set to Main Channel, press the
+       selected channel button in columns 3-6 to deselect it. Now all
+       common messages will be send redundantly over all Per Note
+       channels.
+     * New Foot/Panel Switch options:
+       1) “CLK”: Start/Stop sending MIDI Clock
+       2) “MUTE”: In the Step Sequencer, toggle the Mute status of the
+       selected split’s sequence.
+       To select either of these, in Global Settings > Assign Switch, hold
+       TAP TEMPO then swipe to select the desired option.
+     * Permit reading of any panel setting from MIDI NRPN messages
+       It is now possible to remotely read the status of any of
+       LinnStrument’s settings from MIDI. To do so, send the number of the
+       parameter that you want to read to NRPN 299, then the value will be
+       sent back through the parameter's NRPN number. This is useful, for
+       example, in creating a computer application for non-sighted users.
+     * MPE remote activation (MIDI RPN 6) is now supported
+       This is the new official method of remotely setting a synth to MPE
+       mode, or letting a synth remotely set LinnStrument to MPE mode.
+       Now, when MPE mode is selected in LinnStrument by holding the
+       Channel Per Note button, an RPN 6 message is sent. And if an RPN 6
+       message is received, LinnStrument enables Channel Per Note (MPE)
+       mode.
+     * Virtual third foot switch
+       A virtual third foot switch has been added, actuated by pressing
+       both left and right foot switches together. To assign it, in Global
+       Settings > Select Switch column, press both FOOT L and FOOT R
+       together, then select an assignment in the Assign Switch columns.
+       If an assignment is made, then the actions of the Left or Right
+       Foot Switches will occur when releasing the foot switch instead
+       when pressing it. To remove the assignment for the virtual third
+       foot switch, press its selection to deselect it
+
+Improvements
+
+     * All Settings memories increased from 4 to 6
+       The number of All Settings presets (on the right of the Presets
+       screen) has been increased from 4 to 6. The contents of the
+       previous four presets are in the same locations as before, with the
+       two new presets added below them.
+     * If Per-Split Settings > Pitch/x column > On is turned off, a Pitch
+       Bend message with a value of zero is no longer sent before Note On.
+     * When using the Step Sequencer, if syncing to a sync source that
+       didn’t send Song Position Pointer messages, LinnStrument’s
+       sequencer would not start immediately in response to received Start
+       messages. This is now fixed.
+     * In the Step Sequencer, the colors used in the 4 note data sliders
+       are reversed so that the Accent color now reflects the slider’s
+       value, and the Main color indicates the unused portion of the
+       slider.
+     * In the Step Sequencer, when a note is selected (blinking), the
+       blink rate is now synced to the playing tempo.
+     * In the Step Sequencer screen, the Mute setting can now be remotely
+       set via MIDI NRPN messages, as described in the the file midi.text
+       in the source code.
+     * In the Step Sequencer, a variety of minor improvements have been
+       made to the user interface.
+
+Bug fixes
+
+     * In earlier software versions, a bug existed that could result in
+       the upper one or two note pads in columns 4 and/or 5 to be
+       disabled. We thought we had fixed this in version 2.1.0 but didn’t.
+       It is now fixed.
+     * In the Preset screen, pressing RIGHT SPLIT was sometimes ignored.
+       This is fixed.
+     * In the Step Sequencer, touching any of the 4 Note Data sliders to
+       view its status could alter the value. This is fixed.
+
+   ‍
+
+   2.1.0 (May 5, 2017)
+
+Downloads
+
+     * Mac:  [71]linnstrument-firmware-2.1.0-macosx.dmg‍
+     * Windows: [72]linnstrument-firmware-2.1.0-windows.zip
+
+Changes
+
+     * New Feature: You can now turn on light animations that surround and
+       emanate from the played note pads, responding to velocity and
+       pressure. In Per-Split Settings > Color column, hold PLAYED. Swipe
+       L/R to select one of the following options:
+       Cell (only lights pressed cell)
+       Same (lights notes of same pitch on other rows, as in previous
+       software versions)
+       Crosses
+       Circles
+       Squares
+       Diamonds
+       Stars
+       Sparkles (Roger's favorite, because its shorter duration is less
+       distracting from the note lights. Try it in white.)
+       Curtains
+       Blinds
+       Targets
+       Up
+       Down
+       Left
+       Right
+       Orbits
+       ‍
+     * New Feature: additional Panel/Foot Switch options have been added.
+       In Global Settings > Assign Switch, hold Tap Tempo then swiping L/R
+       to select one of the following options, independent for the 4
+       switches:
+       TAP: Tap Tempo.
+       LEG: Legato. While switch is on, notes or chords are sustained
+       after release until the next note or chord is played.
+       LAT: Arpeggiator latch. While switch is on, each pressed & released
+       note will be added to the arpeggiated chord.
+       PR+: Preset +. The Preset number shown in Preset screen is
+       incremented.
+       PR-: Preset -. The Preset number shown in Preset screen is
+       decremented.
+       PCH: Pitch slide on/off. Reverses the selected state of Per-Split
+       Settings > Pitch/X column > On. This is useful, for example, to
+       quickly switch between smooth pitch slides and semitone slides as
+       on a guitar.
+       Plus the following 3 only for the Foot switches:
+       PLAY: Start or Stop the internal step sequencer. This can also be
+       controlled by MIDI NRPN messages.
+       PREV: Previous Sequence, of the 4 sequences in the Step Sequencer.
+       This can also be controlled by MIDI NRPN messages.
+       NEXT: Next Sequence, of the 4 sequences in the Step Sequencer. This
+       can also be controlled by MIDI NRPN messages.
+       ‍
+     * New Feature: added support for negative row offsets and inverted
+       guitar tuning.
+       In Global Settings > Row Offset columns, you could previously hold
+       OCTAVE then swipe L/R to select any row offset from 0 to 16. Now
+       the options include -16 to -1 and -GUI (inverted GuItar tuning).
+     * New Feature: Mirrored split pitch direction. Previously, turning on
+       Left-Handed Mode (Global Settings > Column 1, 4th note pad from
+       bottom) would reverse the pitch direction (R to L instead of L to
+       R). Now you can reverse the pitch direction for one split only,
+       permitting mirrored split tunings.
+       In Global Settings > column 1 > hold the 4th note pad from the
+       bottom and Swipe L/R to select one of 3 options:
+       1) REV: reverse pitch direction of both splits (same as previous
+       versions).
+       2) REVL: reverse pitch direction of left split only.
+       3) REVR: reverse pitch direction of right split only.
+       Note that you must turn on the note pad (col 1, row 4) for the
+       selected pitch reversal to be on.
+     * New Feature: The Step Sequencer now responds to MIDI Song Position
+       Pointer messages, thereby maintaining correct sync position if the
+       external DAW is started from a position in the song other than the
+       start.
+     * New Feature: in Assign Switches, permit SUSTAIN and CC65 to be
+       reassigned to any CC, and independently for the 4 switches.
+       In Global Settings > Assign Switch columns, hold SUSTAIN or CC65.
+       Swipe L/R to select option.
+     * New Feature: For Low Row's CC1 and XYZ=16-18 options, as well as
+       for the CC Fader options, you can now select Channel Pressure in
+       addition to the CCs 0-127.
+       In Per-Split Settings > Low Row columns, hold either CC1 or
+       XYZ=16-18, then swipe all the way to the right.
+       In Per-Split Settings > Special column, hold either CC FADERS, then
+       swipe all the way to the right.
+     * New Feature: added support for a configurable start value for the
+       CC value sent when Per-Split Settings > Timbre/Y column > Relative
+       is turned on. Previously it was always 64. Now it can be any value
+       from 0 to 127. For example, if using Y-axis to add a modulation
+       amount, this now permits the value at first press to be zero, then
+       increased by tilting your finger forward.
+       In Per-Split Settings > Timbre/Y column, hold Relative. Swipe L/R
+       to adjust value.
+     * New Feature: Channel Per Row mode's channel order can now be
+       reversed, permitting for example the highest row to send on channel
+       one and lowest on channel 8. This is useful when using some guitar
+       synthesizers that prefer the high E string to use channel 1 and the
+       low E string to use channel 6.
+       In Per-Split Settings > MIDI Mode column, hold ChPerRow. It will
+       light in the accent color to indicate reversed channel order.
+     * New Feature: Previously, if the Arpeggiator was on and LinnStrument
+       was synced to an external source, the Global Settings button would
+       blink 1/4 notes. Now it also blinks if Arpeggiator is on and using
+       internal tempo. This helps by showing you the Arpeggiator tempo
+       before you start playing.
+     * Improvement: Previously if using One Channel mode and you played
+       two note pads of the same pitch, releasing one of them would
+       terminate both notes, because MIDI only permits one note of the
+       same pitch per channel. Now the heard note is terminated only after
+       releasing both note pads.
+     * Improvement: When synced to external MIDI clock, LinnStrument no
+       longer also sends MIDI click. This prevents MIDI clock loops with
+       external DAWs.
+     * Improvement: Incoming MIDI handling and response to external MIDI
+       clock are now more reliable.
+     * Improvement: The 4 All-Settings Presets (on the right side of the
+       Preset screen) now store and recall the status of the Split button,
+       as well as which split is current selected.
+     * Improvement: When changing the MIDI Mode (in Per-Split settings),
+       zero values are sent for the X, Y and Z messages, thereby
+       preventing the external synth from adding the last-sent One Channel
+       and Channel Per Note values.
+     * Improvement: the fourth/highest "All Settings" preset (on the right
+       side of the Preset screen) is now configured by default for playing
+       auto drumbeats on the left split and auto bass lines on the right
+       split, as shown in the LinnStrument Introduction video at 4:36.
+     * Improvement: the entered tempo value is now saved after
+       disconnecting and reconnecting power.
+     * Bug Fix: A rare bug existed in version 2.0.0 and later that causes
+       the upper 2 note pads in columns 4 and 5 to stop working. This was
+       due to a bug that caused the calibration values for these pads to
+       be corrupted. We believe we fixed the cause of the bug but in case
+       it happens in future and you notice that these 4 notes pads aren't
+       working, simply remove and reconnect power to make them work again.
+     * Bug fix: the sequencer's Event Edit sliders (lower right of
+       sequencer screen) would sometimes not return from the numeric
+       display when a touch was released. Now fixed.
+     * Bug Fix: Previously, there were small inconsistencies in quantized
+       pitch bend ranges. This is now corrected.
+     * Bug Fix: Previously, if Split was on, and a panel switch was
+       assigned to Arpeggiator, is was sometimes impossible to turn the
+       Arpeggiator on/off using the panel switch. This is fixed.
+
+   ‍
+
+   ‍2.0.2 (December 12, 2016)
+
+   Changes:
+
+   New setting "Touch Sensor Prescale" permits adjusting the touch
+   sensitivity over a wide range to better fit your personal playing
+   style, so that the 3 fixed settings (low, medium, high) will be more
+   useful to you. In Global Settings, hold Calibration while pressing
+   Pressure Sens > Medium. Swipe left or right to adjust from 50 (most
+   force required to produce velocity/pressure value of 127) to 100 (least
+   force required to produce velocity/pressure value of 127). This does
+   not affect very light touches, which always respond to the lowest
+   possible force. The default value for LinnStrument (large model) is 60
+   and for LinnStrument 128 is 75 (to produce the same touch sensitivity).
+     * Strum mode (Per-Split Settings > Special column > Strum) improved
+       to be more guitar-like:
+     * Only highest note on row (string) is recognized
+     * Hammer-ons and pull-offs can now be performed
+     * Fingered notes do not sound until strummed.
+     * Strumming area is much more sensitive to touch
+     * New Sleep animation: Snow Falling on Christmas trees. In Global
+       Settings, hold Sleep (column 15, row 3) and swipe right to show
+       “XMS”. Then swipe down to set delay before sleep animation starts.
+     * Split on/off status is now remembered after power off/on. After
+       changing Split status, press Per-Split Settings or Global Settings
+       once to save it.
+     * Default USB MIDI data rate (hold Global Settings > USB) is slightly
+       slower (235) to avoid overloading slower computers or synths.
+     * Bug fix: Sometimes when syncing the Sequencer or Arpeggiator to
+       external MIDI clock, the internal tempo would jump to very fast
+       setting. Fixed.
+
+   ‍
+
+   2.0.1 (November 6, 2016)
+
+   Changes:
+     * Bug fix: Sometimes, pressing the bottom or top of a cell would not
+       always send a Y-axis value at the start. This is fixed.
+     * Bug fix: If the pressure was very soft, Quantize Hold would
+       sometimes not correct the pitch as it should. This is fixed.
+     * Bug fix: The lights of the control switches would sometimes be lit
+       incorrectly when a sequencer is active. This is fixed.
+     * Bug fix: The new colors white, orange, lime and pink could not be
+       set using over MIDI messages CC20-22. This is fixed.
+
+   ‍
+
+   2.0.0 (October 27, 2016)
+
+   Changes:
+     * Feature: Added polyphonic step sequencer for each split. See new
+       Sequencer tab in the Panel Settings page:
+       [73]http://www.rogerlinndesign.com/ls-sequencer.html  (See top of
+       page for information on panel labels with Sequencer parameters.)
+     * Improvement: Significantly better velocity response, range and
+       consistency, tuned for piano play with PianoTeq.
+     * Feature: Release velocity now supported in Note Off messages.
+       LinnStrument is now “5D” in ROLI-speak. :)
+     * Feature: Four new LED colors: white, orange, lime and pink. Note
+       that for these four new colors, if you move your eyes quickly
+       across the playing surface, you will briefly see the individual RGB
+       colors that comprise the combined color.
+     * Feature: Support for 14-bit Loudness CC values. In Per-Split
+       Settings > Loudness/Z column:
+       1) Hold “On” for large character display. Swipe down three times
+       then swipe right to select “14 Bit”.
+       2) Hold “CC11” for large charger display. Select any CC from 0 to
+       31. LSB data will be sent on the CC number that is 32 higher than
+       the selected CC. For example, select CC11 to send MSB on CC11 and
+       LSB on CC43.
+     * Feature: Added support for using the DIN MIDI OUT jack as a MIDI
+       THRU jack. In Global Settngs > MIDI/POWER column ("MIDI I/O" on
+       older units), hold “MIDI JACKS”. Swipe right to select “THRU”. Now
+       the DIN MIDI OUT jack will both send MIDI OUT data and also echo
+       received MIDI IN data.
+     * Feature: Tap tempo has been added as a new option in the Assign
+       Switch options, located above Octave Up.
+     * Improvement: Before when a note was played with Quantize on, the
+       tuning would slide to the quantized pitch on initial touch. It now
+       immediately jumps to the quantized pitch.
+     * Improvement: Removed occasional flicker when switching between LED
+       displays.
+     * Improvement: The timing of send USB MIDI messages has been
+       optimized so that slower hardware synthesizers are less likely to
+       misinterpret some of LinnStrument’s sent MIDI messages.
+     * Improvement: The last-loaded "All Settings" preset is now
+       remembered after rebooting.
+     * Bug fix: If a MIDI "Pitch Bend Sensitivity” RPN message was
+       received, LinnStrument responded by setting the Bend Range
+       incorrectly. Fixed.
+     * Bug fix: Updater application would sometimes not work correctly on
+       Windows and MacOS Sierra. Fixed.
+     * Bug fix: The data sent through updater application could be
+       corrupted with slower computers or certain USB connections. Fixed.
+
+   ‍
+
+   1.2.5 (June 9, 2016)
+
+   Changes:
+     * Bug fix: some LEDs could sometimes flash brightly when exiting
+       Per-Split Settings, Global Settings, and Octave/Transpose, and at
+       the end of a OS update. Fixed.
+     * Bug fix: when a note was released, a MIDI pressure message of zero
+       value was sent after the Note Off message. It should have been sent
+       before the Note Off. Fixed.
+     * Bug fix: it is possible to start LinnStrument in Low Power mode by
+       holding Octave/Transpose while connecting power, useful when first
+       connecting to an iDevice. Previously, if Update OS mode was on when
+       this was done, Update OS mode mode would not be automatically
+       turned off. Fixed.
+     * Bug fix: sometimes a MIDI message could be sent with a slight time
+       delay between its individual bytes, causing some receiving devices
+       (particularly Linux systems) to misinterpret the first part of the
+       message as incomplete. Fixed.
+     * Bug Fix: in low power mode, Polyphonic Pressure with a value of
+       zero would not be sent. Fixed.
+     * Bug Fix: Switch 1 and Switch 2 would sometimes light after
+       returning from sleep. Fixed.
+     * Bug Fix: if Sleep mode was set to enter sleep after a period of
+       inactivity, it was possible to enter Sleep even while holding a
+       note for a very long time because the delay timer didn't recognize
+       Note Off messages. Fixed.
+     * Bug fix: when holding the Octave/Transpose switch to enable low
+       power mode at startup, the Octave/Transpose page was shown instead
+       of the normal Performance Mode lights. Fixed.
+
+   ‍
+
+   1.0.0 (First release, Oct 10, 2014)
+
+     * [74]About us
+     * [75]Contact US
+     * [76]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  61. https://www.dropbox.com/scl/fi/yz4pqouwolq8pvptmmq9v/linnstrument-firmware-2.3.3-macos.zip?rlkey=6ouwczvhb26jwem6xwebniqff&dl=1
+  62. https://www.dropbox.com/scl/fi/wwz3a5tzp59zdl1rkrj6z/linnstrument-firmware-2.3.3-windows.zip?rlkey=ymua4wsnmm4448k2zolwoob6o&st=za6enwsu&dl=1
+  63. https://www.dropbox.com/s/g39p1j0092clkm4/linnstrument-firmware-2.3.0-macos.zip?dl=1
+  64. https://www.dropbox.com/s/qt5wsyq1ozg3j3e/linnstrument-firmware-2.3.0-windows.zip?dl=1
+  65. https://www.dropbox.com/s/5zt7s8285ypqoxa/linnstrument-firmware-2.2.2-macos.zip?dl=1
+  66. https://www.dropbox.com/s/01cp88h2a5zsycz/linnstrument-firmware-2.2.2-windows.zip?dl=1
+  67. https://www.dropbox.com/s/j35jg1x6j3pr206/linnstrument-firmware-2.2.1-macos.zip?dl=1
+  68. https://www.dropbox.com/s/mt3kadz19gtetd8/linnstrument-firmware-2.2.1-windows.zip?dl=1
+  69. https://www.dropbox.com/s/8v40xklz6t72duo/linnstrument-firmware-2.2.0-macos.dmg?dl=1
+  70. https://www.dropbox.com/s/e0s09l3u74kdpjd/linnstrument-firmware-2.2.0-windows.zip?dl=1
+  71. https://www.dropbox.com/s/ysoirxqm3ljsx1u/linnstrument-firmware-2.1.0-macos.dmg?dl=1
+  72. https://www.dropbox.com/s/l5vwbxqq1i0e5ay/linnstrument-firmware-2.1.0-windows.zip?dl=1
+  73. http://www.rogerlinndesign.com/ls-sequencer.html
+  74. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  75. https://www.rogerlinndesign.com/about/about-contact
+  76. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  78. https://www.rogerlinndesign.com/
+  79. https://www.rogerlinndesign.com/
+  80. https://www.facebook.com/RogerLinnDesign
+  81. https://www.youtube.com/user/rogerlinndesign
+  82. https://twitter.com/roger_linn
+  83. https://www.instagram.com/roger.linn/

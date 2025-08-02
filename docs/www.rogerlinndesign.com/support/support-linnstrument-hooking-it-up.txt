@@ -1,0 +1,397 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Hooking It Up
+
+   Connections for LinnStrument and LinnStrument 128 are identical except
+   LinnStrument 128 does not have the power input jack, which is not
+   necessary because its power is supplied from the USB connection. In
+   fact, few LinnStrument owners use the power jack.
+
+LinnStrument Panel Connections
+
+POWER JACK
+
+   (Not on LinnStrument 128): Standard round power connector, for use when
+   not getting power from USB. Any DC power supply, center negative or
+   center positive from 7.5 to 15 volts, at least 300 mA can be used. Or
+   any AC supply with 9 to 15 volts, at least 300+ mA, can also be used.
+
+MIDI IN & OUT
+
+   Standard full-size MIDI IN and OUT jacks. Be sure MIDI I/O (in Global
+   Settings) is set to MIDI JACKS. There's little need to connect MIDI IN
+   unless you're using MIDI Sync or want custom MIDI control of the panel
+   lights.
+
+USB
+
+   Full-size USB B (peripheral) jack. Use for 3.7 times faster MIDI speed
+   than the MIDI jacks, and to provide power. Can be used for power with
+   any standard USB power adaptor when using the MIDI jacks. LinnStrument
+   can also be powered with any iPad with USB-C, or with an iPad or iPhone
+   with lightning connector, though see below for power limitations from
+   Lightning.
+
+   Tip: To protect the USB jack against damage from cable pulls, tie the
+   USB cable around the nearest guitar strap button. This will act as a
+   strain relief, a trick that guitarists have used for years. See near
+   the end of this page for more info.
+
+FOOT SWITCH
+
+   Stereo 1/4 inch jack for single or dual momentary (not latching) foot
+   switch (not expression pedal). Functions of foot switches are assigned
+   in GLOBAL SETTINGS. If using a single foot switch, only the Right Foot
+   Switch setting is used.  You can use either Normally Open or Normally
+   Closed foot switches because the unpressed state is automatically
+   sensed when power is connected. By default, the right foot switch (or a
+   single foot switch) is assigned to Sustain Pedal and the left foot
+   switch is assigned to Arpeggiator On/Off.
+
+   ‍
+
+Connecting to MIDI and Power
+
+   Here's how much current LinnStrument draws:
+
+   • With default scale lights and Low Power mode off (normal power): 260
+   mA
+   • With default scale lights and Low Power mode on : 220 mA
+   • No all lights off and Low Power mode on or off: 190 mA
+   • With all lights on in white, Low Power mode off: 360 mA
+
+   Here's how much current LinnStrument 128 draws:
+
+   • With default scale lights and Low Power mode off (normal power): 190
+   mA
+   • With default scale lights and Low Power mode on : 180 mA
+   • No all lights off and Low Power mode on or off:  160 mA
+   • With all lights on in white, Low Power mode off: 310 mA
+
+   A computer's USB port usually provides 500 mA but a USB hub--especially
+   a USB hub without its own power supply-- often doesn't.
+
+   Important: if LinnStrument's lights ever flash unexpectedly, this means
+   it's not getting enough power. If this unexpected flashing happens
+   repeatedly, eventually this could cause LinnStrument to stop working
+   with no lights, no response and all user data lost, which is corrected
+   by reloading the current software version. If you see this unexpected
+   flashing, stop and change to a better source of power.
+
+   If your USB connector isn't providing enough power to LinnStrument,
+   there are two other options:
+
+   1)Use a [60]USB Y-adapter cable that has 2 flat USB connectors at the
+   computer/iPad end of the cable--one for data and another for power,
+   thereby eliminating the need for the iDevice to supply power.
+
+   2) If you have the large LinnStrument model, connect the power input to
+   a DC power supply.
+
+   ‍
+
+Method 1: LinnStrument <-> Computer
+
+   Connect a USB cable from LinnStrument your computer for both MIDI
+   communication and power. USB is better for MIDI data than the round
+   MIDI jacks because it's 3.7 times faster.
+
+   Once connected, "LinnStrument MIDI" should appear in your computer. Be
+   sure that Global Settings > Actions column > USB is selected. If your
+   computer isn't recognizing LinnStrument, see the LinnStrument FAQ page,
+   "Problems" tab, first FAQ.
+
+   ‍
+
+Method 2: LinnStrument <-> USB-C iPad
+
+   Current iPads don't have an audio output jack, so you must use the
+   USB-C or Lightning jack for power, MIDI input and audio output. I
+   (Roger) use the following configuration to 1) power iPad and
+   LinnStrument, 2) play LinnStrument, and 3) provide stereo audio output
+   :
+
+   1) [61]Anker USB C Hub, 7-in-1 USB C Adapter, about $35 on Amazon
+
+   2) [62]Apogee Jam+ USB Instrument Input and Stereo Output for iPad,
+   $159 on Apple's site
+
+   There are other products that do the same thing.
+
+   Regarding power, an iPad with USB-C will power your LinnStrument fine.
+
+   ‍
+
+Method 3: LinnStrument <-> Lightning iPad or iPhone
+
+   Current iPhones and many iPad models don't have an audio output jack,
+   so ideally you'd want a method of connection that provides 1) MIDI over
+   USB, 2, audio out, and 3) power to both iPhone and LinnStrument.
+   Generally, I (Roger) try to avoid low-cost off-brand adapters because
+   they don't provide adequate power for LinnStrument, but there is no
+   such adaptor from either Apple or any quality brands like Anker.
+   However, LinnStrument owner Miles Parker found an off-brand Chinese
+   multi-port Lightning adapter on Amazon with 3 jacks:
+    1. USB (rectangular) for connector to LinnStrument
+    2. 1/8"  jack for audio output
+    3. Lightning female for power from USB power supply
+
+   I bought one and tested it with my iPhone 11 Pro Max. So far it appears
+   to work fine, either with its female Lightning connector connected to a
+   USB power adapter or not, though it delivers more power to LinnStrument
+   while a USB power adapter is connected.
+
+   Here is a link to a seller of the same adapter on Amazon:
+
+   [63]https://www.amazon.ca/gp/product/B085DNNB4D?th=1
+
+   The "OTG Adapter" is the one I've tested.
+
+   One thing to note is that on some iOS versions in past, iOS would
+   reduce output power to inadequate levels if the battery charge dipped
+   under around 66%.
+
+   Of course, it may not work on your iPhone or iPad model, but it's worth
+   a try. As stated above, if LinnStrument's lights flash unexpectedly,
+   use a better power source. If you want a completely portable solution,
+   use a USB battery as a power source for the adapter's Lightning power
+   jack.
+
+   ‍
+
+Method 4: LinnStrument <-> MIDI cable <-> Hardware MIDI Synth
+
+   You can also use LinnStrument's MIDI OUT to connect to a hardware MIDI
+   synth or your computer's MIDI interface. In this case, you must power
+   LinnStrument either by USB or (on the large LinnStrument model) by a
+   power supply. By default, the MIDI I/O parameter (Global Settings,
+   column 15) is set to USB, so you must select MIDI JACKS if you are
+   using the MIDI jacks.
+
+   ‍
+
+Wireless MIDI
+
+   I (Roger) have tested the [64]WIDI Master from CME-PRO and found it to
+   be well-designed, fast, easy to use and low-cost at only $59. You
+   simply connect its two little wireless plugs into LinnStrument's
+   MIDI IN and OUT jacks, and it transmits and receives low-latency MIDI
+   over Bluetooth to and from your computer or other Bluetooth device.
+
+   Interestingly, CME have figured out how to get the latency down to as
+   low as 3 mS, which is quite an accomplishment. In my test playing
+   3-note chords and melody with 3D MPE expression, I didn't perceive any
+   added latency or delays normally associated with Bluetooth.
+
+   Also, LinnStrument's software creator Geert Bevin has created a way to
+   make your LinnStrument fully wireless by [65]integrating a WIDI Master,
+   an Anker PowerCore+ power source, and a custom 3D-printed holder.
+
+   ‍
+
+Foot Switches
+
+   You can connect either a single or dual sustain pedal (momentary
+   switches, not latching) to LinnStrument's 1/4" Foot Switch jack. Any
+   switching keyboard sustain pedal can be used. It can be a Normally
+   Closed or Normally Open foot switch, because LinnStrument automatically
+   senses which type is connected when you connect power. If you use a
+   single foot switch, it should have a standard mono (tip-sleeve) 1/4"
+   plug and only LinnStrument's Right Foot Switch assignment will work. If
+   you use a dual foot switch, it should have a standard stereo
+   (ring-tip-sleeve) 1/4" plug, NOT two mono TS jacks.
+
+   There are two dual foot switches that are ideal:
+
+   1) In the US, StudioLogic VFP2/15B (normally closed switches) is best
+   and you can buy it on Sweetwater [66]here. Their VFP2/10B (normally
+   open) is also fine, but is not on Sweetwater. Be sure to get these
+   model numbers with a single TRS stereo jack (works with LinnStrument)
+   and not the models with two TS jacks, which won't work with
+   LinnStrument. [67]Here's the VFP2/15B on Sweetwater.
+
+   2) In Europe, the Fatar VFP2-15 1S is best. [68]Here it is on
+   Thomann.de.
+
+   ‍
+
+Avoiding Damage to USB Jack
+
+   Unfortunately the classic USB jack was designed for stationary things
+   like printers and modems, and not for music instruments. If you pull
+   hard on your USB cable, this can damage LinnStrument's USB jack,
+   requiring replacement of the main circuit board.
+
+   To avoid such damage, tie the USB cable around the nearest guitar strap
+   button, similar to how guitarists commonly protect the guitar's output
+   jack. This acts as a strain relief and protects the USB jack. This is
+   especially important when playing LinnStrument in the standing
+   position.
+
+   ‍
+
+Using an Expression Pedal
+
+   LinnStrument's Foot Switch jack only accepts a single or dual foot
+   switch, but not an expression pedal. To use a conventional expression
+   pedal with LinnStrument, you must use a device that converts its analog
+   signal to MIDI, such as the low-cost "[69]MIDI Expression" product.
+   Then you must mix its MIDI data with LinnStrument's MIDI data in your
+   DAW or with a MIDI Merger box.
+
+   ‍
+
+   ‍
+
+LinnStrument Stand
+
+   The [70]Model 18825 Equipment Stand from German company K&M is a
+   sturdy, steel-construction floor stand that works well with either
+   LinnStrument or LinnStrument 128.
+
+   ‍
+
+     * [71]About us
+     * [72]Contact US
+     * [73]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. http://www.amazon.com/gp/product/B0013LSFJI/ref=od_aui_detailpages00?ie=UTF8&psc=1
+  61. https://www.amazon.com/dp/B07ZVKTP53
+  62. https://www.apple.com/shop/product/HMQR2ZM/A/apogee-jam-usb-instrument-input-and-stereo-output-for-ipad-iphone-and-mac?fnode=7bb279fffb6d55b5c8ed0a14ca5ef531cb771615d6a80f41b66b4290b6ffbd18e9f1090f780eb224dc2cb1dde4d87aacd6b12f4d7862676f7b8ba65af0e8958dee36937fd29842995e1f018fa38d1120449b468fcf60cd53256d3ce615870823b05c9f9fa1120d457926252a3150c93a
+  63. https://www.amazon.ca/gp/product/B085DNNB4D?th=1
+  64. https://www.cme-pro.com/widi-master/
+  65. https://www.kvraudio.com/forum/viewtopic.php?f=263&t=551192&p=7864179&hilit=WIDI+WIDI#p7864179
+  66. https://www.sweetwater.com/store/detail/VFP215B--studiologic-vfp-2-15b-double-piano-style-sustain-pedal?_queryID=7eff20484ce462da931927bf45b865f5&_index=production_products
+  67. https://www.sweetwater.com/store/detail/VFP215B--studiologic-vfp-2-15b-double-piano-style-sustain-pedal?_queryID=7eff20484ce462da931927bf45b865f5&_index=production_products
+  68. https://www.thomannmusic.com/fatar_vfp215m_pianodoppelpedal.htm
+  69. https://www.audiofront.net/MIDIExpression.php
+  70. https://www.amazon.com/Stands-18825-Universal-Equipment-Stand/dp/B00EKKFBUK
+  71. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  72. https://www.rogerlinndesign.com/about/about-contact
+  73. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  75. https://www.rogerlinndesign.com/
+  76. https://www.rogerlinndesign.com/
+  77. https://www.facebook.com/RogerLinnDesign
+  78. https://www.youtube.com/user/rogerlinndesign
+  79. https://twitter.com/roger_linn
+  80. https://www.instagram.com/roger.linn/

@@ -1,0 +1,86 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+Legacy Products
+
+   Welcome to my support page for legacy products. I have provided some
+   support resources below.
+   ‍
+   MPC60, MPC3000, ASQ10
+   ‍Other than my version 3.10 software chipset, I'm afraid I can't
+   provide support for these Akai products. I have never provided support
+   for them, so I'm not familiar with the support issues, plus that was so
+   long ago that I don't remember most of the details about them. For
+   support on these products, try [19]www.mpc-forums.com. Or for hardware
+   support, try [20]www.vstservice.com or [21]www.forat.com in L.A.
+
+   AdrenaLinn Sync software plug-in
+   ‍As of April 22, 2015, I discontinued AdrenaLinn Sync and stopped
+   further development. Why? Because my development partner Way Out Ware
+   was unable to complete a 64-bit version, and very few people were
+   buying it. So in April of 2015, I discontinued AdrenaLinn Sync, and
+   sent emails to existing customers informing them that activations on
+   new computers would be possible only until May 10, 2016, but existing
+   installations would continue to work on 32-bit OSs. If you're still
+   running AdrenaLinn Sync on a 32-bit OS and have a question, I'm afraid
+   the only resource I have is the [22]Quick Start Guide. Other than that,
+   I am unable to provide further support.
+   ‍
+   ‍Linn Electronics products (LM-1, LinnDrum, Linn9000, LinnSequencer)
+   ‍Unfortunately I cannot provide support for these old products from my
+   first company of the early 1980s, mostly because I haven't thought
+   about them for nearly 40 years and don't recall the details that people
+   need answers about. But thankfully there's a very good resource:
+   [23]www.forat.com in L.A.
+   - Roger Linn
+
+     * [24]About us
+     * [25]Contact US
+     * [26]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. http://www.mpc-forums.com/
+  20. http://www.vstservice.com/
+  21. http://www.forat.com/
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6a647e4b8ea637c7e1306a_adrenalinn_sync_v2_user_guide_6-2-2010.pdf
+  23. http://www.forat.com/
+  24. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  25. https://www.rogerlinndesign.com/about/about-contact
+  26. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  28. https://www.rogerlinndesign.com/
+  29. https://www.rogerlinndesign.com/
+  30. https://www.facebook.com/RogerLinnDesign
+  31. https://www.youtube.com/user/rogerlinndesign
+  32. https://twitter.com/roger_linn
+  33. https://www.instagram.com/roger.linn/

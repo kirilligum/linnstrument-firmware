@@ -1,0 +1,179 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+Why LinnStrument's Fourths String Layout is superior to the piano layout for
+expressive touch control
+‍
+
+   Piano Note Layout
+   vs.
+
+   LinnStrument Fourths String Layout
+   When I (Roger) first started designing LinnStrument, I considered
+   making its flat 3D-sensing rubber pads in the shape and arrangement of
+   piano keys. However, I soon discovered that the piano note arrangement
+   presented too many problems for the performance of expressive pitch
+   gestures. So after researching a variety of note arrangements, it
+   became clear that a stringed instrument layout--multiple rows of
+   consecutive semitones overlapping in pitch-- was superior and solved
+   the piano's problems:
+   ‍Problem 1: The piano's pitch intervals aren't uniform and the black
+   keys are located behind the white keys
+   ‍On an expressive controller, the most intuitive way to perform pitch
+   slides and bends is to slide your finger directly from one note to
+   another. Because of the uneven pitch intervals of a piano's white keys,
+   a pitch slide from B to C results in semitone pitch change whereas a
+   slide from C to D (the same distance) results in a whole tone pitch
+   change. (Imagine the difficulty of bending strings on a guitar if
+   bending an inch on one fret produced a whole-tone pitch change, but
+   bending the same distance on the next fret produced a half-tone pitch
+   change.) Plus, sliding up an octave results in a series of uneven pitch
+   jumps. Further, sliding from a white key to a black key requires a
+   diagonal movement, which requires changing your Y-axis position.
+   This also presents a problem for vibrato, a common expressive pitch
+   gesture. If a white key has a half-tone interval on one side and
+   whole-tone interval on the other, a performed vibrato will be
+   asymmetrical, with twice the pitch movement on the whole-tone side than
+   on the half-tone side.
+   Also, because the black keys are about half the length of the white
+   keys, they have only half the Y-axis range of the white keys. Finally,
+   it's not isomorphic--for each chord or scale, you must learn a
+   different fingering for each of the 12 musical keys.
+   Some keyboards have worked around this problem by adding a linear
+   pitch-control strip above or below the key area. But this doesn't work
+   because you must move your fingers from the key area to the pitch strip
+   in order to perform pitch bends or slides. Imagine the difficulty of
+   playing bends on a guitar if doing so required that you move your
+   finger to a pitch-control strip on the side of the neck in order to
+   bend pitch.
+   ‍LinnStrument's stringed-instrument layout has none of these problems.
+   Because the interval between adjacent notes is always a semitone, pitch
+   slides are always uniform, pitch slides are intuitively performed by
+   sliding from fingered note to fingered note, vibratos are always
+   symmetrical, each note has exactly the same Y-axis range, and when the
+   rows are tuned to the same interval (as in the default Fourths String
+   Layout), it is fully isometric-- for each chord or scale, the same
+   fingering is used for all 12 musical keys.
+   ‍Problem 2: The piano's notes are arranged in one long single line
+   ‍Why? Because a few centuries ago, there needed to be a string behind
+   each key, a requirement that no longer exists in electronic
+   controllers. This presents a few problems.
+   First, if the left hand is playing bass notes and the right is playing
+   treble notes, the hands are too far apart to watch both at the same
+   time. Second, there is only one instance of each pitch, so you can’t
+   play the same note in different hands at the same time, or play chords
+   and melody in the same pitch range. Third, you can't stretch more than
+   a musical tenth interval in one hand. Fourth, it's not very portable.
+   ‍LinnStrument's stringed-instrument layout has none of these problems.
+   Because of its overlapping rows of notes, the hands are always fairly
+   close together and therefore easy to see both, each pitch has multiple
+   locations making it possible to play the same note in both hands, and
+   you can stretch up to 3 octaves in one hand. In the default Fourths
+   String Layout tuning, the large LinnStrument model's 200 note pads
+   provide a five-octave range (due to the overlapping pitches), same as a
+   standard MIDI keyboard. The smaller LinnStrument 128 provides a
+   four-octave range. And at 22.5 inches long by 8.25 inches wide by 1"
+   thick and only 5 pounds, it's much lighter and more portable.
+   ‍
+
+The Fourths String Layout:
+The Emerging Standard for Expressive MIDI Control
+
+   Like strings on a guitar, LinnStrument's rows of consecutive semitones
+   can be tuned however you like. But the most popular tuning—and
+   LinnStrument's default tuning—is in intervals of musical fourths (five
+   semitones between rows), which is like a bass guitar or the lower four
+   strings of a guitar. The name for this is the "Fourths String Layout".
+   This note arrangement turns out to provide the ideal note density for
+   chords and scales, yet still provides a full five octaves of pitch
+   range on LinnStrument, same as a standard MIDI keyboard, or four
+   octaves on LinnStrument 128.
+   ‍And others have noticed this too. It's a standard note arrangement in
+   Ableton Push, ROLI Blocks and the GeoShred, GeoSynth and Musix Pro apps
+   for iPad. Plus, of the few MPE controller available today, four of
+   them--LinnStrument, Continuum, SoundPlane and Eigenharp—abandoned the
+   piano layout because of its problems for expressive performance.
+   ‍What makes the Fourths String Layout worthy of so much attention? Two
+   reasons:
+   1) The most natural and intuitive way to perform pitch bends and
+   note-to-note pitch slides is to slide your finger directly from the
+   starting pitch to the ending pitch. This requires that the semitones
+   are arranged consecutively in rows, just like a string of a stringed
+   instrument.
+   2) Like a stringed instrument, multiple strings/rows of consecutive
+   semitones permit easier chords and scales than a single string/row. So
+   the only question is "What is the best pitch interval between rows?"
+   Guitar tuning may seem like a good idea, but without open strings and
+   therefore open chords on LinnStrument, the isomorphic advantages of a
+   uniform row interval outweigh the familiarity of guitar tuning.
+   Assuming isomorphism is a primary goal, then the question becomes "What
+   is the best uniform row interval?". Fifths tuning (7 semitones as on
+   violins and cellos) is too great an interval to finger many common
+   chords in one hand. An interval of 6 semitones provides the advantage
+   of aligned octaves on alternate rows, but moving up by 6 semitones on
+   adjacent rows is not so intuitive, and the relatively large interval
+   makes common chords difficult to finger in one hand. Thirds tuning (4
+   semitones) permits playing most chords in one hand, but the total pitch
+   pitch range of the playing surface is too limited. But fourths tuning
+   (5 semitones) permits easy fingering of any chord or scale, provides a
+   very good total pitch range, and is highly intuitive, given that fourth
+   intervals are common in most musical forms. .
+   Another option is a matrix of hex keys. However, if you want the want
+   the advantages of intuitive pitch gestures explained in #1 above, you
+   still need horizontal rows consisting of consecutive semitones. If so,
+   then a hex keyboard is merely a grid with alternate rows shifted over
+   by 1/2 column then squished down between the keys of the adjacent row
+   to form hexagons. Instead of integer pitch intervals between grid rows
+   (4, 5, 6, 7, etc.), the hex row intervals would be 3.5 or 4.5 or 5.5 or
+   6.5, etc. To illustrate this, [19]here is a picture of what
+   LinnStrument might look like with a hex-key playing surface and with a
+   row offset of 4.5 semitones. While this layout has merit, I (Roger)
+   find it less intuitive to form chords or to play single lines than a
+   grid and therefore don't see an advantage.
+
+     * [20]About us
+     * [21]Contact US
+     * [22]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e694e4b681006d5ed9c98cc_linnstrument-hex-layout.svg
+  20. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  21. https://www.rogerlinndesign.com/about/about-contact
+  22. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  24. https://www.rogerlinndesign.com/
+  25. https://www.rogerlinndesign.com/
+  26. https://www.facebook.com/RogerLinnDesign
+  27. https://www.youtube.com/user/rogerlinndesign
+  28. https://twitter.com/roger_linn
+  29. https://www.instagram.com/roger.linn/

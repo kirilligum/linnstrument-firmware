@@ -1,0 +1,261 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn III Software Versions
+
+   ‍
+
+   Version 3.0.3, released on January 1, 2009
+
+   • In rare cases it was possible that the AdrenaLinn III would become
+   disabled, showing only "dSP" in the display when turned on. We believed
+   that we had fixed this problem in v301, but found that it still occured
+   in nearly 1% of updated units. We now believe we have fixed it
+   completely.
+
+   ‍
+
+   Version 3.0.2, released on May 12, 2008
+
+   • MIDI Active Sense messages were not processed correctly, causing
+   subsequent MIDI messages to be corrupted. This is fixed. This fix is
+   important if you are using a Roland FC-300 pedal board, which sends
+   MIDI Active Sense messages. When an FC-300 is used with an AdrenaLinn
+   III containing earlier software versions, the 2 expression pedals
+   produce erratic results.
+
+   Version 3.0.1, released March 1, 2008
+
+   Improvements
+
+   • The Tuner is now more sensitive to high strings and more accurate.
+   Also, when the 2 LEDs in the center of the LED column are lit
+   (indicating the string is in tune) they blink rapidly, making it easily
+   to see when you’re in tune.
+
+   • The Tuner now includes a mode called “Tuner/Mute” that mutes the
+   outputs while tuning. To use this, invoke the tuner as normal by
+   tapping-then-holding the right foot switch, then continue to hold it 1
+   second longer so that the display shows “MUT”. Now when you tune the
+   strings, you won’t hear the guitar at the outputs.
+
+   • The "TUN" option of the FOOT SWITCH DESTINATION parameter still
+   invokes the tuner as before, but instead of passing the bypassed guitar
+   signal, it now mute the guitar signal entirely. This is also true for
+   the "TUN" option of the EFFECT SWITCH parameter.
+
+   • The Marshall Plexi amp model now has slightly better definition in
+   the treble range.
+
+   • The DRUMS SEND parameter is now taken BEFORE the DRUMS VOLUME instead
+   of after. This allows you to send the drums to the input, delay or
+   reverb without sending any drums signal to the outputs.
+
+   ‍Bug fixes
+
+   • In rare cases it was possible that the AdrenaLinn III would become
+   disabled, showing only "dSP" is the display when turned on. The chances
+   of this occurring are reduced considerably.
+
+   • After turning power on, the 2 foot switches did not function
+   correctly until you turned one of the 4 knobs. This is fixed.
+
+   • When using MIX / SEP OUTS, there was a large jump in volume between
+   the EQU and D1 settings. This has been fixed.
+
+   • When using external MIDI expression pedals (for wah, volume or other
+   functions) it was possible to hear discrete steps when moving the pedal
+   slowly. This has been fixed.
+
+   • If both Delay and Reverb were on, the manual stated that the delay
+   signal occurred before the reverb in the signal chain, but you wouldn’t
+   hear any reverb on the delayed signal. This is now fixed.
+
+   • When using the PEAK HOLD feature (used in presets 163, 166 and 172),
+   the filter frequency would suddenly drop to a low frequency near the
+   end of sustained notes. This has been fixed.
+
+   • When the LFO WAVE parameter was changed, the SPEED parameter would
+   instantly change to ‘2n’ (1/2 notes). This has been fixed.
+
+   • When changing the PERCUSSION SOUND-VOLUME parameter from one setting
+   to another, only one of the bank’s 3 sounds would be heard with each
+   change. Now, all 3 sounds in the bank are heard, one after another,
+   with each change.
+
+   • After version 3.0.1 is installed in an AdrenaLinn III, any future
+   software updates can be downloaded to a computer with a MIDI interface
+   and installed over MIDI.
+
+   ‍
+
+   Version 3.0.0, released July 2007.
+
+   This is the original AdrenaLinn III software release.
+
+   ‍
+
+   ‍
+
+How to upgrade your AdrenaLinn III to version 3.0.3
+
+   ‍Check your software version
+
+   Your AdrenaLinn III must be fully working to read the version number.
+   While holding the UP ARROW button, connect power and continue to hold
+   until the display shows a 3-digit number, either "300", "301", "302" or
+   "303".
+
+   Note: if you've disassembled the unit, the version number printed on
+   the chips isn't necessarily correct because the software version may
+   have been upgrading over midi.
+
+   ‍
+
+   ‍If your AdrenaLinn III is running version 3.0.0, or if your AdrenaLinn
+   III shows only "dSP" when powered on (or is otherwise not working but
+   lights go on when power is connected)
+
+   You must replace two plug-in chips inside your unit with two new chips
+   containing the v303 software, which you can buy on our online store and
+   install yourself. (Click [39]here for Installation Instructions.) Go to
+   our online store and find the item "AdrenaLinn III Version 3.0.3
+   Software Update Chipset".
+
+   ‍
+
+   ‍If your AdrenaLinn III is running version 3.0.1 or 3.0.2 and is fully
+   working
+
+   You can upgrade for free by downloading a file to your computer, then
+   installing it to your AdrenaLinn III over MIDI. This update process
+   doesn't change any user presets or drumbeats you've created so there's
+   no need to back up. (You can also simply buy the v3.0.3 chipset from
+   our online store if you prefer.) Here's what to do:
+
+   1) [40]Download the v303 Update file and save it to your computer
+   (Windows or Mac).
+
+   2) [41]Download the free demo of SoundTower's AdrenaLinn III Editor for
+   Windows or Mac, and install it on your computer. (Because of the
+   special format of the OS file, you must use the SoundTower editor, and
+   you must use version 1.1.2 or later of the editor.)
+
+   3) Connect the MIDI OUT port on your computer's MIDI interface to the
+   AdrenaLinn III's MIDI IN. Do not connect anything to the AdrenaLinn
+   III's MIDI OUT. Start the SoundTower AdrenaLinn III Editor and select
+   MIDI / MIDI SETUP to assign your computer's MIDI interface ports.
+
+   4) In the AdrenaLinn III Editor, select the FILE menu (on Windows) or
+   ADRENALINN SE menu (on Mac) and click ADRENALINN OS UPDATE. Select the
+   unzipped v3.0.3 file you just downloaded and follow the editor's
+   instructions to perform the update. Once the update process begins, it
+   will take about 2 minutes to complete.
+
+   5) To verify that your AdrenaLinn III has been successfully upgraded to
+   v3.0.3, hold the UP ARROW key while connecting power and continue to
+   hold it until 3 digits appear in the display. If it shows "303", the
+   update was successful. If it still shows the earlier version ("301" or
+   "302"), the update wasn't successful. Try again.
+
+   NOTE: If during the update, the A3's display flashes "Er1", "Er2" or
+   another "Er" (error) message, your MIDI interface or its software
+   drivers are having trouble transmitting this large System Exclusive
+   file. If using Windows, check (in Windows Device Manager) that your
+   MIDI interface is using the manufacturer's latest driver and NOT the
+   generic Windows "USB Audio Driver", which (not surprisingly) doesn't
+   work.
+
+     * [42]About us
+     * [43]Contact US
+     * [44]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. http://www.rogerlinndesign.com/downloads/adrenalinn3/docs/AdrenaLinn_chip_change_instructions.jpg
+  40. https://www.dropbox.com/s/w5ie75fuigrws99/adr3_v303_os.syx?dl=1
+  41. http://www.soundtower.com/adrenalinn/index2.htm
+  42. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  43. https://www.rogerlinndesign.com/about/about-contact
+  44. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  46. https://www.rogerlinndesign.com/
+  47. https://www.rogerlinndesign.com/
+  48. https://www.facebook.com/RogerLinnDesign
+  49. https://www.youtube.com/user/rogerlinndesign
+  50. https://twitter.com/roger_linn
+  51. https://www.instagram.com/roger.linn/

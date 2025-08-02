@@ -1,0 +1,374 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn  FAQs
+
+   Pre-salesGeneralPopular Guitar EffectsMIDI
+
+Q: What is the latest software version for AdrenaLinn? How do I check my
+version? Can I upgrade my unit?
+
+   A: There are 2 little computers inside the AdrenaLinn, each with a
+   different software version:
+
+   1) A microcontroller (MCU). To check its software version, connect
+   power while holding the UP ARROW button. The latest version is 1.5,
+   shown in the display as "1-5".
+
+   2) A digital signal processor (DSP). To check its software version,
+   connect power while holding the DOWN ARROW button. The current version
+   is 1.6, shown in the display as "1-6”.
+
+   Because there are two parts to the software, the latest version is
+   called "Version 1.5/1.6". Click here for a list of the improvements in
+   version 1.5/1.6. If you wish to upgrade to version 1.5/1.6, you can do
+   so by purchasing a set of two plug-in chips that you can install
+   yourself. Go to our online store and look for the item "AdrenaLinn
+   (Original Model) Version 1.5/1.6 Software Chipset."
+
+Q: Can I power my AdrenaLinn from [power supply name]?
+
+   A: There are too many power supplies on the market for us to keep up
+   with. However, you can use any power supply that meets AdrenaLinn's
+   requirements:
+     * 9 volts DC
+     * At least 500 milliamps
+     * Plug dimensions of 12mm long by 5.5mm outside diameter by 2.1mm
+       inside diameter, center pin POSITIVE, not negative. (Important: a
+       negative-center supply will damage your AdrenaLinn.)
+
+   We no longer sell a replacement power supply, but you can buy the same
+   power supply here:
+
+   [39]https://www.digikey.com/en/products/detail/xp-power/VER05US090-JA/5
+   023722
+
+Q: What preset and drumbeat did John Mayer use in this song "Bigger Than My
+Body"?
+
+   A: He used factory preset F35 and factory drumbeat F48.
+
+Q: How can I get the sounds John Mayer used on his song "I Don't Trust Myself
+(with Loving You)"?
+
+   A: Select drumbeat F22 and set the tempo to 84 BPM.
+
+   To get the pulsing filter sound used on the opening chords:
+
+   Set PRESET to F47.
+
+   Set Filter Mode to 4PO.
+
+   Set Filter Frequency to 45.
+
+   Set Resonance to 10.
+
+   Set LFO Wave to 'Sin'.
+
+   Set Delay Vol to 0.
+
+   To get the auto-wah sound used on the melody line that follows the
+   opening chord riff:
+
+   Set PRESET to F15.
+
+   Set Filter Mode to 4PO.
+
+   Set Mod Amount to 65.
+
+   Set Resonance to 10.
+
+   Set Amp Drive to 20.
+
+   Set Bass to 11.
+
+   Set Mid to 0.
+
+   Set Treble to 87.
+
+   Set Delay Vol to 0.
+
+   Set Amp Model to 4.
+
+Q: How can I get the pulsing guitar sound John Mayer used throughout his song
+"Heartbreak Warfare"?
+
+   Set DRUMBEAT to F22.
+
+   Set TEMPO to 97.
+
+   Set DELAY VOL to 25.
+
+   Set DELAY TIME to 38.
+
+   Set DELAY FEEDBACK to 59.
+
+   Here's how he plays the guitar part on the intro and verses:
+
+   * On the 2nd 1/8 note of each bar, softly play the G string on the 14th
+   fret.
+
+   * On the 3rd 1/8 note of each bar, softly play the B string on the 17th
+   fret. Let both strings ring out for the duration of the bar. This same
+   part works over both the A and D chords played by the other musicians.
+
+   For the F# minor section ("If you want more love, why don't you say
+   so?"), the part is:
+
+   * 1st bar: Fm chord, played as 4th fret of D string + 2nd fret of G
+   string + 2nd fret of B string.
+
+   * 2nd bar: Asus chord, played as open A string + 2nd fret of D string +
+   2nd fret of G string + open B string.
+
+   * 3rd & 4th bar: D Ma7 chord, played as open D string + 2nd fret of G
+   string + 2nd fret of B string.
+
+   For all three of these chords, play the lowest string of the chord on
+   the start of each bar, and the other notes of the chord on the 2nd 1/4
+   note of each bar. Let the notes sustain for the duration of each bar,
+   then repeat these 4 bars once before going back to the verse section.
+
+   There's a third part, but we'll leave it up to you figure that one out.
+
+Q: One or more of my knobs came off. How can I make them stay on, or can I
+get more?
+
+   A: The knobs do tend to lose their grip over time. We have new knobs
+   that grip tighter and you can order a set of 4 from our online store.
+   Alternatively, one customer had a novel solution: Cut out a 1/3" circle
+   of aluminum foil and place it over the shaft, then push the knob onto
+   the shaft; the foil will act as a shim that holds the knob on better.
+
+Q: Can I separate the drum sound from the guitar sound?
+
+   A: Yes. Press and hold the main button and that will bring you to the
+   secondary functions on the main knobs. Turning the forth knob to the
+   left will mix out the drumbeat, while turning to the right will mix out
+   the preset. If you turn the knob all the way to the right, the LED will
+   read "SEP" and this will route the drumbeat to the right output and the
+   preset to the left.
+
+Q: How do I create a tremolo effect?
+
+   A:
+
+   1. Adjust the Filter Mode to VOL (Volume).
+
+   2. Adjust the Mod Source parameter to LFO (Low-Frequency Oscillator).
+
+   3. Adjust Filter Frequency to 75.
+
+   4. Adjust Mod Amount to 50.
+
+   5. Adjust the LFO Wave parameter to Sin (sine wave).
+
+   6. Adjust the LFO Rate to the desired cycle rate: either a fixed cycle,
+   with a range from 0 to 99, or a synced cycle with a range from every 8
+   measures to every 32nd note.
+
+Q: How do I create a flanger effect?
+
+   A:
+
+   1. Adjust the Filter Mode parameter to FL1 or FL2.
+
+   2. Adjust the Mod Source parameter to LFO (Low-Frequency Oscillator).
+
+   3. Adjust the LFO Wave parameter to Sin (sine wave).
+
+   4. Adjust the LFO Rate to the desired cycle rate: either a fixed cycle,
+   with a range from 0 to 99, or a synced cycle with a range from every 8
+   measures to every 32nd note (see details on LFO Rate on page 30).
+
+   5. Adjust the Filter Frequency (which controls the delay time range in
+   your flanger cycle) to a medium setting, around 50.
+
+   6. Adjust the Mod Amount to a lower setting, around 30. For less bass
+   tonality in your flanger, set Mod the Amount to an inverted setting,
+   around -30.
+
+   7. Adjust the Resonance (which controls the delay feedback) to a lower
+   setting, around 30, adding a sense of pitch to your flanger.
+
+   8. Hint: If you are using an Amp Model along with the flanger, set your
+   Amp Drive to go before the flanger in the signal path (Scroll the Amp
+   Drive parameter past 99 until you see a "b" in the LED display). This
+   allows for a fuller flange tone, much like putting your distortion
+   pedal before your flange pedal.
+
+Q: How do I set the AdrenaLinn to do "auto-wah"?
+
+   A:
+
+   1. Adjust the Filter Mode to "4P0" (4-pole) filter.
+
+   2. Adjust the Mod Source to "AUD" (audio).
+
+   3. Set the Mod Amount to a high setting like 99,
+
+   4. Set the Resonance to a fairly high setting like 60. The filter will
+   now affect your guitar tone according to the level of audio input,
+   giving you an "auto-wah."
+
+Q: How do I use only the amp model?
+
+   A:
+
+   1. Turn the Filter Mode to OFF.
+
+   2. Select the desired Amp Model (a full list of the amp simulations is
+   found earlier in this section).
+
+   3. Adjust the Amp Drive to desired amount.
+
+   Q: How do I use only the synced delay?
+
+   A:
+
+   1. Turn the Filter Mode to OFF.
+
+   2. Turn the Amp Model to OFF.
+
+   3. Adjust the Delay Time (0-99 for a fixed setting, or ½ note-1/32nd
+   note for a synced setting).
+
+   4. Adjust the Delay Volume and the Delay Feedback to desired amount.
+
+Q: How do I set the AdrenaLinn to do "auto-pan"?
+
+   A:
+
+   1. Make sure you are running the stereo outputs into a stereo source.
+
+   2. Adjust the Pan parameter to LFO.
+
+   3. Set the LFO Wave to Sin (sine wave).
+
+   4. Adjust the length of your pan cycle by setting the LFO Rate
+   parameter to the desired length (8-measures, 4-measures, 1-measure,
+   whole notes, etc).
+
+Q: How do I set the AdrenaLinn to output "notes", like in presets 09, 10, and
+33-35?
+
+   A:
+
+   The AdrenaLinn can be made to act like an arpeggiator, accentuating a
+   sequence of specific musical notes of signal. Follow these steps to
+   make it work:
+
+   1. Set your Filter Mode to flanger ("FL1")
+
+   2. Set Mod Source to sequencer ("SEq")
+
+   3. Set Mod Amount to a "99"
+
+   4. Set Filter Frequency to "0"
+
+   5. Set Resonance to "85"
+
+   6. Press Sequencer button once to enter Sequencer Mode and adjust the
+   Level of each step according to the note you desire (You can do this as
+   the sequencer is playing to hear realtime results). Each increment is
+   equal to one semitone.
+
+Q: What MIDI messages does the AdrenaLinn respond to/send out?
+
+   A: The AdrenaLinn responds to MIDI start, stop, clock, note number,
+   velocity, bend, controller, pressure, and program changes. The
+   AdrenaLinn sends out MIDI start, stop, and clock. For more information
+   on MIDI implementation, download the AdrenaLinn MIDI Specification at
+   left.
+
+     * [40]About us
+     * [41]Contact US
+     * [42]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. https://www.digikey.com/en/products/detail/xp-power/VER05US090-JA/5023722
+  40. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  41. https://www.rogerlinndesign.com/about/about-contact
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  44. https://www.rogerlinndesign.com/
+  45. https://www.rogerlinndesign.com/
+  46. https://www.facebook.com/RogerLinnDesign
+  47. https://www.youtube.com/user/rogerlinndesign
+  48. https://twitter.com/roger_linn
+  49. https://www.instagram.com/roger.linn/

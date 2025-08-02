@@ -1,0 +1,216 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Samples vs. Synthesis
+
+   Some customers ask which is better for LinnStrument's expressive
+   control-- samples or synthesis?
+
+   ‍
+
+   Synthesis
+
+   The advantage of synthesis is that the sound is fully malleable, so
+   it's easy to control note loudness from finger pressure, pitch from
+   X-axis movement, and timbre (or whatever you want) from Y-axis
+   movement.
+
+   ‍
+
+   Samples
+
+   If you want traditional instrument sounds, samples are more accurate.
+   However, samples are fixed recordings at a specific pitch, loudness and
+   timbre and are therefore not very malleable under LinnStrument's
+   expressive control. For example:
+
+   * Natural velocity response requires switching between different
+   samples recorded at different levels of force,
+
+   * Bending the Pitch of a sample more than a few semitones sounds
+   unnatural because you're merely playing the sample faster or slower.
+
+   * Y-axis control of timbre doesn't work well because there's not much
+   you can do to alter the timbre of a sample other than filtering it.
+
+   When playing LinnStrument, samples work well for piano or
+   plucked-string sounds because there is no need for pressure or
+   (usually) Y-axis control. In fact, all of the guitar sounds in my
+   (Roger's) sounds file for Logic or MainStage are samples from the
+   built-in Logci/MainStage sample libraries, but optimized for
+   LinnStrument's expressive control.
+
+   But for sounds like solo winds or solo bowed strings that require
+   continuous gestural control of pitch, loudness and timbre, samples
+   don't work so well. Why? Because you need a different sample for each
+   pitch range (perhaps every 3 semitones), and for each pitch sample you
+   need multiple velocity and pressure samples. And if you want continuous
+   timbre control, you'd need multiple timbre samples for each of the
+   velocity/pressure samples of each pitch range sample. That adds up to a
+   lot of samples, and the transitions are usually noticeable. That said,
+   if you only want ensemble winds or bowed strings, those usually don't
+   require much expressive control, so sample libraries work pretty well
+   for ensemble play.
+
+   Also, sample libraries tend to assume you're playing from a
+   conventional MIDI keyboard's on/off switches, so the sample recordings
+   often include the performance gestures like vibrato, pitch slides,
+   fast/slow attacks, etc, that you presumably bought your LinnStrument to
+   perform in real time with hand gestures. For example, a violin sample
+   recording may include performed vibrato or a slow bow attack, which you
+   don't want when playing LinnStrument; you want to perform these
+   gestures.
+
+   ‍
+
+   The best of both worlds
+
+   There's a third choice; physical modeling, led by the [60]Audio
+   Modeling company. Their bowed strings are mathematical models of bowed
+   string instruments, and are so perfect that you'd swear they are
+   samples. But unlike samples, they respond naturally to performed
+   gestures for simultaneously control of each note's continuous loudness,
+   pitch and a variety of timbral variations like bow position. And same
+   for their wind instruments, though some of them use a hybrid of
+   physical modeling and smart transitions between many samples. It
+   doesn't really matter what's under the hood because they all sound
+   perfect and respond naturally and authentically to LinnStrument's
+   gestural control.
+
+   ‍
+
+   ‍
+
+     * [61]About us
+     * [62]Contact US
+     * [63]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. http://www.audiomodeling.com/
+  61. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  62. https://www.rogerlinndesign.com/about/about-contact
+  63. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  65. https://www.rogerlinndesign.com/
+  66. https://www.rogerlinndesign.com/
+  67. https://www.facebook.com/RogerLinnDesign
+  68. https://www.youtube.com/user/rogerlinndesign
+  69. https://twitter.com/roger_linn
+  70. https://www.instagram.com/roger.linn/

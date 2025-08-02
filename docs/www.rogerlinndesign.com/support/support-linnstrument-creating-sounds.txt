@@ -1,0 +1,237 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Creating Sounds for LinnStrument
+
+   By default, LinnStrument is set up to send over a single MIDI channel
+   (channel 1) with the following settings that are most compatible with
+   conventional one channel non-[60]MPE synths:
+
+   In Per-Split Settings:
+   MIDI Mode = One Channel (See "Smart MIDI" at left for more about One
+   Channel mode.)
+   Bend Range = +/- 2 semitones
+   Timbre/Y = CC74 (The standard MPE message for Y-axis control.)
+   Loudness/Z = Poly Pressure (Provides polyphonic finger pressure over a
+   single MIDI channel, if your synth respond to it.)
+
+   These settings allow LinnStrument to work with the preset sounds of
+   common one-channel non-MPE synthesizers, which are usually optimized
+   for the on/off switches of standard MIDI piano keyboards. (See "What is
+   MPE?" at left.) So while the above settings and conventional sounds
+   will provide immediate gratification, you'll notice some limitations:
+
+1) Left/Right pitch slides are limited to 2 semitones (sliding 2 note pads
+left or right)
+
+   Convention keyboard sounds usually have a Pitch Bend Range of 2
+   semitones, because they are expecting a keyboard's Pitch Wheel, which
+   doesn't work very well for larger pitch bends. For longer pitch slides,
+   increase the Pitch Bend Range of both your sound generator and
+   LinnStrument. A Bend Range of 48 semitones is ideal because that's the
+   MPE standard, but the Bend Range of many conventional synths only go up
+   to 12 semitones, so use the highest value your synth will permit. For
+   example, a Bend Range of 12 will permit pitch slides on LinnStrument of
+   up to 12 note pads (semitones) left or right.
+
+2) There is no response to finger pressure.
+
+   You'll need to assign your synth to respond to LinnStrument's finger
+   pressure. This is different than a MIDI piano keyboard's Aftertouch,
+   which is only sent after the key is fully depressed and therefore only
+   useful for adding a modulation effect to a note that is already
+   playing. By comparison, LinnStrument's senses pressure continuously
+   from the lightest to heaviest touch and therefore can be used to
+   control the entire volume of a note, as in a wind or bowed-string
+   instrument. By default, LinnStrument sends pressure data using MIDI
+   Polyphonic Pressure messages, because that will permit polyphonic
+   pressure control. However, if your synth doesn't respond to Poly
+   Pressure messages, you can Channel Pressure or any Control Change
+   message.
+
+   If you wish to use finger pressure to control note volume, use a
+   modulation destination like volume or filter frequency. If using filter
+   frequency, setting the unmodulated frequency to below the note pitch
+   will allow the filter to be used to control both brightness and
+   amplitude in a natural way.
+
+3) There is no response to forward/backward (Y-axis) finger movements.
+
+   To add Y-axis response, you'll need to assign your synth to respond to
+   LinnStrument's Y-axis control, which is sent by default using Control
+   Change 74 messages. (This is the standard MPE message for Y-axis
+   control.)
+
+   Often people initially make the mistake of thinking that Y-axis should
+   be used in the same way as Mod Wheel, adding a varying amount of LFO
+   modulation as you tilt your finger forward. This is not a good idea
+   because one of the main purposes of expressive controllers is to
+   replace the venerable and unnatural LFO with performed gestures like
+   vibrato (left/right finger movement) or tremolo (varying pressure).
+   Instead, a better use of Y-axis is to provide a continuous change in
+   timbre, analogous to bowing a violin at different string positions
+   between the bridge and neck, or varying embouchure on a wind
+   instrument. A good example of this in subtractive synthesis is to
+   assign Y-axis to vary the pulse width of a pulse oscillator, thereby
+   providing a continuous change in the fundamental harmonic content of
+   the waveform in such a way that all tones produced are useful. In this
+   way, timbral variation becomes a performance gesture.
+
+4) There is no polyphonic pitch bend (left/right movement) or polyphonic
+Y-axis (forward/backward) control.
+
+   To add these, you'll need to use a sound generator that's compatible
+   with the new [61]MPE standard, with each of its voices receiving on a
+   separate MIDI channel. (See "What is MPE?" at left.) And you'll need to
+   to set LinnStrument into MPE mode:
+
+   In Per-Split Settings, MIDI Mode column, HOLD Channel Per Note for at
+   least 1/2 second. Its light will turn light blue and it will
+   automatically set the following Per-Split Settings to the standard
+   messages for MPE synthesizers:
+
+   MIDI Mode = Channel Per Note
+   Bend Range = +/- 48 semitones
+   Timbre/Y = CC74
+   Loudness/Z = Channel Pressure
+
+   To see a list of MPE sound generators, click "Recommended Sounds" at
+   left. The best MPE sounds for immediately gratification are listed on
+   that page in the section "How to play sounds NOW that fully realize
+   LinnStrument’s potential". Further down that page is a long list of
+   MPE-compatible synths.
+
+     * [62]About us
+     * [63]Contact US
+     * [64]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  61. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  62. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  63. https://www.rogerlinndesign.com/about/about-contact
+  64. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  66. https://www.rogerlinndesign.com/
+  67. https://www.rogerlinndesign.com/
+  68. https://www.facebook.com/RogerLinnDesign
+  69. https://www.youtube.com/user/rogerlinndesign
+  70. https://twitter.com/roger_linn
+  71. https://www.instagram.com/roger.linn/

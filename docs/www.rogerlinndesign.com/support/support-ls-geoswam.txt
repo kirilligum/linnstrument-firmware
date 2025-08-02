@@ -1,0 +1,199 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+20% Discount on 11 GeoSWAM instruments for GeoShred iPad app
+
+   You're probably aware of Audio Modeling's excellent SWAM instruments,
+   perfect software recreations of acoustic bowed-string and wind
+   instruments, which I (Roger) highly recommend on my [60]Recommended
+   Sounds page.
+
+   What you may not know is that versions of 11 of these SWAM instruments
+   are available for the iPad app GeoShred from Jordan Rudess' company
+   [61]Wizdom Music. The 11 instruments are:
+
+   GeoCello
+   GeoViola
+   GeoViolin
+   GeoPizzBass
+   GeoFlute
+   GeoBassFlute
+   GeoTenorSax
+   GeoClarinet
+   GeoOboe
+   GeoTrumpet
+   GeoBassTrombone
+
+   The bundle is called "GeoSWAM Collection I & II" and normally costs
+   $120, but for LinnStrument owners it is only $94.99, a 20% discount.
+   And if you don't already own GeoShred, you don't have to buy it because
+   this SWAM bundle runs on the free "GeoShred Control" app version.
+   Here's a video of Jordan Rudess playing some of these sounds from a
+   LinnStrument:
+
+   IFRAME:
+   [62]https://www.youtube.com/embed/8xRe9k6x9fU?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+   Here's how to get the discounted bundle:
+   ‍
+   1) If you bought your LinnStrument from a dealer or bought it used and
+   haven't yet registered your purchase, do so by clicking the
+   "[63]Registered Dealer/Used Purchase" link on this page. If you bought
+   direct or already registered, you don't need to do this.
+   2) To get the discount code for the GeoSWAM bundle, [64]send me (Roger)
+   an email containing:
+   a) Your LinnStrument serial number
+   b) Your name, the same name you used in your dealer/used registration
+   or in your purchase from my online store.
+   I will reply with your discount code.
+   3) Watch the following video to learn how to a) download GeoShred, b)
+   purchase the GeoSWAM bundle using your discount code, and c) setup both
+   LinnStrument and GeoShred to start playing:
+
+   IFRAME:
+   [65]https://www.youtube.com/embed/QwboL99yJ-g?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+   Many thanks to Jordan and the rest of the GeoShred team for this
+   valuable offer.
+   - Roger
+
+     * [66]About us
+     * [67]Contact US
+     * [68]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  61. https://www.wizdommusic.com/
+  62. https://www.youtube.com/embed/8xRe9k6x9fU?rel=0&controls=1&autoplay=0&mute=0&start=0
+  63. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  64. mailto:support@rogerlinndesign.com
+  65. https://www.youtube.com/embed/QwboL99yJ-g?rel=0&controls=1&autoplay=0&mute=0&start=0
+  66. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  67. https://www.rogerlinndesign.com/about/about-contact
+  68. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  70. https://www.rogerlinndesign.com/
+  71. https://www.rogerlinndesign.com/
+  72. https://www.facebook.com/RogerLinnDesign
+  73. https://www.youtube.com/user/rogerlinndesign
+  74. https://twitter.com/roger_linn
+  75. https://www.instagram.com/roger.linn/

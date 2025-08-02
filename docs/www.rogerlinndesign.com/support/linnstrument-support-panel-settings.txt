@@ -1,0 +1,2067 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Panel Settings
+
+Version 2.3.3 Software
+
+   Per Split SettingsPreset/VolumeOctave/TransposeSwitch 1&2 / SplitGlobal
+   SettingsStep Sequencer
+
+Per-Split Settings
+
+Overview
+
+   Per-Split Settings are settings that generally need to have different
+   values for each of the two keyboard splits. For example, MIDI Channels
+   is a Per-Split Setting because the left and right splits need to send
+   over different MIDI channels.
+
+   To view or change the Per-Split Settings, press the Per-Split Settings
+   button and the button will light. Now notice that all the lights on
+   LinnStrument's playing surface have changed:
+
+   Now the upper four rows of lights indicate the status of the Per-Split
+   Settings printed directly above each column. For each column, the
+   status of the uppermost printed setting is indicated by the uppermost
+   note pad; the status of the second-from-top printed setting is
+   indicated by the second-from-top note pad; etc. For example, if the
+   highest note pad in column 1 is lit, this indicates that "One Chan" is
+   selected.
+
+   Tip: The Per-Split Settings button has both momentary and toggle
+   action:
+
+   If held for more than 1/2 second, it is momentary, staying on only as
+   long as you hold it. This is used for fast changes: hold Per-Split
+   Settings, change a setting with your other hand, then releasing
+   Per-Split Settings.
+
+   Or if tapped briefly (held less than 1/2 second), it toggles between on
+   and off with each press. This is better for one-handed use: turn on
+   Per-Split Settings, change a setting, then press Per-Split Settings
+   again to turn it off.
+
+   Each of the Per-Split Settings is explained below.
+
+   ‍
+
+Select Split (columns 15 & 16)
+
+   The Per-Split Settings screen includes two sets of settings-- one for
+   the Left Split and another for the Right Split.
+
+   If LEFT is selected here, the settings in the leftmost 14 columns apply
+   to the Left Split.
+
+   If RIGHT is selected, the settings in the leftmost 14 columns apply to
+   the Right Split.
+
+   Also, when Split mode is off, the entire playing surface will use
+   either the Left or Right Split's settings, depending on which Split is
+   selected here. And you can quickly switch between them while playing by
+   double-tapping the Split button.
+
+‍
+MIDI Mode (column 1)
+
+   There are three different ways that LinnStrument can send its MIDI
+   information:
+
+   1) One Chan (One Channel)
+   All touches are sent over a single MIDI channel, called the Main
+   channel. This is LinnStrument's default setting, making it compatible
+   with every MIDI sound generator in existence, because all traditional
+   MIDI keyboards send over a single MIDI channel. Click [60]here to learn
+   about LinnStrument's Smart MIDI, which prevents conflicts over a single
+   MIDI channel when playing simultaneous pitch slides or Y-axis
+   movements.
+
+   Tip: For best compatibility with standard one-channel (not MPE) synths
+   and their preset sounds, which are optimized for traditional MIDI piano
+   keyboards, use these settings:
+
+   MIDI Mode: One Channel
+   Main Channel: 1
+   Bend Range: 2
+   Timbre/Y: CC74
+   Loudness/Z: Poly Pressure
+
+   Hidden Setting: set all settings for one-channel non-MPE synths
+   Hold this button for more than 1/2 second to instantly change the
+   MIDI settings to the above values. (This feature was added in version
+   2.3.1 software.)
+
+   2) ChPerNote (Channel Per Note, also called MPE for MIDI Polyphonic
+   Expression)
+   Each touch is sent on its own unique MIDI channel, permitting
+   independent 3D control for each simultaneous touch. Played notes are
+   rotated through the assigned Per-Note Channels (see "MIDI Channels"
+   below). Messages common to all notes (like Program Change, Sustain/CC64
+   or Volume/CC7) are sent over the Main channel, or if no Main channel is
+   selected, redundantly over all Per Note Channels.
+
+   Hidden Setting: set all settings for MPE synths
+   Hold this button for more than 1/2 second to instantly change other
+   relevant Per-Split Settings for MPE compatibility. The button's light
+   will turn light blue and these settings will be set as follows:
+
+   Left split: Main Ch 1, Per-Note Chs 2-8
+   Right split: Main Ch 16, Per-Note Chs 9-15
+   Bend Range: 48 (This uses the hidden setting "Any Bend Range". See
+   "Bend Range" heading below.)
+   Timbre/Y: CC74
+   Loudness/Z: Chan Pres
+
+   Also, LinnStrument will send a MIDI Remote Activation message (RPN 6),
+   which will remotely set an MPE sound generator to MPE mode and set its
+   channels and Bend Range to match LinnStrument's.
+   Note that if LinnStrument receives such a message from a synth, it will
+   select Channel Per Note mode and set its Per-Note Channels and Bend
+   Range to match the values in the received message.
+
+   3) ChPerRow (Channel Per Row)
+   Each row’s touches are sent on a unique MIDI channel. By default, the
+   lowest row is sent over channel 1, the next over channel 2 and the
+   highest row over channel 8. Messages common to all notes (like Program
+   Change, Sustain/CC64 or Volume/CC7) are sent over the Main channel, or
+   if no Main channel is selected, redundantly over all Per Row Channels.
+
+   Hidden Setting: Reverse Row Order
+   Normally the lowest row uses the lowest of the assigned 8 Per-Row
+   Channels and the highest row uses the highest numbered channel. This
+   can be a problem for some guitar synthesizers that always use channel 1
+   for the highest row/string. In such cases, hold the ChPerRow button to
+   reverse the channel order so that the highest row uses the lowest of
+   the 8 assigned channels and the lowest row uses the highest channel
+   number. The button's light will change to the split's accent color.
+
+   ‍
+
+MIDI Channels (columns 2 - 6)
+
+   Columns 3 through 6 are used to select the MIDI channel(s) over which
+   MIDI messages are sent. Depending on the selection in the View column
+   (column 2), one of three MIDI channel assignments can be viewed or
+   changed:
+
+   1) If VIEW is set to Main Chan (main channel), you can view or change
+   the Main MIDI channel in columns 3 - 6. By default, LinnStrument uses
+   channel 1 for the left split (MPE lower zone) and channel 16 for the
+   right split (MPE upper zone).
+   If MIDI Mode is set to One Channel, then this setting determines the
+   single channel over which all MIDI messages are sent.
+   If MIDI Mode is set to Per-Note Channels or Per-Row Channels, then this
+   setting determines the channel over which messages common to all
+   touches (like Program Change, Sustain Pedal / CC64 or Volume / CC7) are
+   sent. Or if no Main Channel is selected (press the selected channel to
+   deselect it), common messages will be sent redundantly over all Per
+   Note or Per Row Channels.
+
+   2) If VIEW is set to PerNoteChs (Per-Note Channels), you can view or
+   change in columns 3 - 6 which of the 16 MIDI channels are used for
+   Per-Note messages. This is only useful if MIDI Mode is set to Channel
+   Per Note. You can turn any of the channels on or off. By default,
+   LinnStrument selects channels 2-8 for the left split and 9-15 for the
+   right split.
+
+   3) IF VIEW is set to PerRowChs (Per-Row Channels), you can view or
+   change in columns 3 - 6 which of the 16 MIDI channels are used for
+   Per-Note messages. A contiguous block of 8 channels is always selected.
+   To change the selection, select the lowest channel of the 8-channel
+   continuous block you wish to use.
+
+   Tip: If using a non-MPE synth that permits each voice to receive on a
+   unique MIDI channel, it can be used as an MPE synth. To do this, set
+   each of the synth's voices to receive from one of LinnStrument's
+   assigned Per-Note channels. However, only MPE synths have a Common
+   channel (1 or 16) that is used to receive messages that apply to all
+   voices such as sustain pedal (CC64), overall volume (CC7), etc.. To
+   work around this limitation, Set MIDI Mode to ChPerNote and the "View"
+   column to Main Chan, the deselect the lit channel button in columns 3-6
+   so that no Main channel is selected. This will cause all such common
+   messages to be sent redundantly over all of the Per-Note channels.
+
+Bend Range (column 7)
+
+   When you slide your finger left or right to perform pitch slides or
+   bends, LinnStrument sends standard MIDI Pitch Bend messages. This
+   setting determines the number of columns you must slide your finger
+   left or right in order to send the minimum or maximum MIDI Pitch Bend
+   value, equivalent to moving a MIDI keyboard's Bend Wheel fully forward
+   or backward. For example, a setting of 12 means that sliding left or
+   right 12 columns produces the maximum bend value. This should be set to
+   the same Bend Range as in your synth. If set correctly, performing a
+   pitch slide will finish on the same pitch as if you pressed the
+   destination note pad directly. If not, this setting is wrong.
+
+   By default, LinnStrument's Bend Range is set to +/- 2 semitones,
+   because nearly all standard preset sounds on common synthesizers use a
+   bend range of 2 semitones. Though this provides compatibility with
+   common sounds, it also prevents pitch slides over 2 columns. To
+   increase the range/distance of pitch slides, set the Bend Range in both
+   LinnStrument and your synthesizer to a higher value. A value of 24 is
+   ideal for LinnStrument because it permits pitch slides of up to 2
+   octaves, which is the length of each row in the large LinnStrument
+   model.
+
+   The options are +/- 2, 3, 12 or 24 semitones.
+
+   Hidden setting: Any Bend Range
+   To select any Bend Range from 1 to 96 semitones, hold the "+/-24" pad
+   and the screen will display the current value in large numbers. Swipe
+   left or right to adjust it from 1 to 96. If other than 24, its light in
+   the Per-Split Settings screen will change to the split's accent color.
+
+Pitch/X (column 8)
+
+   Left-right movements (X axis) are always sent using MIDI Pitch Bend
+   messages. The settings in this column are:
+
+   1) ON
+   If on, Pitch Bend messages are sent when you move your finger left or
+   right, permitting smooth performance of vibrato or pitch slides.
+   If off, Pitch Bend messages are not sent, so pitch slides or vibratos
+   cannot be performed. In this case, sliding left or right will play a
+   series of consecutive semitone notes, as if gliding your finger up or
+   down a piano keyboard or sliding up or down a guitar neck.
+
+   2) QUANTIZE
+   If on, striking a new note anywhere within the note pad will result in
+   the same perfectly quantized semitone.
+   Then after you strike the note, moving your finger will produce
+   unquantize pitch slides or vibratos. This is the equivalent of having
+   frets when you strike the note but no frets (permitting vibrato or
+   pitch slides) while holding the note after the initial strike.  This
+   permits fast play in perfect tune, yet with the ability to perform
+   expressive pitch gestures at any time.
+   If off, striking different locations within the pad will produce
+   different pitches. For example, striking exactly between 2 note pads
+   will produce a 1/4 tone that is exactly between the center pitches of
+   the 2 note pads.
+
+   3) QUAN HOLD (Quantize Hold)
+   If on, pitch will be gradually corrected after a vibrato or pitch slide
+   is finished. This permits you to stay in perfect tune while performing
+   vibratos and pitch slides. This is especially useful when performing 2-
+   or 3-part pitch slides on chords.
+
+   4) QHOLD FAST (Quantize Hold Fast)
+   Same as Quantize Hold but with a faster pitch correction after the
+   vibrato or pitch slide is finished. This is useful for faster playing
+   but may correct very slow vibratos or pitch slides.
+   For slower pitch correction, Press Quantize Hold + Qhold Fast together.
+   This can be helpful when performing very slow vibratos or pitch slides
+   because they will not be mistaken for the end of a pitch movement and
+   mistakenly corrected.
+   For no Quantize Hold, turn off both Quantize Hold and QHold Fast.
+
+   Hidden setting: Reset On Release
+   Press the 5th pad from the top to turn on Reset On Release, which sends
+   a Pitch Bend value of zero when a note is released. Normally this
+   should be off to prevent pitch change upon release for sounds with long
+   releases. However for sounds with fast releases, if you're hearing an
+   occasional fast pitch sweep at the beginning of notes, it's because a
+   previous note's bend value is remembered by the synth and is quickly
+   being zeroed at the start of the new note. Turning this on will correct
+   that.
+
+   ‍
+
+Timbre/Y (column 9)
+
+   These settings are related to forward/rearward finger movements, which
+   are limited to the 17 mm depth of each note pad.
+
+   1) ON
+   If on, MIDI messages are sent in response to Y-axis finger movements.
+   If off, they are not.
+
+   Hidden setting: Timbre/Y High/Low Limits
+   Normally the value sent for Timbre/Y has a range of 0 to 127. However,
+   you can change the low and high limits so that the sent values will be
+   scaled between these limits. To change these range limits, hold the On
+   pad and the screen will display large characters. Swipe up or down to
+   switch between the following two settings, and left or right to edit
+   each setting’s value:
+
+   "L 0": the Low Timbre/Y limit, from 0 to 127.
+   "H127": the High Timbre/Y limit, from 0 to 127.
+
+   If these settings are changed from their default values of L 0 and
+   H127, the On pad in the Per-Split Settings screen will be lit in the
+   accent color. Note that if the high limit is lower than the low limit,
+   the output range will be inverted.
+
+   2) CC1
+   If selected, MIDI Control Change #1 messages will be sent in response
+   to Y axis movements.
+
+   3) CC74
+   If selected, MIDI Control Change #74 messages will be sent in response
+   to Y axis movements. CC74 is the standard MIDI message for sending MPE
+   (MIDI Polyphonic Expression) Y-axis data.
+
+   Hidden setting: Y Axis Message Select
+   Hold this button to select any CC number from 0 to 127, or Poly
+   Pressure or Channel Pressure messages, for sending Y-axis information.
+   The current assignment will be displayed in large characters. Slide
+   left or right to adjust the CC number (0 to 127), followed by Poly
+   Pressure and Channel Pressure. If Poly Pressure is selected, this
+   permits polyphonic Y-axis data over a single MIDI channel. If a value
+   other than CC74 is selected, the button will light in the split's
+   accent color.
+
+   4) RELATIVE
+
+   If off, CC messages reflect absolute finger position within note cell.
+   If on, a CC value of 64 is sent at first regardless of the position of
+    touch, and subsequent Y-axis movements increase or decrease that
+   value.
+
+   Hidden setting: Y-axis Relative Initial value
+   Hold to set the starting relative value from its default of 64 to any
+   value from 0 to 127. For example, if using Y-axis to add a modulation
+   amount, the Y-axis value at first touch will be zero, then moving your
+   finger forward will increase the value.
+
+   ‍
+
+Loudness/Z (column 10)
+
+   These settings are related to the sending of MIDI data in response to
+   varying pressure on the note pads.
+
+   1) ON
+   Enables sending of pressure (Z axis) messages. If off, no pressure
+   messages will be sent.
+
+   Hidden settings: Loudness/Z Range Limits and High Resolution Pressure
+
+   Normally the value sent for pressure control has a range of 0 to 127.
+   To change these range limits, hold this button and the screen will
+   display large characters. Swipe up or down to switch between the
+   following 3 settings, and left or right to edit each setting’s value:
+
+   "L 0"
+   This is the Low Loudness/Z limit, from 1 to 127. Normally this is set
+   to 0.
+
+   "H127"
+   This is the High Loudness/Z limit, from 1 to 127. Normally this is set
+   to 127.
+
+   Note that if the high limit is lower than the low limit, the output
+   range will be inverted. Also, if these settings are changed from their
+   default values of L 0 and H127, this button in the Per-Split Settings
+   screen will be lit in the split's accent color.
+
+   "7 BT"
+   Normally pressure is sent as a 7-bit value from 0 to 127. Swipe right
+   to send a 14-bit value as two CC messages. Then you must hold the
+   “CC11” note pad and select a CC from 0 to 31. LSB data will be sent on
+   the CC number that is 32 higher than the selected CC. For example,
+   select CC11 to send MSB (Most Significant 7-bit Byte) on CC11 and LSB
+   (Least Significant 7-bit Byte) on CC43.
+
+   2) POLY PRES (Polyphonic Pressure)
+   Send pressure data using Poly Pressure messages, also called Polyphonic
+   Aftertouch.
+
+   3) CHAN PRES (Channel Pressure)
+   Send pressure data using Channel Pressure messages, also called Channel
+   Aftertouch. Channel Pressure is the standard MIDI message for sending
+   MPE (MIDI Polyphonic Expression) Z-axis (pressure) data.
+
+   4) CC11
+   Send pressure data using Control Change 11 messages.
+
+   Hidden setting: CC Select
+
+   To change the CC number to something other than CC11, hold this pad and
+   the current value will be displayed in large characters. Swipe left or
+   right to change the CC number (0 to 127). If anything other than the
+   default 11 is selected, the CC11 pad in the Per-Split Settings screen
+   will change to the split's accent color
+
+   Note that either Poly Pressure, Channel Pressure or CC11 may be
+   selected. You cannot select more than one.
+
+   ‍
+
+Color (column 11)
+
+   Select red, green, blue, cyan, magenta, yellow, white, orange, lime or
+   pink for each of the following:
+
+   1) MAIN
+   By default, these are the note pads used to light all scale notes
+   except C. The default color for the left split is green and for the
+   right split is blue. Press this button to change the Main color,
+   rotating through the 10 available colors.
+   Note that you can change the scale that is lit in Global Settings >
+   Note Lights On/Off.
+
+   2) ACCENT
+   By default, these are the note pads used to light only the C notes
+   within the scale. The default color for both splits is cyan (light
+   blue). Press this button to change the Accent color, rotating through
+   the 10 available colors.
+
+   3) PLAYED
+   When a note pad is touched (or a Note On message is received over
+   MIDI), the note pad will change to the color selected here. Red is
+   selected by default. Press this button to rotate though the 10
+   available colors or none.
+
+   Hidden setting: Light Animations
+   Hold to select one of a number of light animations that appear around
+   the played note:
+
+   • Cell (Only the pressed note pad is lit. This is the default setting.)
+   • Same (When pressed, all note pads with the same pitch on other rows
+   will light.)
+   • Crosses
+   • Circles
+   • Squares
+   • Diamonds
+   • Stars
+   • Sparkles (Roger's favorite, best in white)
+   • Curtains
+   • Blinds
+   • Targets
+   • Up
+   • Down
+   • Left
+   • Right
+   • Orbits
+
+   4) LOW ROW
+   This is the color of the Low Row when turned on. See the description of
+   Low Row feature below.)
+
+   ‍
+
+Low Row
+(columns 12 and 13)
+
+   The lowest row can be changed to have a variety of alternate functions,
+   conveniently operated by the thumb while the fingers are used to play
+   notes on the other rows. The options are:
+
+   1) NORMAL
+   The Low Row feature is turned off and the lowest row is used for normal
+   note play.
+
+   2) RESTRIKE
+   Striking the low row will restart all notes held in the upper 7 rows.
+
+   3) STRUM
+   Dragging your finger left and right across the Low Row will restart
+   notes held directly above the current position on the Low Row,
+   effectively strumming the notes above where you touch on the Low Row.
+
+   4) ARPEG (Arpeggiator)
+   Pressing the Low Row enables the Arpeggiator (at the selected Rate in
+   Global Settings > Arpeggiator) for as long as you hold it.
+   Also, sliding your finger left or right from the initial position of
+   touch will change the Arpeggiation rate between the 7 possible rates:
+   1/8 notes, 1/8 triplets, 1/16 notes, 1/16 half swing, 1/16 triplets,
+   1/32 notes and 1/32 triplets.
+
+   5) SUSTAIN
+   Pressing the Low Row acts as a momentary sustain pedal to sustain any
+   held notes after release.
+
+   6) BEND
+   Pressing the Low Row and sliding left or right bends the pitch of all
+   held notes. The bend range is set by the Bend Range parameter.
+
+   7) X=CC1
+   Pressing and sliding left/right on the Low Row acts like a continuous
+   control strip, sending Control Change #1 messages.
+
+   Hidden settings: Low Row CC1 Mode and CC#
+   Hold the CC1 button to access two hidden settings. Swipe up or down to
+   switch between the following two settings, and left or right to edit
+   each setting’s value:
+
+   a) Hold/Fader select:
+   The 2 options are:
+   a) Hold Mode: Press anywhere on the Low Row to send an initial CC value
+   of 0, then slide right (up to a distance of 7 pads) to increase the
+   sent value up to 127, then release to send a zero value. This is the
+   default mode, intended to use your thumb as a momentary sound change
+   while your fingers are playing notes above.
+   b) Fader mode; In this mode, the Low Row acts like a long linear Mod
+   Wheel control strip. Press the left end of the Low Row to send a CC
+   value of 0, the right end to send 127, and anywhere between for a
+   proportional value. The sent value remains after releasing the Low Row.
+
+   b) CC#
+   The options are 1 (default) though 127, followed by Channel Pressure.
+   If other than 1 is selected, the “X=CC1” pad’s light in the Per-Split
+   Settings screen will change to the Accent color.
+
+   8) XYZ=16-18
+   The low row acts as a three-dimensional control strip, sending CC16
+   from X axis movements, CC17 from Y-axis movements and CC18 from Z-axis
+   movements.
+
+   Hidden setting: XYZ CC Assign
+   To change the CC number used for X, Y or Z and more, hold "XYZ=16-18"
+   and the screen will display large characters. Swipe up or down to
+   switch between the following four settings, and left or right to edit
+   each setting’s value:
+
+   a) X-axis Hold/Fader select: Select “HLD” (Hold mode; press anywhere to
+   send an X-axis CC value of 0, slide right up to 7 pads to increase the
+   sent value to 127; release to send a zero value) or “FDR” (Fader mode;
+   press to send an X-axis CC value of 0-127 proportional to your finger
+   position that persists after release).
+
+   b) X CC#: Select CC for X axis (X1 - X127, Channel Pressure)
+
+   c) Y CC#: Select CC for Y axis (Y1 - Y127, Channel Pressure).
+
+   d) Z CC#: Select CC for Z axis (Z1 - Z127, Channel Pressure).
+
+   If any of the above CC numbers are not set to the default values, the
+   “XYZ=16-18” pad (in the Per-Split Settings screen) will light in the
+   accent color.
+
+   ‍
+
+Special (column 14)
+
+   Engages one (or none) of four special playing modes:
+
+   1) ARPEG (Arpeggiator)
+   Turn on to enable the Arpeggiator for this split, using the Arpeggiator
+   settings in Global Settings.
+
+   2) CC FADERS
+   Changes the selected split into 8 horizontal sliders sending Control
+   Change 1 (on frontmost row) through 8 (on rear row) messages over the
+   Main channel.  An example of using CC Faders would be to use the left
+   split for normal play while using the right split to adjust 8 sound
+   parameters in real time.
+
+   Hidden setting: CC Fader CC#
+   To change the CC number used for each fader, hold CC FADERS. The screen
+   will display a large number and 8 blue lights on the right edge, one of
+   which is lit in green to indicate which of the 8 faders is selected.
+   Select one of these 8 lights to select a fader, then adjust its CC
+   number from 0 to 127 (or select Channel Pressure) by swiping left or
+   right. Note that these 8 assignments are unique for the left and right
+   splits. If any value is changed from its default of CC1-8, the CC
+   FADERS pad in the Per-Split Settings screen will be lit in the split's
+   accent color.
+
+   3) STRUM
+   If on and Split is also on, you can strum this split to play any notes
+   fingered on the other split. For example, select STRUM in the right
+   split, turn the SPLIT button on, then drag your finger forward and
+   backward over the rows in the right split to "strum" any notes fingered
+   in the same row of the left split, similar to strumming a guitar. As
+   your strumming finger passes each row, the notes fingered in that same
+   row on the other split will sound. Note the following:
+   a) When you finger a note in the opposite split, the note will not
+   sound until you strum it in the Strum split.
+   b) If on the opposite split, you press at least one pad and also strum
+   a row that contains no touched pads, the lowest note pitch on the
+   untouched row will play, similar to strumming open strings on a guitar.
+   c) If multiple notes are fingered in a single row, only the
+   highest-pitch note will play.
+   d) Hammer-ons and pull-offs can be performed on each row. To perform a
+   hammer-on, "strum" a fingered row, then also strike a higher pad on the
+   same row; the higher pad will sound. To perform a pull-off, "strum" a
+   row with 2 pads fingered on the same row, then release the higher pad;
+   the lower pad will sound, its velocity set by the release velocity of
+   the released higher pad.
+   e) Sensitivity of the Strum split is increased while Strum is on.
+
+   4) Sequencer
+   This enables LinnStrument's Step Sequencer. To learn about it, click
+   the "Sequencer" tab at the top of this page.
+
+   ‍
+
+Preset
+
+   The Preset button and screen permit you to select sounds in an external
+   synthesizer by sending MIDI Program Change messages. Press the Preset
+   button and the lights will change to the following:
+
+   The current Preset (program change) number is displayed in large
+   digits. The range is 1 to 128, corresponding to MIDI Program Change
+   numbers 0 to 127. To change the selected preset, slide your finger left
+   or right. Or press the green Increment or red Decrement buttons in the
+   upper left corner. As the number changes, MIDI Program Change messages
+   will be sent.
+
+   Each of the two splits has a saved Preset number. In the upper right
+   corner, press the LEFT or RIGHT buttons to display/edit the Left or
+   Right Split's Preset number.
+
+   The Preset button has both momentary and toggle actions. Press it
+   briefly (less than 1/2 second) to turn the Preset screen on or off.
+   Hold it (for more than 1/2 second) for momentary action. This permits
+   faster preset selection during performance: Hold the Preset button,
+   select a preset with your other hands, then release the Preset button.
+
+The 6 "All Settings" Memories
+
+   Sometimes it is useful to change all of LinnStrument's settings at
+   once, for example to change many MIDI settings at once from those
+   needed for one sound generator to those of another.
+
+   At the right side of the Preset screen are 6 blue-lit note pads
+   indicating 6 "All Settings" memories. Each of these 6 memories holds a
+   snapshot of almost all settings, including Per-Split Settings,
+   Octave/Transpose settings and Global Settings, but not the following:
+
+   1) The currently selected preset (1-128, MIDI Program Change) in the
+   Preset screen.
+
+   2) The Volume screen's setting.
+
+   3) The current slider value of the 8 CC Faders, as well as the slider
+   values of the Low Row's X=CC1 or XYZ=16-18 sliders.
+
+   Why not save these settings? Because the intent of the All Settings
+   memories is to instantly change all of LinnStrument’s settings but not
+   settings that affect parameter values of external MIDI sound
+   generators. These exception settings are also lost when power is turned
+   off.
+
+   4) All data and settings of the Step Sequencer. Why? Because these are
+   saved separately in the 16 Sequencer Project memories.
+
+   5) The three Custom Light Patterns in Global Settings > Note Lights
+   On/Off.
+
+   To save the current LinnStrument settings to one of these 6 memories,
+   hold one of the 6 blue-lit note pads for 2 seconds or more, until you
+   see it flash red.
+
+   To recall the saved settings, briefly tap one of these 6 buttons. It
+   will flash green and will stay lit in light blue to indicate that this
+   was the last-loaded memory.
+
+   Here are the default contents of each of these presets:
+
+   Memory 6 (highest): These are the settings for playing drumbeats and
+   bass as demonstrated in [61]this video. In our Logic sounds file
+   (downloadable from the Recommended Sounds page), select the track "Elec
+   Filter Kit" and also enable the Record button ("R") on the "Upright
+   Bass" track.
+
+   Memory 5: These are the same settings as after performing a Global
+   Settings > Actions column > Reset.
+
+   Memory 4: These are settings for playing MPE sounds. (Same as holding
+   ChPerNote in the Per-Split Settings > MIDI Mode column.)
+
+   Memory 3: These settings are useful for some one-channel synths that
+   don't respond to Poly Pressure and limit bend range to 12
+   semitones: MIDI Mode = One Channel, Main Chan = 1, Bend Range = 12,
+   Loudness/Z = Channel Pressure.
+
+   ‍Memory 2: These are the same settings as a new LinnStrument or after a
+   Global Settings > Reset. (In Per-Split Settings, MIDI Mode = One
+   Channel, Main Chan = 1, Bend Range = 2.)
+
+   ‍Memory 1 (lowest): These are the same settings as a new LinnStrument
+   or after a Global Settings > Reset. (In Per-Split Settings, MIDI Mode =
+   One Channel, Main Chan = 1, Bend Range = 2.)
+
+   ‍
+
+Volume
+
+   The Volume button and screen permit quickly changing the volume of the
+   external synthesizer. This is done by sending MIDI Volume (control
+   change #7) messages over the split's Main channel. Pressing the Volume
+   button will display the Volume screen:
+
+   To change the volume, slide your finger left or right across the
+   playing surface. As the width of the light bar changes, MIDI Control
+   Change 7 messages (Volume) will be sent to the external sound generator
+   to adjust the volume proportionally.
+
+   If LEFT split is selected in the upper right corner, the left split's
+   volume is displayed. If RIGHT split is selected, the right split's
+   volume is displayed.
+
+Octave/Transpose
+
+   The Octave/Transpose button and screen permit you to quickly change the
+   playing octave or transposition. Press the Octave/Transpose button and
+   the lights will change to the following:
+
+   There are 3 horizontal bars in the center, adjacent to the printed text
+   "Octave", "Transpose PItch" and "Transpose Lights". Slide your finger
+   on one of the bars to adjust its value. The 3 settings are:
+
+   1) OCTAVE
+   Press this row to shift the octave up or down. Range is -5 to +5
+   octaves.
+
+   2) TRANSPOSE PITCH
+   Press a cell in this row to transpose the output pitch. The range is
+   +/- 7 semitones. After this screen is exited, the OCTAVE/TRANSPOSE
+   button remains green for positive transpositions and red for negative
+   transpositions, to remind you that the transposition is active.
+
+   3) TRANSPOSE LIGHTS
+   Press a cell in this row to shift the position of the note indicator
+   lights (and their pitches) left or right.  The range is +/- 7
+   semitones. For example, to move the lowest “C” note into the lower left
+   corner cell, select a transposition of -6.
+
+   These settings are different for the left and right keyboard splits,
+   selected in the upper right corner:
+   If LEFT is selected, the left split's settings are shown, and in the
+   left split's Main and Accent colors.
+   If RIGHT is selected, the right split's settings are shown, and in the
+   right split's Main and Accent colors.
+   If you press both LEFT and RIGHT together, you can view and change the
+   settings for both splits simultaneously. If the settings are different,
+   the indicator bars will show the left and right split's Main colors
+   overlapping.
+
+   Also, when Split mode is off, the split selected here (or in the
+   Per-Split Settings, Preset or Volume screens) will play from the entire
+   touch surface.
+
+   When you turn off the Octave/Transpose button off, all notes assigned
+   to middle C (note number 60) will blink briefly, to indicate you the
+   selected octave transposition.
+
+Switch 1 & 2
+
+   These 2 switches are handy during performance for turning on/off
+   sustain or a variety of other functions. The function of each switch is
+   assigned in the GLOBAL SETTINGS.
+
+   By default, SWITCH 1 is assigned to Sustain Pedal and  SWITCH 2 is
+   assigned to Arpeggiator On/Off.
+
+   These switches have both momentary and toggle action. If held, they are
+   momentary. If tapped briefly, they toggle between on and off.
+
+Split
+
+   Press SPLIT to toggle between normal and split keyboard modes. The
+   lights will change to the following:
+
+   The 2 splits will be displayed in their assigned Main and Accent
+   colors, set in the Per-Split Settings.
+
+   To move the split point, hold the SPLIT button while dragging your
+   finger across the playing surface.
+
+   While SPLIT is on, one of the 2 splits is still selected. The selected
+   split is the one that is selected in the Per-Split Settings, Preset,
+   Volume and Octave/Transpose screens. Also, the split button (while on)
+   is lit in the selected split's Main color. The selected split is used
+   in various ways. For example, if a Sustain Pedal is connected, it
+   normally only affects the selected split.
+
+   If the SPLIT button off, the full playing surface will use the colors
+   and other settings of the selected split. To quickly switch between
+   playing the full surface with the left or right split's settings,
+   double-tap the SPLIT button.
+
+Global Settings
+
+Overview
+
+   Global Settings are settings that apply to both of LinnStrument's
+   keyboard splits. For example, Velocity Sensitivity is a global Setting
+   it affects both the left and right splits. Same for selecting whether
+   to use the MIDI Jacks or MIDI over USB.
+
+   To view or change the Global Settings, press the Global Settings button
+   and the button will light. Now notice that the lights on LinnStrument's
+   playing surface have changed:
+
+   Now the lower four rows of lights indicate the status of the Global
+   Settings printed directly below each column. For each column, the
+   status of the lowest printed setting is indicated by the lowest note
+   pad; the status of the second-from-bottom printed setting is indicated
+   by the second-from-bottom note pad; etc. For example, if the lowest
+   note pad in column 1 is lit, this indicates that "Main" is selected.
+
+   The Global Settings button has both momentary and toggle action:
+
+   If held for more than 1/2 second, it is momentary, staying on only as
+   long as you hold it. This is use for fast changes: hold Global
+   Settings, change a setting with your other hand, then releasing Global
+   Settings.
+
+   Or if tapped briefly (held less than 1/2 second), it toggles between on
+   and off with each press. This is better for one-handed use: turn on
+   Global Settings, change a setting, then press Global Settings again to
+   turn it off.
+
+   Each of the Global Settings is explained below.
+
+   ‍
+
+Note Lights On/Off
+(Columns 1 - 4)
+
+   Note Lights On/Off, Columns 1 - 4
+
+   While in Performance mode, the notes of the C major scale are lit in
+   the Main color (green by default) and the C within each octave is lit
+   in the Accent color (light blue by default). All accidentals (notes not
+   in the scale) are not lit.
+
+   Most LinnStrument players never change this light pattern. If you wish
+   to change the light patterns, the Note Lights On/Off settings permit
+   you to change the note lights in either of two ways:
+
+   1) You can change whether each of the 12 notes in the chromatic scale
+   is lit in all octaves, and in one of two colors, or
+
+   2) you can create a fully custom light pattern, individually setting
+   each note pad to one of 10 colors or off.
+
+   The Note Lights settings consists of the 1) the View column and 2) in
+   columns 2 through 4, the 12 on/off switches to turn on or off the 12
+   notes of the chromatic scale.
+
+   The VIEW column has 4 options: Main, Accent, Scale Select, and a fourth
+   hidden option called LEFT HAND MODE.
+
+   1) MAIN
+   If Main is selected, the 12 settings at right (C through B) determine
+   which notes within each octave are lit in the selected Split's Main
+   color. By default, the natural notes (C, D, E, F, G, A and B) are
+   selected. Press any of these 12 note pads in order to turn it on or
+   off.
+
+   2) ACCENT
+   If Accent is selected, the 12 settings at right (C through B) determine
+   which notes within each octave are lit in the selected Split's Accent
+   color. This is usually used to indicate the root note of the scale. For
+   this reason, only C is selected by default. If a scale note is selected
+   in both Main and Accent settings, the Accent setting overrides the Main
+   setting.
+
+   Tip: to change the colors used for the Main and Accent colors, go to
+   Per-Split Settings > Color column > Main or Accent. These colors are
+   different for the Left and Right splits.
+
+   3) SCALE SELECT
+   This feature permits creating, and quickly switching between, multiple
+   Note Light patterns. For example, you could instantly switch between
+   the default C major scale lights, an alternate light pattern that
+   lights the C minor scale, and a custom pattern that resembles the dots
+   on a guitar neck.
+
+   If Scale Select is selected in the View column, the 12 settings in
+   columns 2-4 (C through B) are used to select one of 12 Note Lights
+   memories, each containing a different light pattern. (Important: the
+   labels C through B are merely identifiers for the 12 memories, using
+   the same 12 printed labels C through B that are printed below the 12
+   buttons, and have no relation to the musical keys C though B.) These 12
+   memories are divided into two types:
+
+   The first nine memories (C through G#) contain a unique set of both
+   Main and Accent light settings as described above. This permits quickly
+   changing the lights of one musical scale to another. Though all 9
+   memories are editable, the default contents are:
+
+   C: Major (default)
+   C#: Natural minor
+   D: Harmonic minor
+   D#: Major Pentatonic
+   E: Minor Pentatonic
+   F: Major Blues
+   F#: Minor Blues
+   G: Diminishe
+   G#: Whole Tone
+
+   The last three memories (A, A# and B) are fully custom light patterns
+   that you can create by individually setting each of the note pads to
+   any of 10 colors or off. This is useful for light patterns that cannot
+   be created with the first nine memories, such as guitar neck dots or
+   light patterns with more than two colors. Though all three of these
+   memories are editable, the default contents are:
+
+   A: Guitar neck dots
+   A#: C major scale with a different color for each scale note
+   B: Blank
+
+   To display one of these 3 custom light patterns, briefly press Scale
+   Select button A, A# or B, then turn off Global Settings. Your selected
+   light pattern will appear.
+
+   To Edit one of these 3 custom light patterns, enter Global Settings
+   then:
+   1) HOLD Scale Select memory A, A# or B. You have now entered the light
+   editor screen and the existing contents of the selected memory will
+   appear.
+   2) To set the color of a pad: repeatedly press the blinking Switch 1
+   button until it shows your desired color, rotating through the 10
+   available colors. Then press any note pad to change it to that color.
+   3) To erase any note pad: hold it.
+   4) To erase many note pads: press 2 pads that are 2 corners of a
+   rectangle that includes the pads to be erased.
+   5) To save your changes and exit the editor: press Global Settings to
+   turn it off and return to the normal performance lights.
+
+   ‍Notes about the 3 custom light pattern memories (A, A# and B):
+   1) Most LinnStrument players never change the default note lights
+   2) If one of these 3 custom light pattern memories is selected, the
+   Main and Accent options in the View color are disabled. This is because
+   these are not used for the custom light patterns.
+   3) The custom light patterns always use the entire playing surface,
+   even if Split is on. However if Split is on, playing the note pads will
+   still work the same-- divided into left and right splits. The same is
+   true for CC Faders mode: the normal CC Faders will not display but the
+   function of the pads will work as 8 CC Faders. However, the Low Row
+   will display as normal, and the Sequencer will display as normal.
+   4) These custom light patterns are not part of the 6 All Settings
+   presets in the Presets screen, so they are unaffected by loading or
+   saving any of the All Settings presets.
+
+   4) Hidden setting: LEFT HAND MODE
+   In column 1, the 4th button from the bottom enables Left Hand Mode.
+   If on, the pitch of each row increases in the right-to-left direction..
+   If off, the pitch of each row increases in the normal left-to-right
+   direction.
+   Hold this button to alter its function to one of 3 options:
+
+   1) REV: reverse pitch direction of both splits. (Default)
+   2) REVL: reverse pitch direction of left split only, for mirrored
+   outward-increasing pitch in Split mode.
+   3) REVR: reverse pitch direction of right split only, for mirrored
+   inward-increasing pitch in Split mode.
+
+   ‍
+
+   Setting the note lights remotely via MIDI messages
+
+   You can set any of LinnStrument's note pad to any color by sending
+   LinnStrument a series of three MIDI Control Change messages:
+
+   1) CC20: Column number of note pad to change (control key column is 0,
+   left play column is 1, right play column is 25)
+
+   2) CC21: Row number of note pad to change (bottom row is 0, top is 7)
+
+   3) CC22: Color to change it to (0=as set in Note Lights settings,
+   1=red, 2=yellow, 3=green, 4=cyan, 5=blue, 6=magenta, 7=off, 8=white, 9=
+   orange, 10=lime and 11=pink).
+
+   First send CC20 and CC21 to select the column and row to be lit, then
+   send CC22 to light it.
+
+   There are two addition CC messages that are related only the three
+   custom light patterns in Scale Select memories A, A# and B:
+
+   4) CC23:  Save loaded light pattern to flash.
+   After sending a new light pattern to LinnStrument, send a CC23 message
+   with value 0, 1 or 2 to save it to Scale Select memory A, A# or B,
+   respectively.
+
+   5) CC24.: Clear custom light pattern from flash.
+   Send a CC24 message with value 0, 1 or 2 to clear Scale Select pattern
+   A, A# or B, respectively.
+
+   ‍
+
+   Changing LinnStrument's rows to contain consecutive scale notes instead
+   of consecutive semitones
+
+   LinnStrument's rows always consists of consecutive semitones and cannot
+   be changed to consist of consecutive scale notes, skipping notes
+   outside of the scale. The reason is explained in the first FAQ of the
+   FAQ page (at left), General tab. If you wish to change LinnStrument's
+   rows to contain consecutive scale notes, skipping accidentals, that FAQ
+   contains a link to an Win/Mac application that will do that, though it
+   breaks pitch slides.
+
+   ‍
+
+Row Offset
+(Columns 5 & 6)
+
+   Row Offset, Column 5 & 6
+
+   This setting determines the pitch offset between rows, like tuning the
+   strings on a guitar.  The default setting is +5, so that the leftmost
+   pitch of each row is 5 semitones (a musical fourth interval) higher
+   that the leftmost pitch of the row below it, just like the 4 lower
+   strings of a guitar or a bass guitar. This tuning is called the Fourths
+   String Layout and is the default tuning on LinnStrument.
+
+   There are 8 tunings options:
+
+   +3, +4, +5, +6 and +7
+   These set the Row Offset to 3, 4, 5, 6 or 7 semitones.
+
+   +OCTAVE
+   This sets the Row Offset to an octave.
+
+   Hidden setting: ANY ROW OFFSET
+   Hold +Octave and the screen will display “12” in large letters. Swipe
+   left or right to edit the value from -16 through zero to +16, including
+   the leftmost value "-GUIT" (upside down guitar tuning). If set to any
+   value other than the default 12, the +OCTAVE pad will light in light
+   blue instead of the normal blue.
+
+   GUITAR
+   This sets the Row Offset to guitar tuning on the upper 6 rows, plus 2
+   extra bass strings below on the bottom, each tuned 5 semitones below
+   the row above it.
+
+   Hidden setting: Independent Row Tunings
+   Hold the GUITAR button to view the Independent Row Tuning screen.
+   Select one of the 8 rows at left, then edit that row’s pitch by swiping
+   left or right.
+
+   NO OVERLAP
+   This sets each row to start at a pitch one higher than the pitch at the
+   end of the previous row.  In this way, there is no pitch overlap
+   between rows. This can be useful either for non 12-ECO tunings, or for
+   control surface applications where it is desirable for each note pad to
+   have a unique note number.
+
+   Tip: To select a Row Offset of zero (all rows start with the same
+   pitch), press the lit selection to turn it off.
+
+   ‍
+
+Assign Foot/Panel Switches
+(Columns 7, 8 & 9)
+
+   LinnStrument has a 1/4 inch tip/ring/sleeve jack for connection to any
+   single or dual foot switch. (See the Hooking It Up page for details.)
+   It also has two assignable switches to the left of the playing surface
+   called Switch 1 and Switch 2. The Assign Foot/Panel Switch settings are
+   used to assign these 4 switches to Sustain Pedal, Arpeggiator On/Off
+   and a variety of other useful functions.
+
+   Tip: connect your foot switch before powering on your LinnStrument.
+   When powered on, LinnStrument senses whether you are using a Normally
+   Open or Normally closed foot switch, which is necessary for correct
+   operation.
+
+   Tip: the 2 foot switches have momentary action, while the 2 panel
+   switches are both toggle (if pressed for less than 1/2 second) and
+   momentary (if held for more than 1/2 second).
+
+   To assign a switch's function:
+
+   1) In the SELECT SW column (column 7), select the switch to be viewed
+   or changed. The options are:
+
+   SWITCH1: the panel switch of the same name
+   SWITCH2: the panel switch of the same name
+   FOOT R: either a single foot switch or the right switch of a dual foot
+   switch
+   FOOT L: the left switch of a dual foot switch
+
+   Once selected, the current assignment will be displayed in the ASSIGN
+   SWITCH columns (8 and 9).
+   ‍
+   2) To change the selected switch's assignment, press the desired
+   assignment in the ASSIGN SWITCH area (columns 8 and 9).
+
+   Tip: Note that the foot switch jack only accepts a foot switch but not
+   an expression pedal. To learn how to use an expression pedal with
+   LinnStrument, see the Hooking It Up page, section "Using an expression
+   pedal".
+
+   ‍
+
+   Here is a list of the available assignment options:
+
+   1) TAP TEMPO
+   Tap 1/4 notes to set the tempo for the Arpeggiator and Step Sequencer.
+
+   Hidden settings: Extra switch assignments.
+   Hold Tap Tempo to view or change its function to one of the following,
+   shown in large text on the playing surface. Select by swiping left or
+   right:
+     * TAP: Tap Tempo (default).
+     * LEG: Legato. While switch is on, notes or chords are sustained
+       after release until the next note or chord is played.
+     * LAT: Arpeggiator latch. If Arpeggiator is on then while switch is
+       on, each pressed & released note will be added to the arpeggiated
+       chord.
+     * PR+: Preset +. The preset number in the Preset screen is
+       incremented.
+     * PR-: Preset -. The preset number in the Preset screen is
+       decremented.
+     * PCH: Pitch slide on/off. Reverses the selected state of Per-Split
+       Settings > Pitch/X column > On. This is useful, for example, to
+       quickly switch between smooth pitch slides and semitone slides as
+       on a guitar. Plus the following 3 assignments are available only
+       for the 2 Foot Switches:
+     * PLAY: Start or Stop the internal step sequencer. This can also be
+       controlled by MIDI NRPN messages.
+     * PREV: Previous Sequence, of the 4 sequences in the Step Sequencer.
+       This can also be controlled by MIDI NRPN messages.
+     * NEXT: Next Sequence, of the 4 sequences in the Step Sequencer. This
+       can also be controlled by MIDI NRPN messages.
+     * CLK: Start/Stop sending MIDI Clock from LinnStrument.
+     * MUTE: Toggle the Mute status of the selected Split's sequence.
+
+   2, 3) OCTAVE DOWN and OCTAVE UP
+
+   OCTAVE DOWN transpose down an octave, and OCTAVE UP transposes up an
+   octave.
+
+   4) SUSTAIN
+   This is the standard Sustain Pedal assignment, using MIDI Control
+   Change #64 messages. To change the control change number sent for this
+   assignment, hold the Sustain button to see the assignment is large
+   digits, then swipe left or right to change the displayed value. If set
+   to any value other than the default 64, the “Sustain” button will light
+   in light blue instead of the normal blue.
+
+   5) CC65
+   Choose this assignment to send Control Change #65 messages with a value
+   of 127 when pressed and 0 when released. To change the control change
+   number sent, hold his button to see the assignment is large digits,
+   then swipe left or right to change the displayed value. If set to any
+   value other than the default 65, the “CC65” pad will light in light
+   blue instead of the normal blue.
+
+   6) ARPEG
+   Choose this assignment to enable the Arpeggiator while the switch is
+   on.
+
+   7) ALT SPLIT
+   Choose this assignment to quickly alternate between the left and right
+   split playing across the full playing surface.
+
+   ‍
+
+   BOTH SPLITS
+   Because the foot switch assignments are global settings, there is a
+   single assignment that applies to whichever split is selected, left or
+   right. And if the Split button is on (split keyboard play), then the
+   foot switch only affects the Selected Split. (The Selected Split is the
+   split selected in the Per-Split Settings screen, and is also indicated
+   by the color of the Split button.) For example, if Split is on and the
+   Left Split is the Selected Split, the sustain pedal will only sustain
+   notes on the Left Split.
+
+   However, if BOTH SPLITS is on, then when the Split button is on (split
+   keyboard play), the foot switch will affect both splits. For example,
+   if Split is on, the sustain pedal will sustain notes on both the Left
+   and Right Splits.
+
+   ‍
+
+   HIDDEN SETTING: Virtual Third Foot Switch.
+   In addition to the 2 foot switches, a third "virtual" foot switch
+   exists, actuated by pressing both left and right foot switches
+   together. To assign it, in the Select Switch column, press both FOOT L
+   and FOOT R together, then select an assignment in the Assign Switch
+   columns. If an assignment is made, then the actions of the Left or
+   Right Foot Switches will occur when releasing the foot switch instead
+   when pressing it. To remove the assignment for the virtual third foot
+   switch (and return the 2 principal foot switches to normal actuation on
+   the press), press its selection to deselect it.
+
+   ‍
+
+Velocity Sensitivity
+(Column 10)
+
+   There are 3 levels of velocity sensitivity, plus "Fixed" to disable
+   velocity sensing:
+
+   1) LOW (for players with a heavy touch)
+
+   2) MEDIUM
+
+   3) HIGH (for players with a light touch)
+
+   Hidden setting: Low and High Velocity Limits
+   Hold either Low, Medium or High to access the Low and High Velocity
+   limits, shown in large characters. All velocities played will be scaled
+   between these two values. Swipe up to view the Low Velocity Limit (L1
+   by default) or swipe down for the High Velocity Limit (H127 by
+   default). Swipe left of right to adjust the displayed value.
+
+   Note that even with a Low Limit of 1, LinnStrument's velocity curves
+   rarely produce a value below 20, even with very light touches. This is
+   because LinnStrument's velocity response was tuned based on feedback
+   from users who felt this produced the most consistent response. Perhaps
+   this is because rubber pads lack the helpful momentum of a piano key's
+   travel.
+
+   4) FIXED
+   Regardless of how hard or soft you play, a fixed velocity value (96 by
+   default) is always sent.
+
+   Hidden setting: FIXED VELOCITY VALUE
+   Hold the Fixed Velocity pad to adjust the fixed velocity value that is
+   sent by swiping left or right. Default is 96.
+
+   ‍
+
+Pressure Sensitivity
+(Column 11)
+
+   There are 3 levels of pressure sensitivity:
+
+   1) LOW (for players with a heavy touch)
+
+   2) MEDIUM (for most players)
+
+   3) HIGH (for players with a light touch)
+
+   Hidden setting: TOUCH SENSOR PRESCALE
+
+   This setting scales the raw output of LinnStrument's touch sensor
+   before pressure and velocity processing.
+
+   Tip:
+   If you wish more control over LinnStrument's touch sensitivity than is
+   provided by the Low, Medium and High options for Pressure Sensitivity
+   and Velocity Sensitivity, you can try changing this setting, which will
+   affect both velocity and pressure sensitivity. This won't change the
+   minimum pressure (about 50 grams) required to trigger a pad, but rather
+   will increase or decrease sensitivity once the pad is triggered.
+
+   To view the calibrated value, hold (like a Shift key) Calibration (col
+   16, row 4) while pressing this "Medium" button. You will see a number
+   in large digits. To change the displayed value, slide your finger left
+   or right on the lowest row. Note that the lowest row also acts as a
+   pressure meter for any note pad pressed in the upper 7 rows. The
+   displayed value can be changed between scaling values of 50 (lowest
+   sensitivity, 50% of sensor output) to 200 (extremely high sensitivity,
+   200% of sensor output).
+
+   Note: In units before around 2021, this value was calibrated at the
+   factory with a weight test. After that, the sensor consistency has been
+   so good that at the factory, LinnStrument 200 units are set to 75 and
+   LinnStrument 128 units are set to 90, which result in the same apparent
+   sensitivity due to the different lengths and therefore resistances of
+   the sensor sheets of the 200 and 128.
+
+   WARNING: settings above 100 allow you to get into trouble, possibly
+   resulting in decreased velocity accuracy, pads falsely triggering, or
+   limiting dynamic range by producing maximum velocity or pressure values
+   with only light playing force. Also note that the Prescale value
+   affects the sensitivity of the 8 control buttons, so higher values may
+   cause problems in the operation of these buttons. For this reason, when
+   trying out high Prescale values above 100, increase by only 10
+   increments at a time, If you start to notice unwanted problems, reduce
+   the Prescale value to a setting that doesn't cause the problems.
+
+   Note that the Prescale setting is not reset by the RESET command in
+   Global Settings > Actions column.
+
+   Also, see "[62]How hard should I play LinnStrument?"
+   ‍
+
+   AFTERTOUCH
+   If on, LinnStrument's sent pressure messages behave like the
+   traditional Aftertouch on MIDI keyboards: they only exceed zero once
+   you've pressed the note pad approximately 80% of its normal finger
+   pressure range. If off, it behaves as normal with pressure values
+   exceeding zero with a very light touch.
+
+   ‍
+
+Arpeggiator
+(Columns 12, 13 & 14)
+
+   LinnStrument's Arpeggiator works similarly to arpeggiators in MIDI
+   keyboards, arpeggiating the individual notes of a held chord in various
+   ways. However, this arpeggiator is unique because of LinnStrument's
+   expressive control:
+
+   1) Varying pressure while holding a chord will vary the velocity values
+   of the arpeggiated notes.
+
+   2) Varying x-axis while holding a chord will vary the pitch of the
+   arpeggiated notes.
+
+   3) Varying y-axis while holding a chord will vary the y-axis values of
+   the arpeggiated notes.
+
+   Here are two videos that demonstrate this 3D arpeggiator control:
+   [63]LinnStrument Arpeggiator, [64]expressive beat box.
+
+   ‍
+
+   To use the Arpeggiator, set these settings as desired, then turn the
+   Arpeggiator on in the desired Split (left or right) in the Per-Split
+   Settings / Special column. You may also assign the Low Row (in
+   Per-Split Settings) or the Foot or Panel Switches (in Global Settings)
+   to momentarily turn the Arpeggiator on or off. The settings are:
+
+Column 12: Arpeggiator direction
+
+   There are three options:
+
+   1) UP and DOWN
+   UP arpeggiates in the upward direction though the held chord, DOWN
+   arpeggiates in a downward direction. Hold UP and DOWN simultaneously to
+   select UP & DOWN.
+
+   2) RANDOM
+   This setting picks the notes of the held chord randomly for
+   arpeggiation.
+
+   3) REPLAY ALL
+   Choose this setting to restrike the entire held chord on each repeated
+   time interval of the arpeggiator. [65]Here's a video that demonstrates
+   this feature.
+
+   ‍
+
+Column 13: Arpeggiator rate
+
+   The options are:
+
+   1/8, 1/16, 1/32 (Arpeggiator rate)
+   Select the Arpeggiator rate (1/8, 1/16 or 1/32 notes) relative to the
+   tempo.
+   Hold 1/8 and 1/16 simultaneously to select SWING for 1/16 note
+   half-swing time, a relaxed and natural swing feel with a 58%/42% ratio
+   between the odd and even 1/16 notes, halfway between straight and
+   triplet swing 1/16 notes.
+
+   TRIPLETS
+   If on, the "1/8" button becomes 1/8 Triplets, the "1/16" button becomes
+   1/16 Triplets, and the 1/32 button becomes 1/32 triplets.
+
+   ‍
+
+   Column 14
+
+   The settings are:
+
+   TAP TEMPO
+   The button's light will flash 1/4 notes at the current tempo. Tap 1/4
+   notes on the button to change the tempo for both the Arpeggiator and
+   the Step Sequencer. When the button is pressed, the numeric tempo will
+   be displayed in the upper half of the screen, which you can change by
+   sliding your finger left or right over the displayed number.
+
+   +1 OCTAVE, +2 OCTAVE
+   Select one of these to add one or two upper octaves to the arpeggiated
+   notes. Deselect both for normal operation.
+
+   Tip: If MIDI Clock is being received, the Arpeggiator and Step
+   Sequencer will sync to received tempo and Song Position Pointer. The
+   Global Setting button will blink 1/4 notes to indicate that external
+   sync is being received. LinnStrument sends MIDI Clock only while the
+   Step Sequencer is playing, and only if not also receiving MIDI Clock,
+   in order to avoid a MIDI Clock feedback loop in your DAW.
+
+   ‍
+
+Power/MIDI
+(Column 15)
+
+   Low Power mode:
+
+   If ON, LinnStrument is placed in a special Low Power mode that permits
+   it to be powered over USB from any Lightning-equipped iPad or iPhone.
+   While on, the panel lights will be dimmed.
+
+   If OFF, LinnStrument is in normal full-power mode and the panel lights
+   are full brightness.
+
+   When connecting an iDevice to LinnStrument for the first time, you can
+   force LinnStrument to wake up in Low Power mode by holding the
+   Octave/Transpose button while connecting power.
+
+   ‍
+
+   Sleep mode:
+
+   Press to enter Sleep mode. Pressing any note pad turns them back on.
+   You can also enter Sleep mode by press Per-Split Settings and Global
+   Settings simultaneously.
+
+   Hold this pad to adjust two Sleep parameters. Swipe up/down to select
+   the parameter and left/right to edit its value:
+
+   1) Sleep display select:
+
+   “SLP”: all lights off. Note: you can immediately enter Sleep mode at
+   any time by pressing Per-Split Settings and Global Settings together.
+
+   “STR”: a looping promotional animation, intended for stores.
+
+   "XMS": a looping Christmas animation with snow falling on Christmas
+   trees.
+
+   2) Timer select:
+
+   “NOW”: Pressing Global Settings > Sleep immediately enters Sleep mode,
+   or
+
+   “D1-D30”: The Global Settings > Sleep button is a toggle. If on, then
+   after the selected number of minutes of Delay after not touching
+   LinnStrument, Sleep mode is entered.
+
+   ‍
+
+   USB and MIDI JACKS
+
+   LinnStrument send and receive MIDI over either the round MIDI jacks or
+   the USB jack, but not both. To use USB, select USB. To use the round
+   MIDI jacks, select MIDI JACKS> By default, USB is selected, which is
+   3.7 times faster than the MIDI jacks.
+
+   If USB is selected, your computer should show "LinnStrument MIDI" as
+   the name of the MIDI device.
+
+   Tip: if UPDATE OS (explained below) is ON, no MIDI data will be sent
+   over USB.
+
+   ‍
+   ‍Hidden setting: MIDI Thru
+
+   Hold “MIDI JACKS”, then swipe right to select “THRU”. Now the DIN MIDI
+   OUT jack will both send MIDI OUT data and also echo received MIDI IN
+   data.
+   ‍
+
+   Hidden setting: USB MIDI Data Reduction
+
+   If LinnStrument's high volume of MIDI data sent over USB is overloading
+   your computer or sound generator, you can slow down the transmission
+   rate of MIDI  messages. Hold the "USB" button to display a screen
+   showing the delay time (in microseconds) that is added between sent
+   MIDI bytes. Swipe left or right to change the value. Default is 235. As
+   a point of reference, a value of 300 slows it down to the speed of the
+   MIDI jacks, and a value of 600 slows it down to half the speed of the
+   MIDI jacks.
+
+   ‍
+
+Actions
+(Column 16)
+
+   CALIBRATE: Your LinnStrument is calibrated for accurate X- and Y-axis
+   precision at the factory and never needs recalibration under normal
+   use. The green color of the Calibration button indicates that it is
+   calibrated and there is no reason to do a new calibration.
+
+   Important to repeat: your LinnStrument never needs recalibration under
+   normal use, so please do not do a calibration unless I (Roger) ask you
+   to. Sometimes new owners who don't yet understand the operation think
+   the first thing they should try is a new calibration, which usually
+   results in a less accurate calibration than was done at the factory.
+
+   There are some unusual circumstances that may cause the factory
+   calibration to be erased, in which case the Calibration button will be
+   red:
+
+   1) loading edited source code without using the trick explained on the
+   Source Code page,
+   2) loading a beta software version,
+   3) reverting to an earlier software version, or
+   4) powering LinnStrument from  an inadequate power source. (The Hooking
+   It Up page provides hepfjul information about providing adequate
+   power.)
+
+   Only if the button is red should you do a new calibration.  The
+   calibration is a simple two-minute process and is demonstrated at
+   location 14:55 in [66]this video.
+
+   Note: During the calibration procedure, each note pad will change color
+   as you drag across it. Sometimes a pad will turn yellow after one pass
+   over a row. This is normal and is corrected by dragging over the same
+   row in the opposite direction. If not, do the calibration again more
+   slowly, taking a full 4 seconds to drag across each row in each
+   direction.
+
+   ‍UPDATE OS: Select before receiving an OS update from the LinnStrument
+   Firmware Updater.
+
+   Tip: No MIDI data is sent while UPDATE OS is on.
+
+   ‍OS VERS: Select to see the current OS version.
+
+   ‍NOTES OFF: Select to turn off any stuck notes.
+
+   RESET: Press UPDATE OS and NOTES OFF together to reset all settings in
+   LinnStrument (except Step Sequencer data and Sensor Calibration) to
+   factory status.
+
+   ‍
+
+Hidden Setting: Audience Messages
+
+   While Global Settings is on, pressing note pads in 1 through 16 of the
+   top row will cause one of the 16 text messages below to scroll across
+   the screen. The text is upside down so that if you're holding your
+   LinnStrument as a guitar, the messages will appear correctly for the
+   audience to read.
+
+   To edit any of these messages:
+
+   1) Hold the button of the specific message to be edited for 2 seconds.
+   This will enter Edit Mode.
+
+   2) Slide your finger up or down within a single column over a letter to
+   change it, or slide your finger left or right within a single row to
+   scroll other letters of the message onto the screen. The maximum
+   message length is 30 characters.
+
+   3) When finished, exit Global Settings.
+
+   Note that your edits remain after powering off and on, as well as after
+   an OS Update.
+
+   ‍
+
+   ‍
+
+Step Sequencer
+
+   LinnStrument contains a highly versatile 2-track step sequencer with
+   the following features:
+     * 2 tracks, one for each of LinnStrument's 2 keyboard splits and
+       using its settings
+     * Track lengths up to 32 steps, independent for each track
+     * Selectable step size (8th, 16th, 32nd, triplets, dotted)
+       independent for the 2 tracks
+     * Swing timing for 16th notes
+     * 4 sequences per track, of which one may play at a time
+     * 3 views of the sequence data: Scales (one row per scale note),
+       Drums (one row per drum) and Notes (same as LinnStrument Fourths
+       String Layout)
+     * Forward, reverse and forward/reverse modes, independent for each
+       track
+     * Independent velocity, duration, pitch bend and Y-axis values for
+       each event
+     * The displayed portion of the sequence may be looped for fast
+       editing
+     * Sequence rows may be viewed as scale notes or drums, or in
+       LinnStrument's normal Performance view.
+     * Editing functions for clearing and copying of track sequences
+     * 16 memories, each with all sequences and settings, may be saved to
+       computer via our mac/windows app
+     * Play both sequencer tracks, or play one while using the other split
+       to play live over it
+
+   IFRAME: [67]https://www.youtube.com/embed/bhy_Wx2PWVw
+
+   Note from Roger: The credit for this sequencer goes to LinnStrument's
+   software creator Geert Bevin, who not only wrote the sequencer software
+   but also did most of the design.
+
+   ‍
+
+   If you have an earlier LinnStrument without the printed Step Sequencer
+   settings
+
+   If you an earlier large LinnStrument model without the printed Step
+   Sequencer settings in the upper right area of the top panel, there are
+   3 ways to update your LinnStrument:
+    1. Click [68]here to buy a new metal panel from our online store.
+       [69]Here's the installation video.
+    2. Here's a [70]graphic file that you can print onto adhesive-backed
+       label paper, cut out and to attach to your LinnStrument.
+    3. Click [71]here to buy a set of 3 preprinted and precut adhesive
+       labels to attach to your LinnStrument panel, available from
+       StyleFlip.
+
+   ‍
+
+Sequencer Overview
+
+   There are 2 sequencer tracks, one for each of LinnStrument's two
+   keyboard splits, using the Per-Split Settings (MIDI assignments,
+   colors, etc.) from the split. Each split can be used for normal play or
+   for sequencer play but not both. However, one split can be used for the
+   sequencer and the other for live play, thereby permitting simultaneous
+   sequencer playback and live play.
+
+To turn on the Sequencer
+
+   To turn on the sequencer for either split, go to Per-Split Settings >
+   Special column and turn on the Sequencer button (4th pad from top).
+   Then exit Per-Split Settings and the normal Performance mode lights
+   will be replaced by the Sequencer screen, shown below.
+
+   Here is the Sequencer screen on the large LinnStrument model:
+
+   Here is the Sequencer screen on LinnStrument 128. If no note is
+   selected in the Sequence Display Area at left, the lower-right area
+   shows the Page Select buttons...
+
+   ...or if a note is selected in the Sequence Display Area at left, the
+   lower-right area shows that note's 4 parameter values:
+
+   The left side of the screen contains the Sequence Display Area and Step
+   Select Bar. The right side of the screen contains the Sequencer
+   Controls. In the large LinnStrument model, the Sequencer Controls are
+   printed above the right side of the playing surface. In LinnStrument
+   128, they are printed to the right of the playing surface.
+
+   ‍
+
+The Screen Areas and Controls
+
+The PLAY, SETTINGS and SPLIT buttons
+
+   While the Sequencer screen is showing, the functions of the following
+   buttons change:
+     * The function of SWITCH 1 changes to Sequencer Settings, explained
+       below.
+     * The function of SWITCH 2 changes to Sequencer Play/Stop.
+     * The function of the SPLIT button changes to toggling between
+       displaying the left or right split. If the Sequencer is enabled on
+       both splits, this permits fast switching between the left and right
+       splits' sequences for displaying and editing.
+
+   ‍
+
+The SEQUENCE DISPLAY AREA
+
+   The upper 7 Rows on the left side of the screen is the Sequence Display
+   Area, which shows the actual note events in the sequence. If a note
+   event has a velocity of 96 or higher, it is shown in the split's Accent
+   color. Otherwise it is shown in the split's Main color.
+
+   There are 3 views of the sequence data-- Scales, Drums and Notes. These
+   3 views are explained below in the description of the View Mode
+   buttons. The screenshots above show the default Scales view, in which
+   each row represents a note of (by default) a C major scale. To change
+   the displayed scale, change Global Settings > Note Lights, just as you
+   would change the displayed scale in Performance mode.
+
+   The columns represent Time Steps. LinnStrument 128 shows 8 time steps
+   and the large LinnStrument model shows 16 time steps. The displayed
+   area shows you a window into a sequence of up to 32 steps and 14 rows
+   (pitches). The Page Select buttons (explained below) permit viewing
+   different pages within the larger sequence.
+
+   ‍
+
+The STEP SELECT Bar
+
+   The lowest row below the Sequence Display Area is the Step Select Bar.
+   Various colors indicate different information:
+
+   Red: This is the play head. When the sequence plays, the red light
+   moves to indicate the playing step.
+
+   Orange: The step contains at least one note event.
+
+   Yellow: The step contains no note events.
+
+   Lime: The step is after the Sequence End and therefore does not play.
+
+   ‍
+
+The SEQUENCE SELECT & MUTE buttons
+
+   Each of the 2 sequence tracks (left and right) has 4 sequences, one of
+   which can play at a time. There are 4 buttons for the left split's 4
+   sequences and 4 buttons for the right split's 4 sequence. The active
+   sequence (1 through 4) is lit in the split's Accent color, while the
+   inactive sequences are lit in the split's Main color. If you change the
+   active sequence while playing, the newly-selected sequence will play
+   when the current sequence finishes. Or to instantly switch, double-tap
+   the new sequence button.
+
+   The MUTE LEFT and MUTE RIGHT buttons are used to instantly mute either
+   sequence track.
+
+   ‍
+
+The VIEW MODE buttons
+
+   There are 3 views of the sequencer data:
+
+   1) Scales
+
+   This is the default view and is shown in the screenshots above. In this
+   view, each of the 7 rows represents a note within a musical scale. In
+   the screenshots above, the rows represent the 8 notes of the C major
+   scale. To change the displayed scale, change Global Settings > Note
+   Lights, just as you would change the displayed scale in Performance
+   mode.
+
+   2) Drums
+
+   Drums view is identical to Scales view except that instead of the rows
+   representing scale notes, they represent different drums, or rather the
+   MIDI note numbers for specific drums. By default, the 7 rows are
+   assigned to the following note numbers, which are the General MIDI
+   standard for the following drum types:
+
+   Skaker (note nmber 69, highest row)
+
+   Tamborine (note number 54)
+
+   Hihat Open (note number 46)
+
+   Hihat Closed (note number 42)
+
+   Snare rim (note number 37)
+
+   Snare (note number 38)
+
+   Bass drum (note number 36)
+
+   However, these assignments may be changed in the Sequencer Settings
+   (Switch 1).
+
+   3) Notes
+
+   This view is the same as in LinnStrument's Performance mode: rows of
+   consecutive semitones with scale notes lit. In this view, only the note
+   events that exist at the selected step (in the Step Select Bar) are
+   displayed, and appear in red.
+
+The STEP SIZE buttons
+
+   These buttons determine the time given to each sequence step, relative
+   to the current tempo. (The Sequencer uses the same tempo as the
+   Arpeggiator, set in Global Settings > Arpeggiator columns.) The options
+   are:
+
+   1/4, 1/8 or 1/16
+   For example, press 1/16 and all steps will play for one 1/16 note each.
+   To select 1/4, press 1/8 and 1/16 together.
+
+   DOTTED, TRIPLET and SWING
+   Select DOTTED to change the selected 1/4, 1/8 or 1/16 Step Size into
+   dotted 1/4s, dotted 1/8s or dotted 1/16s.
+   Select TRIPLET to change the selected 1/4, 1/8 or 1/16 Step Size into
+   1/4 triplets, 1/8 triplets or 1/16 triplets.
+   Select SWING to force the Step Size to 1/16, played at a loose
+   half-swing in which for each 1/8 note, the first 1/16 note receives 58%
+   and the second 1/16 note receives 42% exactly half-way between straight
+   1/16s and triplets swing 1/16s.
+   For normal 1/4, 1/8 or 1/16 notes, do not select any of these 3
+   buttons.
+
+The PAGE SELECT buttons
+
+   Each sequence has 32 steps, yet only 16 columns can be viewed on the
+   large LinnStrument model and only 8 can be viewed on LinnStrument 128.
+   Also, in Scales or Drums view, the sequence contains 14 scale notes or
+   drums, yet only 7 rows can be viewed at a time. So the Sequence Display
+   Area is a window into the larger sequence. The Page Select buttons
+   allow you to reposition that window to view different parts of the
+   sequence.
+
+   On the large LinnStrument model, there are 4 Page Select buttons,
+   permitting viewing of 1) the first or last 16 steps, and 2) the lower
+   or upper 7 rows.
+
+   On LinnStrument 128, there are 8 Page Select buttons, permitting
+   viewing of 1) steps 1-8, 9-16, 17-2 or 24-32, and 2) the lower or upper
+   7 rows.
+
+   If either LinnStrument model is set to Notes View, there are no upper
+   rows to view so there are no upper Page Select buttons. In this case,
+   the Page Select buttons are used only to select ranges of steps, with
+   buttons for LinnStrument and 4 for LinnStrument 128.
+
+The CLEAR button
+
+   To clear (erase) any sequences, hold CLEAR while pressing one of the 4
+   left or 4 right Sequence Select buttons.
+   To clear (erase ) all notes from a step, hold CLEAR while pressing a
+   step button in the Step Select Bar.
+
+The COPY button
+
+   To copy one sequence over another, hold COPY while pressing the source,
+   then destination sequence, from among the 4 left and 4 right sequences.
+
+   To copy a step's contents to another step, hold COPY while pressing the
+   source step, then destination step in the Step Select Bar.
+
+The LOOP SCREEN button
+
+   Turn on to loop only the steps that are visible on the screen. This is
+   useful for quick editing of a portion of a longer sequence.
+
+The REVERSE button
+
+   Turn on to reverse the play direction. Hold to alternate play between
+   forward and reverse.
+
+   ‍
+
+How Do I...
+
+Insert a note
+
+   At the desired location in the Sequence Display Area, press an empty
+   note location. The note will be entered at the velocity played.
+
+Delete a note
+
+   To delete a note, briefly tap it in the upper 7 rows.
+
+Change the sequence length
+
+   The sequence can be any length up to 32 steps. By default, the sequence
+   length is 8 steps on LinnStrument 128 and 16 steps on the large
+   LinnStrument model, the same as the number of displayed steps. To
+   change the sequence length, hold SETTINGS (Switch 1) while also
+   pressing the desired ending step in the Step Select Bar.  To select a
+   length longer than the number of displayed steps, you must use the Page
+   Select buttons to view higher steps within the sequence.
+
+Select a note for editing
+
+   Hold the note for more than 1/2 second and it will blink, indicating
+   that it is selected for editing.
+
+   Another way to select a note is to press its step in the Step Select
+   Bar. If more than one note exists at the selected step, press the step
+   button in the Step Select Bar again to rotate through the notes at that
+   step or no selection.
+
+   Once selected, the note's Velocity, Duration, Pitch Bend and Y-axis
+   values will appear in the lower right area of the playing surface,
+   explained below.
+
+Deselect a note
+
+   If you wish to deselect the selected note (for example to use the Page
+   Select buttons on LinnStrument 128), press anywhere on the unlit area
+   in the middle of the screen. On LinnStrument, there is a single unlit
+   column. On LinnStrument 128, there are 2 unlit columns.
+
+Instantly reposition the Play Head while playing
+
+   While playing, hold Switch 2 (Sequencer Play) while pressing a step in
+   the Step Select Bar. Play will instantly jump to the new position.
+
+Play only the viewed sequence track
+
+   If both sequence tracks are in use but you'd like to play only the
+   viewed sequence track, hold SEQUENCER SETTINGS (Switch 2) while
+   pressing SEQUENCE PLAY (Switch 2).
+
+How to change Tempo
+
+   The Sequencer uses the Arpeggiator's tempo. It can be changed in Global
+   Settings > Arpeggitor columns > Tap Tempo.
+
+Sync to external devices
+
+   Simply send LinnStrument MIDI clock with Song Position Pointer and it
+   will play in perfect sync.
+
+Transpose a sequence
+
+   To transpose a sequence's playback, use the Octave/Transpose
+   button/screen. However, if the View Mode is set to DRUMS, the sequence
+   playback will not be affected, because transposing note numbers that
+   play specific drums would otherwise cause the sequence to play
+   different drums.
+
+   ‍
+
+Sequencer Settings
+
+   Press SETTINGS (Switch 1) to adjust a variety of settings related to
+   the sequencer. The screen below will appear. Press one of the 4 buttons
+   at the bottom of the screen to select a setting.
+
+Setting 1: Project Save/Load
+
+   LinnStrument has 16 "Projects", each of which holds all sequence data
+   and settings for both splits. The 4x4 matrix in this screen represents
+   these 16 projects, with "1" starting at the bottom left, like this:
+
+   13 14 15 16
+   09 10 11 12
+   05 06 07 08
+   01 02 03 04
+
+   (Ignore the zero before each number 1 though 16.)
+
+   Hold a Project button for more than 1/2 second to save all current
+   sequencer data over the contents of the Project button.
+
+   Briefly press a button to replace all current sequencer data with the
+   contents of the button's project.
+
+   The last saved or loaded project button will change to light blue to
+   remind you which one you last saved to or loaded from.
+
+   The LinnStrument Updater app can be used to save any of the 16 projects
+   as a file to your computer.
+
+Settings 2 and 3: Drums View Note Numbers
+
+   If View is set to "Drums" in the Sequencer screen, each of the 7 rows
+   has an assigned note number corresponding to a specific drum. The
+   default note numbers are given in the description of the Drums View
+   above. This Settings screen permits you to change the note number for
+   each of the 14 rows. There are 2 setting screens: 1) the note numbers
+   for rows 1-7 and 2) the note numbers for rows 8-14.
+
+Setting 4: Step Select Bar Colors
+
+   This setting permits you to change the colors used in the sequencer
+   screen's Step Select Bar.
+
+   ‍
+
+     * [72]About us
+     * [73]Contact US
+     * [74]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  61. https://youtu.be/HHWrSs8o1V4
+  62. https://www.rogerlinndesign.com/support/support-ls-pressure
+  63. https://www.youtube.com/watch?time_continue=9&v=BaG6aQKSpeg
+  64. https://www.youtube.com/watch?v=HHWrSs8o1V4
+  65. https://www.youtube.com/watch?v=fJ-mBG5FMUc
+  66. https://youtu.be/t85BU-4M_2k?si=A5ncvnQjzn2kckua&t=895
+  67. https://www.youtube.com/embed/bhy_Wx2PWVw
+  68. https://www.rogerlinndesignstore.com/LS-TOPPANEL-p/ls200-toppanel.htm
+  69. https://www.youtube.com/watch?v=lN8bbS6arWU&feature=youtu.be
+  70. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e625a46452770dab2470abd_linnstrument-sequencer-you-print-label.pdf
+  71. https://www.styleflip.com/linnstrument-skins-custom-sticker-covers
+  72. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  73. https://www.rogerlinndesign.com/about/about-contact
+  74. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  76. https://www.rogerlinndesign.com/
+  77. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  78. https://www.rogerlinndesign.com/
+  79. https://www.facebook.com/RogerLinnDesign
+  80. https://www.youtube.com/user/rogerlinndesign
+  81. https://twitter.com/roger_linn
+  82. https://www.instagram.com/roger.linn/

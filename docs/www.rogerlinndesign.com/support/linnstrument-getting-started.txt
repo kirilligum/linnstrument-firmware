@@ -1,0 +1,310 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Getting Started
+
+Start making sounds quickly with your new LinnStrument or LinnStrument 128.
+
+   IFRAME:
+   [60]https://www.youtube.com/embed/HT_ldBUk29k?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+1) Before you start
+
+   1) If your LinnStrument arrived very warm, the silicone playing surface
+   may be slightly loose due to temporary heat-related expansion. If so,
+   let it cool down for an hour or two before playing it with more than a
+   light touch, or put it in your refrigerator for 20 minutes to cool it
+   faster. And try to avoid placing it in direct sunlight or near sources
+   of unusually high heat or humidity. If you're in a hot area and this
+   doesn't permanently fix it, click the "FAQs" link on this page and
+   under the "Problems" tab, read this FAQ: "The white playing surface is
+   loose, sometimes lifting slightly. How do I fix this?".
+   2) Please register your purchase using the link at left (or above on
+   mobile). If you bought from a dealer in the past 60 days, I'll extend
+   your warranty from 2 to 3 years. If you bought used, I'll transfer any
+   remaining warranty to you. Either way, I'll give you a license for
+   Bitwig 8-Track DAW software.
+   3) If you purchased used, it's best to reset all settings to defaults:
+   turn on the Global Settings button, then in the Actions column (column
+   16), press both NOTES OFF and UPDATE OS at the same time. Also, check
+   your software version and if needed, update to the latest software.
+   Click the "Updating Software" link at left (or above on mobile
+   devices).
+   4) I occasionally send out email newsletters with tips & tricks, new
+   videos, or other items of interest to LinnStrument owners. If you’d
+   like to receive them, click the “Email Newsletters” link at left. You
+   can unsubscribe at any time and I don’t give your email address to
+   anyone for any reason.
+
+2) Watch the above introduction video
+
+   The above video will give you an overview of operation, including how
+   to access the printed settings above and below the playing surface.
+
+3) Hooking it up
+
+   Connect the included USB cable between LinnStrument's USB jack and your
+   computer's USB jack. You should see "LinnStrument MIDI" among the
+   MIDI ports in your computer's music software. Note that USB hubs--
+   especially unpowered or low-cost hubs-- often don't provide enough
+   power for LinnStrument. See the Hooking It Up page for more information
+   about powering LinnStrument. Also, to avoid damage to the USB jack from
+   accidental hard cable pulls, attach one of the included guitar strap
+   buttons to the corner of the LinnStrument nearest the USB jack, then
+   tie the USB cable around it as a strain relief.
+   If using LinnStrument's round MIDI jacks, you must change a setting: In
+   GLOBAL SETTINGS, select MIDI JACKS in column 15 ("Power/MIDI").
+   ‍
+   If using a sustain pedal, connect it then disconnect/reconnect
+   LinnStrument's power. At power-on, LinnStrument senses the unpressed
+   state of your pedal in order to learn if it is a Normal Open or
+   Normally Closed type.
+   For other connections such as iPads, click the "Hooking It up" link at
+   left.
+
+4) Play some sounds
+
+   To immediately get sounds that fully use LinnStrument's MPE
+   capabilities, please install LinnStrument's official (and free) synth
+   Surge XT, which includes a "LinnStrument MPE" collection of sounds.
+   Click the "Free Surge XT synth" link on this page to install it and set
+   it up.
+   If you're on Mac, also download my free MPE sounds file for Apple's
+   Logic or MainStage, which includes a variety of both synth-based and
+   sample-based sounds. Click the "Free sounds for Logic/MainStage" link
+   at left.
+   A good starting sound is "Pulse Wave and Filter". In Surge XT, it's in
+   the LinnStrument MPE > Pads folder. In my Logic sounds file, it's track
+   14 in the Synths folder. Now try sliding your finger left or right
+   across pads to slide in pitch. Or wiggle your finger for vibrato. Or
+   vary finger pressure to vary loudness. Or tilt your finger forward and
+   back to change timbre. Then hold a chord and notice that this same
+   three-dimensional control is independent for each note in the chord.
+   If you are having trouble getting sounds to play in your computer,
+   click the "FAQs" link at left, then under the "Problems" tab, read the
+   FAQ "LinnStrument is not sending MIDI. What's wrong?"
+   ‍
+   Both Surge XT and Logic/MainStage are "MPE" compatible synths. (See
+   "What is MPE?" at left.) But LinnStrument also works with all
+   conventional one-channel MIDI synths, which usually have preset sounds
+   that are optimized for MIDI piano keyboards, and therefore will have
+   the following limitations:
+   1) They don't respond to LinnStrument's finger pressure to control the
+   note volume from silence to full. If they do respond to pressure
+   control, they are expecting the Aftertouch signal of MIDI piano
+   keyboards, which is only sent after the key is fully pressed, so at
+   best finger pressure is used to add a modulation or filter effect to a
+   note that is already playing.
+   ‍
+   2) They don't respond to LinnStrument's Y-axis (forward/backward)
+   control. This is because MIDI piano keyboards don't have the ability to
+   send Y-axis finger movements.
+   3) Left/right pitch slides will be limited to 2 semitones. This is
+   because these piano-optimized sounds are expecting a MIDI piano
+   keyboard's bend wheel, which isn't very useful for bending more than 2
+   semitones.
+   4) Polyphonic pitch slides or polyphonic Y-axis movements aren’t
+   possible. This is because MIDI requires that the Pitch Bend message
+   must apply to all notes that are playing. The same limitation applies
+   to Control Change messages including Control Change 74 that is used for
+   LinnStrument's Y-axis control.
+   To overcome all of these limitation, use an MPE-compatible synth, and
+   ideally one that that comes with good MPE preset sounds, like Surge XT
+   or our Logic/MainStage sound files.
+   For most people, the most common setting change in LinnStrument is
+   between MPE settings (for MPE synths) and One-Channel settings (for
+   conventional one-channel synths). LinnStrument has handy shortcuts for
+   both:
+   To instantly change all MIDI settings for conventional one-channel
+   synths: in Per-Split Settings, "MIDI MODE" column, HOLD the "One Chan"
+   button for 1 second. These settings, which are how LinnStrument ships
+   and how it is set after a Reset command, are:
+   * Main Channel = 1
+   * Pitch/X = Bend Range of +/- 2 semitones
+   * Timbre/Y = CC74
+   * Loudness/Z = Poly Pressure
+   ‍
+   To instantly change all MIDI settings for MPE play: in Per-Split
+   Settings, "MIDI MODE" column, HOLD the "ChPerNote" button for 1 second.
+   These settings are:
+   * Main Channel = 1
+   * Per-Note channels = 2 - 8
+   * Pitch/X = Bend Range of +/- 48 semitones
+   * Timbre/Y = CC74
+   * Loudness/Z = Channel Pressure
+
+5) Where are the notes?
+
+   Each of LinnStrument's rows consists of 25 (or 16 for LinnStrument 128)
+   consecutive semitones, similar to the strings on any stringed
+   instrument. By default, the rows are tuned in intervals of musical
+   fourths (5 semitones), just like a bass guitar or the lower four
+   strings of a guitar. And similar to a piano's white keys, the naturals
+   (C, D, E, F, G, A and B) are lit, with the C within each octave lit in
+   blue and the others in green. Try playing some scales, chords and
+   melodies. To learn how to play common chords and scales, click the
+   "Learning to play" link at left.
+   Note that you can change the row tuning to that of guitar, cello/violin
+   or other intervals in Global Settings > Row Offset. Or you can change
+   the lights to highlight any scale in Global Settings > Note Lights
+   On/Off. Or change the light colors in Per-Split Settings > Color. You
+   can learn about these settings in the "Panel Settings" link at left.
+
+6) Learn more
+
+   To learn more, click some of the links on this page, including:
+   Panel Settings: This is the primary Owner Manual page, containing a
+   detailed explanation of all settings on the panel, plus some deep
+   hidden settings that aren't printed on the panel.
+   Hooking it up: information about connecting to iPads and hardware
+   synths, how to insure LinnStrument is getting adequate power,
+   recommended foot switches and more.
+   FAQs: Quick answers to most common questions, like "LinnStrument is not
+   sending MIDI. What's wrong?"
+   Creating Sounds: Tips on how to create sounds that take best advantage
+   of LinnStrument's expressive touch capabilities.
+   LinnStrument forum on KVR: This is a helpful and safe place for asking
+   questions and exchanging ideas with other LinnStrumentalists, who
+   happen to be some very fine people.
+   Videos: Hundreds of video submitted by LinnStrument players around the
+   world. Seeing others play LinnStrument is very helpful in learning how
+   to play it. There are also some helpful How To videos that I (Roger)
+   and others have created.
+   Thank you for liking LinnStrument enough to own one. I welcome you into
+   the community of LinnStrumentalists.
+   Roger Linn
+
+     * [61]About us
+     * [62]Contact US
+     * [63]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.youtube.com/embed/HT_ldBUk29k?rel=0&controls=1&autoplay=0&mute=0&start=0
+  61. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  62. https://www.rogerlinndesign.com/about/about-contact
+  63. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  65. https://www.rogerlinndesign.com/
+  66. https://www.rogerlinndesign.com/
+  67. https://www.facebook.com/RogerLinnDesign
+  68. https://www.youtube.com/user/rogerlinndesign
+  69. https://twitter.com/roger_linn
+  70. https://www.instagram.com/roger.linn/

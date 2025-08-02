@@ -1,0 +1,1444 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Recommended Sounds
+
+   LinnStrument sends standard MIDI messages and therefore works with
+   every MIDI sound generator in existence, so in a sense every MIDI sound
+   generator is recommended.
+   By default, LinnStrument sends its MIDI data over a single MIDI channel
+   (channel 1) and with a Bend Range of 2 semitones. Why? Most
+   synthesizers respond to a single MIDI channel, so this provides the
+   best compatibility with the preset sounds of these one-channel
+   synthesizers, which are intended to be played from a conventional
+   MIDI piano keyboard. When playing such piano-optimized sounds from
+   LinnStrument, you'll notice some limitations:
+   1) They don't respond to LinnStrument's finger pressure to control the
+   note volume from silence to full. If they do respond to pressure
+   control, they are expecting the Aftertouch signal of MIDI piano
+   keyboards, which is only sent after the key is fully pressed, so at
+   best finger pressure is used to add a modulation or filter effect to a
+   note that is already playing.
+   ‍
+   2) They don't respond to LinnStrument's Y-axis (forward/backward)
+   control. This is because MIDI piano keyboards don't have the ability to
+   send Y-axis finger movements.
+   3) Left/right pitch slides will be limited to 2 semitones. This is
+   because these piano-optimized sounds are expecting a MIDI piano
+   keyboard's bend wheel, which isn't very useful for bending more than 2
+   semitones.
+   4) Polyphonic pitch slides or polyphonic Y-axis movements aren’t
+   possible. This is because MIDI requires that the Pitch Bend message
+   must apply to all notes that are playing. The same limitation applies
+   to Control Change messages including Control Change 74 that is used for
+   LinnStrument's Y-axis control.
+   To overcome all of these limitation, use a synth that is compatible
+   with MPE, which permits 3 dimensions of continuous touch control for
+   all simultaneous touches. (See What is MPE? at left.) And ideally, use
+   an MPE synth that comes with good MPE preset sounds,.
+   ‍
+   Further down this page is a list of MPE synths, but the best ones are
+   listed in the next section "How to play sounds NOW that fully realize
+   LinnStrument’s potential".
+   Also, please read section 4 of the Getting Stated page to learn the
+   shortcuts for quickly changing all of LinnStrument's MIDI settings for
+   use with either MPE or One Channel synths.
+   ‍
+
+How to play sounds NOW that fully realize LinnStrument’s potential
+
+   To play sounds now that fully realize LinnStrument's potential, here
+   are the best choices.
+   ‍
+   * Surge XT. This is the official synth for LinnStrument, is free, open
+   source, extremely versatile, works on Mac, Windows and Linux, and
+   includes a "LinnStrument MPE" library of 50+ sounds optimized for
+   LinnStrument. Click the Free Surge XT Synth link at left.
+   * Apple’s Logic or MainStage, with my (Roger's) LinnStrument-optimized
+   sounds file. Click the link "Free sounds for Logic/MainStage" at left.
+   * Roli’s Equator, Cypher2 and Strobe2  for Win/Mac.
+   * Bitwig 8-Track. Bitwig is an excellent DAW and includes a small
+   assortment of MPE sounds. A free license for Bitwig Studio 8-Track is
+   included with each LinnStrument. To download Bitwig Studio 8-Track and
+   activate your license, click the link at left for Free Bitwig 8-Track.
+   For iOS and iPadOS:
+   * Roli's Seaboard 5D
+   * Moog’s AniMoog for iPadOS and iOS.
+   To use these MPE synths, you'll also need to put LinnStrument into
+   MPE mode:
+   1) Turn on Per-Split Settings.
+   2) On the leftmost column ("MIDI Mode"), hold "ChPerNote" (second
+   button from top) for 1 second. The button will turn light blue and all
+   MIDI settings will be set for MPE play. (MIDI Mode = ChPerNote,
+   Timbre/Y = CC74, Loudness/Z = Channel Pressure, Bend Range = 48.)
+   3) Turn off Per-Split Settings.
+   To learn more about each of these synths and to find download links for
+   LinnStrument-optimized sounds, see their sections in the list of
+   MPE-compatible synths below on this page.
+   ‍
+
+Audio Modeling SWAM: For expressive bowed strings and winds
+
+   If you want wind and bowed string instruments that sound perfect and
+   accurately respond to LinnStrument’s 3 dimensions of expressive
+   control, then nothing comes close to [60]Audio Modeling's SWAM
+   instruments for Mac, Windows or iOS/iPadOS[61]. Audio Modeling uses a
+   special technology that overcomes the limitations of samples for
+   expressive control. These instruments are not actually MPE-compatible
+   because they are solo (monophonic) instruments and therefore have no
+   use for MPE (midi POLYPHONIC expression). However for convenience, they
+   have a setting that accepts MPE data, internally adapting it for their
+   monophonic voice. Audio Modeling's software instruments are available
+   for Mac/Windows and also for iOS / iPadOS.
+   To setup LinnStrument and the SWAM Version 3 instruments to work
+   together:
+   1) Set LinnStrument for MPE: In Per-Split Settings, MIDI Mode column,
+   HOLD ChPerNote for 1 second. This will set all needed MIDI settings to
+   MPE compatibility.
+   2) In the SWAM instrument, click the round MIDI icon, then "Presets",
+   then "LinnStrument MPE Default". (This setting internally converts the
+   MPE data into one channel data that works well with the monophonic SWAM
+   instruments.)
+   [62]Sample Modeling’s sample-based instruments for Kontakt are also
+   good and optimized for expressive control. In LinnStrument, you'll need
+   to set MIDI Mode to One Channel, Loudness/Z to CC11, and Bend Range
+   equal to the same value as in their "Cents" field / 100. (A Bend Range
+   of 100 Cents = 1 semitone.) Depending on the Sample Modeling
+   instrument, the maximum bend range is between 1 and 3 semitones (100 to
+   300 cents). To select a Bend Range in LinnStrument other than 2, 3, 12
+   and 24: in the Bend Range column hold '+/- 24', then swipe your finger
+   left/right to change the displayed value to anything between 1 and 96.
+   The Sample Modeling instruments also have a Timbral Shaping feature,
+   which you might be able to set up in a useful way for control by
+   LinnStrument's Y-axis.
+   ‍
+   Also, any solo synths that are intended to be played by wind
+   controllers like Akai’s EWI/EVI will work well with LinnStrument in One
+   Channel mode. One LinnStrument owner recommends [63]Suonopuro’s
+   Kontakt-based instruments for this reason.
+
+A list of MPE-compatible synths
+
+   NOTE: As of July 1, 2022, I (Roger) have stopped updating the Win/Mac
+   MPE and iOS iPad MPE tabs of this list, but the Hardware MPE tab has
+   been updated more recently.. The reason is that, while this list was
+   helpful in earlier years when there were few MPE synths, there are now
+   so many now MPE synths that it's difficult to keep up with all the MPE
+   announcements. So it's easier now to simply visit a synth's product
+   page to learn if it has MPE compatibility.
+   Below is a list of current synths that are compatible with MPE
+   (MIDI Polyphonic Expression; see "What is MPE?" at left) or are
+   multi-timbral.
+   Multi-timbral synths are intended to play a different sound on each
+   timbre and MIDI channel. So for MPE-like operation you must set all
+   timbres to the same sound, with each timbre receiving from a different
+   channel. Then each MPE Per-Note channel will send to a specific
+   channel/timbre. There are two problems with this:
+   1) Any sound changes must be done redundantly to all timbres, which is
+   cumbersome.
+   2) Unlike MPE, multi-timbral synths don't have a Master Channel (called
+   Main Channel in LinnStrument) for messages common to all touches like
+   sustain pedal (cc64), overall volume (cc7), Program Change, etc.
+   LinnStrument has a workaround for this: disable the Main channel. Then
+   all such common messages will be sent redundantly over all Member
+   (Per-Note) channels. To do this, in Per-Split Settings, set column 2 to
+   "Main Chan" to display the assigned Main channel in columns 3-6. Then
+   press the selected Main channel in columns 3-6 to turn it off.
+   In LinnStrument, MPE is called "Channel Per Note". To set LinnStrument
+   for MPE play, in Per-Split Settings > MIDI Mode column, hold "ChPerNt".
+   It will turn blue and automatically set all other relevant Per-Split
+   Settings for MPE compatibility:
+   * Bend Range = 48 (Before version 2.2.2 software, it was set to 24.)
+   * Timbre/Y = CC74
+   * Loudness/Z = CHAN PRES
+   If you are aware of any other sound generators that fall into the above
+   two categories, [64]please let me (Roger) know and I'll add it to the
+   list.
+   ‍
+   Note that for an MPE software plug-in to work in your DAW, the DAW must
+   pass all 16 MIDI channels to the track. Most DAWs do this. The
+   description below of Live suggests a workaround, which can also be used
+   for any other DAW that doesn't pass all 16 channels to the track.
+   In addition, [65]here is Roli's list of MPE-compatible or expressive
+   synths that they recommend for use with Seaboard and therefore work
+   with LinnStrument.
+   ‍
+   Mac/Win MPEiPad OS MPEHardware MPE
+
+Ableton Live
+
+   MPE has been added to Live 11. As of January 2023, the only Live
+   devices that have MPE compatibility are Sampler, Wavetable, Simpler and
+   Arpeggiator. However, now all 16 channels are passed to the track, so
+   any third-party MPE plug-in instruments will work fine.
+
+   In Live 11, click the Live menu > Settings. Then click the
+   Link/Tempo/MIDI tab and under MIDI Ports > In, look for the
+   "LinnStrument" entry (LinnStrument must be connected) and be sure
+   "MPE" is selected.
+
+   Also, Live's MPE implementation is unusual. The received MIDI channel
+   is not stored in the sequence with the recorded events, but rather Live
+   randomly assigns one of the MPE per-note channels on playback. This was
+   a simpler way for them to implement MPE, but it has two problems:
+
+   1) You can't record two instances of the same pitch.
+
+   2) If using Channel Per Row mode in LinnStrument, and each row uses a
+   different sound, on playback the notes you recorded will playback on
+   different channels and therefore use a sound intended for a different
+   row that you originally played.
+
+   Also, there appears to be a bug in Live regarding MPE. Their [66]online
+   documentation states that you should be able to select either the
+   MPE Upper (Main channel 16) or Lower (Main channel 1) Zone, as well as
+   the specific per-note (member) channels. However, as of January 2023,
+   if you select "LinnStrument MPE" as a MIDI track's input port (with
+   "MPE" checked for LinnStrument in the Preferences panel), then the
+   track's Input Channel dropdown becomes greyed out, forcing the track to
+   always accept all channels.
+
+accSone: crusher-x
+
+   From their [67]web site:
+
+   "Steer the live grains with your fingertip? Let a drone take off by
+   moving your fingers to the top of the keyboard? Let the grain drone
+   drift left or right by sliding your fingers? This is what you can do
+   with MPE (MIDI Polyphonic Expression) and the MPE feature set of
+   crusher-X!"
+
+Apple: Logic Pro & MainStage (7 instruments, downloadable sound files)
+
+Overview
+
+   Logic Pro ($200) and MainStage 3 ($30, same sounds as Logic) both
+   provide fully polyphonic 3-dimensional control on 7 of their built-in
+   instruments: EXS24 Sampler, ES2 Subtractive Synth, EFM1 Frequency
+   Modulation Synth, Sculpture physical modeling synth, Alchemy synth,
+   Retro Synth and Vintage Clav. Given that most LinnStrument owners are
+   on mac and already own one of these, they are the primary sound sources
+   we've used in our videos, and our downloadable LinnStrument-optimized
+   sounds files for these are the most complete and versatile collection
+   of LinnStrument sounds that we offer.
+
+   Click [68]here for the Logic Pro sounds file and [69]here for the
+   MainStage 3 sounds file. The sounds in these two files are identical
+   and are optimized for polyphonic 3-dimensional control using
+   LinnStrument's Channel-Per-Note (MPE) mode. To play these sounds, set
+   LinnStrument to MPE mode:
+    1. Turn on the PER-SPLIT SETTINGS button
+    2. In the MIDI MODE column (column 1), hold ChPerNote (2nd pad from
+       the top) for 1/2 second. (It will turn light blue.) This will set
+       all necessary MIDI settings for MPE play.
+
+   If you wish to create your own sounds in Logic or Mainstage using any
+   of the 7 above-named  MPE instruments, here's how to enable MPE in
+   those instruments: click the small triangle in the lower left corner of
+   the instrument's window, then set MIDI Mono Mode to "On (with common
+   channel 1)" and Mono Mode Pitch Range to "48".
+
+   Note: If the above settings don't work correctly, you may have changed
+   other settings in LinnStrument. To reset LinnStrument to default
+   settings: Turn on GLOBAL SETTINGS, then in the ACTIONS column (column
+   16), press NOTES OFF and UPDATE OS at the same time. You will briefly
+   see "RESET" displayed.‍
+
+   ‍
+
+How to get two sounds in Logic for split keyboard play with LinnStrument:
+
+   To play two one-channel sounds. For example:
+
+   1) The easy way is to reset LinnStrument to default settings:
+
+   In Global Settings > Column 16, press Notes Off + Update OS at the same
+   time ("reset").
+   Or, in Per-Split Settings:
+   Select Left Split, then set MIDI Mode = One Channel and Main Channel =
+   1.
+   Select Right Split, then set MIDI Mode = One Channel and Main Channel =
+   16.
+
+   2) Turn on LinnStrument’s Split button.
+
+   3) In Logic, click "File menu > Project Settings > Recording..." Be
+   sure that "Auto demix by channel if multitrack recording" IS checked.
+
+   4) In Logic, select a track containing a one-channel sound that you
+   want the right split to play. Then in the “Track” settings in the upper
+   left area of the Logic window, set “MIDI Channel” to 16.
+
+   5) In Logic, select the MPE track that you want the left split to play,
+   and also turn on the little “R” button on the One Channel track that
+   you want the right split to play.
+
+   6) Play!
+
+   ‍
+
+To play an MPE sound in the left split and a one-channel sound in the right
+split. For example:
+
+   1) In LinnStrument, set up the left split for MPE (Channel Per Note)
+   play. For example, in Per-Split Settings, select Left Split  (column
+   15), then hold ChPerNote in the MIDI Mode column. Use the default
+   settings of Main Channel = 1, Per Note Channels = 2-8.
+
+   2) In LinnStrument, set up the right split for One Channel use. For
+   example, in Per-Split Settings, select Right Split (column 16), then
+   set MIDI Mode = One Channel and Main Channel = 16.
+
+   3) Turn on LinnStrument’s Split button.
+
+   4) In Logic, click "File menu > Project Settings > Recording..." Be
+   sure that "Auto demix by channel if multitrack recording" IS checked.
+
+   5) In Logic, select a track containing a one-channel sound that you
+   want the right split to play. Then in the “Track” settings in the upper
+   left area of the Logic window, set “MIDI Channel” to 16.
+
+   6) In Logic, select the MPE track that you want the left split to play,
+   and also turn on the little “R” button on the One Channel track that
+   you want the right split to play.
+
+   7) Play!
+
+   ‍
+
+To play an MPE sound in both the left and right splits. This requires a Logic
+"script" created by "drb" on the logicprohelp.com forum, and discovered by
+LinnStrumentalist Joseph Ferrera:
+
+   1) Download these two files ([70]FilterChannel 1-8.pst,
+   [71]FilterChannel 9-16) and put them in the following folder:
+
+   "Macintosh HD/Library/Application Support/Logic/Plug-in
+   Settings/Scripter".
+
+   2) In Logic, select the track you want for the left split.  In the
+   Inspector (the channel strip at left), click on the “MIDI FX” plugin
+   slot and open Scripter. From the preset menu in the main Scripter
+   window, select "FilterChannel 1-8”.
+
+   3) In Logic, select the track you want for the right split.  In the
+   Inspector (the channel strip at left), click on the “MIDI FX” plugin
+   slot and open Scripter. From the preset menu in the main Scripter
+   window, select "FilterChannel 9-16”.
+
+   4) In Logic, click "File menu > Project Settings > Recording..." Be
+   sure that "Auto demix by channel if multitrack recording" is  NOT
+   checked.
+
+   5) Select one of the two tracks, then enable "R" on the second track.
+
+   6) In LinnStrument, set up the Per-Split Settings thusly:
+
+   a) Select Left Split  (column 15), then hold ChPerNote in the MIDI Mode
+   column.
+
+   b) Select Right Split  (column 16), then hold ChPerNote in the MIDI
+   Mode column.
+
+   7) In LinnStrument, turn on the Split button.
+
+   8) Play!
+
+Arturia: Pigments 2, CS80 V, KORG MS-20 V, Prophet-5 V, Prophet-VS V, SQ80 V,
+CZ V, Emulator II V, Jun-6V, Jup-8 V, OP-Xa V, Vocoder V, Augmented Strings,
+Augmented Voices
+
+   [72]Here's the Arturia site.
+
+Auddict: Hexeract
+
+   [73]https://www.hexeractsynth.com
+
+Audio Damage: Quanta, Continua, Phosphor 3
+
+   [74]https://www.audiodamage.com
+
+Audio Modeling SWAM
+
+   Please see the section near the top of this page titled "Audio Modeling
+   SWAM: For expressive bowed strings and winds".
+
+Bitwig Studio 8-Track, 16-Track and Full Version
+
+   A free license for Bitwig Studio 8-Track is included with the purchase
+   of a LinnStrument. For information on how to get and activate your
+   license, as well as how to set up Bitwig with LinnStrument, visit the
+   LinnStrument Support page and click "Free Bitwig 8-Track".
+
+Bleass Alpha, Omega
+
+   [75]Here's their web site.
+
+Channel Robot: Shapiro 2
+
+   From their [76]web site: "Shapiro 2 has extensive CC control management
+   and is MPE enabled."
+
+Cherry Audio: Voltage Modular, DCO-106, PS-20, Memorymode, Mercury-4,
+DreamSynth, MiniMode
+
+   [77]Here's their site.
+
+Cycling 74: Max (and any MPE instruments created in Max)
+
+   Version 7.2.0 adds Multidimensional Polyphonic Expression support:
+
+   midiparse / midiformat: @hires attribute to output a two-byte list to
+   set high-resolution (14-bit) pitch bend output
+
+   mpeconfig: Configure MIDI devices that support MPE
+
+   mpeformat: prepare MPE-compatible MIDI messages
+
+   mpeparse: Interpret and parse raw MPE data (similar to midiparse)
+
+   polymidiin: Output MPE MIDI data in a patcher loaded by poly~
+
+   poly~: @midimode attribute to send MIDI events to all voices
+
+   poly~: @zone attribute for setting the MPE 'zone' that the poly~ will
+   listen to (the default is to ignore zones)
+
+   vst~: accepts 'mpeevent' message to handle MPE data
+
+Digital Suburban: Dexed
+
+   [78]Dexed is a multi platform, multi format plugin synth that is
+   closely modeled on the Yamaha DX7. Under the hood it uses
+   music-synthesizer-for-android for the synth engine. [79]Version 0.9.5
+   feature list states "Added initial support for MPE performance".
+
+East West Sounds: "Play 5" Sample Engine
+
+   The "Play 5" Sample Engine from East West Sounds contains an MPE mode
+   as shown in [80]this screenshot.
+
+Erratic Instruments: Quad MPE to CV (module for VCV rack)
+
+   VCV Rack is an open-source software equivalent of a Eurorack. This free
+   open-source module provides 4-voice MPE operation.
+   [81]https://github.com/bafonso/Erratic/blob/v0.6/README.md
+
+FORS: Chiral
+
+   [82]Chiral is not a win/mac plug-in but rather a Max For Live device
+   and therefore runs only within Ableton Live 11.
+
+Fxpansion: Cypher 2, Strobe 2
+
+   See "ROLI" below, which now owns FXpansion.
+
+G-Force Software: OB-E
+
+   Their [83]site claims MPE compatibility. As of March 2, 2022, a
+   LinnStrument owner has found some problems in the MPE implementation:
+   "The pitch bend and pressure aspects of MPE work fine in OB-E, but the
+   pitch bend range is defined on a per preset basis. The MPE Y CC74
+   aspect is far from ideal, you have to map it to the knob on each SEM
+   module and then it does work properly on a per-voice basis in the
+   normal MPE way, but these cc assignments are not saved per-patch, they
+   are a global config. They made a MPE video about this when version 1
+   first came out, but it was completely Roli-centric, they assumed thats
+   the controller viewers would be using so it showed Roli dashboard
+   settings to use. Its also like how we would typically setup a 'midi
+   channel per part/voice' synth in that in their video, they limit the
+   MPE controller settings to use 8 midi channels, one for each of this
+   synths voices. My conclusion is that due to how wonderful it sounds, I
+   am very happy to play this synth using the Linnstrument, but the MPE Y
+   clunkiness means I cannot quite think of it as I do plenty of other
+   modern fully fledged MPE synths."
+
+Imaginando FRMS
+
+   Their [84]site claims MPE compatibility.
+
+IMOXPLUS: Respiro
+
+   Visit the [85]IMOXPLUS website for more info.
+
+Initial Audio: Sektor
+
+   [86]Here's their product page, which states MPE compatibility.
+
+JB Audio: MPEfy
+
+   [87]This is not a synth but rather a plug-in that allows you to run
+   non-MPE plug-in software instruments as MPE instruments. It does this
+   by internally creating multiple instances of the actually software
+   instrument for each MPE per-voice channel.
+
+Kilohearts: Phase Plant
+
+   Here's their [88]web site:
+
+KV331 Audio: Synthmaster
+
+   From their [89]web site:
+
+   [In version 2.8,] we've added support for “Multidimensional Polyphonic
+   Expression”, so SynthMaster supports multichannel MIDI now! Each note
+   SynthMaster receives can have its own MIDI channel and hence it has its
+   separate pitch bend/after touch/CC values.
+
+Madrona Labs: Aalto & Kaivo  (2 instruments, downloadable sound file)
+
+   Randy's Jones' [90]Aalto and Kaivo are remarkably flexible synths in
+   deceptively simple interfaces. I am especially impressed with the many
+   ways to alter timbre is interesting ways. This is no surprise, given
+   that Madrona Labs also created the marvelous SoundPlane, a superb
+   expressive controller instrument that shares many goals with
+   LinnStrument.
+
+   LinnStrument-optimized Sound file for Aalto
+
+   [91]Here is an Aalto patch that I (Roger) created and which  I used in
+   [92]this LinnStrument video. Set Per-Split Settings > MIDI to ChPerNote
+   Mode, then Bend Range = 24, Y = CC74 and Z = Channel Pressure. Also,
+   set the Per-Split Channels to 2-5, because Aalto can play a maximum of
+   4 simultaneous voices.
+
+Magix: Samplitude Pro X5
+
+   [93]Their site states MPE compatibility, but doesn't explain what this
+   means, for example is it merely passing all 16 channels to a
+   third-party plug-in instrument, or are all or some of its included
+   instruments MPE-compatible and which ones?
+
+Melda Production: MSoundFactory
+
+   The [94]MSoundFactory site claims full MPE support.
+
+Memorymoon ME80
+
+   Their [95]site claims MPE compatibility
+
+Modartt: PianoTeq
+
+   Though [96]PianoTeq is not fully MPE-compatible, it does support
+   polyphonic pitch bends when used with LinnStrument set to MPE settings.
+   It does not have per-note continuous parameters that could respond to
+   LinnStrument's continuous finger pressure or Y-axis control, but these
+   elements aren't so useful on a piano-style synth anyway.
+
+   To use PianoTeq with LinnStrument, set LinnStrument for normal MPE play
+   except that you must set LinnStrument's Bend Range (in Per-Split
+   Settings) to "+/-24", because this is the maximum bend range in
+   PianoTeq. This is done in Per-Split Settings > Bend Range column, then
+   HOLD "+/- 24" and slide your finger to change the displayed value to
+   24.
+
+   In PianoTeq, the only change you'll need to make is to change its
+   default Bend Range from 2 to 24. To do this, in the main PianoTeq
+   window click "Options", then in the subsequent window select the
+   "MIDI" tab at top. Then in the listing of MIDI controllers, scroll to
+   the Pitch Bend line and set the two "Range" boxes to -2400 and +2400.
+
+   In this same listing of MIDI controllers, note that CC74 (Y-axis
+   control for MPE controllers) is set by default to "Hammer Hardness". So
+   by striking LinnStrument's note pads in different Y-axis locations, you
+   will vary the hammer hardness. Note that this only affects the initial
+   strike and subsequent continuous Y-axis movements are ignored.
+
+MOTU: Performer 11, Bassline,Modulo, MX4, Nanosampler 2.0, Polysynth and
+Proton
+
+   [97]Performer 11 adds MPE support, recording all 16 channels into
+   tracks and passing all 16 channels to plug-in instruments. Also, MPE
+   support is added to its included synths Bassline,Modulo, MX4,
+   Nanosampler 2.0, Polysynth and Proton.
+
+Native Instruments: Kontakt, Reaktor (and any MPE instruments created in
+Reaktor)
+
+Kontakt
+
+   Kontakt does not have an MPE mode but it is fairly simple to configure
+   for MPE use. Simply load Kontakt then load, for example, 4 instances of
+   the same sample group into it. Each instance will automatically be
+   assigned to a separate MIDI channel, or you can change each instance to
+   the channel you want to match the per-note channels you've assigned in
+   LinnStrument. Go through each instance and change the pitch bend to 12
+   (the max that Kontakt allows) and set LinnStrument's Bend Range to 12
+   to match. Because Kontakt intelligently loads samples, it will share
+   samples between all instances and therefore not use any more ram than
+   one instance. Of course you will need a host that passes all MIDI
+   channels to Kontakt.
+
+Reaktor
+
+   LinnStrument owner Mark Harris has created a [98]Reaktor 6 block that
+   processes MPE (note-per-channel) messages within Reaktor 6's new
+   modular blocks.
+
+   [99]Here is an MPE synth for Reaktor called Micro-Prism, written by
+   LinnStrument forum member TJ Shredder.
+
+   [100]Here is a semi-modular, polyphonic expression synth for Reaktor
+   called MultiExp, created by Michael Stocker.
+
+   LinnStrument owner Eric Koch writes the following explanation of how,
+   if you already have an MPE-compatible Reaktor synth, to set Reaktor to
+   correctly pass all MIDI channels to it: "After first loading an MPE
+   Synth in Reaktor, ( in stand alone ) click EDIT > Preferences [the
+   little check box icon] > Connect tab > Channel > Omni. Also select your
+   connected LinnStrument in the same tab under controllers, ( if it isn't
+   already ). Then save the ensemble as such."
+
+Newfangled Audio: Generate
+
+   [101]Here's their site. They also make a monophonic synth called
+   [102]Pendulate that is not MPE-compatible (there is no such thing as a
+   monophonic MIDI Polyphonic Expression synth) but can be played
+   monophonically from MPE controllers without switching them into
+   one-channel mode.
+
+Orange Tree Samples
+
+   All of [103]Orange Tree's Evolution guitar and roundwound/flatwound
+   bass libraries include a feature called "polybend" which is like MPE
+   for polyphonic pitch bends only. Set up your LinnStrument for MPE as
+   described on the Getting Started page, then loaded the Orange Tree
+   instrument into Kontakt and select "OMNI" mode in Kontact's settings.
+   Then set the Pitch Bend Range to match your Bend Range in LinnStrument.
+
+Physical Audio: PA3 Detailer
+
+   From [104]their site:
+
+   "In Xmode, Derailer can be controlled by MPE devices such as the ROLI
+   Seaboard.
+   This allows individual control of pitch when bowing, and strike force
+   when multi-striking."
+
+Poly-Ana from Admiral Quality
+
+   To use this analog-modeled synth in a channel-per-note configuration,
+   set the following controls, located in the lower left corner of the
+   panel:
+     * Set Poly Mode to Poly.
+     * Set Polyphony to 1. (Each received channel gets one voice.)
+     * Set PB Range to 24 to match LinnStrument's Bend Range (24 by
+       default.)
+
+   Then you can use modulation sources of:
+     * "Pressure", which is fed from both Channel Pressure and Poly
+       Pressure messages.
+     * "In-1", fed by default from CC74 and therefore works for
+       LinnStrument's Y-axis.
+
+PPG: WaveMapper 2, WaveGenerator, Phonem, Infinite Pro
+
+   For MPE use, select VpC mode (Voice per Channel).
+
+PreSonus: Studio One (DAW)
+
+   [105]Here is their site.
+
+Psychic Modulation: Phonec 2.4
+
+   Their [106]site states MPE support
+
+Rhizomatic: Plasmonic
+
+   Their web site: [107]Plasmonic.
+
+Rob Papen: Blade 2, Vecto
+
+   Here are the product pages for [108]Blade 2 and [109]Vecto.
+
+ROLI: ROLI Studio, Equator, Cypher2, Strobe2
+
+   [110]ROLI's Equator, Cypher2 and Strobe2 are all excellent synths that
+   are designed to work well with ROLI's Seaboard MPE controller, so they
+   also work well with LinnStrument. Each has a large number of
+   high-quality MPE preset sounds. And ROLI Studio gives you most of those
+   sounds from all 3 synths in one app, minus the detailed sound editing.
+
+   To set any of these apps with LinnStrument, you may need to enable
+   "LinnStrument MIDI" as the incoming MIDI device in Settings.
+
+   Here are two sounds for Equator ([111]Screaming Calliope, [112]Doppler
+   Whistles) that I (Roger) created, using Y-axis modulation of comb
+   filters, similar to the Aalto sound I used in[113] this video. On mac,
+   you can copy these files into Documents > Roli > Equator > Presets.
+
+SoftTube: Modular
+
+   From LinnStrument software creator Geert Bevin:
+
+   [114]Softube Modular has a ROLI Seaboard RISE module which enables MPE
+   for it. It also ships with 18 ROLI (MPE) presets. To make this work
+   with LinnStrument, simply enable MPE mode with channels 2-5 as per-note
+   channels and pitchbend 48. Sadly they don't handle MPE in the modular
+   automatically and you have to duplicate the configuration of each
+   voice.
+
+Soniccouture: Virtual Ondes Martenot
+
+   [115]http://www.soniccouture.com/en/products/24-vintage/g27-ondes/
+
+Sonic Lab: Fundamental
+
+   [116]https://www.sonic-lab.com/fundamental/
+
+Spectrasonics: Omnisphere & Trillian (sound file)
+
+   Omnisphere and Trillian are real powerhouses that combine well-recorded
+   sample sources with highly malleable synthesis and a very versatile
+   modulation routing. Though they are not MPE-compatible, they are
+   multi-timbral with 8 different "parts", each of which receives on a
+   separate MIDI channel. So you can make them work as semi-MPE synths by
+   assigning all 8 parts to the same sound, then assign the 8 parts to
+   receive on the same 8 per-note channels that you're sending from
+   LinnStrument.
+
+   The other nice thing about Omnisphere's synthesis is that the source
+   waveform can be fundamentally altered in a variety of useful ways,
+   making it a good match for LinnStrument's Y-axis control.
+
+   One more thing: because these aren't true MPE synths, there is no
+   Master (Main) channel for MIDI messages common to all notes like
+   sustain pedal, volume, etc. However, LinnStrument has a mode that sends
+   such messages redundantly over all Per-Note channels: In Per-Split
+   Settings when using Channel Per Note mode, press the selected "Main"
+   channel button to deselect it.
+
+LinnStrument-optimized Sound file
+
+   [117]Here is an Omnisphere "multi" patch that I (Roger) created. Load
+   it somewhere in your Omnisphere "multi" directories then set
+   LinnStrument's MIDI Mode to ChPerNote, PerNoteChs to 1-8, Z to Channel
+   Pressure, Bend Range to 24, and Y to CC74.  In this patch the Y-axis
+   controls oscillator sync for a radical timbral variation.
+
+Spitfire Audio: BT Phobos
+
+   [118]BT Phobos
+
+   From their site's Features section:
+
+   "MPE Compatible (for use with multidimensional controllers such as ROLI
+   Rise or Roger Linn Linnstrument)"
+
+Stagecraft Software: Addiction Synth, Infinity Synth
+
+   [119]Stagecraft Software website
+
+Steinberg: Cubase (5 instruments)
+
+   Contributed by principal LinnStrument software writer Geert Bevin:
+
+   Channel-Per-Note is supported as part of VST Note Expression in Halion,
+   Halion Sonic 2, Halion Sonic SE2, Retrologue & Padshop.
+
+   In real-time, you can use it with third-party VSTs just as any other
+   DAW by streaming MIDI straight to the plugin when the MIDI input
+   channel for the track is set to Any. Note that the per-note recording I
+   mention below also works with this.
+
+   If the track MIDI Channel is set to 1 though, and you host a VST3
+   software instrument like Padshop, Halion, Halion Sonic SE, Retrologue,
+   then you can transform ChannelPerNote MIDI in real time to VST Note
+   Expression. To do that, instantiate the VST3 plugin and go to the Note
+   Expression tab for the track. There you have to enable "MIDI as
+   NoteExp" and "Channel Rotation". This will then allow you to assign
+   MIDI CCs and Pitchbend to the Note Expression parameters in the same
+   tab. Thanks to channel rotation support, it will properly keep all the
+   MIDI expression in the same channel tied to the note that's playing.
+
+   The nice thing now is that Note Expression directly shows the acoustic
+   parameters of the synth and is very easy to work with. Also, when you
+   record, it stores all the per-note MIDI information together with each
+   note and shows it  in the GUI. So you can edit the expression of each
+   note separately and play it back in full detail later.
+
+   [120]Here's a video in which Geert describes using LinnStrument's
+   Channel-Per-Note mode wth Cubase and U-He's Diva plug-in.
+
+   And [121]here's information from Roli about using their Seaboard with
+   Cubase, which should be similarly helpful in using Cubase with
+   LinnStrument or any MPE controller.
+
+   In January 2023, a LinnStrument owner reported a possible bug in Cubase
+   related to recording and editing MPE data in Cubasse: "When you set
+   LinnStrument to send MPE information and you record an MPE musical part
+   into Cubase, the software’s editing tools don’t show the pitch bend
+   values assigned to the correct notes. This occurs when recording
+   globally, but when recording with the track midi window open,
+   everything works fine."
+
+   In March 2023, a LinnStrument owner reported this tip for playing two
+   MPE splits on LinnStrument to two MPE sounds in Cubase by using the
+   Cubase 'input transformer':
+   a) On the Linnstrument, assigning channels 1-8 on one split and 9-16 on
+   the other;
+   b ) In cubase (using the input transformer), screening out each of the
+   above channel groups on two respective tracks, setting overall midi
+   channels to 'all'.
+
+Surge XT
+
+   Surge XTis an extremely versatile, windows/mac/linux, open source,
+   plug-in or standalone, FREE synth. It's the official synth for
+   LinnStrument. Click the Free Surge XT Synth link at left to download
+   it, as well as a growing collection of LinnStrument-optimzed sounds
+   that I (Roger) created for it.
+
+Symbolic Sound: Kyma 7
+
+   The wonderful Kyma 7 fully supports LinnStrument's MPE mode. Click
+   [122]here for a page on Symbolic Sound's site containing details.
+
+Synapse Audio Software: Obsession, The Legend
+
+   Their [123]web site claims MPE compatibility for both products.
+
+   From their online manual for the Legend:
+
+   "When in POLY mode, The Legend supports MPE. This means that each note
+   played can be controlled individually with the performance parameters
+   set up in the performance matrix. Typical MPE source controllers are
+   Aftertouch and Timbre (CC 74).
+
+   In addition to the performance controllers, The Legend supports
+   polyphonic pitch bend."
+
+TAL Software: TAL-U-No-LX, TAL-BassLine-101 , TAL-Sampler, TAL-MOD, J-8
+
+   Their web site claims MPE compatibility for these products:
+   [124]https://tal-software.com/
+
+Tracktion: Abyss, Biotek 2, F.'em, Spacecraft, Novum
+
+   Product pages:
+
+   [125]Abyss
+
+   [126]Biotek2
+
+   [127]F.'em
+
+   [128]Novum
+
+U-He: Bazille, Ace, Diva, Hive & Repro-5 (5 instruments, downloadable sound
+files)
+
+   Though these instruments implement the Channel Per Note aspects of MPE,
+   they don't implement a Master Channel, used for messages common to all
+   voices like Sustain Pedal [cc64] or overall volume [cc7]. For this
+   reason, you'll need to set LinnStrument to send such common messages
+   over all channels redundantly. To do this, in Per-Split Settings,
+   simply press the selected Main Channel button to turn it off.
+
+LinnStrument-optimized Sound file
+
+   [129]Here are 6 sound files for Bazille (zipped into one file for
+   download), submitted by LinnStrument owner Michael Kedzierski. The text
+   comments in each patch describe how they are mapped, which is pressure
+   = Channel or Poly Pressure, X = Pitch Bend and Y = CC1, with a bend
+   range of 24. Set Per-Split Settings > MIDI Mode to ChPerNote for
+   polyphonic expression. In the Patches tab, Cntl-click (or right-click)
+   on the User directory and select Reveal In Finder, then drag the
+   patches into that directory.
+
+Unfiltered Audio: Lion
+
+   [130]Lion is a synth that Unfiltered Audio claim to possess a highly
+   versatile oscillator architecture and MPE compatibility.
+
+UVI: Falcon, Drone
+
+   The Falcon site states support for MPE devices like ROLI Seaboard or
+   LinnStrumente, with ‘MPE’ section in preset library with dedicated
+   sounds.
+
+   [131]https://www.uvi.net
+
+VAST Dynamics: Vaporizer 2
+
+   Their [132]site claims MPE compatibility.
+
+Vital Audio: Vital
+
+   This [133]free synth claims MPE compatibility.
+
+Woodman's Immaculate Maple Syrup Studio: Woodsynth
+
+   [134]http://www.woodmansimmaculatemaplesyrupstudio.be
+
+   Also for iPad.
+
+Xfer Records: Serum
+
+   [135]Serum is MPE compatible. [136]Here's a video showing how to set it
+   up for use with the Roli Seaboard Block, which should also be helpful
+   in setting it up for LinnStrument.
+
+   Also, LinnStrument player Sarmad Ghafoor offered this setup help in a
+   Facebook post:‍
+
+   "X is pitch bend by default on Linnstrument. Serum in MPE XYZ mode
+   (macro 123) has X from Pan Y from Timbre and Z from pressure. You can
+   make serum respond to whatever macro 1 is controlling by assigning
+   pitch bend to it. You'd be controlling both pitch and that parameter
+   with it. If you're okay without pitch bend, you can set both pitch up
+   and down to 0, so you only control that one parameter."
+
+   ‍
+
+Anckorage: SpringSound
+
+   [137]http://www.anckorage.com/spring-sound/
+
+Apple: GarageBand
+
+   As of February 2017, GarageBand is MPE-compatible.
+
+   To enable MPE use, open the iOS Settings App, then scroll down and
+   click "GarageBand", then turn on "Support MPE Controllers" at right.
+   Now all sounds will receive per-note messages on channels 2-16, with
+   common messages (sustain/CC64, volume/CC7, etc.) received on channel 1.
+
+   In LinnStrument:
+    1. Select MPE mode: In Per-Split Settings > MIDI Mode column, hold
+       ChPerNote. (It turns blue).
+    2. Set Bend Range to 48 semitones: In Per-Split Settings > Bend Range
+       column, hold "+/-24", then swipe to the right to change the large
+       "24" to "48".
+    3. Garage Band's sounds are optimized for standard MIDI keyboards, and
+       therefore use pressure only for an occasional added effect instead
+       of controlling continuous note volume from lightest to heavy touch.
+       So it's best to turn on LinnStrument's Aftertouch mode, which
+       simulates  now a MIDI keyboard's Aftertouch feature sends pressure
+       messages only after the note pad is pressed at least 80% of full
+       pressure: In Global Settings > Pressure Sensitivity column, turn on
+       "Aftertouch".
+    4. Garage Band's sounds are optimized for standard MIDI keyboards, and
+       therefore none respond to CC74,  MPE's standard Y-axis message. For
+       this reason, you may consider sending Y-axis messages on CC1, but
+       for many sounds with modulation on CC1, that will make it difficult
+       to avoid playing without modulation. Another option is to turn off
+       Y-axis messages but set the Low Row to send CC1, using it as a
+       standard Mod Wheel.
+
+Audio Damage: Quanta, Continua
+
+   [138]https://www.audiodamage.com
+
+Audio Modeling: SWAM instruments
+
+   Audio Modeling's plug-in SWAM instruments for Mac and Windows are
+   unquestionably the best software instruments for acoustic winds and
+   bowed strings. As of 2021, they are now aavaible on the iOS and iPad OS
+   platforms. Click [139]here to learn more.
+
+Beep Street: Drambo
+
+   Drambo is described on [140]their site as a "modular groovebox and
+   sound processing environment", but its modular environment permits the
+   creation of pitched synth sounds with MPE capability, not unlike
+   modular patching environments like VCV Rack. However, it does not
+   contain any pitched or MPE synths or sounds by default; you must create
+   any such pitched synth (by connecting modules together) as well as
+   implementing MPE capability in the created synth and making MPE sounds
+   for it.
+
+BLEASS: Alpha, Omega
+
+   [141]Here's their web site.
+
+Bram Bos: Mononoke
+
+   [142]Here's their web site.
+
+Delta-V Audio: Spacecraft
+
+   Delta-V Audio's [143]Spacecraft is a granular synth that claims MPE
+   compatibility.
+
+iFretless Bass, Sax, Guitar, Brass
+
+   [144]http://www.ifretless.com/#blmg2
+
+Gestrument
+
+   [145]https://gestrument.com
+
+Imaginado DRC, FMRS
+
+   [146]Their site states MPE compatibility for both products.
+
+Jonathan Schatz: ID700
+
+   [147]ID70‪0‬ Vintage Digital Synthesizer
+
+KV331 Audio: Synthmaster 2
+
+   [148]https://www.synthmaster.com/synthmasterios.aspx
+
+Moog Music: Model 15 Modular, AniMoog, AniMoog Z, Minimoog Model D
+
+   [149]https://www.moogmusic.com/synthesizers?type=57
+
+   To enable MPE mode, in the Settings page set Input Channel to MPE,
+   Pitch Bend Range to 48, and turn off Load From Preset. Then set
+   LinnStrument to MPE mode by holding Per-Split Settings > Midi Mode
+   column > ChPerNote. (It will turn blue.)
+
+   Note that LinnStrument software creator Geert Bevin was the lead
+   engineer and product manager of all of these apps.
+
+Numerical Audio: Volt
+
+   Their [150]web site claims MPE-compatibility.
+
+PPG Apps: WaveGenerator, WaveMapper, Phonem & Infinite
+
+   To enable Channel Per Note function, in the Setup screen > MIDI
+   section, set the Mode field to VpC (Voice per Channel).
+
+ROLI: Seaboard 5D, Noise
+
+   Unlike all other iOS synths (at time of writing), the preset sounds in
+   this app are all optimized for MPE, providing 3 dimensions of touch
+   control, polyphonically. The down side is that you can't edit the
+   presets, but the presets are pretty good. My (Roger's) favorite preset
+   is "Mellow Duduk". After you start the app, you'll need to press the
+   little circle icon in the upper right corner (weird icon for settings)
+   then press "MIDI Setup" and 1) "LinnStrument MIDI" as the source
+   controller, and 2) set Bend Range to 24 instead of the default 24.
+   Also, be sure to set LinnStrument to MPE mode as described in section 4
+   of the Getting Started page.
+
+Shoom from Yuri Turov
+
+   [151]https://www.yuriturov.com/shoom/
+
+Sonosaurus: ThumbJam, DrumJam
+
+   [152]https://sonosaurus.com/Sonosaurus/Home.html
+
+Synclavier Digital: Synclavier Go!
+
+   A LinnStrument user has reported that [153]this app is now MPE
+   compatible.
+
+TAL Software: TAL-U-NO-LX
+
+   [154]Here is their site.
+
+VirSyn: Cube Synth Pro, Tera Pro
+
+   [155]Here is their site.
+
+Wizdom Music: GeoShred, Geo Synthesizer, SampleWiz
+
+   Here are the pages for [156]GeoShred, [157]Geo Synthesizer and
+   [158]SampleWiz,
+
+   Note that GeoShred permits [159]in-app purchases of 5 of Audio
+   Modelings superb SWAM instruments-- violin, flute, tenor sax, cello,
+   clarinet and oboe, for $15 each or
+
+Woodman's Immaculate Maple Syrup Studio: Woodsynth
+
+   [160]http://www.woodmansimmaculatemaplesyrupstudio.be
+
+   Also for MacOS.
+
+Yonac: Magellan 2
+
+   Their [161]web site claims MPE compatibility
+
+   Thanks for LinnStrument Forum member FranklyFlawless for compiling the
+   list below on February 27, 2023.
+   Also, see the Forum Topic "[162]List of MPE Hardware Synthesizers".
+
+Desktop
+
+     * [163]Anyma Omega Desktop (Unreleased)
+     * [164]Ashun Sound Machines Hydrasynth Desktop (Released)
+     * [165]Audiothingies MicroMonsta (Discontinued)
+     * [166]Audiothingies MicroMonsta 2 (Released)
+     * [167]Axoloti Core (Released)
+     * [168]Dreadbox Nymphes (Released)
+     * [169]Futuresonus Parva (Discontinued)
+     * [170]GS e7 Analog Polyphonic Synthesizer (Released)
+     * [171]Kodamo EssenceFM MKII (Released)
+     * [172]Modal Electronics ARGON8M (Released)
+     * [173]Modal Electronics COBALT8M (Released)
+     * [174]Modor NF-1 (Released)
+     * [175]Modor NF-1m (Discontinued)
+     * [176]Monome Norns (Released)
+     * [177]Monome Norns Shield (Discontinued)
+     * [178]Ixox preenfm3 (DIY)
+     * [179]Rebel Technologies Witch (Released)
+     * [180]Sequential OB-6 Desktop (Released)
+     * [181]Sequential Prophet-6 Desktop (Released)
+     * [182]Synclavier Regen (Released)
+     * [183]Synthstrom Audible Deluge (Released)
+     * [184]Tasty Chips Electronics GR-1 Granular Synthesizer (Released)
+     * [185]Teensy Headless MPE Synth (DIY)
+     * [186]UDO Audio Super 6 Desktop (Released)
+     * [187]Vectorsynth Vector (Released)
+     * [188]Waldorf Iridium (Released)
+     * [189]Zynthian (Released)
+
+Keyboard
+
+     * [190]Anyma Omega Keyboard (Unreleased)
+     * [191]Ashun Sound Machines Hydrasynth Deluxe (Released)
+     * [192]Ashun Sound Machines Hydrasynth Explorer (Released)
+     * [193]Ashun Sound Machines Hydrasynth Keyboard (Released)
+     * [194]Baloran: The River (Released)
+     * [195]Critter and Guitari Organelle M (Released)
+     * [196]Critter and Guitari Organelle S (Released)
+     * [197]Modal Electronics ARGON8 (Released)
+     * [198]Modal Electronics ARGON8X (Released)
+     * [199]Modal Electronics COBALT5S (Released)
+     * [200]Modal Electronics COBALT8 (Released)
+     * [201]Modal Electronics COBALT8X (Released)
+     * [202]Modal Electronics Modal 001 (Released)
+     * [203]Modal Electronics Modal 002 (Released)
+     * [204]Modal Electronics SKULPT (Released)
+     * [205]Modal Electronics SKULPTsynth SE (Released)
+     * [206]Sequential OB-6 (Released)
+     * [207]Sequential Prophet-6 (Released)
+     * [208]Soulsby ATX Atmultitron (Unreleased)
+     * [209]UDO Audio Super 6 (Released)
+     * [210]Waldorf Iridium Keyboard (Released)
+     * [211]Waldorf Quantum (Discontinued)
+     * [212]Waldorf Quantum MK2 (Pre-order)
+
+Module
+
+     * [213]Endorphin.es Shuttle Control (Released)
+     * [214]Expert Sleepers FH-1 'faderHost' (Discontinued)
+     * [215]Expert Sleepers FH-2 'factotum' (Released)
+     * [216]Haken Audio EagenMatrix Module (Released)
+     * [217]Polyend Poly 2 (Discontinued)
+     * [218]Snyderphonics MantaMate (Released)
+     * [219]Tubbutec µTune (Released)
+
+Rack
+
+     * [220]Baloran: The Pool (Pre-order)
+     * [221]Black Corporation DECKARD'S DREAM MK2 (Released)
+     * [222]Black Corporation KIJIMI (Released)
+     * [223]Black Corporation XERXES MK2 (Pre-order)
+     * [224]Black Corporation イセーニン (Released)
+     * [225]Encore Electronics Expressionist (Discontinued)
+     * [226]Modal Electronics Modal 002R (Released)
+     * [227]Percussa Super Signal Processor (Released)
+
+Other
+
+     * [228]Hπ Intruments FLASH (WIP)
+
+     * [229]About us
+     * [230]Contact US
+     * [231]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. http://www.audiomodeling.com/
+  61. http://www.audiomodeling.com/
+  62. http://www.samplemodeling.com/
+  63. https://www.suonopuro.net/
+  64. mailto:support@rogerlinndesign.com
+  65. https://support.roli.com/support/solutions/articles/36000037202-compatible-synths-daws-and-instruments
+  66. https://help.ableton.com/hc/en-us/articles/4409113250322
+  67. https://www.accsone.com/crusherx/mpe
+  68. https://www.dropbox.com/s/l7y2nc8olcfbvd5/LinnStrument Logic sounds 1-1-21.zip?dl=1
+  69. https://www.dropbox.com/s/io0lerixhsr2h6m/LinnStrument Mainstage Sounds 1-1-21.zip?dl=1
+  70. https://www.dropbox.com/s/wuz1m97tf8w6a8l/filterchannel-1-8.pst?dl=1
+  71. https://www.dropbox.com/s/9ek8a32ghcd8j8l/filterchannel-9-16.pst?dl=1
+  72. https://www.arturia.com/
+  73. https://www.hexeractsynth.com/
+  74. https://www.audiodamage.com/
+  75. https://www.bleass.com/
+  76. https://channelrobot.com/product/shapiro-2/
+  77. https://cherryaudio.com/
+  78. https://www.audiopluginsforfree.com/dexed/
+  79. https://github.com/asb2m10/dexed/releases
+  80. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6a6a694535cf83c23ffe81_east_west_play_mpe.jpg
+  81. https://github.com/bafonso/Erratic/blob/v0.6/README.md
+  82. https://fors.fm/Chiral
+  83. https://www.gforcesoftware.com/products/ob-e/
+  84. https://imaginando.pt/products/frms
+  85. https://www.imoxplus.com/site/
+  86. https://initialaudio.com/product/sektor/
+  87. https://www.jb-audio.com/product/mpefy/
+  88. https://kilohearts.com/products/phase_plant
+  89. https://www.kv331audio.com/
+  90. https://madronalabs.com/
+  91. https://www.dropbox.com/s/7tx6ublopkg4ag1/linnstrument-aalto-patch.zip?dl=1
+  92. https://www.youtube.com/watch?v=roKfNfrOXFs
+  93. https://www.magix.com/index.php?id=27598&L=52&utm_source=Master+ROLI+Creators+List&utm_campaign=939ad1f03c-30082020+|+Samplitude+Offer+LAST+CHANCE&utm_medium=email&utm_term=0_0b59ea513b-939ad1f03c-112354121&mc_cid=939ad1f03c&mc_eid=44bdf44140
+  94. https://www.meldaproduction.com/MSoundFactory
+  95. http://www.memorymoon.com/me80.htm
+  96. https://www.modartt.com/pianoteq
+  97. https://motu.com/en-us/store/catalogue/digital-performer-11_489/#502
+  98. http://www.native-instruments.com/en/reaktor-community/reaktor-user-library/entry/show/8899/
+  99. https://www.native-instruments.com/de/reaktor-community/reaktor-user-library/entry/show/12065/
+ 100. http://www.native-instruments.com/en/reaktor-community/reaktor-user-library/entry/show/8977/
+ 101. https://www.newfangledaudio.com/generate
+ 102. https://www.newfangledaudio.com/pendulate
+ 103. https://www.orangetreesamples.com/
+ 104. https://physicalaudio.co.uk/PA3
+ 105. https://www.presonus.com/products/Studio-One
+ 106. https://www.psychicmodulation.com/phonec.html
+ 107. https://rhizomatic.xyz/index.php/plasmonic/
+ 108. https://www.robpapen.com/BLADE-2.html
+ 109. https://www.robpapen.com/Vecto-vst.html
+ 110. https://roli.com/products/software/equator-synth
+ 111. https://www.dropbox.com/s/jbsuuh94d58u2og/rlinn-screaming-calliope.equatorpreset?dl=1
+ 112. https://www.dropbox.com/s/8b43cclg1oguqdf/rlinn-doppler-whistles.equatorpreset?dl=1
+ 113. https://www.youtube.com/watch?v=roKfNfrOXFs
+ 114. https://www.softube.com/index.php?id=modular
+ 115. http://www.soniccouture.com/en/products/24-vintage/g27-ondes/
+ 116. https://www.sonic-lab.com/fundamental/
+ 117. https://www.dropbox.com/s/ox9tafy55uvcudb/linnstrument---omnisphere---roger.mlt_omn.zip?dl=1
+ 118. https://www.spitfireaudio.com/shop/a-z/bt-phobos/
+ 119. http://www.stagecraftsoftware.com/
+ 120. https://www.youtube.com/watch?v=HLOJ3cIDVBg
+ 121. https://support.roli.com/support/solutions/articles/36000019126-cubase-using-the-seaboard-rise-grand-with-cubase
+ 122. http://kyma.symbolicsound.com/using-the-linnstrument-with-kyma/
+ 123. https://www.synapse-audio.com/obsession.html
+ 124. https://tal-software.com/
+ 125. https://www.tracktion.com/products/abyss
+ 126. https://www.tracktion.com/products/biotek
+ 127. https://www.tracktion.com/products/f-em
+ 128. https://www.tracktion.com/products/novum
+ 129. https://www.dropbox.com/s/b7lszk39cycduaf/linnstrument-sounds---bazille---ycros.zip?dl=0
+ 130. https://www.plugin-alliance.com/en/products/unfiltered_audio_lion.html
+ 131. https://www.uvi.net/
+ 132. https://www.vast-dynamics.com/?q=Vaporizer2
+ 133. https://vital.audio/
+ 134. http://www.woodmansimmaculatemaplesyrupstudio.be/
+ 135. https://xferrecords.com/products/serum
+ 136. https://www.youtube.com/watch?v=iera42z2dDM
+ 137. http://www.anckorage.com/spring-sound/
+ 138. https://www.audiodamage.com/
+ 139. https://audiomodeling.com/iosproducts/
+ 140. http://www.beepstreet.com/ios/drambo
+ 141. https://www.bleass.com/
+ 142. https://ruismaker.com/mononoke/
+ 143. https://www.deltavaudio.com/
+ 144. http://www.ifretless.com/#blmg2
+ 145. https://gestrument.com/
+ 146. https://www.imaginando.pt/
+ 147. https://apps.apple.com/app/id1482698043
+ 148. https://www.synthmaster.com/synthmasterios.aspx
+ 149. https://www.moogmusic.com/synthesizers?type=57
+ 150. http://numericalaudio.com/volt/#overview
+ 151. https://www.yuriturov.com/shoom/
+ 152. https://sonosaurus.com/Sonosaurus/Home.html
+ 153. https://www.synclavier.com/synclaviergo/
+ 154. http://www.virsyn.de/en/E_Home/e_home.html
+ 155. http://www.virsyn.de/en/E_Home/e_home.html
+ 156. https://apps.apple.com/us/app/geoshred/id1064769019
+ 157. https://apps.apple.com/us/app/geo-synthesizer/id465224352
+ 158. https://apps.apple.com/us/app/samplewiz/id431031166
+ 159. http://www.moforte.com/announcing-geoshred-5/
+ 160. http://www.woodmansimmaculatemaplesyrupstudio.be/
+ 161. https://www.yonac.com/magellan2/
+ 162. https://www.kvraudio.com/forum/viewtopic.php?t=593950
+ 163. https://www.indiegogo.com/projects/anyma-omega-polyphonic-physical-modelling-synth#/
+ 164. https://www.ashunsoundmachines.com/hydrasynth-desk
+ 165. https://www.audiothingies.com/product/micromonsta/
+ 166. https://www.audiothingies.com/product/micromonsta2/
+ 167. http://www.axoloti.com/product/axoloti-core/
+ 168. https://www.dreadbox-fx.com/nymphes/
+ 169. https://futureson.us/
+ 170. https://www.gsmusic.com/synth-store/p/gs-e7-analog-polyphonic-synthesizer-gray
+ 171. https://kodamo.org/essencefm.php
+ 172. https://www.modalelectronics.com/argon8m/
+ 173. https://www.modalelectronics.com/cobalt8m/
+ 174. https://www.modormusic.com/nf1.html
+ 175. https://www.modormusic.com/nf1m.html
+ 176. https://monome.org/docs/norns/
+ 177. https://monome.org/docs/norns/shield/
+ 178. https://github.com/Ixox/preenfm3/wiki
+ 179. https://www.rebeltech.org/product/witch/
+ 180. https://www.sequential.com/product/ob-6-desktop/
+ 181. https://www.sequential.com/product/prophet-6-desktop/
+ 182. https://www.synclavier.com/synclavier-regen/
+ 183. https://synthstrom.com/product/deluge/
+ 184. https://www.tastychips.nl/product/gr-1-granular-synthesizer/
+ 185. https://gh.odyssey346.dev/OliverLSanz/teensy-headless-mpe-synth
+ 186. https://www.udo-audio.com/
+ 187. https://www.vectorsynth.com/
+ 188. https://waldorfmusic.com/en/iridium
+ 189. https://www.zynthian.org/
+ 190. https://www.indiegogo.com/projects/anyma-omega-polyphonic-physical-modelling-synth#/
+ 191. https://www.ashunsoundmachines.com/hydrasynth-deluxe
+ 192. https://www.ashunsoundmachines.com/hydrasynth-explorer
+ 193. https://www.ashunsoundmachines.com/hydrasynth-key
+ 194. https://baloran.com/store/index.php?route=product/category&path=33
+ 195. https://www.critterandguitari.com/organelle
+ 196. https://www.critterandguitari.com/organelle
+ 197. https://www.modalelectronics.com/argon8/
+ 198. https://www.modalelectronics.com/argon8x/
+ 199. https://www.modalelectronics.com/cobalt5s/
+ 200. https://www.modalelectronics.com/cobalt8/
+ 201. https://www.modalelectronics.com/cobalt8x/
+ 202. https://www.modalelectronics.com/modal-001/
+ 203. https://www.modalelectronics.com/modal-002/
+ 204. https://www.modalelectronics.com/skulpt-synthesiser/
+ 205. https://www.modalelectronics.com/skulpt-se/
+ 206. https://www.sequential.com/product/ob-6/
+ 207. https://www.sequential.com/product/prophet-6/
+ 208. https://inv.vern.cc/watch?v=uIJSzReZl9w
+ 209. https://www.udo-audio.com/
+ 210. https://waldorfmusic.com/en/iridium-keyboard
+ 211. https://waldorfmusic.com/en/quantum
+ 212. https://waldorfmusic.com/mk2/
+ 213. https://www.endorphin.es/modules/p/shuttle-control
+ 214. https://www.expert-sleepers.co.uk/fh1.html
+ 215. https://www.expert-sleepers.co.uk/fh2.html
+ 216. https://www.hakenaudio.com/store/eaganmatrix-module
+ 217. https://polyend.com/legacy/eurorack-modules/
+ 218. https://snyderphonics.square.site/product/mantamate/1
+ 219. https://tubbutec.de/µtune/
+ 220. https://baloran.com/store/index.php?route=product/category&path=61
+ 221. https://black-corporation.com/product/deckards-dream-mk2/
+ 222. https://black-corporation.com/product/kijimi/
+ 223. https://black-corporation.com/product/xerxes/
+ 224. https://black-corporation.com/product/ise-nin/
+ 225. https://www.encoreelectronics.com/cont_expres.html
+ 226. https://www.modalelectronics.com/modal-002r/
+ 227. https://www.percussa.com/super-signal-processor/
+ 228. https://hpi.zentral.zone/flash
+ 229. https://www.rogerlinndesign.com/about/about-roger-linn-design
+ 230. https://www.rogerlinndesign.com/about/about-contact
+ 231. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+ 233. https://www.rogerlinndesign.com/
+ 234. https://www.vast-dynamics.com/?q=Vaporizer2
+ 235. https://www.rogerlinndesign.com/
+ 236. https://www.facebook.com/RogerLinnDesign
+ 237. https://www.youtube.com/user/rogerlinndesign
+ 238. https://twitter.com/roger_linn
+ 239. https://www.instagram.com/roger.linn/

@@ -1,0 +1,238 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+How LinnStrument's Touch Sensor Works
+
+   LinnStrument uses a custom, patented touch sensor sheet that is
+   attached to the top of the primary circuit board inside the unit. The
+   silicone playing surface sits directly on top of this sensor sheet, as
+   shown this [60]exploded view.Here is a picture of the [61]sensor sheet
+   itself, and here is an [62]exploded view of the sensor's layers. It
+   consists of 2 plastic sheets separated by a spacer. The layers are:
+   1) Top sheet: on the downward-facing surface are printed 26 vertical
+   columns of fixed resistor material for sensing Y-axis position, covered
+   with a second layer of force-sensing resistor material to sense
+   pressure.
+   2) Spacer: 2mm-wide horizontal separators between adjacent rows, that
+   keep the top and bottom sheets from touching unless the sensor sheet is
+   pressed from above.
+   ‍
+   3) Bottom sheet: on the upward-facing surface are printed 8 horizontal
+   rows of fixed resistor material for sensing X-axis position, covered
+   with a second layer of force-sensing resistor material to sense
+   pressure.
+
+   The ends of the rows and columns are connected to analog switches,
+   which connect them to either +3.3v, ground, or ADC (with or without a
+   pull-up resistor to +3.3v), depending on whether X, Y or Z (pressure)
+   is being measured:
+   1) To measure X (left/right location) of a specific cell:
+   Connect left end of the cell's row to ground and right end to
+   +3.3v. Connect both ends of the cell's column to the ADC (analog to
+   digital converter). Moving a touch left to right within the cell will
+   produce a voltage at the ADC that is proportional to the position of
+   horizontal touch within the cell.
+   2) To measure Y (front/back location) of a specific cell:
+   Connect bottom end of the cell's column to ground, and top end to
+   +3.3v. Connect both ends of the cell's row to the ADC (analog to
+   digital converter). Moving a touch forward or backward within the cell
+   will produce a voltage at the ADC that is proportional to the position
+   of vertical touch within the cell.
+   ‍
+   3) To measure Z (pressure) of a specific cell:
+   Connect both ends of the cell's row to ground, and both ends of the
+   cell's column to the ADC (analog to digital converter) as well as to a
+   pull-up resistor to +3.3v. With no pressure, the ADC will read 3.3
+   volts. As finger pressure increases and the force-sensing material of
+   the 2 sensor layers press against each other, the resistance between
+   them will be lower, resulting in a proportionally lower voltage at
+   the ADC.
+   [63]Here's a schematic of a simplified 3 row by 3 column sensing
+   system, showing the electrical connections for measuring X, Y or Z for
+   a single cell. (For far too much detail, here's the [64]patent.)
+   ‍
+   This circuit permits the sensing of X, Y or Z on a single cell at a
+   time. To allow polyphony, the cells (row/column intersections) are
+   scanned sequentially at sufficiently high speed that the musician
+   perceives the response to multiple touches to be simultaneous. When not
+   touched, the system continuously scans all 200 playing cells
+   sequentially for pressure only. When a touched cell is sensed, the X
+   and Y positions are also sensed but only for the touched cells.
+
+   To sense a horizontal pitch slide across multiple cells, the software
+   recognizes when a touch is moving left or right from one cell to
+   another and interprets this as a continuous pitch slide instead of a
+   new note as the finger enters the adjacent cell. In this case, a Note
+   On message is sent only when the first cell is touched, then only pitch
+   bend messages are sent as the touch moves across adjacent cells,
+   terminating when the finger is released and a Note Off is sent.
+   The resistive material is opaque, which prevents LED light from shining
+   through it. To allow LinnStrument's lit pads, a 3mm circle in the
+   center of each cell of the sensor is left with the resistive material
+   unprinted, thereby allowing light to pass through. LED light from the
+   LED circuit board shines up through 3mm holes on the main circuit
+   board, then through the unprinted transparent holes in the touch sensor
+   sheet, and is finally diffused by the 2mm thick silicone playing
+   surface. This results in soft diffused round circles of light in the
+   center of each playing pad. Given the large size of a fingertip and the
+   force-spreading property of the silicone playing surface, the 3mm
+   diameter unprinted windows of the touch sensor do not affect sensing
+   accuracy.
+   ‍
+   Here's an [65]Image and [66]video of the original 3x3 proof of concept,
+   which uses 6 commercially available 100mm 2D position and pressure
+   sensing strips. The ends of the 3 rows and 3 columns are connected to
+   an Arduino Due board and a circuit consisting of a high speed ADC and
+   analog switches that connect the row and column ends to the various
+   required signals.
+   ‍
+   Here's an [67]Image of the first complete prototype, including a full
+   size sensor, an Arduino Due board, and breadboards containing the ADC,
+   analog switches and LED drivers.
+   By using the simple Arduino-compatible hardware and software, editing
+   the open source software is simple for amateur programmers. I (Roger)
+   wrote the code up to the point of minimal function, then Geert Bevin
+   took over to write the large volume of remaining software, fine-tuning
+   it into the precise, sensitive and professional musical instrument it
+   is.
+
+     * [68]About us
+     * [69]Contact US
+     * [70]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62ccf4a06e144b27685f2c16_LinnStrument 128, exploded view with captions.png
+  61. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62cce71badf5f6137064f5d5_LinnStrument sensor photo.jpeg
+  62. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62ccf5fdce0fa36a98694a8c_LinnStrument sensor exploded 6-19-14, sensor only.png
+  63. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62cce71bd24ee4892fb4f3ab_LinnStrument sensor schematic.pdf
+  64. https://www.rogerlinndesign.com/support/support-ls-patent
+  65. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62ccef5a197fb2cf406d0ada_First 3x3 proof of concept.jpg
+  66. https://youtu.be/K-hQEO27dbE
+  67. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/62cce71c35539ca01013485e_Arduino prototype with first custom sensor.jpg
+  68. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  69. https://www.rogerlinndesign.com/about/about-contact
+  70. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  72. https://www.rogerlinndesign.com/
+  73. https://www.rogerlinndesign.com/
+  74. https://www.facebook.com/RogerLinnDesign
+  75. https://www.youtube.com/user/rogerlinndesign
+  76. https://twitter.com/roger_linn
+  77. https://www.instagram.com/roger.linn/

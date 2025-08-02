@@ -1,0 +1,281 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+Surge XT: an excellent, free, open-source, MPE synth
+
+And the official LinnStrument synth
+
+   Surge XT is my new favorite synth and the new official synth for
+   LinnStrument. Unless I need samples, it's my new go-to synth. Why?
+   * Extremely versatile, enabling highly complex and beautiful sounds
+   * MPE compatible
+   * FREE and open source
+   * Runs on Mac, Windows and Linux, both as a plug-in and as a standalone
+   app.
+   * 2 "scenes" (voice partials), each containing 3 oscillators and 2
+   multi-mode filters
+   * Highly versatile oscillators: classic, wavetable, FM, a unique
+   variant of wavetable called "window", Karplus Strong string synthesis,
+   additive, and more, all with a wide variety of ways to modulate the
+   timbre, ideal for LinnStrument's Y-axis control.
+   * Just about everything can be modulated by just about everything, and
+   in a simple and intuitive way.
+   * Lots of effects: delay, reverb, chorus, distortion, rotary speaker,
+   EQ, compressor/limiter/expander, frequency shifter, vocoder
+   * The Distortion effect has pre- and post-EQ, good for guitar amp
+   simulation.
+   * The manual is easily accessible from the panel's "menu" button. Why
+   doesn't everyone do this?
+   Surge is maintained by a group of talented coders, but was originally
+   created by Claes Johansen, the principal creator of Bitwig Studio and
+   one of my favorite music software creators. So the fundamental
+   architecture is well-designed and extremely capable.
+   Download Surge and play my "LinnStrument MPE" library of sounds:
+   1) Download Surge XT from [60]here and install it. 2) Set your
+   LinnStrument for MPE play: In Per-Split Settings > MIDI Mode column,
+   hold "ChPerNote" for 1 second to change all needed settings for MPE
+   play.
+   2) To bypass any initial MIDI channel confusion with your DAW, I
+   recommend starting by using the standalone Surge XT application. Start
+   the application and click the Options button in the upper left to:
+   Set Active MIDI Inputs to "LinnStrument MIDI",
+   Set Audio Buffer Size to 64 or 128 samples for low latency.
+   Set Input to "None" on mac to avoid long audio latency.
+   In the main Surge window, turn on the "MPE" button in the top middle of
+   its panel. Now all of Surge XT's built-in sounds are MPE-compatible,
+   permitting polyphonic pitch slides and performed vibrato. However,
+   these sounds are optimized for MIDI piano keyboards so most won't
+   respond to pressure or Y-axis. To hear MPE sounds optimized for
+   LinnStrument's pressure and Y-axis control, look in the "Third
+   Party Patches" category for the "LinnStrument MPE" folder. In the
+   subfolder "Pads", select "Pulse Wave and Filter" to start.
+   Here's a video in which I demonstrate some of the "LinnStrument
+   MPE" sounds:
+
+   IFRAME:
+   [61]https://www.youtube.com/embed/ipk5tRGnL2E?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+   Here's a video I made called "Creating LinnStrument MPE sounds in Surge
+   XT":
+
+   IFRAME:
+   [62]https://www.youtube.com/embed/o2Q_KMfOmKo?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+   And here's a video called "MPE Sound Design in Surge XT: Initial
+   Patch", created by "ThoughtForm", who created many of the best sounds
+   in the "LinnStrument MPE" library in Surge:
+
+   IFRAME:
+   [63]https://www.youtube.com/embed/aXA8DNu8eRs?rel=0&controls=1&autoplay
+   =0&mute=0&start=0
+
+   Care to contribute to the library?
+   If you're skilled at creating good MPE sounds, please [64]email any
+   good ones to me for possible inclusion in the "LinnStrument MPE"
+   library. In general, I'm looking for sounds that LinnStrument players
+   value most, as suggested by the sounds they use in their videos. In
+   general, these are rich, complex sounds with an acoustic or natural
+   quality. Though LinnStrument videos often use samples, Surge is not a
+   sample player. However, it does have extensive capabilities for complex
+   acoustic-like sound sources.
+   In general, try to create sounds that are complete and expressively
+   playable musical instruments. Here are some suggestions:
+   * Focus on sounds intended for LinnStrument's focus on playing
+   expressive notes and chords, instead of sound effects, sequences,
+   highly dissonant sounds, sounds swimming in effects, or sounds intended
+   to produce an entire soundtrack by holding down one note.
+   * Make sounds that use LinnStrument's advantages over a standard
+   MIDI piano keyboard. For example, sounds that only use velocity and
+   envelopes without any pressure or Y-axis response aren't so useful
+   because any traditional synth sound in Surge's other libraries can do
+   the same thing with the MPE button turned on.
+   * Use rich, complex, acoustic-sounding timbres instead of simple, buzzy
+   oscillator waveforms.
+   * Though Surge is not a sample player, you can embed a wave file into a
+   patch for use either as a short one-shot sample at the start in
+   combination with other generation methods, or by using Y-axis as an
+   index into the wave file to produce a continuous variety of timbres.
+   The sounds by "thoughtForm" in the Winds folder are excellent examples
+   of this.
+   * Use pressure or velocity to control harmonic content as well as
+   volume, for a more natural dynamic reponse.
+   * Use Y-axis to vary timbre by altering the waveform in some way
+   instead of merely controlling filter frequency. In consideration of
+   LinnStrument's short Y-axis range, Y-axis timbral changes should be
+   subtle and usable in all positions, changing timbre without changing
+   apparent volume.
+   * Fine-tune your velocity, pressure and Y-axis response, throughout the
+   pitch range, such that a skilled player would find it useable to
+   produce a quality musical performance in all pitch and loudness ranges.
+   * Don't use too much reverb or other effects. Many people don't know
+   Surge well enough to remove reverb, but anyone can add reverb outside
+   of Surge. That said, light reverb serves well to augment a sound.
+   * Maximize the output volume so that the output meter is at full when
+   playing a chord or forcefully-played solo sound, such that switching
+   between sounds in the LinnStrument MPE library maintains a similar
+   volume.
+   * Try to avoid making sounds that are simple and ordinary, useful only
+   in narrow cases, or very similar to sounds that already exist in the
+   LinnStrument MPE library. The goal is for all sounds in the library to
+   be quality, useful, valued, distinct from other existing sounds, and
+   such that user feel they don't have to search through many unuseful
+   sounds in order to find a few good ones. I'd prefer to have a small
+   number of high quality sounds.
+   * Use short, descriptive names that people will find most helpful in
+   finding the sound they're looking for. Don't use non-descriptive joke
+   names or long names that might not fit in the patch display.
+   * If there's anything that would be helpful for the user to know in
+   order to get the most from the sound, put it in the patch comments.
+   * For ideas and to learn the many techniques in Surge, try looking into
+   the current sounds in the LinnStrument MPE library to see how they were
+   created, as well as other sounds in Surge's factory patches.
+   * You can repurpose one of Surge's LFOs to act as a Pressure Response
+   Curve, permitting any curve between linear and exponential pressure
+   response. Click [65]here to learn how to do it.
+   In the sounds created for the library so far, we certainly don't
+   achieve all of the above goals, but I feel that my stated goals for
+   this library are appropriate for LinnStrument players. Note that if a
+   sound doesn't fit the goals of this library, it's still a good sound
+   for a different library, or perhaps the Surge team would like to add it
+   to their Third Party Patches.
+
+     * [66]About us
+     * [67]Contact US
+     * [68]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://surge-synthesizer.github.io/
+  61. https://www.youtube.com/embed/ipk5tRGnL2E?rel=0&controls=1&autoplay=0&mute=0&start=0
+  62. https://www.youtube.com/embed/o2Q_KMfOmKo?rel=0&controls=1&autoplay=0&mute=0&start=0
+  63. https://www.youtube.com/embed/aXA8DNu8eRs?rel=0&controls=1&autoplay=0&mute=0&start=0
+  64. mailto:support@rogerlinndesign.com
+  65. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/6343021d025b9fe64e57b841_Surge XT Pressure Scaling Trick.pdf
+  66. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  67. https://www.rogerlinndesign.com/about/about-contact
+  68. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  70. https://www.rogerlinndesign.com/
+  71. https://www.rogerlinndesign.com/
+  72. https://www.facebook.com/RogerLinnDesign
+  73. https://www.youtube.com/user/rogerlinndesign
+  74. https://twitter.com/roger_linn
+  75. https://www.instagram.com/roger.linn/

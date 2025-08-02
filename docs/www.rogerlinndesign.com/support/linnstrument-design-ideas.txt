@@ -1,0 +1,431 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+The ideas and design goals behind LinnStrument
+
+   ‍
+
+   My (Roger's) design of LinnStrument was driven by a desire to create a
+   new musical instrument for the modern era, an instrument that overcomes
+   the limitations of both current acoustic and electronic instruments,
+   and is not limited to the capabilities of centuries-old technology.
+   Here's an overview of the design questions and design process I went
+   through.
+
+   ‍
+
+What's wrong with acoustic instruments?
+
+   Acoustic instruments are marvelous and have produced centuries of
+   beautiful music, but they have some problems. Here's a brief list of
+   advantages and disadvantages that I find in some of the popular
+   acoustic instruments:
+
+   ‍
+
+   Guitar
+
+    + Good note expression, able to vary pitch over a note's duration by
+   vibrato and bends
+
+   + Polyphonic, up to 6 notes
+
+   + Fairly easy to learn to play pleasing tones
+
+   + Portable
+
+   + Easy to transpose-- just slide your hand or capo up or down
+
+   + Overlapping string pitch ranges allow multiple instances of each
+   pitch, permitting multiple fingerings of each chord or scale
+
+   - Always produces a fast attack / long decay envelope
+
+   - Difficult to play chords and melody at the same time
+
+   - Because of equal temperament, somewhat difficult to play just 3rds or
+   5ths
+
+   - Inefficient use of hands: requires both hands to play a single note
+
+   - Because of the odd 3rd interval between the B and G strings, playing
+   a specific chord or scale requires 3 different fingerings depending on
+   which strings are used.
+
+   - Because of the string physics, notes are big at one end and small at
+   the other.
+
+   - The strings go out of tune
+
+
+   Piano
+
+   + Polyphonic
+
+   + Easy to play pleasing tones and to play in tune
+
+   + Pitch arrangement emphasizes the C major scale and is therefore easy
+   to learn and play simple music in the key of C major, or A or D minor.
+
+   + Easily adapted to an electronic keyboard with on/off switches
+
+   - Always produces a fast attack / long decay envelope
+
+   - Poor note expression, unable to vary loudness, pitch or timbre over a
+   note's duration
+
+   - Not isomorphic; playing a specific chord or scale requires a
+   different fingering for each of the 12 transpositions.
+
+   - Only one instance of each pitch
+
+   - Because of equal temperament, can't play "just" 3rds or 5ths
+
+   - Because of the original design constraint of needing to place a
+   string behind each key, the pitches are in a single, long line and
+   therefore difficult to see both hands at once. Isn't it interesting
+   that people are playing electronic piano keyboards, given that there is
+   no longer a need for a string behind each key?
+
+   - Because the pitches are not equally spaced, the piano pitch layout is
+   not well-suited for expressive pitch control. For example, a whole-tone
+   pitch slide from C to D is the same physical distance as a half-tone
+   physical slide from B to C, a pitch slide to or from an accidental
+   requires a diagonal movement, and a vibrato performed on a "C" key will
+   have more pitch change in the right direction (to D) than the left
+   direction (to B).
+
+   - Not very portable
+
+
+   Bowed strings
+
+   + Excellent note expression, able to control loudness, pitch and timbre
+   continuously over the note's duration.
+
+   + Can slide continuously from note to note
+
+   + Violin and viola are very portable
+
+   + Overlapping string pitch ranges allow multiple instances of each
+   pitch, permitting multiple fingerings of each chord or scale
+
+   - Difficult to learn to play pleasing tones
+
+   - Because of the lack of frets, it is difficult to play in tune
+
+   - Because of string physics, semitones are closer together at high
+   pitches than low pitches
+
+   - On violin, because high notes requires very short strings, the
+   pitches are very close together and therefore difficult to play in tune
+
+   - Can only play two notes at a time, usually only one
+
+   - Limited pitch range for each instrument (violin, viola, cello, double
+   bass), requiring 4 different instruments to produce full pitch range.
+
+   - Violin and viola must be held uncomfortably between chin and shoulder
+
+   - In order to play low notes, the double bass is very large and not
+   very portable
+
+
+   Wind instruments (brass and woodwinds)
+
+   + Excellent note expression, able to control loudness, pitch and timbre
+   continuously over the note's duration.
+
+   + Portable, except for bass instruments like tuba
+
+   - Difficult to learn the reed or valve technique to play pleasing tones
+
+   - Limited pitch range, requires multiple instruments of each type to
+   cover entire pitch range
+
+   - Can't play more than one note at a time
+
+   - Note layout is optimized for the opening and closing of holes in the
+   instrument, not for ease of playing.
+
+   - Difficult to transpose; for a given scale, it is necessary to learn a
+   different fingering for each of the 12 transpositions
+
+
+   In summary, the problems with acoustic instruments
+
+   In reading the points above, you may notice two recurring themes:
+
+   1) The human interface of mechanical instruments is severely
+   compromised by the need to produce acoustic sound.
+
+   2) The human interface of each mechanical instrument is different,
+   requiring that you learn the new instrument's interface and pitch
+   locations in order to produce its sound.
+
+   In the age of synthesis, why must I learn a new instrument fingering
+   merely to produce its sound?
+
+
+The promise of synthesis
+
+   The promise of synthesis was that you'd be able to produce any
+   instrument sound polyphonically from a MIDI piano keyboard, a human
+   interface that most of us already know. And synthesis has made
+   tremendous advances in its note expression capabilities. However, if
+   you've ever tried to play a convincing guitar, sax, violin, clarinet or
+   cello solo on a MIDI piano keyboard, you've probably found it to sound
+   static and lifeless. This is because keyboards can't do much more than
+   turn sounds on and off at different volumes, and their bend and mod
+   wheels (essentially sideways knobs) aren't very helpful. For truly
+   expressive performance, you need to capture the same sort of human
+   gestures that are used to play solo acoustic instruments, including
+   continuous gestural control of each note's loudness, pitch and timbre.
+
+   Guitar-to-midi controllers have proven to have many of the same
+   limitations in producing realistic non-guitar tones. And although
+   playing synthesizers from electronic wind controllers like the Akai
+   EWI/EVI can produce quality note expression in the right hands, these
+   controllers have the same problems of their acoustic counterparts: only
+   one note can be played at a time, and the note layout is difficult to
+   learn and play.
+
+
+My design goals in creating LinnStrument
+
+   My goals in designing LinnStrument were:
+
+   * The human interface should be optimized for human fingers and hands,
+   not limited by the need for acoustic sound generation.
+
+   * It should be highly expressive, able to control each note's loudness,
+   pitch and timbre continously over time. It should be able to perform
+   convincing performances of expressive traditional acoustic instruments,
+   and apply that expressive control to new imagined sounds.
+
+   * It should be polyphonic, with independent expressive touch control
+   for each of simultaneous touches
+
+   * The note layout should be isomorphic-- for any given chord or scale,
+   the fingering is the same for all 12 musical keys.
+
+   * Multiple instances of each pitch, to permit a) playing accompaniment
+   and melody in the same pitch range, and b) using multiple alternate
+   fingerings for a given chord or scale
+
+   * Efficient use of hand/finger gestures. Like a piano keyboard, only
+   one finger should be required to produce a single note.
+
+   * Easy to play in tune, yet subtle pitch nuances are possible. You
+   should be able to easily play notes in tune while also playing vibrato,
+   bend and other pitch nuances.
+
+   ‍
+
+Design questions and challenges
+
+   There were a variety of design questions in the design of LinnStrument.
+
+   ‍
+
+   Separate, moving keys vs. a continuous, flat playing surface
+
+   We are familiar with separate keys on piano, which work very well for
+   turning sounds on and off. However, separate moving keys have two
+   significant problems:
+
+   1) You can’t slide continuously from one key to another in order to
+   perform pitch bends, pitch slides or any other expressive pitch
+   gestures. Bend wheels are a poor and unrealistic workaround this
+   omission.
+   2) Separate keys can be made to move a little in the horizontal
+   direction in order to perform vibrato, but it is very difficult to hold
+   it steady when you don’t want to change pitch, which results in
+   unintended pitch variation, even if the effect on pitch is set low.
+
+   For this reason, I decided to use a flat continuous surface in
+   LinnStrument:
+
+   1) You can slide continuously from one pitch to another. This is
+   intuitive; to bend pitch from C to E, you play the C note pad then
+   slide your finger up to the E note pad.
+   2) Like a violin, you can slide from any pitch to any other pitch, but
+   once you find the correct pitch, it is easy to lock your finger to the
+   playing surface in order to keep the pitch steady
+   3) LinnStrument's note pads are slight raised, so like separate keys,
+   you can feel the physical location of each note pad.
+
+   ‍
+
+   A spongey surface vs. a hard surface
+
+   A spongey playing surface provide desirable tactile feedback when
+   playing sounds that require pressure to control volume, but is less
+   desirable when playing sharp-attack sounds. By comparison, a hard
+   surface works well for playing sharp-attack sounds but provides only
+   audible feedback for pressure-based sounds.
+
+   So LinnStrument uses a slightly compressible playing surface of only 2
+   millimeters thin. This provides a superior tactile feedback for
+   sharp-attack sounds while providing a small amount of tactile feedback
+   for pressure-based sounds, which already have feedback in the form of
+   audible feedback-- the sound volume tells you how how you're pressing.
+   The other advantage of LinnStrument's thin playing surface is that it
+   transfers a much larger amount of your finger's pressure to the touch
+   sensor below it, allowing for higher sensitivity to light touches.
+
+   ‍
+
+   How to arrange the pitches?
+
+   Given the popularity of the piano key arrangement, many would think
+   that this would be best choice, but it doesn't work well for expressive
+   performance of pitch gestures. So I preferred the arrangement of any
+   stringed instrument-- muliple rows of consecutive semitones, which
+   solves nearly all of my above-stated design goals. The argument between
+   piano and string layout is discussed on [60]this page, and as well as
+   how I arrived at the default 4ths row tuning and the relative merits of
+   a grid layout vs. a hex-key layout.
+
+   ‍
+
+LinnStrument, my best guess for the instrument we'll be playing in 50 years
+
+   In summary, LinnStrument's design is my attempt at a new instrument,
+   based on modern technlology, that achieves the above-stated design
+   goals. And it iis my best guess at the human interface for musical
+   performance that most people will be playing 50 years from now.
+
+     * [61]About us
+     * [62]Contact US
+     * [63]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  61. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  62. https://www.rogerlinndesign.com/about/about-contact
+  63. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  65. https://www.rogerlinndesign.com/
+  66. https://www.rogerlinndesign.com/
+  67. https://www.facebook.com/RogerLinnDesign
+  68. https://www.youtube.com/user/rogerlinndesign
+  69. https://twitter.com/roger_linn
+  70. https://www.instagram.com/roger.linn/

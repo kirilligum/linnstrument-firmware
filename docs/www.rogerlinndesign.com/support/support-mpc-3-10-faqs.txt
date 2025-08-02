@@ -1,0 +1,455 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+MPC60 Version 3.10 Software
+
+   [19]3.10 Support Page
+   [20]3.10 Product Page (still available)
+   [21]3.10 Manual
+   [22]Install Sheet
+   [23]FAQs
+   ‍
+
+MPC60 Software Version 3.10 - FAQs
+
+Q: How do I use the MIDI File Conversion Utility included with MPC60 v3.10
+Software?
+
+   1. Download the file [24]MPC60MFC.zip and unzip it.
+
+   2. Copy the upzipped file to an MPC60-formatted floppy disk. (If this
+   doesn't work, try formating a floppy to Windows 720k format in a
+   Windows or Mac computer and copying the file to this disk. Don't use
+   1.4 meg disk format.)
+
+   3. Insert the disk in your MPC60's drive and turn power on. After about
+   20 seconds, instructions will appear on the screen to guide you through
+   the process of converting your MIDI or SEQ file.
+
+Q: I have an MPC60 question that doesn't relate to your v3.10 software and
+Akai won't help me. Can you?
+
+   A: I (Roger Linn) am sorry but I work very hard and simply don't have
+   enough time to answer questions about my products of 20+ years ago,
+   most of which I don't even remember. I'd recommend you try
+   [25]www.mpc-forums.com.
+
+Q: I'm getting error messages when I read from the floppy. What's wrong?
+
+   A: If you are getting any floppy disk error messages during file save
+   or load, your floppy drive probably needs cleaning. This is done using
+   a 3.5" cleaning diskette, if you can still find one. Follow the
+   instructions on the cleaning diskette, then place it in the floppy
+   drive and press DISK, then 7. This will cause the disk's read/write
+   head to make contact with the cleaning paper inside the cleaning
+   diskette. Repeat this process about 20 times.
+
+   To guard against future disk errors, clean your floppy drive every 2 or
+   3 months. If you still get disk errors after the cleaning, your floppy
+   drive may need replacement. This is not unusual considering the age of
+   your MPC60 and the heavy use of the floppy drive. To replace the drive,
+   contact www.vstservice.com in Los Angeles.
+
+   If after cleaning or replacing your disk drive you still have trouble
+   reading certain old disks, it may be because these disks are old or
+   were saved to from a dirty or worn-out disk drive, causing the
+   information on the disk to be weak. In this case, it may be impossible
+   to retrieve the disk information.
+
+Q: I find it difficult to find low density floppy disks for the MPC60. Can I
+use High Density disks?
+
+   A: The correct floppy disks to use in the MPC60 are double sided,
+   double density (DS/DD). These disks are difficult to find because of
+   the greater popularity of high-density disks (HD). If you canÌt find
+   any DS/DD disks, you may use HD disks instead.
+
+   NOTE: If you take an HD floppy that has been formatted in the MPC60 and
+   try to read it in an MPC3000, the MPC3000 will tell you that the disk
+   is bad or not formatted. If this happens, simply cover the HD hole in
+   the lower right corner of the disk with opaque tape. (This hole is
+   located on the same edge of the disk as the "HD" emblem, and unlike the
+   other "write protect" hole, has no sliding window.) This will trick the
+   MPC3000 into thinking that the floppy is a DS/DD disk and will then be
+   able to read it.
+
+Q: After installing version 3.10, how will my MPC60 be different from an
+MPC3000?
+
+   A: An MPC3000 has the following advantages over an MPC60 with version
+   3.10 installed:
+     * The maximum sample time in an MPC3000 is 32 megabytes (380 seconds)
+       versus the MPC60's maximum 1.5 megabytes (26 seconds).
+     * The MPC3000's sampling method is 44.1 khz, 16 bit linear (CD
+       quality). The MPC60's sampling method is 40 khz, 12 bit non-linear
+       (quieter than 12 bit linear).
+     * The MPC3000 has a digital sampling input.
+     * The MPC3000 has lowpass resonant filters with separate envelope
+       generators on all voices.
+     * The MPC3000 has 32 simultaneous playback voices versus the MPC60's
+       16.
+     * The MPC3000 has true phase-locked stereo sampling versus the MPC60
+       version 3.10's method of stereo sampling by recording one side at a
+       time then combining them to make a stereo sound.
+     * The MPC3000 has built-in delay effects.
+     * The MPC3000 has a high density (1.4 megabyte) floppy drive versus
+       the MPC60's low density (793 kilobyte) floppy drive and support
+       electronics.
+     * The MPC3000 has a SCSI port. The MPC60 does not, unless it contains
+       our MPC-SCSI option.
+     * The MPC3000's internal computer runs approximately 2.5 times as
+       fast as the MPC60's, for tighter timing when running complex
+       sequences.
+     * When using the Assignable Mix Outputs on the MPC3000, sounds sent
+       to these outputs have independent mix levels. On the MPC60, the
+       levels to these outputs are fixed.
+     * The MPC3000 has approximately 30% more sequence memory than the
+       MPC60.
+
+Q: In version 3.10, how can I set it up so that if I hit a pad twice, the
+second hit cuts off the sound of the first hit?
+
+   A: After loading your program, press SOUNDS, then 2, then move the
+   cursor to the POLY field. Play the pad you want to be cut off, then
+   select MONO in this field.
+
+Q: How can I expand the MPC60's sample memory?
+
+   A: The MPC60 was originally sold with 13 seconds (768 KB) of sample
+   memory with a socket for a expansion board that doubles the sample time
+   to 26 seconds (1536 KB), which is the maximum. If you don't have
+   expanded memory, do a web search for "MPC60 Memory Expansion" to see
+   who's selling a memory expansion any more.
+
+   NOTE: Our version 3.10 software includes a feature called Sound
+   Compression, allowing sounds to be squeezed into 1/2 the memory space
+   by downsampling to 20 kHz, thereby doubling available memory. If you
+   don't know whether your MPC60 has expanded memory, the following
+   procedure will allow you to find out:
+
+Q: How do I find out if my MPC60 has expanded memory?
+
+   A: If your MPC60 is running version 3.0 software or higher:
+
+   1. Turn on your MPC60.
+
+   2. Press SOUNDS, then 5 for the sampling screen.
+
+   3. Move the cursor to the LENGTH field and spin the DATA ENTRY knob to
+   the right.
+
+   4. If the field contents go above 13.1, you have memory expansion. If
+   not, you don't.
+
+   If your MPC60 is running version 2.14 software or lower:
+
+   1. Turn on your MPC60.
+
+   2. Place a disk containing a SND or SET file into the disk drive.
+
+   3. Press DISK, then 6.
+
+   4. Read the AVAILABLE SOUND MEMORY field. If it says 1536K, you have
+   memory expansion. If it says 768K, you don't.
+
+Q: How do I find out if my MPC60 has the Marion Systems MPC-SCSI hard disk
+interface installed?
+
+   A: If you have an MPC60-II and the rectangular hole in the upper middle
+   of the rear panel has no connector in it, you don't have it. If you
+   have the original MPC60, the connector labled "RS232C" on the rear
+   panel may be either the original RS232C connector (which was never
+   used) or the true SCSI connector. Check the operating system number
+   when you start up your MPC60. If you have version 2.14, you have a SCSI
+   interface (v2.14 was the only version that shipped with a SCSI
+   interface). If not, run this test:
+
+   1. Press DISK, then 8.
+
+   2. If four menu options appear, you have the MPC-SCSI installed. If two
+   options appear, you don't.
+
+Q: When I play a particular sequence or song, the timing is irregular. What's
+wrong?
+
+   A: If you notice a timing irregularity in song mode at the point of
+   transition from one sequence into another, the problem may be caused by
+   assignments of the Pgm (Program) field (in the Play/Record screen) for
+   the new playing sequence. When a new sequence is encountered in a song,
+   any program assignments for the tracks in the newly selected sequence
+   are sent out at the moment that the sequence starts to play. This can
+   present a problem because most synthesizers require time to change
+   programs, which can cause any notes existing at the start of the new
+   sequence to be delayed. This delay is brief in most synthesizers, but
+   is usually enough to cause a timing irregularity at the start of the
+   sequence. To avoid this problem, remove any assignments of the Pgm
+   field for all sequences except the first sequence in the song. If you
+   are encountering the same problem when changing sequences while playing
+   (in which case the new sequence begins immediately following the
+   current repetition of the current sequence), then use the same
+   solution: remove all program assignments for the newly selected
+   sequence.
+
+   If the timing irregularity does not exist at the beginning of a
+   sequence, it may be due to the sequence containing a large system
+   exclusive message at that location, in which case the MPC60 must finish
+   processing the system exclusive message before playing any other notes
+   at that location. If this is the case, erase or move the system
+   exclusive event that is causing the problem.
+
+   If the timing irregularity does not exist at the beginning of a
+   sequence and is not due to a system exclusive event, it may be due to
+   having too many notes (more than approximately 10 or 12) at one tick in
+   the sequence. If so, this could cause the last notes occurring at this
+   location to be delayed. This problem is aggravated at faster tempos.
+   This problem exists to some degree in all sequencers, and is due to the
+   fact that there is a finite number of notes that the internal computer
+   can process at one time. However, this will NOT cause the sequence to
+   slip out of sync when syncing to an external sync source. To reduce the
+   processing requirement in your sequence, try the following:
+
+   1. Erase any unnecessary events from the sequence. For example, erase
+   any channel pressure, poly pressure and system exclusive events if you
+   are not using them. Many keyboards send out large amounts of channel
+   pressure messages while playing, which are recorded into your tracks.
+   If you are not using these messages, removing them from the tracks will
+   improve the playback timing. To block these messages from being
+   recorded into new sequences, use the MIDI Input Filter (MIDI> key,
+   option 3).
+
+   2. Erase any tracks that are turned off but still exist in the
+   sequence. Turning a track off (the On field in the Play/Record screen)
+   reduces the processing requirement for playing the track, but doesn't
+   eliminate it.
+
+   3. If you only need to improve the timing while recording your sequence
+   to tape and are using a sync tone, then record the sequence to tape a
+   few tracks at a time, and turn off or erase the tracks you are not
+   using on each pass. By eliminating the need for the MPC60 to process
+   the tracks that aren't being heard, the timing of the remaining tracks
+   will be improved.
+
+   4. In the Play/Record screen, disable Record Ready by selecting a
+   different sequence, then the original one. This slightly lessens the
+   processing requirement.
+
+   5. If the delay is due to many notes existing at one tick, then either
+   delete some of the notes or spread them around to neighboring ticks.
+
+Q: How can I reduce the time required for the "Analyzing sequence. Please
+wait..." message?
+
+   A: This message is most noticeable during song mode. It appears once
+   after the song is edited and when the song screen is entered while a
+   long song is selected. The reason for this delay is that the MPC60 must
+   scan through the entire song to learn where the start of each bar is.
+   Once this is done, any rewind, fast forward or locate operation will be
+   very fast. Also, response to incoming SMPTE will be nearly immediate.
+   Unfortunately, there is no way to reduce the time required for this
+   message other than reducing the complexity of the song.
+
+Q: I want to use the MPC60 only as a sound generator receiving notes from
+another sequencer. How can I get it to play from only one MIDI channel?
+
+   A: 1. Press the MIDI key and select option 2. In the screen that
+   appears, set the Active track receive channel field to the channel you
+   want the MPC60 to receive on. 2. In the Play/Record screen, set the
+   Type field to DRUM or select a track that has a Type of DRUM. 3. Load
+   in the desired program.
+
+Q: I want to use the MPC60's pads to program drum parts on an external
+sequencer, but I can't get any of the MIDI outputs to send note-on messages
+when I play the pads. How do I do it?
+
+   A: 1. In the Play/Record screen, set the Type field to DRUM or select a
+   track that has a Type of DRUM. Then, set the track's Chn field to the
+   desired output MIDI channel and port. 2. In the MIDI key, option 1
+   screen, you can change the note numbers assigned to each pad if
+   desired. 3. If you are simultaneously using the pads to program the
+   external sequencer and using the MPC60's sound generator to receive
+   from the external sequencer, then set both the Soft thru and Local mode
+   fields to OFF. These fields are in the screen accessed by pressing the
+   MIDI key and selecting option 2.
+
+Q: When I play a key on my keyboard synthesizer while connected to the MPC60,
+two voices play in my keyboard for every one key pressed. Why?
+
+   A: When you play a key on the synthesizer keyboard, it plays the note
+   internally and also sends a note over MIDI to the MPC60. Because the
+   MPC60's Soft thru feature is normally set to ON, that note is
+   immediately sent back out to the keyboard, causing it to play the same
+   note again. To solve this problem, turn Soft thru off (press the MIDI
+   key, then select option 2) or disable Local Control on your keyboard
+   synthesizer.
+
+Q: How does version 3.10 work in my Akai ASQ10?
+
+   A: Version 3.10 software may be installed in the Akai ASQ10 MIDI
+   sequencer, enhancing its sequencing capabilities to that of an updated
+   MPC60. This is because the ASQ10 is internally identical to the MPC60's
+   sequencer section, lacking the MPC60's sound generation, sampling and
+   drum pad functions. However, version 3.10 is optimized for the MPC60
+   and will therefore present the following inconveniences to the ASQ10
+   user:
+     * The ASQ10's TEMPO button will have the function of the MPC60's
+       TEMPO/SYNC button.
+     * The ASQ10's SYNC button will have the function of the MPC60's DRUM
+       MIXER button, which is useless on the ASQ10.
+     * The ASQ10's DRUMS button will have the function of the MPC60's
+       SOUNDS button, which is useless on the ASQ10.
+     * Various screens will present parameters related to sound
+       generation, sound program disk files, or use of drum pads, all of
+       which are useless on the ASQ10.
+
+Q: I own the Marion Systems MPC-SCSI Hard Disk Interface for MPC60. Can I use
+it with a flash drive?
+
+   A: JD Wilson from SCSI Card Readers (www.scsicardreaders.com) has
+   informed us that if you have an MPC60 or MPC60-II with our MPC-SCSI
+   installed, he can sell you a kit that will mount a Compact Flash Card
+   reader inside your MPC, permitting you to save and load to 780 MB of a
+   Compact Flash card, without disabling the MPC-SCSI's rear panel SCSI
+   drive connnector. Though we have not tested this kit and don't provide
+   any support for it, it seems like a very good solution for the problem
+   that SCSI Zip drives are no longer being manufactured.
+
+Q: I have an MPC60 floppy that has missing files, but the available memory on
+the disk indicates that the missing files are still taking up space. Is there
+a way to recover the missing files?
+
+   A: The problem indicates that the disk may have a damaged "directory".
+   We have created a utility that reconstructs the directory portion of
+   the disk from the file data, which may restore your files. Here's what
+   to do:
+
+   1. Download the file [26]SYSTEM.ZIP and unzip (uncompress) it.
+
+   2. Copy the upzipped file to an MPC60-formatted floppy disk. (If this
+   doesn't work, try formating a floppy to Windows 720k format in a
+   Windows or Mac computer and copying the file to this disk. Don't use
+   1.4 meg disk format.)
+
+   3. Insert the disk in your MPC60's drive and turn power on. After about
+   20 seconds, instructions will appear on the screen to guide you through
+   the process of repairing a damaged MPC60 floppy disk.
+
+Q: Where I can find a copy of the original Akai MPC60 User Manual, written
+for version 2, the last software version Akai released?
+
+   A: Click [27]here.
+
+Q: MPC3000: I have the v3.10 software for MPC60, but the stereo sound files
+and large 2-floppy sound files it creates can't be read by the MPC3000. How
+can I read the special files on the MPC3000?
+
+   A: We have created a special version of the normal Akai v3.11 operating
+   software for MPC3000. It is called v3.12 and is identical to v3.11
+   except:
+
+   1. It can read stereo sound files and large 2-floppy sound files that
+   were created by MPC60 v3.10 software.
+
+   2. It is a temporary software version that boots from floppy and loads
+   into sequence RAM, so it does not replace the v3.11 software in your
+   MPC3000's ROM memory.
+
+   To create the boot floppy containing v3.12 software for MPC3000:
+
+   1. Download the file [28]m3k_v312.zip and unzip (uncompresses) it.
+
+   2. Copy the file onto a 1.4 megabyte floppy.
+
+   3. Insert the disk into your MPC3000 and turn the power on. After about
+   45 seconds, the MPC3000 will be running v3.12. After loading the MPC60
+   sounds and saving them, reboot the MPC3000 without the v3.12 disk in
+   the drive to resume running your internal software version. While
+   running v3.12, your available sequence memory will be reduced by
+   approximately 10%.
+
+Q: MPC3000: How do I expand the MPC3000's (or MPC3000LE's) memory to 32
+megabytes?
+
+   A: Despite Akai's claim that the maximum MPC3000 memory is 16 megabytes
+   (using two 4 MB SIMMs and their proprietary 8 MB memory board), it is
+   actually 32 megabytes, or 380 seconds of sample time. Their stated
+   reason for claiming a maximum capacity of 16 MB is that the MPC3000's
+   disk system has a limit of 30 MB per disk partition, which prevents you
+   from saving a full 32 MB of sample memory to disk. We think you'd
+   prefer to have the choice. To expand an MPC3000 to 32 megabytes:Buy two
+   16 megabyte, 30 pin (not 72 pin) SIMM memory modules. Any speed will
+   do, parity or non-parity.
+
+   Disconnect the power cord and open your MPC3000 by removing 4 screws at
+   top of rear panel, 4 screws at left edge of bottom and 3 screws at
+   right edge of bottom, then lift up the front end of the front panel.
+
+   In the two SIMM sockets located in the center of the bottom of the unit
+   near the front edge, install the two 16 megabyte SIMMs.Push them into
+   the sockets until they snap into place. If they donÌt snap, you may
+   have put them in backwards.
+
+   Look for the small, 2.5 inch square board in the front right corner of
+   the bottom of the unit. This is Akai's proprietary memory board,
+   containing either 2 MB or 8 MB. This is no longer necessary so remove
+   it. (If you leave it in, it will simply duplicate a portion of the 32
+   MB provided by the 2 SIMMs, and therefore won't increase memory past 32
+   MB.)
+
+   Do not ask us any questions about this. This is all the information you
+   need and there is nothing more we can tell you.
+
+     * [29]About us
+     * [30]Contact US
+     * [31]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  20. https://www.rogerlinndesign.com/support/support-3-10-overview
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6a62824b8ea67027e11b8f_mpc60_v310_manual.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e7295e2c00fb72aa5cf7fb0_MPC60_v310_installation_instructions.pdf
+  23. https://www.rogerlinndesign.com/support/support-mpc-3-10-faqs
+  24. https://www.dropbox.com/s/svd9zk3j53nb5gj/mpc60mfc.zip?dl=1
+  25. http://www.mpc-forums.com/
+  26. https://www.dropbox.com/s/jbnmfxctx3lnaf2/system.zip?dl=1
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6a638d9490763986ab18f6_mpc60_v2.0_manual.pdf
+  28. https://www.dropbox.com/s/ucahqou11ou8780/m3k_v312.zip?dl=1
+  29. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  30. https://www.rogerlinndesign.com/about/about-contact
+  31. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  33. https://www.rogerlinndesign.com/
+  34. https://www.rogerlinndesign.com/
+  35. https://www.facebook.com/RogerLinnDesign
+  36. https://www.youtube.com/user/rogerlinndesign
+  37. https://twitter.com/roger_linn
+  38. https://www.instagram.com/roger.linn/

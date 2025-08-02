@@ -1,0 +1,481 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn II FAQs
+
+   GeneralSound Output & ProcessingTempo & TimingMIDI & Sync
+
+Q: What is the latest software version for AdrenaLinn II? Can I upgrade my
+unit?
+
+   A: It is version 2.1.2. To learn what version you have, hold the UP
+   ARROW button while connecting power and look at the display. If you see
+   "212", you have the latest version. If you see "P20", "2-0", you have
+   an earlier version. Click here for a list of the improvements in
+   version 2.1.2. If you wish to upgrade to 2.1.2, you can do so by
+   purchasing a set of two plug-in chips that you can install yourself. Go
+   to our online store and look for the item "AdrenaLinn II Version 2.1.2
+   Software Chipset".
+
+Q: Can I use [power supply name] to power my AdrenaLinn II?
+
+   A: There are too many power supplies on the market for us to keep up
+   with. However, you can use any power supply that meets AdrenaLinn II's
+   requirements:
+     * 9 volts DC
+     * At least 500 milliamps
+     * Plug dimensions of 12mm long by 5.5mm outside diameter by 2.1mm
+       inside diameter, center pin POSITIVE, not negative. (Important: a
+       negative-center supply will damage your AdrenaLinn II.)
+
+   We no longer sell a replacement power supply, but you can buy the same
+   power supply here:
+
+   [39]https://www.digikey.com/en/products/detail/xp-power/VER05US090-JA/5
+   023722
+
+Q: One or more of my knobs came off. How can I make them stay on, or can I
+get more?
+
+   A: The knobs do tend to lose their grip over time. We have new knobs
+   that grip tighter and you can order a set of 4 from our online store.
+
+   Alternatively, one customer had a novel solution: Cut out a 1/3" circle
+   of aluminum foil and place it over the shaft, then push the knob onto
+   the shaft; the foil will act as a shim that holds the knob on better.
+
+Q: How to I initialize all settings to factory status?
+
+   A: While holding both foot switches, connect power. Continue to hold
+   both until you see “ini” in the display, then release. Warning: this
+   will erase all user data!
+
+Q: What is the resolution of the internal digital processing?
+
+   A: A-D and D-A conversion is 24 bits at 40kHz sampling rate. Internal
+   processing is 32 bits at 40 kHz. All internal processing is digital
+   except for the input and output analog preamps.
+
+Q: Why doesn’t the drumbeat start playing exactly when I hit the Start
+footswitch?
+
+   A: The Start footswitch actually starts the drumbeat when you release
+   it. This is the only way the AdrenaLinn can know the difference between
+   tapping and holding the switch (for decrementing the preset). To get
+   around this, press the foot switch one 1/8 note before you intend to
+   start, then release it on the downbeat. Be careful not to hold it too
+   long, because holding it ½ second causes the preset to decrement.
+
+Q: The drumbeat changes whenever I select a preset. How do I stop this?
+
+   A: Hold the MAIN button for ½ second so that the lower MAIN light goes
+   on. Then turn the second knob (Preset Sets Drumbeat) to the left so
+   that it shows “Off”.
+
+Q: What guitar amp do you recommend I play my AdrenaLinn through when I play
+live?
+
+   A: If you’re only using AdrenaLinn’s effects and not the amp models,
+   then I’d recommend you use the amp you like best because it’s really
+   personal taste. Filters effects are similar to wah pedal effects, so if
+   you like a certain amp with wah pedal, chances are you’ll like the same
+   amp with AdrenaLinn’s filter effects.
+
+   However, if you’re using AdrenaLinn’s amp models, then the best amp is
+   a full-range powered monitor because it faithfully reproduces the
+   intended sound of the amp modeling product, just like recording direct.
+   This is true for any amp modeler—POD, AmpliTube, etc. Running an amp
+   modeler through an amp is akin to running a Fender amp through a
+   Marshall; you might like how it sounds but it’s not very predictable.
+   The trouble is that guitar amps always color the sound and never
+   faithfully reproduce the guitar’s sound, which is a good thing and the
+   reason you bought the amp. And every great-sounding guitar amp colors
+   the sound in a different and uniquely good way. AdrenaLinn, POD and
+   other modelers have an “amp” mode which attempts to compensate for this
+   coloring, but it’s really impossible to compensate for the unique
+   coloration of each guitar amp you might be running your modeler into.
+
+   The bottom line is this: If running your guitar through any amp modeler
+   before your guitar amp sounds good to you, don’t change a thing.
+   However, if you want to hear an amp modeler’s sound as it was intended
+   to be heard, plug directly from the modeler’s output into your console
+   for recording or into a flat-response powered monitor for live. For
+   live play, I (Roger) run my AdrenaLinn II directly into a Mackie SRM450
+   powered PA monitor and it sounds great.
+
+Q: How did John Mayer get the effect he used on his song "Bigger Than My
+Body"?
+
+   A: He actually used preset F35 and drumbeat F48 on an AdrenaLinn 1.
+   Unfortunately, we removed that preset on AdrenaLinn II because no one
+   seemed to like it. Then after we released AdrenaLinn II, John Mayer
+   made his hit and everyone suddenly liked that preset. Whoops. At least
+   we were smart enough to keep the same drumbeat he used, which is F15 on
+   AdrenaLinn II.
+
+   You can recreate the preset he used by entering the following settings:
+
+   Set the 5 preset rows to these values:
+
+   Row 1: ARP     USR     75        STE
+
+   Row 2: 3-3       ---        17        86
+
+   Row 3: AM4     E-A      36        ON
+
+   Row 4: 13        57        58        43
+
+   Row 5: 34        16n      0          OFF
+
+   This preset uses a User Sequence. Set the 32 steps of the user sequence
+   to:
+
+   Row 1: L0        L0        L7        L7
+
+   Row 2: L12      L12      L7        L7
+
+   Row 3: L14      L14      L7        L7
+
+   Row 4: L12      L12      L7        L7
+
+   Row5:  L0        L0        L7        L7
+
+   Row6:  L12      L12      L14      L14
+
+   Row7:  L12      L14      L19      L21
+
+   Row8:  L14      L12      L9        L7
+
+   (The envelope on/off settings for all 32 steps should be E0.)
+
+   After entering the preset, play the following 2-bar repeated phrase: On
+   the first bar, play an Esus chord and sustain it for he entire bar. At
+   the second bar, first play the same Esus chord, followed on the second
+   1/8 note by an E major chord.
+
+Q: How can I get the sounds John Mayer used on his song "I Don't Trust Myself
+(with Loving You)"?
+
+   A: To get the pulsing filter sound used on the opening chord riff:
+
+   Set PRESET to F43
+
+   Change EFFECT to anything else, then re-set it to 'Ftr'
+
+   To get the sound used on the melody line that follows the opening chord
+   riff:
+
+   Set Preset to F82.
+
+   Set Resonance to 10.
+
+   Set Amp to 'AM1' (1st amp in list).
+
+   Set Delay On/Off/Ster to Off.
+
+   To hear the same drumbeat:
+
+   Set DRUMBEAT to F04
+
+   Set TEMPO to 84
+
+Q: How can I get the sound John Mayer used on his song "Heartbreak Warfare"?
+
+   A: John Mayer is pretty much our hero here at Roger Linn Design, having
+   prominently used AdrenaLinn on "Bigger Than My Body", AdrenaLinn II on
+   "I Don't Trust Myself With Loving You" and now AdrenaLinn III on
+   "Heartbreak Warfare". Here are two YouTube videos (1 and 2) of him
+   playing Heartbreak Warfare, with convenient guitar close-ups. As you
+   can see, the part he's playing is very simple, letting AdrenaLinn III's
+   1/8 Note Sawtooth Filter Modulation and Dotted 1/8 Note Delay do the
+   heavy lifting. Here's how to set up your AdrenaLinn II to get the same
+   sound:
+
+   * Select AdrenaLinn II's preset F44.
+
+   * In the DLY row, Change Delay Vol to 60, Delay Repeats to 40 and
+   Off/On/Ster to STE.
+
+   * Select AdrenaLinn III's drumbeat F 6.
+
+   * Set the tempo to 97.
+
+   * Turn your guitar's tone control down to minimum or nearly minimum.
+
+   Here's how he plays the guitar part on the intro and verses:
+
+   * On the 2nd 1/8 note of each bar, softly play the G string on the 14th
+   fret.
+
+   * On the 3rd 1/8 note of each bar, softly play the B string on the 17th
+   fret.
+
+   Let both strings ring out for the duration of the bar. This same part
+   works over both the A and D chords played by the other musicians. For
+   the F# minor section ("If you want more love, why don't you say so?"),
+   the part is:
+
+   * 1st bar: Fm chord, played as 4th fret of D string + 2nd fret of G
+   string + 2nd fret of B string.
+
+   * 2nd bar: Asus chord, played as open A string + 2nd fret of D string +
+   2nd fret of G string + open B string.
+
+   * 3rd & 4th bar: D Ma7 chord, played as open D string + 2nd fret of G
+   string + 2nd fret of B string.
+
+   For all three of these chords, play the lowest string of the chord on
+   the start of each bar, and the other notes of the chord on the 2nd 1/4
+   note of each bar. Let the notes sustain for the duration of each bar,
+   then repeat these 4 bars once before going back to the verse section.
+   There's a third part, but we'll leave it up to you figure that one out.
+
+   We can't lay claim to the Jeff-Beck-like tone he achieved for the solo,
+   but preset 50 isn't too far off if you reduce your guitar volume for a
+   clearer tone.
+
+Q: Can I separate the drum sound from the guitar sound?
+
+   A: Yes. Press and hold the main button to access the secondary Main
+   functions. Turn the fourth knob ("Balance/SEP") all the way to the
+   right to select "SEP" This will route the drumbeat to the right output
+   and the instrument (preset) to the left.
+
+Q: I can't hear any guitar sound? What's wrong?
+
+   A: Check the following:
+
+   1) Press and hold the main button for 1/2 second to change the VOLUME
+   knob to its BALANCE/SEP function, which is a balance control between
+   preset (guitar) and the drum machine. Set it to "EqU" (equal) at the
+   middle of its range.
+
+   2) Do you hear sound on other presets? If so, check the Amp Volume for
+   that preset.
+
+   3) If you turn the little Preamp Gain knob up all the way and play,
+   does the CLIP light go on? If not, check your guitar cable and guitar
+   output.
+
+Q: I can't hear any drums? What's wrong?
+
+   A: Check the following:
+
+   1) Press and hold the main button for 1/2 second to change the VOLUME
+   knob to its BALANCE/SEP function, which is a balance control between
+   preset (guitar) and the drum machine. Set it to "EqU" (equal) at the
+   middle of its range.
+
+   2) Select any drumbeat other than F99 or U99, which are blank
+   drumbeats.
+
+   3) If only one drumbeat is silent, check the Drumbeat Volume control.
+
+Q: Can I globally turn off the drums?
+
+   A: Yes. There are 2 ways:
+
+   1) Press and hold the main button for 1/2 second to change the VOLUME
+   knob to its BALANCE/SEP function, which is a balance control between
+   preset (guitar) and the drum machine.Turn it all the way to the left so
+   it says p50, meaning all preset (guitar) and no drums.
+
+   2) Select drumbeat F99, which is a blank drumbeat.
+
+Q: Can I turn off either the effects, amp models or delay for all presets in
+one step?
+
+   A: Yes. Using the Bypass Mode setting, the Bypass foot switch can
+   alternatively be set to globally bypass off any combination of effect,
+   amp and delay for all presets. The relevant Bypass Mode options are:
+
+   “bYP”:   Normal bypass function
+
+   “-Ad”     Turn off effect
+
+   “E-d”     Turn off amp models
+
+   “EA-“     Turn off delay
+
+   “--d”      Turn off effect and amp
+
+   “-A-“      Turn off effect effect and delay
+
+   “E--“      Turn off amp and delay
+
+Q: Is there a way to quickly turn the effect on or off during performance
+without affecting the amp or delay settings?
+
+   A: Yes. Set the Bypass Mode parameter to “-Ad.” Then, when you press
+   BYPASS only the effect will be turned off.
+
+Q: How do I turn off either effect, amp or delay in a particular preset?
+
+   A: To turn off the effect only, set the Off/On/Ster parameter in the
+   Effect section to Off. To turn off amp modeling only, set the Off/On
+   parameter in the Amp section to Off. To turn off the Delay only, set
+   the Off/On/Ster parameter in the Delay section to Off. You must save
+   the preset (user presets only) to retain the new setting.
+
+Q: How do I send the drumbeat through the AdrenaLinn’s filter, amp and delay
+processing?
+
+   A: Press the up and down buttons repeatedly until the upper of the 2
+   Edit Drumbeat lights goes on. Then turn the second knob (To
+   Delay/Filter). Settings of D00-D99 send the drums to the delay.
+   Settings of F00-F99 send the drums to the AdrenaLinn’s input, to be
+   processed in the same way as the instrument signal.
+
+Q: The display says “AMP” whenever I turn it on. What does this mean?
+
+   A: The AdrenaLinn’s guitar amp tone compensation is on, which reduces
+   the treble level of the amp models to compensate for the added treble
+   boost of guitar amps. To return to normal treble level for recording,
+   hold MAIN while connecting power, wait 10 seconds, then recycle power.
+   The word “AMP” should no longer appear at power-on. Repeat this
+   procedure to return to AMP mode.
+
+Q: How do I get more than 2 outputs? I want to send both the drums in stereo
+and the instrument signal in stereo.
+
+   A: Buy another AdrenaLinn and synch them together via MIDI, using one
+   for the instrument signal and the other for the drums. Or, record the
+   drums in stereo in one recording pass and the instrument in stereo in
+   the next, synched with MIDI clock.
+
+Q: The tempo changes whenever I select a drumbeat. How do I stop this?
+
+   A: Press the up and down buttons repeatedly until the upper of the 2
+   Edit Drumbeat lights goes on. Then turn the third knob (Use Drumbeat
+   Tempo) to the left so that it shows “Off”
+
+Q: How do I change the amount of 1/16 note swing on a drumbeat?
+
+   A: Press the up and down buttons repeatedly until the upper of the 2
+   Edit Drumbeat lights goes on. Then turn the fourth knob (Timebase) to
+   select either “16n” (straight 1/16 notes), “16h” (halfway between
+   straight and swing 1/16 notes) or “16S” (swing 1/16 notes).
+
+Q: A particular sequence preset will sometimes play 1/8 notes and sometimes
+1/16s, or sometimes swing and sometimes straight time. What gives?
+
+   A: The timebase of the preset’s sequences (tremolo, filter or arpeggio)
+   is determined by the selected drumbeat’s Timebase setting. For example,
+   if you select a drumbeat that has an 1/8 note Timebase, then the
+   preset’s sequence will play 1/8 notes. The same rule applies to swing:
+   if you select a drumbeat with 1/16 swing timebase, then the preset’s
+   sequence will also play in 1/16 swing timing. To change the timing of
+   the preset’s sequence, you must change the drumbeat’s Timebase setting.
+
+Q: When I hook up a midi pedal and change presets it jumps to the factory
+presets. How do I change it to select the user?
+
+   A: To select presets in the User preset bank from MIDI, send a MIDI
+   Controller 0 message with a value of 1. To select presets in the
+   Factory preset bank from MIDI, send a MIDI Controller 0 message with a
+   value of 0. After sending either of these messages, any received
+   Program Change messages will select presets in the selected bank
+   (Factory or User), and the selected bank will be remembered after
+   recycling power.
+
+Q: I'm not sure if my AdrenaLinn II is responding to MIDI clock, but I don't
+have another source of MIDI clock to send it as a test. Is there another way?
+
+   A: Yes. Set the CLOCK IN setting (in the SYSTEM row) to "On" (MIDI
+   clock receive enabled). Now connect a MIDI cable from the AdrenaLinn
+   II's MIDI OUT to it's MIDI IN. Then press START. The drumbeat should
+   start playing at a wildly fast tempo because the MIDI clock is feeding
+   back into itself. You've now proven that the AdrenaLinn II is correctly
+   responding to incoming MIDI clock
+
+     * [40]About us
+     * [41]Contact US
+     * [42]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. https://www.digikey.com/en/products/detail/xp-power/VER05US090-JA/5023722
+  40. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  41. https://www.rogerlinndesign.com/about/about-contact
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  44. https://www.rogerlinndesign.com/
+  45. https://www.rogerlinndesign.com/
+  46. https://www.facebook.com/RogerLinnDesign
+  47. https://www.youtube.com/user/rogerlinndesign
+  48. https://twitter.com/roger_linn
+  49. https://www.instagram.com/roger.linn/

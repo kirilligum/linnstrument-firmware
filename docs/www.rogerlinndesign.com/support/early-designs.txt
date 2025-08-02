@@ -1,0 +1,98 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+Early LinnStrument Design Ideas
+
+   Here are some early design ideas I had for LinnStrument before deciding
+   on the final design look.
+
+   First, here's a 2010 picture (and [19]video) of my initial
+   proof-of-concept prototype, based on a pressure-sensitive multi-touch
+   surface from a company called TouchCo. I made a grid overlay with note
+   names and attached it to TouchCo surface, then my friend [20]Tim
+   Thompson wrote drivers to get the messages into the computer and into
+   Max/MSP, where I created an early multi-touch synth.
+
+   Then TouchCo was bought by Amazon, who shut down its other business.
+   Oops. So I started developing my own sensing technology.
+   Here's a 2010 design idea that included a wind controller and used a
+   curved playing surface. This picture and the other design concepts
+   below are all computer renderings and not physical products.
+
+   The curved surface was too expensive to implement, so I scrapped the
+   idea and decided on a flat surface. Here's a 2011 design idea that used
+   swappable overlays like the guitar-centric one shown, and raised ridges
+   between note regions:
+
+   Here's the same idea with a piano-like overlay:
+
+   And here's the same design with an overlay of hex-keys with flat sides,
+   perhaps using [21]this note layout with chromatic rows for horizontal
+   pitch slides:
+
+   Here's the same design but with a metal chassis and wood ends:
+
+   The overlay idea turned out to be impractical because was difficult to
+   make it stay in place during pitch slides, and it reduced sensitivity
+   too much. So I considered this fixed-layout 2012 sheet-metal design
+   with curved ends:
+
+   Also in 2012, I considered this design with wood front and rear pieces
+   and an iPhone slot for sound generation:
+
+   I decided against the iPhone slot because most people wouldn't use
+   iPhone for sounds, so it didn't make sense to make LinnStrument larger
+   for those who wouldn't use iPhone. Plus iPhones changed size and shape
+   every year. So I finally came to the final design, adding lights for
+   scale indication:
+
+   Thanks for joining me on this stroll down memory lane.
+
+     * [22]About us
+     * [23]Contact US
+     * [24]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://youtu.be/AoAOx97G8ew
+  20. https://timthompson.com/
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e694e4b681006d5ed9c98cc_linnstrument-hex-layout.svg
+  22. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  23. https://www.rogerlinndesign.com/about/about-contact
+  24. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  26. https://www.rogerlinndesign.com/
+  27. https://www.rogerlinndesign.com/
+  28. https://www.facebook.com/RogerLinnDesign
+  29. https://www.youtube.com/user/rogerlinndesign
+  30. https://twitter.com/roger_linn
+  31. https://www.instagram.com/roger.linn/

@@ -1,0 +1,401 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   [19]AdrenaLinn Support
+   AdrenaLinn III
+   [20]Buy A3 Upgrade Kit
+   [21]A3 Manual
+   [22]A3 Preset & Drumbeat Listing
+   [23]FAQs
+   [24]Tips & Tricks
+   [25]A3 MIDI Specifications
+   [26]A3 Software Versions
+   AdrenaLinn II
+   [27]A2 Manual
+   [28]FAQs
+   [29]Panel Picture
+   [30]Software Versions
+   [31]A2 MIDI Specification
+   AdrenaLinn (Original)
+   [32]AdrenaLinn Manual
+   [33]FAQs
+   [34]Panel Picture
+   [35]Software Versions
+   [36]A1 MIDI Specification
+   All Models
+   [37]Repair Needs
+   [38]Stolen units
+
+AdrenaLinn III FAQs
+
+   GeneralSound ProcessingMIDI & Sync
+
+Q: Can I use [power supply name] to power my AdrenaLinn III? What are the
+power requirements?
+
+   A: There are too many power supplies on the market for us to keep up
+   with. However, you can use any power supply that meets AdrenaLinn III's
+   requirements:
+     * 9 volts DC
+     * At least 500 milliamps
+     * Plug dimensions of 12mm long by 5.5mm outside diameter by 2.1mm
+       inside diameter, center pin POSITIVE, not negative. (Important: a
+       negative-center supply will damage your AdrenaLinn III.)
+
+   We no longer sell a replacement power supply, but you can buy the same
+   power supply [39]here.
+
+Q: I've lost one or more of my knobs. Can I get more?
+
+   A: You can buy a set of 4 replacement knobs from our online store.
+
+Q: Can I reassign the foot switches to turn specific effects on/off?
+
+   A:  Yes. The EFFECT foot switch can be uniquely assigned for each
+   preset using the Effect Switch setting in the Amp/Pedals rows. It is
+   also possible to reassign both the normal and held function of both
+   foot switches globally. This is done with the Foot Switch Source and
+   Foot Switch Destination parameters in the System row.
+
+Q: How do I learn what software version I'm running? What's the latest
+version and what are the changes?
+
+   A: In the AdrenaLinn III Support page, click the "AdrenaLinn III
+   Software Versions" button.
+
+Q: How to I initialize all settings in the AdrenaLinn III to factory status?
+
+   A: While holding both foot switches, connect power. Continue to hold
+   both until you see “ini” in the display, then release. Warning: this
+   will erase all user data. For more information, see “Initialization” in
+   the Appendix.
+
+Q: How do I access those tiny italicized settings?
+
+   A: Press the UP and DOWN arrow buttons simultaneously to toggle between
+   the primary settings and the tiny italicized settings. For more info,
+   see the section “Details Settings” in the Quick Start chapter.
+
+Q: The drumbeat changes whenever I select a preset. How do I stop this?
+
+   A: Hold the MAIN button for ½ second so that the lower MAIN light goes
+   on. Then turn the second knob (Preset Sets Drumbeat) to the left so
+   that it shows “Off”.
+
+Q: Can I chain drumbeats together to make a song?
+
+   A: No, the AdrenaLinn III's drum machine is a simple one, intended
+   mainly to provide a timing reference for the beat-synced effects.
+
+Q: Can I use the AdrenaLinn III in the effects loop of my guitar amp? Or
+where should I connect it in my effects order?
+
+   A: AdrenaLinn III's audio in and outputs process audio, whether
+   inserted between your guitar and amp, in your amp's effects loop, or
+   inserted in your recording console's signal path. So whether you place
+   it in your effects or what position you place it in your stomp box
+   order is a matter of your personal taste. For example, if you are
+   mainly using A3's filter effects, it's similar to asking where in your
+   effects chain you wish to put a wah pedal; placing it before a
+   distortion pedal will sound different than placing it after. Given that
+   AdrenaLinn III contains delay, reverb and drumbeats, most people tend
+   to place it at the end of their effects chain or in their amp's effects
+   loop. Also, given that AdrenaLinn III provides most of the effects
+   found in other pedals, many customers don't use any other pedals. In
+   fact, a large number of customers like AdrenaLinn III's amp models so
+   much that they don't use their guitar amps, choosing instead to connect
+   A3's outputs directly into recording consoles or, in live performance,
+   a high-fidelity powered monitor. The only technical issue to be aware
+   of is that you should set the A3's INPUT LEVEL control so that the CLIP
+   light only goes on when you play very hard, and set A3's VOLUME setting
+   to the right level for whatever its output is driving.
+
+Q: Is the Tuner/Bypass mode a hardware bypass?
+
+   A: No. If we had used a hardware bypass circuit, then the drumbeats
+   would be silenced every time you switched on Tuner/Bypass. Instead,
+   turning on Tuner/Bypass acts the same as setting all five of AdrenaLinn
+   III effects processors to off (Mod On, Amp On, Comp On, Delay On and
+   Reverb On): the guitar signal is digitally mixed with the drumbeats and
+   passed directly to the outputs. Note that the noise gate is active
+   while Tuner/Bypass is on.
+
+Q: Can I separate the drum sound from the guitar sound?
+
+   A: Yes. Press and hold the main button to access the secondary Main
+   functions. Turn the fourth knob ("Mix /SEP") all the way to the right
+   to select "SEP" This will route the drumbeat to the right output and
+   the instrument (preset) to the left.
+
+Q: Can I globally turn off the drums?
+
+   A: Yes. Press and hold the main button for 1/2 second to change the
+   VOLUME knob to its Mix / Separate Outs function, which is a balance
+   control between the instrument and the drumbeat signals. Turn it all
+   the way to the left so it says i50, meaning all instrument and no
+   drums.
+
+Q: I can hear the drums but no guitar sound? Why?
+
+   A: Check the following:
+
+   1) Press and hold the main button for 1/2 second to change the VOLUME
+   knob to its Mix / Separate Outs function, which is a balance control
+   between instrument and drum machine signals. Set it to "EqU" (equal) at
+   the middle of its range.
+
+   2) Do you hear sound on other presets? If so, check the Amp Volume for
+   that preset.
+
+   3) If you turn the little Input Level knob up all the way and play,
+   does the CLIP light go on? If not, check your guitar cable and guitar
+   output.
+
+Q: I can hear the guitar sound but no drums? Why?
+
+   A: Check the following:
+
+   1) Press and hold the main button for 1/2 second to change the VOLUME
+   knob to its Mix / Separate Outs function, which is a balance control
+   between instrument and the drum machine signals. Set it to "EqU"
+   (equal) at the middle of its range.
+
+   2) The selected drumbeat may be blank. Select a different one..
+
+   3) If only one drumbeat is silent, check the Drums Volume control.
+
+Q: I just got the AdrenaLinn III and plugged it into my guitar amp and when I
+play through it, it has too much treble. What's wrong?
+
+   A: Because most AdrenaLinn III customers use the product in the
+   recording process or with a flat-response sound system, the presets are
+    optimized for this setup and therefore include amp modeling. If you
+   use AdrenaLinn III before your guitar amp, the treble will tend to
+   sound harsher because the amp modeling and your guitar amp both tend to
+   boost treble. If using AdrenaLinn III with a guitar amp, you may wish
+   to turn amp modeling off for the presets you intend to use. The next
+   FAQ describes how to do this.
+
+Q: Can I turn off amp modeling globally (for all presets)?
+
+   A: Sorry, no. You must turn it off individually for each preset. To do
+   so, select a preset, change AMP ON to Off, then save the preset.
+
+Q: What amplification do you recommend I play my AdrenaLinn through when I
+play live?
+
+   A: If you’re only using AdrenaLinn’s filter modulation effects and not
+   the amp models, then use the guitar amp you like best because it’s
+   really an issue of personal taste. Filter effects are similar to wah
+   pedal effects, so if you like a certain amp with wah pedal, chances are
+   you’ll like the same amp with AdrenaLinn’s filter effects.
+
+   However, if you’re using AdrenaLinn’s amp models, then you might
+   consider a full-range powered monitor because it faithfully reproduces
+   the intended sound of the amp modeling product, just like recording
+   direct. This is true for any amp modeler—running an amp modeler through
+   a real guitar amp is akin to running a Fender amp through a Marshall;
+   you might like how it sounds but it won’t sound like a Fender. The
+   point is that guitar amps always color the sound and never faithfully
+   reproduce the guitar’s sound, which is a good thing and the reason you
+   bought the amp. And every great-sounding guitar amp colors the sound in
+   a different and uniquely good way. AdrenaLinn and other modelers have
+   an “amp” mode which attempts to compensate for this coloring, but it’s
+   really impossible to compensate for the unique coloration of each
+   guitar amp you might be running your modeler into.
+
+   I (Roger) prefer to run my AdrenaLinn III through a Mackie SRM450,
+   which is a high-quality powered 12" stage monitor. The JBL EON powered
+   monitors are also good for this. These are the closest stage monitors
+   I've found to a studio monitor.
+
+   The bottom line is this: If running your guitar through any amp modeler
+   before your guitar amp sounds good to you, don’t change a thing.
+   However, if you want to hear an amp modeler’s sound as it was intended
+   to be heard, use a flat-response powered monitor.
+
+Q: Can I turn off amp modeling globally (for all presets)?
+
+   A: Sorry, no. You must turn it off individually for each preset. To do
+   so, select a preset, change AMP ON to Off, then save the preset.
+
+Q: How can I get the sounds John Mayer used on his songs "Heartbreak
+Warfare", "Bigger Than My Body" and "I don't Trust Myself (with Loving You)"?
+
+   A: John Mayer is pretty much our hero here at Roger Linn Design, having
+   prominently used AdrenaLinn I, II and III on these three songs. Here's
+   now to get the same sounds on AdrenaLinn III:
+
+   For "Heartbreak Warfare"'s opening riff, use preset 82, drumbeat 28 and
+   tempo to 97. For the solo sound, use preset 51.
+
+   For "I can't help myself (with Loving You)", to get the pulsing filter
+   sound used on the opening chord riff, set PRESET to 73. To get the
+   auto-wah sound used on the melody line that follows the opening chord
+   riff, set Preset to 160. To get the drumbeat, Set Drumbeat to 1 and
+   Tempo to 84.
+
+   For "Bigger Than My Body", use preset 150.
+
+Q: Sometimes my unit stops outputting all sound, and the only way to restore
+sound is to turn power off and on. How can I fix this?
+
+   A: This seems to be due to the fact that AdrenaLinn's hardware is more
+   sensitive to high static electricity shocks than we'd prefer. At this
+   time the only solution we have is to avoid touching the two foot
+   switches with bare fingers--or perhaps shield them with tape--while
+   high levels of static electricity are in the air. Sorry we don't yet
+   have a better answer.
+
+Q: How can I make AdrenaLinn III play in sync to my human drummer?
+
+   A: Many AdrenaLinn III owners assume that by merely setting A3's tempo
+   (by tapping in the tempo or setting it manually) to match the drummer's
+   tempo then starting the A3 on the downbeat, the A3 should play in sync
+   to the drummer. While this may work for setting the delay time on audio
+   delay pedals or setting the speed of tremolo pedals, the fast
+   transitions in A3's filter sequences or random filter effects require
+   far greater timing accuracy. As a result, using this method will result
+   in the drummer slipping out of sync with the A3 within a few bars. The
+   only reliable method is for the drummer to wear headphones and to feed
+   A3's drumbeat into those phones and not into the PA, which is what John
+   Mayer does when performing songs that use A3:
+
+   1) Set "Mix / Sep Outs" parameter setting to "SEP", which sends guitar
+   signal to left output and drumbeat signal to right output.
+
+   2) Send A3's right output (containing only drumbeats) to drummer's
+   phones but not to audience sound system.
+
+   3) Drummer plays in time to A3's drumbeat. Because A3's drumbeat and
+   beat-synced effects are always in sync, A3's beat-synced effects will
+   be in perfect sync to the drummer. If desired, the drummer can use A3's
+   Count In feature (pressing right foot switch quickly followed by left
+   foot switch) to hear a 1-bar count in before its drumbeat and filter
+   sequences start playing.
+
+   4) Optional: Drummer uses his own drum machine to generate the
+   drumbeats, and sends MIDI Clock from his drum machine to A3 so that A3
+   is in sync with it.
+
+Q: What MIDI pedal board do you recommend?
+
+   A: With the $35 [40]EurekaProm from Eureka Sound, a $150 Behringer
+   FCB1010 Midi Foot Control Board becomes a  dedicated AdrenaLinn III
+   foot console. Turn individual effects on/off, select presets &
+   drumbeats, start/stop the beats and more.
+
+Q: Do you know of a single MIDI expression pedal?
+
+   A: No, it seems that the low price of Behringer's FCB1010 pedalboard
+   makes it impractical to any company to successfully sell a single
+   MIDI expression pedal.
+
+   One option is the the MIDI Solutions Pedal Controller, which accepts a
+   1/4" jack from common analog expression pedals and converts the pedal
+   movements into MIDI controller data. It comes with programming software
+   to assign it to different CC numbers and more, but by default it
+   converts pedal movements into MIDI CC 7 on MIDI channel 1. The other
+   problem is that it must receive power over MIDI from another device
+   connected to its MIDI input, which the AdrenaLinn III does not provide.
+
+Q: My MIDI Program Change pedal is only able to select presets 0-99. How do I
+get it to select presets 100-199?
+
+   A: The PROGRAM CHANGE parameter allows you to select whether incoming
+   MIDI Program Change messages will be used to select presets 0-99,
+   presets 100-199, drumbeats 0-99, or drumbeats 100-199. See this section
+   of the manual for details.
+
+Q: I don't think my MIDI IN (or MIDI OUT) is working? How can I test it?
+
+   A: Yes. Set the SYNC setting (in the SYSTEM row) to "i-o" (send and
+   receive MIDI clock). Now connect a MIDI cable from the AdrenaLinn III's
+   MIDI OUT to it's MIDI IN. Then press START. The drumbeat should start
+   playing at a wildly fast tempo because the MIDI clock is feeding back.
+   You've now proven that the AdrenaLinn III is correctly responding to
+   incoming MIDI clock.
+
+Q: Can I trigger the drum sounds from MIDI?
+
+   A: Yes, using the MIDI Drums setting in the System row.
+
+Q: Is there any MIDI editing software available for AdrenaLinn III?
+
+   A: Yes, the [41]AdrenaLinn III Editor from Sound Tower.
+
+Q: The tempo changes whenever I select a drumbeat. How do I stop this?
+
+   A: Hold the MAIN button for ½ second so that the lower MAIN light goes
+   on. Then turn the third knob (Tempo Source) to the left so that it
+   shows “SYS”. This is explained further in the “The 4 Secondary Main
+   Settings” in the “Quick Start” Chapter of the manual.
+
+     * [42]About us
+     * [43]Contact US
+     * [44]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-adrenalinn
+  20. https://www.rogerlinndesign.com/support/support-adrenalinn-upgrade-kit
+  21. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69542a4b96309cc90a9c12_adrenalinn-iii-users-manual,-v302,-5-14-08.pdf
+  22. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695429681006b84c9cc4f0_adrenalinn-iii-presets---drumbeats-manual,-11-25-07.pdf
+  23. https://www.rogerlinndesign.com/support/support-adrenalinn-faqs
+  24. https://www.rogerlinndesign.com/support/support-adrenalinn-3-tips-tricks
+  25. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6955fd0f5a6069d69d92f8_adrenalinn_iii_midi_implementation,_8-1-07.pdf
+  26. https://www.rogerlinndesign.com/support/support-adrenalinn-software-versions
+  27. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e6669c781108af5e3b23203_adrenalinn_ii_manual.pdf
+  28. https://www.rogerlinndesign.com/support/support-adrenalinn-2-faqs
+  29. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2a904cde7dc0128ac_adrenalinn-ii-yellow-u663629_2x.png
+  30. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-software-versions
+  31. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e69573a4b963067e90ab9b0_adrenalinn_ii_v2.1_midi_implementation.pdf
+  32. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675617810d7b2401e43_adrenalinn_manual.pdf
+  33. https://www.rogerlinndesign.com/support/support-adrenalinn-ii-faqs
+  34. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5d46d2f2cc4d3a5f53b4f8ab_adrenalinn-u761742_2x.png
+  35. https://www.rogerlinndesign.com/support/support-adrenalinn-i-software-versions
+  36. https://cdn.prod.website-files.com/5ad24a891dee8925107423d0/5e695675681006f4079cd3af_adrenalinn_midi_implementation.pdf
+  37. https://www.rogerlinndesign.com/support/support-adrenalinn-repairs
+  38. https://www.rogerlinndesign.com/support/support-stolen-adrenalinns
+  39. https://www.digikey.com/en/products/detail/xp-power/VFR05US090-JA/25320759?s=N4IgjCBcoCwBxVAYygMwIYBsDOBTANCAPZQDaIAzAAwCsMA7AgLqEAOALlCAMrsBOASwB2AcxABfQgxiIQKSBhwFiZSozAwILEBy69BoiYXr0I0OWix5CJSORgAmKvHogpTmAE4qbkI+eeWmyckDz8wmKS4GBOsvKK1ip2IA4wFGCeFCDauqH6EUYgALQOcVD8AK7KtuQ0vp7Z4k1AA
+  40. http://www.eurekasound.com/eurekaprom/configurations/a3
+  41. https://soundtower.com/
+  42. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  43. https://www.rogerlinndesign.com/about/about-contact
+  44. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  46. https://www.rogerlinndesign.com/
+  47. https://www.rogerlinndesign.com/
+  48. https://www.facebook.com/RogerLinnDesign
+  49. https://www.youtube.com/user/rogerlinndesign
+  50. https://twitter.com/roger_linn
+  51. https://www.instagram.com/roger.linn/

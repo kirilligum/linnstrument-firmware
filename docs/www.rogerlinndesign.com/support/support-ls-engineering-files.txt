@@ -1,0 +1,192 @@
+   [1]Linnstrument
+   Where to buy
+   [2]ONLINE SHOP[3]DEALERS[4]REGISTRATION[5]DISCOUNTS [6]Buying USED
+   Support
+   [7]LINNSTRUMENT[8]TEMPEST[9]ADRENALINN[10]MPC60
+   V3.10[11]LEGACY PRODUCTS
+   OTHER
+   [12]ABOUT RLD[13]Museum[14]Roger FAQs[15]Press[16]Grammy
+   Award[17]Stanford Workshop[18]Contact
+
+   LinnStrument Support
+   [19]LinnStrument Support Home
+   Manual
+   [20]Register Dealer/Used Purchase
+   [21]Getting Started
+   [22]Panel Settings
+   [23]Hooking it Up
+   [24]FAQs
+   [25]LinnStrument Forum on KVR
+   [26]Recommended Sounds
+   [27]Free Bitwig 8-Track
+   [28]Free Surge XT Synth
+   [29]Free Sounds for Logic/MainStage
+   [30]Videos
+   [31]Submit Video for next Compilation
+   [32]Learning to play
+   [33]Learn the LinnStrument video series
+   [34]Creating Sounds
+   [35]What is MPE?
+   [36]How hard should I play?
+   [37]Tips & Tricks
+   [38]Smart MIDI
+   [39]Samples vs. Synthesis
+   [40]Updating Software
+   [41]Installing Replacement Parts
+   [42]Email Newsletters
+   [43]Stolen Units
+   [44]Monthly Zoom call with Roger
+   [45]20% off on GeoSWAM instruments
+   [46]Artist Interviews
+   [47]For visually impaired users
+   [48]Buying Used / Hardware Updates
+   Developers
+   [49]Source Code
+   [50]MIDI Implementation
+   [51]How to add MPE
+   [52]User Firmware Mode
+   About the Design
+   [53]Design Goals & Choices
+   [54]Piano vs. String layout
+   [55]Why touch expression?
+   [56]How the sensor works
+   [57]"Making of LinnStrument" video
+   [58]Early Design concepts
+   [59]Engineering Files
+
+LinnStrument Parts Engineering Files
+
+   I've been impressed with Chris Guichet's "Speedbumpy" alternate playing
+   surface for LinnStrument. To help his efforts, I gave him my
+   engineering files for the stock playing surface, which gave him a
+   better starting point to work from in his design.
+
+   This made me wonder if others with engineering skills might have
+   similar ideas for enhancing or personalizing LinnStrument, or even
+   selling alternate parts as Chris did. To help any such efforts, I've
+   posted below engineering files of the following parts for both
+   LinnStrument and LinnStrument 128:
+
+   [60]LinnStrument 200, wood sides engineering files.zip
+
+   [61]LinnStrument 128, wood sides engineering files.zip
+
+   [62]LinnStrument 200, playing surface, engineering files.zip
+
+   [63]LinnStrument 128 playing surface, engineering files.zip
+
+   [64]LinnStrument 200 top panel, engineering files.zip
+
+   [65]LinnStrument 128 top panel, engineering files.zip
+
+   [66]LinnStrument 200 chassis bottom, engineering files.zip (for
+   locating screw holes for custom attachments)
+
+   [67]LinnStrument 128 chassis bottom, engineering files.zip (for
+   locating screw holes for custom attachments)
+
+   ‍
+
+   What can you do? Here are a few ideas. Click a picture to see the
+   high-resolution view.
+
+   1) A white LinnStrument with white top panel and white side pieces...
+
+   2) A LinnStrument with burled walnut side pieces...
+
+   ‍
+
+   3) A LinnStrument with curved white maple sides...
+
+   ‍
+
+   4) Your custom synth-- or a holder for an iPad or iPhone as shown
+   here-- that bolts on to the right side...
+
+     * [68]About us
+     * [69]Contact US
+     * [70]Newsletter
+
+   © 2020 ROGER LINN DESIGN
+
+References
+
+   Visible links:
+   1. https://www.rogerlinndesign.com/linnstrument
+   2. https://www.rogerlinndesignstore.com/Default.asp
+   3. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-dealers
+   4. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+   5. https://www.rogerlinndesign.com/where-to-buy/where-to-buy-discounts
+   6. https://www.rogerlinndesign.com/where-to-buy/buying-used
+   7. https://www.rogerlinndesign.com/support/support-linnstrument
+   8. https://www.sequential.com/product/tempest/?referer=rogerlinndesign.com
+   9. https://www.rogerlinndesign.com/support/support-adrenalinn
+  10. https://www.rogerlinndesign.com/support/support-mpc60-version-3-10
+  11. https://www.rogerlinndesign.com/support/support-legacy-products
+  12. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  13. https://www.rogerlinndesign.com/about/about-museum
+  14. https://www.rogerlinndesign.com/about/roger-faq
+  15. https://www.rogerlinndesign.com/about/about-press
+  16. https://www.rogerlinndesign.com/about/about-grammy
+  17. https://www.rogerlinndesign.com/more/stanford-workshop
+  18. https://www.rogerlinndesign.com/about/about-contact
+  19. https://www.rogerlinndesign.com/support/support-linnstrument
+  20. https://www.rogerlinndesign.com/support/support-linnstrument-register-your-linnstrument
+  21. https://www.rogerlinndesign.com/support/linnstrument-getting-started
+  22. https://www.rogerlinndesign.com/support/linnstrument-support-panel-settings
+  23. https://www.rogerlinndesign.com/support/support-linnstrument-hooking-it-up
+  24. https://www.rogerlinndesign.com/support/support-linnstrument-faqs
+  25. https://www.kvraudio.com/forum/viewforum.php?f=263
+  26. https://www.rogerlinndesign.com/support/support-linnstrument-recommended-sounds
+  27. https://www.rogerlinndesign.com/support/linnstrument-bitwig-8-track
+  28. https://www.rogerlinndesign.com/support/ls-surge
+  29. https://www.rogerlinndesign.com/support/support-ls-logic
+  30. https://www.youtube.com/user/rogerlinndesign/playlists?disable_polymer=1
+  31. https://www.rogerlinndesign.com/support/support-ls-submit-video
+  32. https://www.rogerlinndesign.com/support/support-linnstrument-chord-and-scale-shapes
+  33. http://www.jeffmoen.com/
+  34. https://www.rogerlinndesign.com/support/support-linnstrument-creating-sounds
+  35. https://www.rogerlinndesign.com/support/support-linnstrument-what-is-mpe
+  36. https://www.rogerlinndesign.com/support/support-ls-pressure
+  37. https://www.rogerlinndesign.com/support/support-linnstrument-linnstrument-tips-tricks
+  38. https://www.rogerlinndesign.com/support/support-linnstrument-linnstruments-smart-midi
+  39. https://www.rogerlinndesign.com/support/support-ls-samples-vs-synthesis
+  40. https://www.rogerlinndesign.com/support/support-linnstrument-update-software
+  41. https://www.rogerlinndesign.com/support/support-ls-repair-old
+  42. https://www.rogerlinndesign.com/support/newsletters-home
+  43. https://www.rogerlinndesign.com/support/support-ls-stolen
+  44. https://www.rogerlinndesign.com/support/zoom-call
+  45. https://www.rogerlinndesign.com/support/support-ls-geoswam
+  46. https://www.rogerlinndesign.com/support/artists
+  47. https://www.rogerlinndesign.com/support/support---ls-visual-impaired
+  48. https://www.rogerlinndesign.com/where-to-buy/buying-used
+  49. https://www.rogerlinndesign.com/support/support-linnstrument-source-code
+  50. https://www.rogerlinndesign.com/support/support-ls-midi-implementation
+  51. https://www.rogerlinndesign.com/support/support-developers-how-to-add-mpe
+  52. https://github.com/rogerlinndesign/linnstrument-firmware/blob/master/user_firmware_mode.txt
+  53. https://www.rogerlinndesign.com/support/linnstrument-design-ideas
+  54. https://www.rogerlinndesign.com/support/support-linnstrument-fourths-layout
+  55. https://www.rogerlinndesign.com/support/why-expression
+  56. https://www.rogerlinndesign.com/support/how-linnstruments-sensor-works
+  57. https://youtu.be/-hfzA1M8h48?si=xpzigHzujP6rpAGd
+  58. https://www.rogerlinndesign.com/support/early-designs
+  59. https://www.rogerlinndesign.com/support/support-ls-engineering-files
+  60. https://www.dropbox.com/scl/fi/y4ahob34ofu4b2dft0niv/LinnStrument-200-wood-sides-engineering-files-7-1-25.zip?rlkey=pljk7h6lx1ec7o22awpeikv7a&st=yhh58jk6&dl=1
+  61. https://www.dropbox.com/scl/fi/q8wxmltjvf0w7j366b9c7/LinnStrument-128-wood-sides-engineering-files-7-1-25.zip?rlkey=33j2ig1j8mc2xf0lxbanke98u&st=4jwm2xb6&dl=1
+  62. https://www.dropbox.com/scl/fi/sjcll1c29ev392b98rkh6/LinnStrument-200-playing-surface-engineering-files-7-1-25.zip?rlkey=39xz61naon6hfy4ovdui2d2f3&st=epvf80hk&dl=1
+  63. https://www.dropbox.com/scl/fi/1jpp6c12lmrepc7fohf0u/LinnStrument-128-playing-surface-engineering-files-7-1-25.zip?rlkey=ji4977syhqb44lz6gl1vrgv0u&st=tuwfa4gm&dl=1
+  64. https://www.dropbox.com/scl/fi/pdb3srv78awygzg7tj8hp/LinnStrument-200-top-panel-engineering-files-7-1-25.zip?rlkey=taxde0d53zmmviqmiyjdcd5xs&st=3jeqgwip&dl=1
+  65. https://www.dropbox.com/scl/fi/ihjud2uyd0z95agfyw9js/LinnStrument-128-top-panel-engineering-files-7-1-25.zip?rlkey=zgts63kcbwybqa4gocv9kntql&st=qb8kglyw&dl=1
+  66. https://www.dropbox.com/scl/fi/wb1ukpujroj16dr6zolm5/LinnStrument-200-chassis-bottom-engineering-files-7-1-25.zip?rlkey=qt1ochr0cyqci5hlj8t9mbt7h&st=yrvii0nj&dl=1
+  67. https://www.dropbox.com/scl/fi/ktfvxwh5vi68x58cmcwx6/LinnStrument-128-chassis-bottom-engineering-files-7-1-25.zip?rlkey=b3isn0sb9j7efbcihixg4cin3&st=x02nol57&dl=1
+  68. https://www.rogerlinndesign.com/about/about-roger-linn-design
+  69. https://www.rogerlinndesign.com/about/about-contact
+  70. https://www.rogerlinndesign.com/support/newsletters-home
+
+   Hidden links:
+  72. https://www.rogerlinndesign.com/
+  73. https://www.rogerlinndesign.com/
+  74. https://www.facebook.com/RogerLinnDesign
+  75. https://www.youtube.com/user/rogerlinndesign
+  76. https://twitter.com/roger_linn
+  77. https://www.instagram.com/roger.linn/
