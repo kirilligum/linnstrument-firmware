@@ -818,6 +818,17 @@ boolean handleXYZupdate() {
 
   // this cell corresponds to a playing note
   if (newVelocity) {
+    StepSequencerState& state = seqState[sensorSplit];
+    if (state.recordingArmed) {
+      state.recordingArmed = false;
+      state.isRecording = true;
+      Project.sequencer[sensorSplit].patterns[state.currentPattern].clear();
+      state.turnOn();
+      if (Device.serialMode) {
+        Serial.println("Recording started");
+      }
+    }
+
     sensorCell->lastTouch = millis();
     sensorCell->didMove = false;
     sensorCell->lastMovedX = 0;
@@ -1223,6 +1234,46 @@ void prepareNewNote(signed char notenum) {
 
   // register the reverse mapping
   noteTouchMapping[sensorSplit].noteOn(notenum, channel, sensorCol, sensorRow);
+
+  StepSequencerState& state = seqState[sensorSplit];
+  if (state.isRecording) {
+    if (state.currentPosition >= 0) {
+      // Find an empty slot in recordingNotes
+      for (byte i = 0; i < MAX_RECORDING_NOTES; ++i) {
+        if (state.recordingNotes[i].note == -1) {
+          // Find an empty event slot in the current step
+          StepData& step = state.getCurrentPatternStep(state.currentPosition);
+          for (byte e = 0; e < MAX_SEQUENCER_STEP_EVENTS; ++e) {
+            if (!step.events[e].hasData()) {
+              // Found an empty slot
+              step.events[e].setNewEvent(
+                sensorCell->note,
+                sensorCell->velocity,
+                1, // Temp duration
+                sensorCell->calibratedY(),
+                sensorRow
+              );
+              step.events[e].setPitchOffset(0);
+
+              // Store info in recordingNotes
+              state.recordingNotes[i].note = sensorCell->note;
+              state.recordingNotes[i].channel = sensorCell->channel;
+              state.recordingNotes[i].step = state.currentPosition;
+              state.recordingNotes[i].eventIndex = e;
+              state.recordingNotes[i].startTime = clock24PPQ;
+
+              if (Device.serialMode) {
+                Serial.print("Recording noteOn: ");
+                Serial.println(sensorCell->note);
+              }
+              goto found_slot;
+            }
+          }
+        }
+      }
+      found_slot:;
+    }
+  }
 
   // highlight the touch animation if this is activated
   if (Split[sensorSplit].colorPlayed) {
@@ -1735,6 +1786,32 @@ void handleTouchRelease() {
     lowRowStop();
   }
   else if (sensorCell->hasNote()) {
+
+    StepSequencerState& state = seqState[sensorSplit];
+    if (state.isRecording) {
+      for (byte i = 0; i < MAX_RECORDING_NOTES; ++i) {
+        if (state.recordingNotes[i].note == sensorCell->note &&
+            state.recordingNotes[i].channel == sensorCell->channel) {
+
+          unsigned long duration = clock24PPQ - state.recordingNotes[i].startTime;
+          if (duration == 0) duration = 1;
+
+          byte stepNum = state.recordingNotes[i].step;
+          byte eventIdx = state.recordingNotes[i].eventIndex;
+          StepEvent& event = state.getCurrentPatternStep(stepNum).events[eventIdx];
+          event.setDuration(duration);
+
+          // Clear the recording note slot
+          state.recordingNotes[i].note = -1;
+
+          if (Device.serialMode) {
+            Serial.print("Recorded noteOff, duration: ");
+            Serial.println(duration);
+          }
+          break;
+        }
+      }
+    }
 
     // reset the pressure when the note is released and that setting is active
     if (Split[sensorSplit].sendZ && isZExpressiveCell()) {

@@ -62,6 +62,16 @@ const byte SEQ_DURATION_EDIT_PANEL_COUNT = 17;
 
 int32_t FXD_SEQ_DURATION_FADER_RATIO;
 
+#define MAX_RECORDING_NOTES 16
+
+struct RecordingNote {
+  signed char note;
+  byte channel;
+  byte step;
+  byte eventIndex;
+  unsigned long startTime;
+};
+
 static unsigned long sequencerFaderChangeTime[4];
 static int sequencerFaderLastX[4];
 
@@ -214,6 +224,10 @@ struct StepSequencerState {
   boolean advancingForward;
   boolean switch2Waiting;
   boolean isBeingTurnedOff;
+  boolean recordingArmed;
+  boolean isRecording;
+  byte recordLength;
+  RecordingNote recordingNotes[MAX_RECORDING_NOTES];
 
   StepEventState previewEvent;
 };
@@ -462,10 +476,6 @@ boolean handleSequencerControlButtonNewTouch() {
         sequencerSwitch1WasUsed = true;      
       }
       seqState[Global.currentPerSplit].switch2Waiting = true;
-      sequencerTurnOn(Global.currentPerSplit);
-      if (!isSwitch1Pressed()) {
-        sequencerTurnOn(otherSplit(Global.currentPerSplit));
-      }
       break;
 
     case SPLIT_ROW:
@@ -501,10 +511,25 @@ boolean handleSequencerControlButtonRelease() {
       break;
 
     case SWITCH_2_ROW:
-      if (seqState[Global.currentPerSplit].switch2Waiting && calcTimeDelta(millis(), lastControlPress[sensorRow]) <= SWITCH_HOLD_DELAY) {
-        sequencerTurnOff(Global.currentPerSplit, true);
-        if (!isSwitch1Pressed()) {
-          sequencerTurnOff(otherSplit(Global.currentPerSplit), true);
+      if (seqState[Global.currentPerSplit].switch2Waiting) {
+        // Long press
+        if (calcTimeDelta(millis(), lastControlPress[sensorRow]) > EDIT_MODE_HOLD_DELAY) {
+          StepSequencerState& state = seqState[Global.currentPerSplit];
+          state.recordingArmed = !state.recordingArmed;
+          if (state.recordingArmed) {
+            state.isRecording = false;
+          }
+          if (Device.serialMode) {
+            Serial.print("Sequencer armed: ");
+            Serial.println(state.recordingArmed);
+          }
+        }
+        // Short press
+        else {
+          sequencerTogglePlay(Global.currentPerSplit);
+          if (!isSwitch1Pressed()) {
+            sequencerTogglePlay(otherSplit(Global.currentPerSplit));
+          }
         }
       }
       seqState[Global.currentPerSplit].switch2Waiting = false;
@@ -1279,7 +1304,14 @@ void handleStepEditingReleaseDrums() {
 
 void updateSequencerSwitchLeds() {
   if (isSequencerDisplayMode()) {
-    if (seqState[Global.currentPerSplit].running) {
+    StepSequencerState& state = seqState[Global.currentPerSplit];
+    if (state.recordingArmed) {
+      setLed(0, SWITCH_2_ROW, COLOR_RED, cellSlowPulse);
+    }
+    else if (state.isRecording) {
+      setLed(0, SWITCH_2_ROW, COLOR_RED, cellOn);
+    }
+    else if (state.running) {
       setLed(0, SWITCH_2_ROW, COLOR_GREEN, cellOn);
     }
     else {
@@ -1393,6 +1425,21 @@ void handleSequencerSettingsLowRowTouch() {
       displaySettingsLegend("CLRS");
     }
   }
+  else if (sensorCol == 11) {
+    StepSequencerState& state = seqState[Global.currentPerSplit];
+    if (state.recordLength == 8) {
+      state.recordLength = 16;
+    } else if (state.recordLength == 16) {
+      state.recordLength = 32;
+    } else {
+      state.recordLength = 8;
+    }
+    updateDisplay();
+    if (Device.serialMode) {
+      Serial.print("Record length: ");
+      Serial.println(state.recordLength);
+    }
+  }
 
   lastLowRowTouch = nowMillis;
 }
@@ -1402,6 +1449,17 @@ void paintSequencerSettingsLowRow() {
   setLed(7, 0, displayMode == displaySequencerDrum0107 ? Split[Global.currentPerSplit].colorPlayed : Split[Global.currentPerSplit].colorLowRow, cellOn);
   setLed(8, 0, displayMode == displaySequencerDrum0814 ? Split[Global.currentPerSplit].colorPlayed : Split[Global.currentPerSplit].colorLowRow, cellOn);
   setLed(9, 0, displayMode == displaySequencerColors ? Split[Global.currentPerSplit].colorPlayed : Split[Global.currentPerSplit].colorLowRow, cellOn);
+
+  StepSequencerState& state = seqState[Global.currentPerSplit];
+  byte color = Split[Global.currentPerSplit].colorLowRow;
+  if (state.recordLength == 8) {
+    color = COLOR_YELLOW;
+  } else if (state.recordLength == 16) {
+    color = COLOR_ORANGE;
+  } else if (state.recordLength == 32) {
+    color = COLOR_PINK;
+  }
+  setLed(11, 0, color, cellOn);
 }
 
 void paintSequencerProjects() {
@@ -1986,6 +2044,13 @@ void StepSequencerState::clear() {
     focused = false;
     focusedEvent = false;
     isBeingTurnedOff = false;
+    recordingArmed = false;
+    isRecording = false;
+    recordLength = 16;
+
+    for (byte i = 0; i < MAX_RECORDING_NOTES; ++i) {
+      recordingNotes[i].note = -1;
+    }
 
     previewEvent.reset();
   }
@@ -2335,7 +2400,15 @@ void StepSequencerState::advanceSequencer() {
       }
 
       // check if the sequencer should switch to the next pattern
-      if (nextPattern != -1 && (position == 0 || switchPatternOnBeat)) {
+      if (isRecording && position >= recordLength) {
+        isRecording = false;
+        turnOff(false);
+        if (Device.serialMode) {
+          Serial.println("Recording finished");
+        }
+        return;
+      }
+      else if (nextPattern != -1 && (position == 0 || switchPatternOnBeat)) {
         position = 0;
         currentPattern = nextPattern;
         nextPattern = -1;
