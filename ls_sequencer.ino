@@ -1645,15 +1645,51 @@ boolean StepEvent::hasData() {
 }
 
 void StepEvent::clear() {
-  memset(data, 0, 6);
+  memset(data, 0, 8);
 }
 
 void StepEvent::operator=(const StepEvent& e) {
-  memcpy(data, e.data, 6);
+  memcpy(data, e.data, 8);
+}
+
+ConditionType StepEvent::getCondition() {
+    return (ConditionType)((data[6] & B11100000) >> 5);
+}
+
+void StepEvent::setCondition(ConditionType condition) {
+    data[6] = (data[6] & B00011111) | ((byte)condition << 5);
+}
+
+byte StepEvent::getConditionValue() {
+    return data[6] & B00011111;
+}
+
+void StepEvent::setConditionValue(byte value) {
+    data[6] = (data[6] & B11100000) | (value & B00011111);
+}
+
+byte StepEvent::getLockedParamId() {
+    return (data[7] & B11110000) >> 4;
+}
+
+void StepEvent::setLockedParamId(byte value) {
+    data[7] = (data[7] & B00001111) | (value << 4);
+}
+
+byte StepEvent::getLockedParamValue() {
+    return data[7] & B00001111;
+}
+
+void StepEvent::setLockedParamValue(byte value) {
+    data[7] = (data[7] & B11110000) | (value & B00001111);
 }
 
 void StepEvent::setNewEvent(byte note, byte velocity, unsigned short duration, byte timbre, byte row) {
   clear();
+  setCondition(ALWAYS);
+  setConditionValue(0);
+  setLockedParamId(0);
+  setLockedParamValue(0);
   setNote(note);
   setVelocity(velocity);
   setDuration(duration);
@@ -1897,6 +1933,10 @@ void StepEventState::sendNoteOn(StepEvent& event, byte splitNum) {
 
   if (Split[split].sendY) {
     preSendTimbre(split, event.getTimbre(), note, channel);
+  }
+
+  if (event.getLockedParamId() == PARAM_ID_FILTER_CUTOFF) {
+      midiSendControlChange(74, event.getLockedParamValue(), channel);
   }
 
   midiSendNoteOn(split, note, event.getVelocity(), channel);  
@@ -2498,12 +2538,28 @@ void StepSequencerState::setPosition(byte stepNum) {
       if (eventState.isActive()) {
         eventState.sendNoteOff();
       }
-      if (!muted && stepNum < getCurrentPattern().length) {
+      if (!muted && stepNum < getCurrentPattern().length && shouldPlay(event)) {
         // start the event
         eventState.sendNoteOn(event, split);
       }
     }
   }
+}
+
+boolean shouldPlay(StepEvent& event) {
+    switch (event.getCondition()) {
+        case ALWAYS:
+            return true;
+        case PROBABILITY:
+            return (random(100) < event.getConditionValue());
+        case FILL:
+            // For now, we'll just not play FILL notes
+            return false;
+        case EVERY_X_CYCLES:
+            // For now, we'll just play every time
+            return true;
+    }
+    return true;
 
   updatePositionLed(previousPosition);
   updatePositionLed(currentPosition);

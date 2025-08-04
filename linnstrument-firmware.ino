@@ -486,7 +486,8 @@ enum DisplayMode {
   displaySequencerDrum0107,
   displaySequencerDrum0814,
   displaySequencerColors,
-  displayCustomLedsEditor
+  displayCustomLedsEditor,
+  displaySequencerCondition
 };
 DisplayMode displayMode = displayNormal;
 
@@ -788,6 +789,13 @@ enum SequencerStepSize {
   StepFourthDotted = 36
 };
 
+enum ConditionType {
+  ALWAYS,
+  PROBABILITY,
+  FILL,
+  EVERY_X_CYCLES
+};
+
 struct StepEvent {
   boolean hasData();
   void clear();
@@ -823,8 +831,15 @@ struct StepEvent {
   // signed char pitchOffset:8;  // -96 to 96 semitones
   // byte timbre:7;              // 0 to 127
   // byte row:3;                 // 1 to 7
-  byte data[6];
+  // condition:3;
+  // condition_value:5;
+  // locked_param_id:4;
+  // locked_param_value:7;
+  byte data[8]; // Increased size to accommodate parameter locks
 };
+
+#define PARAM_ID_FILTER_CUTOFF 1
+
 struct StepData {
   void clear();
 
