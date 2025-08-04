@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinnStrument Simulator</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #333;
+            color: #eee;
+        }
+        #grid-container {
+            display: grid;
+            grid-template-columns: repeat(26, 20px);
+            gap: 2px;
+            margin-top: 20px;
+        }
+        .cell {
+            width: 20px;
+            height: 40px;
+            background-color: #555;
+            border: 1px solid #777;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>LinnStrument Simulator</h1>
+    <div id="grid-container"></div>
+    <div id="midi-log">
+        <h2>MIDI Log</h2>
+        <pre id="log"></pre>
+    </div>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script>
+        const socket = io();
+        const gridContainer = document.getElementById('grid-container');
+        const log = document.getElementById('log');
+        const numCols = 26;
+        const numRows = 8;
+
+        let currentTouchId = null;
+
+        for (let r = 0; r < numRows; r++) {
+            for (let c = 0; c < numCols; c++) {
+                const cell = document.createElement('div');
+                cell.classList.add('cell');
+                cell.dataset.col = c;
+                cell.dataset.row = r;
+                gridContainer.appendChild(cell);
+
+                cell.addEventListener('mousedown', () => {
+                    socket.emit('touch', { col: c, row: r, z: 100 });
+                    cell.style.backgroundColor = '#88f';
+                });
+
+                cell.addEventListener('mouseup', () => {
+                    if (currentTouchId !== null) {
+                        socket.emit('release', { touch_id: currentTouchId });
+                        currentTouchId = null;
+                        cell.style.backgroundColor = '#555';
+                    }
+                });
+
+                cell.addEventListener('mouseleave', () => {
+                    if (currentTouchId !== null) {
+                        socket.emit('release', { touch_id: currentTouchId });
+                        currentTouchId = null;
+                        cell.style.backgroundColor = '#555';
+                    }
+                });
+            }
+        }
+
+        socket.on('connect', () => {
+            console.log('Connected to server');
+        });
+
+        socket.on('midi_message', (data) => {
+            log.textContent += JSON.stringify(data) + '\n';
+            log.scrollTop = log.scrollHeight;
+        });
+
+        socket.on('touch_id', (data) => {
+            currentTouchId = data.touch_id;
+        });
+    </script>
+</body>
+</html>
