@@ -1,6 +1,6 @@
 import unittest
 import mido
-from linnstrument import LinnStrument, MidiMode, LoudnessExpression, TimbreExpression
+from linnstrument import LinnStrument, MidiMode, LoudnessExpression, TimbreExpression, ConditionType
 
 class TestLinnStrument(unittest.TestCase):
 
@@ -88,6 +88,98 @@ class TestLinnStrument(unittest.TestCase):
 
         self.ls.release(touch_id1)
         self.ls.release(touch_id2)
+
+
+class TestSequencer(unittest.TestCase):
+    def setUp(self):
+        self.midi_messages = []
+        def midi_callback(msg):
+            self.midi_messages.append(msg)
+        self.ls = LinnStrument(midi_out_callback=midi_callback)
+        self.seq = self.ls.sequencer
+
+    def test_simple_sequence(self):
+        # Program a simple sequence
+        pattern = self.seq.patterns[self.seq.current_pattern]
+        pattern.steps[0].events[0].note = 60
+        pattern.steps[0].events[0].velocity = 100
+        pattern.steps[0].events[0].duration = 5
+
+        pattern.steps[2].events[0].note = 62
+        pattern.steps[2].events[0].velocity = 100
+        pattern.steps[2].events[0].duration = 5
+
+        # Start the sequencer
+        self.seq.running = True
+
+        # Run the sequencer for a few ticks
+        for _ in range(20):
+            self.ls.tick()
+
+        # Check the MIDI output
+        self.assertGreater(len(self.midi_messages), 3)
+
+        note_on_1 = self.midi_messages[0]
+        self.assertEqual(note_on_1.type, 'note_on')
+        self.assertEqual(note_on_1.note, 60)
+
+        note_off_1 = self.midi_messages[1]
+        self.assertEqual(note_off_1.type, 'note_off')
+        self.assertEqual(note_off_1.note, 60)
+
+        note_on_2 = self.midi_messages[2]
+        self.assertEqual(note_on_2.type, 'note_on')
+        self.assertEqual(note_on_2.note, 62)
+
+    def test_probability_trigger(self):
+        # Program a note with 0% probability
+        pattern = self.seq.patterns[self.seq.current_pattern]
+        event = pattern.steps[0].events[0]
+        event.note = 60
+        event.velocity = 100
+        event.duration = 5
+        event.condition = ConditionType.PROBABILITY
+        event.condition_value = 0
+
+        self.seq.running = True
+        for _ in range(10):
+            self.ls.tick()
+
+        self.assertEqual(len(self.midi_messages), 0)
+
+        # Program a note with 100% probability
+        self.seq.position = 0
+        self.seq.ticks_until_next_step = 0
+        event.condition_value = 100
+        for _ in range(10):
+            self.ls.tick()
+
+        self.assertGreater(len(self.midi_messages), 0)
+        self.assertEqual(self.midi_messages[0].type, 'note_on')
+
+    def test_parameter_lock(self):
+        # Program a note with a parameter lock
+        pattern = self.seq.patterns[self.seq.current_pattern]
+        event = pattern.steps[0].events[0]
+        event.note = 60
+        event.velocity = 100
+        event.duration = 5
+        event.locked_param_id = 1 # Filter cutoff
+        event.locked_param_value = 123
+
+        self.seq.running = True
+        for _ in range(10):
+            self.ls.tick()
+
+        self.assertGreater(len(self.midi_messages), 1)
+
+        cc_msg = self.midi_messages[0]
+        self.assertEqual(cc_msg.type, 'control_change')
+        self.assertEqual(cc_msg.control, 74)
+        self.assertEqual(cc_msg.value, 123)
+
+        note_on_msg = self.midi_messages[1]
+        self.assertEqual(note_on_msg.type, 'note_on')
 
 
 if __name__ == '__main__':

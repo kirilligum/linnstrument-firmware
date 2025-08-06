@@ -17,6 +17,93 @@ class TimbreExpression(Enum):
     CHANNEL_AFTERTOUCH = 1
     CC = 2
 
+class ConditionType(Enum):
+    ALWAYS = 0
+    PROBABILITY = 1
+    FILL = 2
+    EVERY_X_CYCLES = 3
+
+class Event:
+    def __init__(self, note=0, velocity=0, duration=0, timbre=0, row=0):
+        self.note = note
+        self.velocity = velocity
+        self.duration = duration
+        self.timbre = timbre
+        self.row = row
+        self.condition = ConditionType.ALWAYS
+        self.condition_value = 0
+        self.locked_param_id = 0
+        self.locked_param_value = 0
+
+class Step:
+    def __init__(self):
+        self.events = [Event() for _ in range(4)]
+
+class Pattern:
+    def __init__(self, num_steps=16):
+        self.steps = [Step() for _ in range(num_steps)]
+        self.length = num_steps
+
+import random
+
+class Sequencer:
+    def __init__(self, linnstrument):
+        self.linnstrument = linnstrument
+        self.patterns = [Pattern() for _ in range(4)]
+        self.current_pattern = 0
+        self.running = False
+        self.position = 0
+        self.ticks_until_next_step = 0
+        self.step_size = 6 # 24 PPQN / 4 = 1/16th note
+        self.active_notes = []
+
+    def tick(self):
+        # Handle note offs for active notes
+        notes_to_remove = []
+        for note in self.active_notes:
+            note['duration'] -= 1
+            if note['duration'] <= 0:
+                self.linnstrument._send_midi(mido.Message('note_off', note=note['note'], channel=note['channel']))
+                notes_to_remove.append(note)
+
+        for note in notes_to_remove:
+            self.active_notes.remove(note)
+
+        if not self.running:
+            return
+
+        if self.ticks_until_next_step == 0:
+            self.play_step()
+            self.ticks_until_next_step = self.step_size
+
+        self.ticks_until_next_step -= 1
+
+    def should_play(self, event):
+        if event.condition == ConditionType.ALWAYS:
+            return True
+        elif event.condition == ConditionType.PROBABILITY:
+            return random.randint(0, 99) < event.condition_value
+        return False
+
+    def play_step(self):
+        pattern = self.patterns[self.current_pattern]
+        if self.position >= pattern.length:
+            self.position = 0
+
+        step = pattern.steps[self.position]
+        for event in step.events:
+            if event.velocity > 0 and self.should_play(event):
+                channel = 1 # For simplicity, use channel 1 for now
+
+                if event.locked_param_id == 1: # Filter cutoff
+                    self.linnstrument._send_midi(mido.Message('control_change', control=74, value=event.locked_param_value, channel=channel))
+
+                self.linnstrument._send_midi(mido.Message('note_on', note=event.note, velocity=event.velocity, channel=channel))
+                self.active_notes.append({'note': event.note, 'duration': event.duration, 'channel': channel})
+
+        self.position += 1
+
+
 class Touch:
     """
     Represents a single touch on the LinnStrument surface.
@@ -67,6 +154,10 @@ class LinnStrument:
         self.touches = {}
         self.next_touch_id = 0
         self.available_channels = self.per_note_channels.copy()
+        self.sequencer = Sequencer(self)
+
+    def tick(self):
+        self.sequencer.tick()
 
     def _send_midi(self, msg):
         if self.midi_out_callback:
